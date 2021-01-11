@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="SpriteRam" module="RAM_DP" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 01 11 14:29:14.956" version="6.5" type="Module" synthesis="lse" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2021 01 11 14:29:14.955"/>
+		<File name="SpriteRam.lpc" type="lpc" modified="2021 01 11 14:29:12.166"/>
+		<File name="SpriteRam.vhd" type="top_level_vhdl" modified="2021 01 11 14:29:12.279"/>
+		<File name="SpriteRam_tmpl.vhd" type="template_vhdl" modified="2021 01 11 14:29:12.283"/>
+		<File name="tb_SpriteRam_tmpl.vhd" type="testbench_vhdl" modified="2021 01 11 14:29:12.295"/>
+  </Package>
+</DiamondModule>

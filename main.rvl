@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Date="2021-01-08" ModBy="Inserter" Name="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/main.rvl" SigType="0">
+<IP Version="1_6_042617"/>
+<Design DesignEntry="Schematic/VHDL" DesignName="WallPanel_FPGA" DeviceFamily="MachXO3LF" Synthesis="lse"/>
+<LPF>WallPanel_FPGA.lpf</LPF>
+<Core ID="0" Insert="1" InsertDataset="0" Name="Master_LA0" Reveal_sig="">
+<Setting>
+<Clock EnableClk="" EnableClk_Pri="0" SampleClk="" SampleEnable="0"/>
+<TraceBuffer BitTimeStamp="0" BufferDepth="256" Implementation="0" IncTrigSig="0" hasTimeStamp="0"/>
+<Capture MinSamplesPerTrig="8" Mode="0"/>
+<Event CntEnable="0" MaxEventCnt="8"/>
+<TrigOut EnableTrigOut="0" MinPulseWidth="0" Polarity="0" TrigOutNet="reveal_debug_WallPanel_FPGA_LA0_net" TrigOutNetType="1"/>
+</Setting>
+<Dataset Name="Base">
+<Trigger>
+<TU ID="1" Serialbits="0" Sig="" Type="0"/>
+<TE ID="1" MaxEvnCnt="1" MaxSequence="1" Resource="1"/>
+</Trigger>
+</Dataset>
+</Core>
+</Project>

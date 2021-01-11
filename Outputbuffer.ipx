@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="Outputbuffer" module="Outputbuffer" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 01 08 17:30:19.869" version="6.5" type="Module" synthesis="lse" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2021 01 08 17:30:19.756"/>
+		<File name="Outputbuffer.lpc" type="lpc" modified="2021 01 08 17:30:18.521"/>
+		<File name="Outputbuffer.vhd" type="top_level_vhdl" modified="2021 01 08 17:30:18.594"/>
+		<File name="Outputbuffer_tmpl.vhd" type="template_vhdl" modified="2021 01 08 17:30:18.598"/>
+		<File name="tb_Outputbuffer_tmpl.vhd" type="testbench_vhdl" modified="2021 01 08 17:30:18.606"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Date="2021-01-08" ModBy="Inserter" Name="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/main.rvs" >
+<Core Name="Master_LA0">
+<Setting>
+<Capture NumTrigsCap="" SamplesPerTrig="0"/>
+<Event CntEnableRun="" EventCnt=""/>
+<TrigSetting AND_ALL="" PostTrgSamples="" PreTrgSamples="" TURadix="0"/>
+</Setting>
+<Dataset Name="Base">
+<Trigger>
+<TU ID="1" Name="TU1" Operator="0" Radix="0" Value="0"/>
+<TE Enable="1" Expression="" ID="1" Name="TE1"/>
+</Trigger>
+</Dataset>
+</Core>
+</Project>

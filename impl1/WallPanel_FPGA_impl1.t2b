@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA"  

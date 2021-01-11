@@ -1,0 +1,2630 @@
+(edif Outputbuffer
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2021 1 8 17 30 18)
+      (program "SCUBA" (version "Diamond (64-bit) 3.11.0.396.4"))))
+      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n Outputbuffer -lang vhdl -synth lse -bb -arch xo3c00f -type bram -wp 10 -rp 0011 -rdata_width 120 -data_width 120 -num_rows 256 -outdata REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init1 ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell VHI
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell PDPW8KC
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port DI17
+            (direction INPUT))
+          (port DI16
+            (direction INPUT))
+          (port DI15
+            (direction INPUT))
+          (port DI14
+            (direction INPUT))
+          (port DI13
+            (direction INPUT))
+          (port DI12
+            (direction INPUT))
+          (port DI11
+            (direction INPUT))
+          (port DI10
+            (direction INPUT))
+          (port DI9
+            (direction INPUT))
+          (port DI8
+            (direction INPUT))
+          (port DI7
+            (direction INPUT))
+          (port DI6
+            (direction INPUT))
+          (port DI5
+            (direction INPUT))
+          (port DI4
+            (direction INPUT))
+          (port DI3
+            (direction INPUT))
+          (port DI2
+            (direction INPUT))
+          (port DI1
+            (direction INPUT))
+          (port DI0
+            (direction INPUT))
+          (port ADW8
+            (direction INPUT))
+          (port ADW7
+            (direction INPUT))
+          (port ADW6
+            (direction INPUT))
+          (port ADW5
+            (direction INPUT))
+          (port ADW4
+            (direction INPUT))
+          (port ADW3
+            (direction INPUT))
+          (port ADW2
+            (direction INPUT))
+          (port ADW1
+            (direction INPUT))
+          (port ADW0
+            (direction INPUT))
+          (port BE1
+            (direction INPUT))
+          (port BE0
+            (direction INPUT))
+          (port CEW
+            (direction INPUT))
+          (port CLKW
+            (direction INPUT))
+          (port CSW2
+            (direction INPUT))
+          (port CSW1
+            (direction INPUT))
+          (port CSW0
+            (direction INPUT))
+          (port ADR12
+            (direction INPUT))
+          (port ADR11
+            (direction INPUT))
+          (port ADR10
+            (direction INPUT))
+          (port ADR9
+            (direction INPUT))
+          (port ADR8
+            (direction INPUT))
+          (port ADR7
+            (direction INPUT))
+          (port ADR6
+            (direction INPUT))
+          (port ADR5
+            (direction INPUT))
+          (port ADR4
+            (direction INPUT))
+          (port ADR3
+            (direction INPUT))
+          (port ADR2
+            (direction INPUT))
+          (port ADR1
+            (direction INPUT))
+          (port ADR0
+            (direction INPUT))
+          (port CER
+            (direction INPUT))
+          (port OCER
+            (direction INPUT))
+          (port CLKR
+            (direction INPUT))
+          (port CSR2
+            (direction INPUT))
+          (port CSR1
+            (direction INPUT))
+          (port CSR0
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port DO17
+            (direction OUTPUT))
+          (port DO16
+            (direction OUTPUT))
+          (port DO15
+            (direction OUTPUT))
+          (port DO14
+            (direction OUTPUT))
+          (port DO13
+            (direction OUTPUT))
+          (port DO12
+            (direction OUTPUT))
+          (port DO11
+            (direction OUTPUT))
+          (port DO10
+            (direction OUTPUT))
+          (port DO9
+            (direction OUTPUT))
+          (port DO8
+            (direction OUTPUT))
+          (port DO7
+            (direction OUTPUT))
+          (port DO6
+            (direction OUTPUT))
+          (port DO5
+            (direction OUTPUT))
+          (port DO4
+            (direction OUTPUT))
+          (port DO3
+            (direction OUTPUT))
+          (port DO2
+            (direction OUTPUT))
+          (port DO1
+            (direction OUTPUT))
+          (port DO0
+            (direction OUTPUT)))))
+    (cell Outputbuffer
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port (rename WrAddress0 "WrAddress(0)")
+            (direction INPUT))
+          (port (rename WrAddress1 "WrAddress(1)")
+            (direction INPUT))
+          (port (rename WrAddress2 "WrAddress(2)")
+            (direction INPUT))
+          (port (rename WrAddress3 "WrAddress(3)")
+            (direction INPUT))
+          (port (rename WrAddress4 "WrAddress(4)")
+            (direction INPUT))
+          (port (rename WrAddress5 "WrAddress(5)")
+            (direction INPUT))
+          (port (rename WrAddress6 "WrAddress(6)")
+            (direction INPUT))
+          (port (rename WrAddress7 "WrAddress(7)")
+            (direction INPUT))
+          (port (rename RdAddress0 "RdAddress(0)")
+            (direction INPUT))
+          (port (rename RdAddress1 "RdAddress(1)")
+            (direction INPUT))
+          (port (rename RdAddress2 "RdAddress(2)")
+            (direction INPUT))
+          (port (rename RdAddress3 "RdAddress(3)")
+            (direction INPUT))
+          (port (rename RdAddress4 "RdAddress(4)")
+            (direction INPUT))
+          (port (rename RdAddress5 "RdAddress(5)")
+            (direction INPUT))
+          (port (rename RdAddress6 "RdAddress(6)")
+            (direction INPUT))
+          (port (rename RdAddress7 "RdAddress(7)")
+            (direction INPUT))
+          (port (rename Data0 "Data(0)")
+            (direction INPUT))
+          (port (rename Data1 "Data(1)")
+            (direction INPUT))
+          (port (rename Data2 "Data(2)")
+            (direction INPUT))
+          (port (rename Data3 "Data(3)")
+            (direction INPUT))
+          (port (rename Data4 "Data(4)")
+            (direction INPUT))
+          (port (rename Data5 "Data(5)")
+            (direction INPUT))
+          (port (rename Data6 "Data(6)")
+            (direction INPUT))
+          (port (rename Data7 "Data(7)")
+            (direction INPUT))
+          (port (rename Data8 "Data(8)")
+            (direction INPUT))
+          (port (rename Data9 "Data(9)")
+            (direction INPUT))
+          (port (rename Data10 "Data(10)")
+            (direction INPUT))
+          (port (rename Data11 "Data(11)")
+            (direction INPUT))
+          (port (rename Data12 "Data(12)")
+            (direction INPUT))
+          (port (rename Data13 "Data(13)")
+            (direction INPUT))
+          (port (rename Data14 "Data(14)")
+            (direction INPUT))
+          (port (rename Data15 "Data(15)")
+            (direction INPUT))
+          (port (rename Data16 "Data(16)")
+            (direction INPUT))
+          (port (rename Data17 "Data(17)")
+            (direction INPUT))
+          (port (rename Data18 "Data(18)")
+            (direction INPUT))
+          (port (rename Data19 "Data(19)")
+            (direction INPUT))
+          (port (rename Data20 "Data(20)")
+            (direction INPUT))
+          (port (rename Data21 "Data(21)")
+            (direction INPUT))
+          (port (rename Data22 "Data(22)")
+            (direction INPUT))
+          (port (rename Data23 "Data(23)")
+            (direction INPUT))
+          (port (rename Data24 "Data(24)")
+            (direction INPUT))
+          (port (rename Data25 "Data(25)")
+            (direction INPUT))
+          (port (rename Data26 "Data(26)")
+            (direction INPUT))
+          (port (rename Data27 "Data(27)")
+            (direction INPUT))
+          (port (rename Data28 "Data(28)")
+            (direction INPUT))
+          (port (rename Data29 "Data(29)")
+            (direction INPUT))
+          (port (rename Data30 "Data(30)")
+            (direction INPUT))
+          (port (rename Data31 "Data(31)")
+            (direction INPUT))
+          (port (rename Data32 "Data(32)")
+            (direction INPUT))
+          (port (rename Data33 "Data(33)")
+            (direction INPUT))
+          (port (rename Data34 "Data(34)")
+            (direction INPUT))
+          (port (rename Data35 "Data(35)")
+            (direction INPUT))
+          (port (rename Data36 "Data(36)")
+            (direction INPUT))
+          (port (rename Data37 "Data(37)")
+            (direction INPUT))
+          (port (rename Data38 "Data(38)")
+            (direction INPUT))
+          (port (rename Data39 "Data(39)")
+            (direction INPUT))
+          (port (rename Data40 "Data(40)")
+            (direction INPUT))
+          (port (rename Data41 "Data(41)")
+            (direction INPUT))
+          (port (rename Data42 "Data(42)")
+            (direction INPUT))
+          (port (rename Data43 "Data(43)")
+            (direction INPUT))
+          (port (rename Data44 "Data(44)")
+            (direction INPUT))
+          (port (rename Data45 "Data(45)")
+            (direction INPUT))
+          (port (rename Data46 "Data(46)")
+            (direction INPUT))
+          (port (rename Data47 "Data(47)")
+            (direction INPUT))
+          (port (rename Data48 "Data(48)")
+            (direction INPUT))
+          (port (rename Data49 "Data(49)")
+            (direction INPUT))
+          (port (rename Data50 "Data(50)")
+            (direction INPUT))
+          (port (rename Data51 "Data(51)")
+            (direction INPUT))
+          (port (rename Data52 "Data(52)")
+            (direction INPUT))
+          (port (rename Data53 "Data(53)")
+            (direction INPUT))
+          (port (rename Data54 "Data(54)")
+            (direction INPUT))
+          (port (rename Data55 "Data(55)")
+            (direction INPUT))
+          (port (rename Data56 "Data(56)")
+            (direction INPUT))
+          (port (rename Data57 "Data(57)")
+            (direction INPUT))
+          (port (rename Data58 "Data(58)")
+            (direction INPUT))
+          (port (rename Data59 "Data(59)")
+            (direction INPUT))
+          (port (rename Data60 "Data(60)")
+            (direction INPUT))
+          (port (rename Data61 "Data(61)")
+            (direction INPUT))
+          (port (rename Data62 "Data(62)")
+            (direction INPUT))
+          (port (rename Data63 "Data(63)")
+            (direction INPUT))
+          (port (rename Data64 "Data(64)")
+            (direction INPUT))
+          (port (rename Data65 "Data(65)")
+            (direction INPUT))
+          (port (rename Data66 "Data(66)")
+            (direction INPUT))
+          (port (rename Data67 "Data(67)")
+            (direction INPUT))
+          (port (rename Data68 "Data(68)")
+            (direction INPUT))
+          (port (rename Data69 "Data(69)")
+            (direction INPUT))
+          (port (rename Data70 "Data(70)")
+            (direction INPUT))
+          (port (rename Data71 "Data(71)")
+            (direction INPUT))
+          (port (rename Data72 "Data(72)")
+            (direction INPUT))
+          (port (rename Data73 "Data(73)")
+            (direction INPUT))
+          (port (rename Data74 "Data(74)")
+            (direction INPUT))
+          (port (rename Data75 "Data(75)")
+            (direction INPUT))
+          (port (rename Data76 "Data(76)")
+            (direction INPUT))
+          (port (rename Data77 "Data(77)")
+            (direction INPUT))
+          (port (rename Data78 "Data(78)")
+            (direction INPUT))
+          (port (rename Data79 "Data(79)")
+            (direction INPUT))
+          (port (rename Data80 "Data(80)")
+            (direction INPUT))
+          (port (rename Data81 "Data(81)")
+            (direction INPUT))
+          (port (rename Data82 "Data(82)")
+            (direction INPUT))
+          (port (rename Data83 "Data(83)")
+            (direction INPUT))
+          (port (rename Data84 "Data(84)")
+            (direction INPUT))
+          (port (rename Data85 "Data(85)")
+            (direction INPUT))
+          (port (rename Data86 "Data(86)")
+            (direction INPUT))
+          (port (rename Data87 "Data(87)")
+            (direction INPUT))
+          (port (rename Data88 "Data(88)")
+            (direction INPUT))
+          (port (rename Data89 "Data(89)")
+            (direction INPUT))
+          (port (rename Data90 "Data(90)")
+            (direction INPUT))
+          (port (rename Data91 "Data(91)")
+            (direction INPUT))
+          (port (rename Data92 "Data(92)")
+            (direction INPUT))
+          (port (rename Data93 "Data(93)")
+            (direction INPUT))
+          (port (rename Data94 "Data(94)")
+            (direction INPUT))
+          (port (rename Data95 "Data(95)")
+            (direction INPUT))
+          (port (rename Data96 "Data(96)")
+            (direction INPUT))
+          (port (rename Data97 "Data(97)")
+            (direction INPUT))
+          (port (rename Data98 "Data(98)")
+            (direction INPUT))
+          (port (rename Data99 "Data(99)")
+            (direction INPUT))
+          (port (rename Data100 "Data(100)")
+            (direction INPUT))
+          (port (rename Data101 "Data(101)")
+            (direction INPUT))
+          (port (rename Data102 "Data(102)")
+            (direction INPUT))
+          (port (rename Data103 "Data(103)")
+            (direction INPUT))
+          (port (rename Data104 "Data(104)")
+            (direction INPUT))
+          (port (rename Data105 "Data(105)")
+            (direction INPUT))
+          (port (rename Data106 "Data(106)")
+            (direction INPUT))
+          (port (rename Data107 "Data(107)")
+            (direction INPUT))
+          (port (rename Data108 "Data(108)")
+            (direction INPUT))
+          (port (rename Data109 "Data(109)")
+            (direction INPUT))
+          (port (rename Data110 "Data(110)")
+            (direction INPUT))
+          (port (rename Data111 "Data(111)")
+            (direction INPUT))
+          (port (rename Data112 "Data(112)")
+            (direction INPUT))
+          (port (rename Data113 "Data(113)")
+            (direction INPUT))
+          (port (rename Data114 "Data(114)")
+            (direction INPUT))
+          (port (rename Data115 "Data(115)")
+            (direction INPUT))
+          (port (rename Data116 "Data(116)")
+            (direction INPUT))
+          (port (rename Data117 "Data(117)")
+            (direction INPUT))
+          (port (rename Data118 "Data(118)")
+            (direction INPUT))
+          (port (rename Data119 "Data(119)")
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port RdClock
+            (direction INPUT))
+          (port RdClockEn
+            (direction INPUT))
+          (port Reset
+            (direction INPUT))
+          (port WrClock
+            (direction INPUT))
+          (port WrClockEn
+            (direction INPUT))
+          (port (rename Q0 "Q(0)")
+            (direction OUTPUT))
+          (port (rename Q1 "Q(1)")
+            (direction OUTPUT))
+          (port (rename Q2 "Q(2)")
+            (direction OUTPUT))
+          (port (rename Q3 "Q(3)")
+            (direction OUTPUT))
+          (port (rename Q4 "Q(4)")
+            (direction OUTPUT))
+          (port (rename Q5 "Q(5)")
+            (direction OUTPUT))
+          (port (rename Q6 "Q(6)")
+            (direction OUTPUT))
+          (port (rename Q7 "Q(7)")
+            (direction OUTPUT))
+          (port (rename Q8 "Q(8)")
+            (direction OUTPUT))
+          (port (rename Q9 "Q(9)")
+            (direction OUTPUT))
+          (port (rename Q10 "Q(10)")
+            (direction OUTPUT))
+          (port (rename Q11 "Q(11)")
+            (direction OUTPUT))
+          (port (rename Q12 "Q(12)")
+            (direction OUTPUT))
+          (port (rename Q13 "Q(13)")
+            (direction OUTPUT))
+          (port (rename Q14 "Q(14)")
+            (direction OUTPUT))
+          (port (rename Q15 "Q(15)")
+            (direction OUTPUT))
+          (port (rename Q16 "Q(16)")
+            (direction OUTPUT))
+          (port (rename Q17 "Q(17)")
+            (direction OUTPUT))
+          (port (rename Q18 "Q(18)")
+            (direction OUTPUT))
+          (port (rename Q19 "Q(19)")
+            (direction OUTPUT))
+          (port (rename Q20 "Q(20)")
+            (direction OUTPUT))
+          (port (rename Q21 "Q(21)")
+            (direction OUTPUT))
+          (port (rename Q22 "Q(22)")
+            (direction OUTPUT))
+          (port (rename Q23 "Q(23)")
+            (direction OUTPUT))
+          (port (rename Q24 "Q(24)")
+            (direction OUTPUT))
+          (port (rename Q25 "Q(25)")
+            (direction OUTPUT))
+          (port (rename Q26 "Q(26)")
+            (direction OUTPUT))
+          (port (rename Q27 "Q(27)")
+            (direction OUTPUT))
+          (port (rename Q28 "Q(28)")
+            (direction OUTPUT))
+          (port (rename Q29 "Q(29)")
+            (direction OUTPUT))
+          (port (rename Q30 "Q(30)")
+            (direction OUTPUT))
+          (port (rename Q31 "Q(31)")
+            (direction OUTPUT))
+          (port (rename Q32 "Q(32)")
+            (direction OUTPUT))
+          (port (rename Q33 "Q(33)")
+            (direction OUTPUT))
+          (port (rename Q34 "Q(34)")
+            (direction OUTPUT))
+          (port (rename Q35 "Q(35)")
+            (direction OUTPUT))
+          (port (rename Q36 "Q(36)")
+            (direction OUTPUT))
+          (port (rename Q37 "Q(37)")
+            (direction OUTPUT))
+          (port (rename Q38 "Q(38)")
+            (direction OUTPUT))
+          (port (rename Q39 "Q(39)")
+            (direction OUTPUT))
+          (port (rename Q40 "Q(40)")
+            (direction OUTPUT))
+          (port (rename Q41 "Q(41)")
+            (direction OUTPUT))
+          (port (rename Q42 "Q(42)")
+            (direction OUTPUT))
+          (port (rename Q43 "Q(43)")
+            (direction OUTPUT))
+          (port (rename Q44 "Q(44)")
+            (direction OUTPUT))
+          (port (rename Q45 "Q(45)")
+            (direction OUTPUT))
+          (port (rename Q46 "Q(46)")
+            (direction OUTPUT))
+          (port (rename Q47 "Q(47)")
+            (direction OUTPUT))
+          (port (rename Q48 "Q(48)")
+            (direction OUTPUT))
+          (port (rename Q49 "Q(49)")
+            (direction OUTPUT))
+          (port (rename Q50 "Q(50)")
+            (direction OUTPUT))
+          (port (rename Q51 "Q(51)")
+            (direction OUTPUT))
+          (port (rename Q52 "Q(52)")
+            (direction OUTPUT))
+          (port (rename Q53 "Q(53)")
+            (direction OUTPUT))
+          (port (rename Q54 "Q(54)")
+            (direction OUTPUT))
+          (port (rename Q55 "Q(55)")
+            (direction OUTPUT))
+          (port (rename Q56 "Q(56)")
+            (direction OUTPUT))
+          (port (rename Q57 "Q(57)")
+            (direction OUTPUT))
+          (port (rename Q58 "Q(58)")
+            (direction OUTPUT))
+          (port (rename Q59 "Q(59)")
+            (direction OUTPUT))
+          (port (rename Q60 "Q(60)")
+            (direction OUTPUT))
+          (port (rename Q61 "Q(61)")
+            (direction OUTPUT))
+          (port (rename Q62 "Q(62)")
+            (direction OUTPUT))
+          (port (rename Q63 "Q(63)")
+            (direction OUTPUT))
+          (port (rename Q64 "Q(64)")
+            (direction OUTPUT))
+          (port (rename Q65 "Q(65)")
+            (direction OUTPUT))
+          (port (rename Q66 "Q(66)")
+            (direction OUTPUT))
+          (port (rename Q67 "Q(67)")
+            (direction OUTPUT))
+          (port (rename Q68 "Q(68)")
+            (direction OUTPUT))
+          (port (rename Q69 "Q(69)")
+            (direction OUTPUT))
+          (port (rename Q70 "Q(70)")
+            (direction OUTPUT))
+          (port (rename Q71 "Q(71)")
+            (direction OUTPUT))
+          (port (rename Q72 "Q(72)")
+            (direction OUTPUT))
+          (port (rename Q73 "Q(73)")
+            (direction OUTPUT))
+          (port (rename Q74 "Q(74)")
+            (direction OUTPUT))
+          (port (rename Q75 "Q(75)")
+            (direction OUTPUT))
+          (port (rename Q76 "Q(76)")
+            (direction OUTPUT))
+          (port (rename Q77 "Q(77)")
+            (direction OUTPUT))
+          (port (rename Q78 "Q(78)")
+            (direction OUTPUT))
+          (port (rename Q79 "Q(79)")
+            (direction OUTPUT))
+          (port (rename Q80 "Q(80)")
+            (direction OUTPUT))
+          (port (rename Q81 "Q(81)")
+            (direction OUTPUT))
+          (port (rename Q82 "Q(82)")
+            (direction OUTPUT))
+          (port (rename Q83 "Q(83)")
+            (direction OUTPUT))
+          (port (rename Q84 "Q(84)")
+            (direction OUTPUT))
+          (port (rename Q85 "Q(85)")
+            (direction OUTPUT))
+          (port (rename Q86 "Q(86)")
+            (direction OUTPUT))
+          (port (rename Q87 "Q(87)")
+            (direction OUTPUT))
+          (port (rename Q88 "Q(88)")
+            (direction OUTPUT))
+          (port (rename Q89 "Q(89)")
+            (direction OUTPUT))
+          (port (rename Q90 "Q(90)")
+            (direction OUTPUT))
+          (port (rename Q91 "Q(91)")
+            (direction OUTPUT))
+          (port (rename Q92 "Q(92)")
+            (direction OUTPUT))
+          (port (rename Q93 "Q(93)")
+            (direction OUTPUT))
+          (port (rename Q94 "Q(94)")
+            (direction OUTPUT))
+          (port (rename Q95 "Q(95)")
+            (direction OUTPUT))
+          (port (rename Q96 "Q(96)")
+            (direction OUTPUT))
+          (port (rename Q97 "Q(97)")
+            (direction OUTPUT))
+          (port (rename Q98 "Q(98)")
+            (direction OUTPUT))
+          (port (rename Q99 "Q(99)")
+            (direction OUTPUT))
+          (port (rename Q100 "Q(100)")
+            (direction OUTPUT))
+          (port (rename Q101 "Q(101)")
+            (direction OUTPUT))
+          (port (rename Q102 "Q(102)")
+            (direction OUTPUT))
+          (port (rename Q103 "Q(103)")
+            (direction OUTPUT))
+          (port (rename Q104 "Q(104)")
+            (direction OUTPUT))
+          (port (rename Q105 "Q(105)")
+            (direction OUTPUT))
+          (port (rename Q106 "Q(106)")
+            (direction OUTPUT))
+          (port (rename Q107 "Q(107)")
+            (direction OUTPUT))
+          (port (rename Q108 "Q(108)")
+            (direction OUTPUT))
+          (port (rename Q109 "Q(109)")
+            (direction OUTPUT))
+          (port (rename Q110 "Q(110)")
+            (direction OUTPUT))
+          (port (rename Q111 "Q(111)")
+            (direction OUTPUT))
+          (port (rename Q112 "Q(112)")
+            (direction OUTPUT))
+          (port (rename Q113 "Q(113)")
+            (direction OUTPUT))
+          (port (rename Q114 "Q(114)")
+            (direction OUTPUT))
+          (port (rename Q115 "Q(115)")
+            (direction OUTPUT))
+          (port (rename Q116 "Q(116)")
+            (direction OUTPUT))
+          (port (rename Q117 "Q(117)")
+            (direction OUTPUT))
+          (port (rename Q118 "Q(118)")
+            (direction OUTPUT))
+          (port (rename Q119 "Q(119)")
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance Outputbuffer_0_0_6
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance Outputbuffer_0_1_5
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance Outputbuffer_0_2_4
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance Outputbuffer_0_3_3
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance Outputbuffer_0_4_2
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance Outputbuffer_0_5_1
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (instance scuba_vhi_inst
+            (viewRef view1 
+              (cellRef VHI)))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance Outputbuffer_0_6_0
+            (viewRef view1 
+              (cellRef PDPW8KC))
+            (property INIT_DATA
+              (string "STATIC"))
+            (property ASYNC_RESET_RELEASE
+              (string "SYNC"))
+            (property MEM_LPC_FILE
+              (string "Outputbuffer.lpc"))
+            (property MEM_INIT_FILE
+              (string "INIT_ALL_1s"))
+            (property INITVAL_1F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_1A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_19
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_18
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_17
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_16
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_15
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_14
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_13
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_12
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_11
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_10
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0F
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0E
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0D
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0C
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0B
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_0A
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_09
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_08
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_07
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_06
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_05
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_04
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_03
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_02
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_01
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property INITVAL_00
+              (string "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"))
+            (property CSDECODE_R
+              (string "0b000"))
+            (property CSDECODE_W
+              (string "0b001"))
+            (property GSR
+              (string "ENABLED"))
+            (property RESETMODE
+              (string "SYNC"))
+            (property REGMODE
+              (string "OUTREG"))
+            (property DATA_WIDTH_R
+              (string "18"))
+            (property DATA_WIDTH_W
+              (string "18")))
+          (net scuba_vhi
+            (joined
+              (portRef Z (instanceRef scuba_vhi_inst))
+              (portRef BE1 (instanceRef Outputbuffer_0_0_6))
+              (portRef BE0 (instanceRef Outputbuffer_0_0_6))
+              (portRef BE1 (instanceRef Outputbuffer_0_1_5))
+              (portRef BE0 (instanceRef Outputbuffer_0_1_5))
+              (portRef BE1 (instanceRef Outputbuffer_0_2_4))
+              (portRef BE0 (instanceRef Outputbuffer_0_2_4))
+              (portRef BE1 (instanceRef Outputbuffer_0_3_3))
+              (portRef BE0 (instanceRef Outputbuffer_0_3_3))
+              (portRef BE1 (instanceRef Outputbuffer_0_4_2))
+              (portRef BE0 (instanceRef Outputbuffer_0_4_2))
+              (portRef BE1 (instanceRef Outputbuffer_0_5_1))
+              (portRef BE0 (instanceRef Outputbuffer_0_5_1))
+              (portRef BE1 (instanceRef Outputbuffer_0_6_0))
+              (portRef BE0 (instanceRef Outputbuffer_0_6_0))))
+          (net scuba_vlo
+            (joined
+              (portRef Z (instanceRef scuba_vlo_inst))
+              (portRef CSR2 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSW2 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSR1 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSW1 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSR0 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR12 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR3 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR2 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR1 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR0 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW8 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSR2 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSW2 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSR1 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSW1 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSR0 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR12 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR3 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR2 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR1 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR0 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW8 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSR2 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSW2 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSR1 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSW1 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSR0 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR12 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR3 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR2 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR1 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR0 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW8 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSR2 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSW2 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSR1 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSW1 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSR0 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR12 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR3 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR2 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR1 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR0 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW8 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSR2 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSW2 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSR1 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSW1 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSR0 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR12 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR3 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR2 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR1 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR0 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW8 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSR2 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSW2 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSR1 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSW1 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSR0 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR12 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR3 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR2 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR1 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR0 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW8 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSR2 (instanceRef Outputbuffer_0_6_0))
+              (portRef CSW2 (instanceRef Outputbuffer_0_6_0))
+              (portRef CSR1 (instanceRef Outputbuffer_0_6_0))
+              (portRef CSW1 (instanceRef Outputbuffer_0_6_0))
+              (portRef CSR0 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADR12 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADR3 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADR2 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADR1 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADR0 (instanceRef Outputbuffer_0_6_0))
+              (portRef ADW8 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI17 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI16 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI15 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI14 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI13 (instanceRef Outputbuffer_0_6_0))
+              (portRef DI12 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout119
+            (joined
+              (portRef Q119)
+              (portRef DO2 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout118
+            (joined
+              (portRef Q118)
+              (portRef DO1 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout117
+            (joined
+              (portRef Q117)
+              (portRef DO0 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout116
+            (joined
+              (portRef Q116)
+              (portRef DO17 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout115
+            (joined
+              (portRef Q115)
+              (portRef DO16 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout114
+            (joined
+              (portRef Q114)
+              (portRef DO15 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout113
+            (joined
+              (portRef Q113)
+              (portRef DO14 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout112
+            (joined
+              (portRef Q112)
+              (portRef DO13 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout111
+            (joined
+              (portRef Q111)
+              (portRef DO12 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout110
+            (joined
+              (portRef Q110)
+              (portRef DO11 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout109
+            (joined
+              (portRef Q109)
+              (portRef DO10 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout108
+            (joined
+              (portRef Q108)
+              (portRef DO9 (instanceRef Outputbuffer_0_6_0))))
+          (net dataout107
+            (joined
+              (portRef Q107)
+              (portRef DO8 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout106
+            (joined
+              (portRef Q106)
+              (portRef DO7 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout105
+            (joined
+              (portRef Q105)
+              (portRef DO6 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout104
+            (joined
+              (portRef Q104)
+              (portRef DO5 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout103
+            (joined
+              (portRef Q103)
+              (portRef DO4 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout102
+            (joined
+              (portRef Q102)
+              (portRef DO3 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout101
+            (joined
+              (portRef Q101)
+              (portRef DO2 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout100
+            (joined
+              (portRef Q100)
+              (portRef DO1 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout99
+            (joined
+              (portRef Q99)
+              (portRef DO0 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout98
+            (joined
+              (portRef Q98)
+              (portRef DO17 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout97
+            (joined
+              (portRef Q97)
+              (portRef DO16 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout96
+            (joined
+              (portRef Q96)
+              (portRef DO15 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout95
+            (joined
+              (portRef Q95)
+              (portRef DO14 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout94
+            (joined
+              (portRef Q94)
+              (portRef DO13 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout93
+            (joined
+              (portRef Q93)
+              (portRef DO12 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout92
+            (joined
+              (portRef Q92)
+              (portRef DO11 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout91
+            (joined
+              (portRef Q91)
+              (portRef DO10 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout90
+            (joined
+              (portRef Q90)
+              (portRef DO9 (instanceRef Outputbuffer_0_5_1))))
+          (net dataout89
+            (joined
+              (portRef Q89)
+              (portRef DO8 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout88
+            (joined
+              (portRef Q88)
+              (portRef DO7 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout87
+            (joined
+              (portRef Q87)
+              (portRef DO6 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout86
+            (joined
+              (portRef Q86)
+              (portRef DO5 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout85
+            (joined
+              (portRef Q85)
+              (portRef DO4 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout84
+            (joined
+              (portRef Q84)
+              (portRef DO3 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout83
+            (joined
+              (portRef Q83)
+              (portRef DO2 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout82
+            (joined
+              (portRef Q82)
+              (portRef DO1 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout81
+            (joined
+              (portRef Q81)
+              (portRef DO0 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout80
+            (joined
+              (portRef Q80)
+              (portRef DO17 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout79
+            (joined
+              (portRef Q79)
+              (portRef DO16 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout78
+            (joined
+              (portRef Q78)
+              (portRef DO15 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout77
+            (joined
+              (portRef Q77)
+              (portRef DO14 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout76
+            (joined
+              (portRef Q76)
+              (portRef DO13 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout75
+            (joined
+              (portRef Q75)
+              (portRef DO12 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout74
+            (joined
+              (portRef Q74)
+              (portRef DO11 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout73
+            (joined
+              (portRef Q73)
+              (portRef DO10 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout72
+            (joined
+              (portRef Q72)
+              (portRef DO9 (instanceRef Outputbuffer_0_4_2))))
+          (net dataout71
+            (joined
+              (portRef Q71)
+              (portRef DO8 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout70
+            (joined
+              (portRef Q70)
+              (portRef DO7 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout69
+            (joined
+              (portRef Q69)
+              (portRef DO6 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout68
+            (joined
+              (portRef Q68)
+              (portRef DO5 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout67
+            (joined
+              (portRef Q67)
+              (portRef DO4 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout66
+            (joined
+              (portRef Q66)
+              (portRef DO3 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout65
+            (joined
+              (portRef Q65)
+              (portRef DO2 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout64
+            (joined
+              (portRef Q64)
+              (portRef DO1 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout63
+            (joined
+              (portRef Q63)
+              (portRef DO0 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout62
+            (joined
+              (portRef Q62)
+              (portRef DO17 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout61
+            (joined
+              (portRef Q61)
+              (portRef DO16 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout60
+            (joined
+              (portRef Q60)
+              (portRef DO15 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout59
+            (joined
+              (portRef Q59)
+              (portRef DO14 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout58
+            (joined
+              (portRef Q58)
+              (portRef DO13 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout57
+            (joined
+              (portRef Q57)
+              (portRef DO12 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout56
+            (joined
+              (portRef Q56)
+              (portRef DO11 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout55
+            (joined
+              (portRef Q55)
+              (portRef DO10 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout54
+            (joined
+              (portRef Q54)
+              (portRef DO9 (instanceRef Outputbuffer_0_3_3))))
+          (net dataout53
+            (joined
+              (portRef Q53)
+              (portRef DO8 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout52
+            (joined
+              (portRef Q52)
+              (portRef DO7 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout51
+            (joined
+              (portRef Q51)
+              (portRef DO6 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout50
+            (joined
+              (portRef Q50)
+              (portRef DO5 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout49
+            (joined
+              (portRef Q49)
+              (portRef DO4 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout48
+            (joined
+              (portRef Q48)
+              (portRef DO3 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout47
+            (joined
+              (portRef Q47)
+              (portRef DO2 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout46
+            (joined
+              (portRef Q46)
+              (portRef DO1 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout45
+            (joined
+              (portRef Q45)
+              (portRef DO0 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout44
+            (joined
+              (portRef Q44)
+              (portRef DO17 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout43
+            (joined
+              (portRef Q43)
+              (portRef DO16 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout42
+            (joined
+              (portRef Q42)
+              (portRef DO15 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout41
+            (joined
+              (portRef Q41)
+              (portRef DO14 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout40
+            (joined
+              (portRef Q40)
+              (portRef DO13 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout39
+            (joined
+              (portRef Q39)
+              (portRef DO12 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout38
+            (joined
+              (portRef Q38)
+              (portRef DO11 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout37
+            (joined
+              (portRef Q37)
+              (portRef DO10 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout36
+            (joined
+              (portRef Q36)
+              (portRef DO9 (instanceRef Outputbuffer_0_2_4))))
+          (net dataout35
+            (joined
+              (portRef Q35)
+              (portRef DO8 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout34
+            (joined
+              (portRef Q34)
+              (portRef DO7 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout33
+            (joined
+              (portRef Q33)
+              (portRef DO6 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout32
+            (joined
+              (portRef Q32)
+              (portRef DO5 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout31
+            (joined
+              (portRef Q31)
+              (portRef DO4 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout30
+            (joined
+              (portRef Q30)
+              (portRef DO3 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout29
+            (joined
+              (portRef Q29)
+              (portRef DO2 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout28
+            (joined
+              (portRef Q28)
+              (portRef DO1 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout27
+            (joined
+              (portRef Q27)
+              (portRef DO0 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout26
+            (joined
+              (portRef Q26)
+              (portRef DO17 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout25
+            (joined
+              (portRef Q25)
+              (portRef DO16 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout24
+            (joined
+              (portRef Q24)
+              (portRef DO15 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout23
+            (joined
+              (portRef Q23)
+              (portRef DO14 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout22
+            (joined
+              (portRef Q22)
+              (portRef DO13 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout21
+            (joined
+              (portRef Q21)
+              (portRef DO12 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout20
+            (joined
+              (portRef Q20)
+              (portRef DO11 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout19
+            (joined
+              (portRef Q19)
+              (portRef DO10 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout18
+            (joined
+              (portRef Q18)
+              (portRef DO9 (instanceRef Outputbuffer_0_1_5))))
+          (net dataout17
+            (joined
+              (portRef Q17)
+              (portRef DO8 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout16
+            (joined
+              (portRef Q16)
+              (portRef DO7 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout15
+            (joined
+              (portRef Q15)
+              (portRef DO6 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout14
+            (joined
+              (portRef Q14)
+              (portRef DO5 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout13
+            (joined
+              (portRef Q13)
+              (portRef DO4 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout12
+            (joined
+              (portRef Q12)
+              (portRef DO3 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout11
+            (joined
+              (portRef Q11)
+              (portRef DO2 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout10
+            (joined
+              (portRef Q10)
+              (portRef DO1 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout9
+            (joined
+              (portRef Q9)
+              (portRef DO0 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout8
+            (joined
+              (portRef Q8)
+              (portRef DO17 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout7
+            (joined
+              (portRef Q7)
+              (portRef DO16 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout6
+            (joined
+              (portRef Q6)
+              (portRef DO15 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout5
+            (joined
+              (portRef Q5)
+              (portRef DO14 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout4
+            (joined
+              (portRef Q4)
+              (portRef DO13 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout3
+            (joined
+              (portRef Q3)
+              (portRef DO12 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout2
+            (joined
+              (portRef Q2)
+              (portRef DO11 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout1
+            (joined
+              (portRef Q1)
+              (portRef DO10 (instanceRef Outputbuffer_0_0_6))))
+          (net dataout0
+            (joined
+              (portRef Q0)
+              (portRef DO9 (instanceRef Outputbuffer_0_0_6))))
+          (net WrClockEn
+            (joined
+              (portRef WrClockEn)
+              (portRef CEW (instanceRef Outputbuffer_0_0_6))
+              (portRef CEW (instanceRef Outputbuffer_0_1_5))
+              (portRef CEW (instanceRef Outputbuffer_0_2_4))
+              (portRef CEW (instanceRef Outputbuffer_0_3_3))
+              (portRef CEW (instanceRef Outputbuffer_0_4_2))
+              (portRef CEW (instanceRef Outputbuffer_0_5_1))
+              (portRef CEW (instanceRef Outputbuffer_0_6_0))))
+          (net clk
+            (joined
+              (portRef WrClock)
+              (portRef CLKW (instanceRef Outputbuffer_0_0_6))
+              (portRef CLKW (instanceRef Outputbuffer_0_1_5))
+              (portRef CLKW (instanceRef Outputbuffer_0_2_4))
+              (portRef CLKW (instanceRef Outputbuffer_0_3_3))
+              (portRef CLKW (instanceRef Outputbuffer_0_4_2))
+              (portRef CLKW (instanceRef Outputbuffer_0_5_1))
+              (portRef CLKW (instanceRef Outputbuffer_0_6_0))))
+          (net Reset
+            (joined
+              (portRef Reset)
+              (portRef RST (instanceRef Outputbuffer_0_0_6))
+              (portRef RST (instanceRef Outputbuffer_0_1_5))
+              (portRef RST (instanceRef Outputbuffer_0_2_4))
+              (portRef RST (instanceRef Outputbuffer_0_3_3))
+              (portRef RST (instanceRef Outputbuffer_0_4_2))
+              (portRef RST (instanceRef Outputbuffer_0_5_1))
+              (portRef RST (instanceRef Outputbuffer_0_6_0))))
+          (net RdClockEn
+            (joined
+              (portRef RdClockEn)
+              (portRef OCER (instanceRef Outputbuffer_0_0_6))
+              (portRef CER (instanceRef Outputbuffer_0_0_6))
+              (portRef OCER (instanceRef Outputbuffer_0_1_5))
+              (portRef CER (instanceRef Outputbuffer_0_1_5))
+              (portRef OCER (instanceRef Outputbuffer_0_2_4))
+              (portRef CER (instanceRef Outputbuffer_0_2_4))
+              (portRef OCER (instanceRef Outputbuffer_0_3_3))
+              (portRef CER (instanceRef Outputbuffer_0_3_3))
+              (portRef OCER (instanceRef Outputbuffer_0_4_2))
+              (portRef CER (instanceRef Outputbuffer_0_4_2))
+              (portRef OCER (instanceRef Outputbuffer_0_5_1))
+              (portRef CER (instanceRef Outputbuffer_0_5_1))
+              (portRef OCER (instanceRef Outputbuffer_0_6_0))
+              (portRef CER (instanceRef Outputbuffer_0_6_0))))
+          (net rdclk
+            (joined
+              (portRef RdClock)
+              (portRef CLKR (instanceRef Outputbuffer_0_0_6))
+              (portRef CLKR (instanceRef Outputbuffer_0_1_5))
+              (portRef CLKR (instanceRef Outputbuffer_0_2_4))
+              (portRef CLKR (instanceRef Outputbuffer_0_3_3))
+              (portRef CLKR (instanceRef Outputbuffer_0_4_2))
+              (portRef CLKR (instanceRef Outputbuffer_0_5_1))
+              (portRef CLKR (instanceRef Outputbuffer_0_6_0))))
+          (net wren
+            (joined
+              (portRef WE)
+              (portRef CSW0 (instanceRef Outputbuffer_0_0_6))
+              (portRef CSW0 (instanceRef Outputbuffer_0_1_5))
+              (portRef CSW0 (instanceRef Outputbuffer_0_2_4))
+              (portRef CSW0 (instanceRef Outputbuffer_0_3_3))
+              (portRef CSW0 (instanceRef Outputbuffer_0_4_2))
+              (portRef CSW0 (instanceRef Outputbuffer_0_5_1))
+              (portRef CSW0 (instanceRef Outputbuffer_0_6_0))))
+          (net datain119
+            (joined
+              (portRef Data119)
+              (portRef DI11 (instanceRef Outputbuffer_0_6_0))))
+          (net datain118
+            (joined
+              (portRef Data118)
+              (portRef DI10 (instanceRef Outputbuffer_0_6_0))))
+          (net datain117
+            (joined
+              (portRef Data117)
+              (portRef DI9 (instanceRef Outputbuffer_0_6_0))))
+          (net datain116
+            (joined
+              (portRef Data116)
+              (portRef DI8 (instanceRef Outputbuffer_0_6_0))))
+          (net datain115
+            (joined
+              (portRef Data115)
+              (portRef DI7 (instanceRef Outputbuffer_0_6_0))))
+          (net datain114
+            (joined
+              (portRef Data114)
+              (portRef DI6 (instanceRef Outputbuffer_0_6_0))))
+          (net datain113
+            (joined
+              (portRef Data113)
+              (portRef DI5 (instanceRef Outputbuffer_0_6_0))))
+          (net datain112
+            (joined
+              (portRef Data112)
+              (portRef DI4 (instanceRef Outputbuffer_0_6_0))))
+          (net datain111
+            (joined
+              (portRef Data111)
+              (portRef DI3 (instanceRef Outputbuffer_0_6_0))))
+          (net datain110
+            (joined
+              (portRef Data110)
+              (portRef DI2 (instanceRef Outputbuffer_0_6_0))))
+          (net datain109
+            (joined
+              (portRef Data109)
+              (portRef DI1 (instanceRef Outputbuffer_0_6_0))))
+          (net datain108
+            (joined
+              (portRef Data108)
+              (portRef DI0 (instanceRef Outputbuffer_0_6_0))))
+          (net datain107
+            (joined
+              (portRef Data107)
+              (portRef DI17 (instanceRef Outputbuffer_0_5_1))))
+          (net datain106
+            (joined
+              (portRef Data106)
+              (portRef DI16 (instanceRef Outputbuffer_0_5_1))))
+          (net datain105
+            (joined
+              (portRef Data105)
+              (portRef DI15 (instanceRef Outputbuffer_0_5_1))))
+          (net datain104
+            (joined
+              (portRef Data104)
+              (portRef DI14 (instanceRef Outputbuffer_0_5_1))))
+          (net datain103
+            (joined
+              (portRef Data103)
+              (portRef DI13 (instanceRef Outputbuffer_0_5_1))))
+          (net datain102
+            (joined
+              (portRef Data102)
+              (portRef DI12 (instanceRef Outputbuffer_0_5_1))))
+          (net datain101
+            (joined
+              (portRef Data101)
+              (portRef DI11 (instanceRef Outputbuffer_0_5_1))))
+          (net datain100
+            (joined
+              (portRef Data100)
+              (portRef DI10 (instanceRef Outputbuffer_0_5_1))))
+          (net datain99
+            (joined
+              (portRef Data99)
+              (portRef DI9 (instanceRef Outputbuffer_0_5_1))))
+          (net datain98
+            (joined
+              (portRef Data98)
+              (portRef DI8 (instanceRef Outputbuffer_0_5_1))))
+          (net datain97
+            (joined
+              (portRef Data97)
+              (portRef DI7 (instanceRef Outputbuffer_0_5_1))))
+          (net datain96
+            (joined
+              (portRef Data96)
+              (portRef DI6 (instanceRef Outputbuffer_0_5_1))))
+          (net datain95
+            (joined
+              (portRef Data95)
+              (portRef DI5 (instanceRef Outputbuffer_0_5_1))))
+          (net datain94
+            (joined
+              (portRef Data94)
+              (portRef DI4 (instanceRef Outputbuffer_0_5_1))))
+          (net datain93
+            (joined
+              (portRef Data93)
+              (portRef DI3 (instanceRef Outputbuffer_0_5_1))))
+          (net datain92
+            (joined
+              (portRef Data92)
+              (portRef DI2 (instanceRef Outputbuffer_0_5_1))))
+          (net datain91
+            (joined
+              (portRef Data91)
+              (portRef DI1 (instanceRef Outputbuffer_0_5_1))))
+          (net datain90
+            (joined
+              (portRef Data90)
+              (portRef DI0 (instanceRef Outputbuffer_0_5_1))))
+          (net datain89
+            (joined
+              (portRef Data89)
+              (portRef DI17 (instanceRef Outputbuffer_0_4_2))))
+          (net datain88
+            (joined
+              (portRef Data88)
+              (portRef DI16 (instanceRef Outputbuffer_0_4_2))))
+          (net datain87
+            (joined
+              (portRef Data87)
+              (portRef DI15 (instanceRef Outputbuffer_0_4_2))))
+          (net datain86
+            (joined
+              (portRef Data86)
+              (portRef DI14 (instanceRef Outputbuffer_0_4_2))))
+          (net datain85
+            (joined
+              (portRef Data85)
+              (portRef DI13 (instanceRef Outputbuffer_0_4_2))))
+          (net datain84
+            (joined
+              (portRef Data84)
+              (portRef DI12 (instanceRef Outputbuffer_0_4_2))))
+          (net datain83
+            (joined
+              (portRef Data83)
+              (portRef DI11 (instanceRef Outputbuffer_0_4_2))))
+          (net datain82
+            (joined
+              (portRef Data82)
+              (portRef DI10 (instanceRef Outputbuffer_0_4_2))))
+          (net datain81
+            (joined
+              (portRef Data81)
+              (portRef DI9 (instanceRef Outputbuffer_0_4_2))))
+          (net datain80
+            (joined
+              (portRef Data80)
+              (portRef DI8 (instanceRef Outputbuffer_0_4_2))))
+          (net datain79
+            (joined
+              (portRef Data79)
+              (portRef DI7 (instanceRef Outputbuffer_0_4_2))))
+          (net datain78
+            (joined
+              (portRef Data78)
+              (portRef DI6 (instanceRef Outputbuffer_0_4_2))))
+          (net datain77
+            (joined
+              (portRef Data77)
+              (portRef DI5 (instanceRef Outputbuffer_0_4_2))))
+          (net datain76
+            (joined
+              (portRef Data76)
+              (portRef DI4 (instanceRef Outputbuffer_0_4_2))))
+          (net datain75
+            (joined
+              (portRef Data75)
+              (portRef DI3 (instanceRef Outputbuffer_0_4_2))))
+          (net datain74
+            (joined
+              (portRef Data74)
+              (portRef DI2 (instanceRef Outputbuffer_0_4_2))))
+          (net datain73
+            (joined
+              (portRef Data73)
+              (portRef DI1 (instanceRef Outputbuffer_0_4_2))))
+          (net datain72
+            (joined
+              (portRef Data72)
+              (portRef DI0 (instanceRef Outputbuffer_0_4_2))))
+          (net datain71
+            (joined
+              (portRef Data71)
+              (portRef DI17 (instanceRef Outputbuffer_0_3_3))))
+          (net datain70
+            (joined
+              (portRef Data70)
+              (portRef DI16 (instanceRef Outputbuffer_0_3_3))))
+          (net datain69
+            (joined
+              (portRef Data69)
+              (portRef DI15 (instanceRef Outputbuffer_0_3_3))))
+          (net datain68
+            (joined
+              (portRef Data68)
+              (portRef DI14 (instanceRef Outputbuffer_0_3_3))))
+          (net datain67
+            (joined
+              (portRef Data67)
+              (portRef DI13 (instanceRef Outputbuffer_0_3_3))))
+          (net datain66
+            (joined
+              (portRef Data66)
+              (portRef DI12 (instanceRef Outputbuffer_0_3_3))))
+          (net datain65
+            (joined
+              (portRef Data65)
+              (portRef DI11 (instanceRef Outputbuffer_0_3_3))))
+          (net datain64
+            (joined
+              (portRef Data64)
+              (portRef DI10 (instanceRef Outputbuffer_0_3_3))))
+          (net datain63
+            (joined
+              (portRef Data63)
+              (portRef DI9 (instanceRef Outputbuffer_0_3_3))))
+          (net datain62
+            (joined
+              (portRef Data62)
+              (portRef DI8 (instanceRef Outputbuffer_0_3_3))))
+          (net datain61
+            (joined
+              (portRef Data61)
+              (portRef DI7 (instanceRef Outputbuffer_0_3_3))))
+          (net datain60
+            (joined
+              (portRef Data60)
+              (portRef DI6 (instanceRef Outputbuffer_0_3_3))))
+          (net datain59
+            (joined
+              (portRef Data59)
+              (portRef DI5 (instanceRef Outputbuffer_0_3_3))))
+          (net datain58
+            (joined
+              (portRef Data58)
+              (portRef DI4 (instanceRef Outputbuffer_0_3_3))))
+          (net datain57
+            (joined
+              (portRef Data57)
+              (portRef DI3 (instanceRef Outputbuffer_0_3_3))))
+          (net datain56
+            (joined
+              (portRef Data56)
+              (portRef DI2 (instanceRef Outputbuffer_0_3_3))))
+          (net datain55
+            (joined
+              (portRef Data55)
+              (portRef DI1 (instanceRef Outputbuffer_0_3_3))))
+          (net datain54
+            (joined
+              (portRef Data54)
+              (portRef DI0 (instanceRef Outputbuffer_0_3_3))))
+          (net datain53
+            (joined
+              (portRef Data53)
+              (portRef DI17 (instanceRef Outputbuffer_0_2_4))))
+          (net datain52
+            (joined
+              (portRef Data52)
+              (portRef DI16 (instanceRef Outputbuffer_0_2_4))))
+          (net datain51
+            (joined
+              (portRef Data51)
+              (portRef DI15 (instanceRef Outputbuffer_0_2_4))))
+          (net datain50
+            (joined
+              (portRef Data50)
+              (portRef DI14 (instanceRef Outputbuffer_0_2_4))))
+          (net datain49
+            (joined
+              (portRef Data49)
+              (portRef DI13 (instanceRef Outputbuffer_0_2_4))))
+          (net datain48
+            (joined
+              (portRef Data48)
+              (portRef DI12 (instanceRef Outputbuffer_0_2_4))))
+          (net datain47
+            (joined
+              (portRef Data47)
+              (portRef DI11 (instanceRef Outputbuffer_0_2_4))))
+          (net datain46
+            (joined
+              (portRef Data46)
+              (portRef DI10 (instanceRef Outputbuffer_0_2_4))))
+          (net datain45
+            (joined
+              (portRef Data45)
+              (portRef DI9 (instanceRef Outputbuffer_0_2_4))))
+          (net datain44
+            (joined
+              (portRef Data44)
+              (portRef DI8 (instanceRef Outputbuffer_0_2_4))))
+          (net datain43
+            (joined
+              (portRef Data43)
+              (portRef DI7 (instanceRef Outputbuffer_0_2_4))))
+          (net datain42
+            (joined
+              (portRef Data42)
+              (portRef DI6 (instanceRef Outputbuffer_0_2_4))))
+          (net datain41
+            (joined
+              (portRef Data41)
+              (portRef DI5 (instanceRef Outputbuffer_0_2_4))))
+          (net datain40
+            (joined
+              (portRef Data40)
+              (portRef DI4 (instanceRef Outputbuffer_0_2_4))))
+          (net datain39
+            (joined
+              (portRef Data39)
+              (portRef DI3 (instanceRef Outputbuffer_0_2_4))))
+          (net datain38
+            (joined
+              (portRef Data38)
+              (portRef DI2 (instanceRef Outputbuffer_0_2_4))))
+          (net datain37
+            (joined
+              (portRef Data37)
+              (portRef DI1 (instanceRef Outputbuffer_0_2_4))))
+          (net datain36
+            (joined
+              (portRef Data36)
+              (portRef DI0 (instanceRef Outputbuffer_0_2_4))))
+          (net datain35
+            (joined
+              (portRef Data35)
+              (portRef DI17 (instanceRef Outputbuffer_0_1_5))))
+          (net datain34
+            (joined
+              (portRef Data34)
+              (portRef DI16 (instanceRef Outputbuffer_0_1_5))))
+          (net datain33
+            (joined
+              (portRef Data33)
+              (portRef DI15 (instanceRef Outputbuffer_0_1_5))))
+          (net datain32
+            (joined
+              (portRef Data32)
+              (portRef DI14 (instanceRef Outputbuffer_0_1_5))))
+          (net datain31
+            (joined
+              (portRef Data31)
+              (portRef DI13 (instanceRef Outputbuffer_0_1_5))))
+          (net datain30
+            (joined
+              (portRef Data30)
+              (portRef DI12 (instanceRef Outputbuffer_0_1_5))))
+          (net datain29
+            (joined
+              (portRef Data29)
+              (portRef DI11 (instanceRef Outputbuffer_0_1_5))))
+          (net datain28
+            (joined
+              (portRef Data28)
+              (portRef DI10 (instanceRef Outputbuffer_0_1_5))))
+          (net datain27
+            (joined
+              (portRef Data27)
+              (portRef DI9 (instanceRef Outputbuffer_0_1_5))))
+          (net datain26
+            (joined
+              (portRef Data26)
+              (portRef DI8 (instanceRef Outputbuffer_0_1_5))))
+          (net datain25
+            (joined
+              (portRef Data25)
+              (portRef DI7 (instanceRef Outputbuffer_0_1_5))))
+          (net datain24
+            (joined
+              (portRef Data24)
+              (portRef DI6 (instanceRef Outputbuffer_0_1_5))))
+          (net datain23
+            (joined
+              (portRef Data23)
+              (portRef DI5 (instanceRef Outputbuffer_0_1_5))))
+          (net datain22
+            (joined
+              (portRef Data22)
+              (portRef DI4 (instanceRef Outputbuffer_0_1_5))))
+          (net datain21
+            (joined
+              (portRef Data21)
+              (portRef DI3 (instanceRef Outputbuffer_0_1_5))))
+          (net datain20
+            (joined
+              (portRef Data20)
+              (portRef DI2 (instanceRef Outputbuffer_0_1_5))))
+          (net datain19
+            (joined
+              (portRef Data19)
+              (portRef DI1 (instanceRef Outputbuffer_0_1_5))))
+          (net datain18
+            (joined
+              (portRef Data18)
+              (portRef DI0 (instanceRef Outputbuffer_0_1_5))))
+          (net datain17
+            (joined
+              (portRef Data17)
+              (portRef DI17 (instanceRef Outputbuffer_0_0_6))))
+          (net datain16
+            (joined
+              (portRef Data16)
+              (portRef DI16 (instanceRef Outputbuffer_0_0_6))))
+          (net datain15
+            (joined
+              (portRef Data15)
+              (portRef DI15 (instanceRef Outputbuffer_0_0_6))))
+          (net datain14
+            (joined
+              (portRef Data14)
+              (portRef DI14 (instanceRef Outputbuffer_0_0_6))))
+          (net datain13
+            (joined
+              (portRef Data13)
+              (portRef DI13 (instanceRef Outputbuffer_0_0_6))))
+          (net datain12
+            (joined
+              (portRef Data12)
+              (portRef DI12 (instanceRef Outputbuffer_0_0_6))))
+          (net datain11
+            (joined
+              (portRef Data11)
+              (portRef DI11 (instanceRef Outputbuffer_0_0_6))))
+          (net datain10
+            (joined
+              (portRef Data10)
+              (portRef DI10 (instanceRef Outputbuffer_0_0_6))))
+          (net datain9
+            (joined
+              (portRef Data9)
+              (portRef DI9 (instanceRef Outputbuffer_0_0_6))))
+          (net datain8
+            (joined
+              (portRef Data8)
+              (portRef DI8 (instanceRef Outputbuffer_0_0_6))))
+          (net datain7
+            (joined
+              (portRef Data7)
+              (portRef DI7 (instanceRef Outputbuffer_0_0_6))))
+          (net datain6
+            (joined
+              (portRef Data6)
+              (portRef DI6 (instanceRef Outputbuffer_0_0_6))))
+          (net datain5
+            (joined
+              (portRef Data5)
+              (portRef DI5 (instanceRef Outputbuffer_0_0_6))))
+          (net datain4
+            (joined
+              (portRef Data4)
+              (portRef DI4 (instanceRef Outputbuffer_0_0_6))))
+          (net datain3
+            (joined
+              (portRef Data3)
+              (portRef DI3 (instanceRef Outputbuffer_0_0_6))))
+          (net datain2
+            (joined
+              (portRef Data2)
+              (portRef DI2 (instanceRef Outputbuffer_0_0_6))))
+          (net datain1
+            (joined
+              (portRef Data1)
+              (portRef DI1 (instanceRef Outputbuffer_0_0_6))))
+          (net datain0
+            (joined
+              (portRef Data0)
+              (portRef DI0 (instanceRef Outputbuffer_0_0_6))))
+          (net raddr7
+            (joined
+              (portRef RdAddress7)
+              (portRef ADR11 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR11 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR11 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR11 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR11 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR11 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR11 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr6
+            (joined
+              (portRef RdAddress6)
+              (portRef ADR10 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR10 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR10 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR10 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR10 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR10 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR10 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr5
+            (joined
+              (portRef RdAddress5)
+              (portRef ADR9 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR9 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR9 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR9 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR9 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR9 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR9 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr4
+            (joined
+              (portRef RdAddress4)
+              (portRef ADR8 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR8 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR8 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR8 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR8 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR8 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR8 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr3
+            (joined
+              (portRef RdAddress3)
+              (portRef ADR7 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR7 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR7 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR7 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR7 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR7 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR7 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr2
+            (joined
+              (portRef RdAddress2)
+              (portRef ADR6 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR6 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR6 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR6 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR6 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR6 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR6 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr1
+            (joined
+              (portRef RdAddress1)
+              (portRef ADR5 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR5 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR5 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR5 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR5 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR5 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR5 (instanceRef Outputbuffer_0_6_0))))
+          (net raddr0
+            (joined
+              (portRef RdAddress0)
+              (portRef ADR4 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADR4 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADR4 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADR4 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADR4 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADR4 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADR4 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr7
+            (joined
+              (portRef WrAddress7)
+              (portRef ADW7 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW7 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW7 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW7 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW7 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW7 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW7 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr6
+            (joined
+              (portRef WrAddress6)
+              (portRef ADW6 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW6 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW6 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW6 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW6 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW6 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW6 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr5
+            (joined
+              (portRef WrAddress5)
+              (portRef ADW5 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW5 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW5 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW5 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW5 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW5 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW5 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr4
+            (joined
+              (portRef WrAddress4)
+              (portRef ADW4 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW4 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW4 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW4 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW4 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW4 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW4 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr3
+            (joined
+              (portRef WrAddress3)
+              (portRef ADW3 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW3 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW3 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW3 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW3 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW3 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW3 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr2
+            (joined
+              (portRef WrAddress2)
+              (portRef ADW2 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW2 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW2 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW2 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW2 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW2 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW2 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr1
+            (joined
+              (portRef WrAddress1)
+              (portRef ADW1 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW1 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW1 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW1 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW1 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW1 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW1 (instanceRef Outputbuffer_0_6_0))))
+          (net waddr0
+            (joined
+              (portRef WrAddress0)
+              (portRef ADW0 (instanceRef Outputbuffer_0_0_6))
+              (portRef ADW0 (instanceRef Outputbuffer_0_1_5))
+              (portRef ADW0 (instanceRef Outputbuffer_0_2_4))
+              (portRef ADW0 (instanceRef Outputbuffer_0_3_3))
+              (portRef ADW0 (instanceRef Outputbuffer_0_4_2))
+              (portRef ADW0 (instanceRef Outputbuffer_0_5_1))
+              (portRef ADW0 (instanceRef Outputbuffer_0_6_0))))))))
+  (design Outputbuffer
+    (cellRef Outputbuffer
+      (libraryRef ORCLIB)))
+)

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "WallPanel_FPGA_impl1.log"
+-o "WallPanel_FPGA_impl1.csv"
+-pr "WallPanel_FPGA_impl1.prf"

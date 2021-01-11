@@ -1,0 +1,3001 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+            Lattice Mapping Report File for Design Module 'Master'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO3LF -p LCMXO3LF-9400C -t CABGA256 -s 6 -oc
+     Commercial WallPanel_FPGA_impl1.ngd -o WallPanel_FPGA_impl1_map.ncd -pr
+     WallPanel_FPGA_impl1.prf -mp WallPanel_FPGA_impl1.mrp -lpf
+     D:/OneDrive/Lattice Diamond
+     Projects/WallPanel_FPGA/impl1/WallPanel_FPGA_impl1.lpf -lpf
+     D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/WallPanel_FPGA.lpf -c 0
+     -gui -msgset D:/OneDrive/Lattice Diamond
+     Projects/WallPanel_FPGA/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3LF-9400CCABGA256
+Target Performance:   6
+Mapper:  xo3c00f,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  01/11/21  16:08:08
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:   1498 out of 10021 (15%)
+      PFU registers:         1498 out of  9400 (16%)
+      PIO registers:            0 out of   621 (0%)
+   Number of SLICEs:      1891 out of  4700 (40%)
+      SLICEs as Logic/ROM:   1561 out of  4700 (33%)
+      SLICEs as RAM:          330 out of  3525 (9%)
+      SLICEs as Carry:        438 out of  4700 (9%)
+   Number of LUT4s:        3714 out of  9400 (40%)
+      Number used as logic LUTs:        2178
+      Number used as distributed RAM:   660
+      Number used as ripple logic:      876
+      Number used as shift registers:     0
+   Number of PIO sites used: 104 + 4(JTAG) out of 207 (52%)
+   Number of block RAMs:  28 out of 48 (58%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       Yes
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  41
+
+     Net LOGIC_CLOCK: 708 loads, 687 rising, 21 falling (Driver:
+     PLL_Ent/PLLInst_0 )
+     Net jtaghub16_jtck: 348 loads, 0 rising, 348 falling (Driver:
+     xo2chub/genblk7.jtagf_u )
+     Net PIC_OE_c_derived_19: 10 loads, 10 rising, 0 falling (Driver:
+     PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_I_124_2_lut_rep_446_3_lut )
+     Net CLK_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK )
+     Net lastAddress_31__N_820: 1 loads, 1 rising, 0 falling (Driver:
+     i1_3_lut_3_lut_4_lut )
+     Net lastAddress_31__N_807: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_240_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_813: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_246_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_832: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_265_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_806: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_239_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_805: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_238_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_804: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_237_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_803: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_236_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_816: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_249_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_808: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_241_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_809: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_242_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_812: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_245_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_814: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_247_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_831: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_264_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_833: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_266_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_815: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_248_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_802: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_235_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_810: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_243_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_811: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_244_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_817: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_250_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_818: 1 loads, 1 rising, 0 falling (Driver:
+     i1_2_lut_4_lut_4_lut_adj_540 )
+     Net lastAddress_31__N_819: 1 loads, 1 rising, 0 falling (Driver:
+     i1_2_lut_4_lut_4_lut_adj_542 )
+     Net lastAddress_31__N_821: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_254_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_822: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_255_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_823: 1 loads, 1 rising, 0 falling (Driver:
+
+     SRAM_WE_N_748_I_0_256_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_824: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_257_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_825: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_258_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_826: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_259_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_827: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_260_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_828: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_261_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_829: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_262_2_lut_4_lut_4_lut )
+     Net lastAddress_31__N_830: 1 loads, 1 rising, 0 falling (Driver:
+     SRAM_WE_N_748_I_0_263_2_lut_4_lut_4_lut )
+     Net MDM/offsetLatchClockOrd: 8 loads, 8 rising, 0 falling (Driver:
+     MDM/offsetLatchClock_I_0_4_lut )
+     Net reveal_ist_125_derived_5: 3 loads, 3 rising, 0 falling (Driver:
+     MDM/i4_4_lut_rep_489 )
+     Net VRAM_WC: 7 loads, 7 rising, 0 falling (Driver: MDM/VRAM_WC_428 )
+     Net MDM/GR_WR_CLK: 2 loads, 2 rising, 0 falling (Driver: MDM/GR_WR_CLK_454
+     )
+     Net PIXEL_CLOCK: 44 loads, 18 rising, 26 falling (Driver: PLL_Ent/PLLInst_0
+     )
+   Number of Clock Enables:  139
+     Net jtaghub16_jupdate: 8 loads, 8 LSLICEs
+     Net jtaghub16_ip_enable0: 13 loads, 13 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1284_enable_80: 9 loads, 9
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_2091: 2 loads, 2
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_112: 5 loads, 5
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_119: 5 loads, 5
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_1962: 2 loads, 2
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_26: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_27: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_1962_adj_3431: 2
+     loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_22: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_25: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_2013: 2 loads, 2
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_101: 3 loads, 3
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_105: 3 loads, 3
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_2: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_1962_adj_3433: 2
+
+     loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_168: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_4/clk_N_keep_enable_154:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_4/next_then_reg_wen: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_4/jtck_N_1284_enable_9:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_4/cnt_contig_reg_wen: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_4/clk_N_keep_enable_153:
+     2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen_adj_3363: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/num_then_wen: 1 loads, 1 LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/te_4/jtck_N_1284_enable_476: 3
+     loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_491: 9
+     loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/cnt_contig_reg_wen: 1
+     loads, 1 LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/cnt_contig_reg_wen_adj_3382: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/next_then_reg_wen: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/jtck_N_1284_enable_8:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_145:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_31:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_144:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/num_then_wen_adj_3436: 1 loads, 1
+     LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/te_3/jtck_N_1284_enable_457: 3
+     loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_472: 9
+     loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen: 1 loads,
+     1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_2/jtck_N_1284_enable_7:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_2/clk_N_keep_enable_143:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_142: 3 loads, 3
+     LSLICEs
+     Net
+
+     master_reveal_coretop_instance/core0/trig_u/te_2/jtck_N_1284_enable_438: 3
+     loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_453: 9
+     loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen_adj_3442: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen_adj_3398:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_6: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_139:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_33:
+     1 loads, 1 LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/te_1/jtck_N_1284_enable_419: 3
+     loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_434: 9
+     loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_138:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/next_then_reg_wen: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_5:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_135: 8
+     loads, 8 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_137:
+     1 loads, 1 LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_400: 3
+     loads, 3 LSLICEs
+     Net
+     master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_415: 8
+     loads, 8 LSLICEs
+     Net master_reveal_coretop_instance/core0/num_then_wen_adj_3444: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_166:
+     3 loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_148: 2 loads, 2
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_152: 3 loads, 3
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_155: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/reg0_read_N_2455: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_1: 1 loads,
+     1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_274: 25 loads,
+     25 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_52: 7
+     loads, 7 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_61: 5 loads, 5
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/trace_dout_int_145__N_2720: 5
+
+     loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_70: 5
+     loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_79: 5
+     loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_165: 10
+     loads, 10 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_97: 5
+     loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/sample_en_d: 4 loads, 4
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_156: 1 loads, 1
+     LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_167: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_24: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_28: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_36: 2
+     loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_140: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_146: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_324: 25 loads,
+     25 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_370: 23 loads,
+     23 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_141: 1
+     loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65:
+     25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373:
+     26 loads, 26 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_371:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_52:
+     2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_381:
+     5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_396:
+     9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_14:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_45:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_24:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_44:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_49:
+     1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176:
+     25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_225:
+
+     25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_372:
+     1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_60: 10 loads, 10 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_25: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_99: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_14: 1 loads, 0 LSLICEs
+     Net LOGIC_CLOCK_N_112_enable_5: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_105: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_112: 11 loads, 11 LSLICEs
+     Net MDM/LOGIC_CLOCK_N_112_enable_36: 16 loads, 16 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_6: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_70: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_63: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_11: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_12: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_13: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_72: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_15: 1 loads, 0 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_18: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_20: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_130: 6 loads, 6 LSLICEs
+     Net MDM/state_7__N_318: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_116: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_122: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_123: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_120: 1 loads, 1 LSLICEs
+     Net MD/LOGIC_CLOCK_keep_enable_97: 8 loads, 8 LSLICEs
+     Net MD/PIXEL_CLOCK_N_298_enable_26: 18 loads, 18 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_25: 5 loads, 5 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_6: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_26: 3 loads, 3 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_23: 2 loads, 2 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_19: 3 loads, 3 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_13: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_14: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_15: 1 loads, 1 LSLICEs
+     Net RAM/SRAM_OE_N_1004: 8 loads, 8 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_42: 9 loads, 9 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_19: 1 loads, 1 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_17: 1 loads, 1 LSLICEs
+     Net xo2chub/id_enable_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net xo2chub/er1_shift_reg8: 10 loads, 10 LSLICEs
+   Number of local set/reset loads for net n27980 merged into GSR:  27
+   Number of LSRs:  82
+     Net BUS_currGrantID_3__N_70: 3 loads, 3 LSLICEs
+     Net jtaghub16_jrstn: 329 loads, 329 LSLICEs
+     Net master_reveal_coretop_instance/core0/n28151: 272 loads, 238 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/tu_out[4]: 5 loads, 5
+     LSLICEs
+     Net PIC_OE_c_derived_19: 10 loads, 10 LSLICEs
+     Net PIC_BUS_INTERFACE/transferMode_3__N_1085: 1 loads, 1 LSLICEs
+     Net Matrix_CTRL_Out_c_1: 8 loads, 8 LSLICEs
+     Net lastAddress_31__N_864: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_820: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_807: 1 loads, 1 LSLICEs
+
+     Net lastAddress_31__N_813: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_849: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_834: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_832: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_846: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_806: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_843: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_805: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_804: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_803: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_816: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_808: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_852: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_809: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_855: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_867: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_812: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_814: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_873: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_831: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_833: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_815: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_921: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_924: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_802: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_861: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_858: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_810: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_811: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_891: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_817: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_879: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_818: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_882: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_819: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_885: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_821: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_888: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_822: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_894: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_823: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_897: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_824: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_900: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_825: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_903: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_826: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_906: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_827: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_909: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_828: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_912: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_829: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_915: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_830: 1 loads, 1 LSLICEs
+     Net lastAddress_31__N_918: 2 loads, 2 LSLICEs
+
+     Net lastAddress_31__N_927: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_876: 2 loads, 2 LSLICEs
+     Net lastAddress_31__N_870: 2 loads, 2 LSLICEs
+     Net reveal_ist_125_derived_5: 16 loads, 16 LSLICEs
+     Net n27966: 5 loads, 5 LSLICEs
+     Net MD/PWMArray_0__12__N_106: 1 loads, 1 LSLICEs
+     Net MD/n16377: 1 loads, 1 LSLICEs
+     Net MD/n10254: 2 loads, 2 LSLICEs
+     Net MD/n10269: 3 loads, 3 LSLICEs
+     Net MD/n5381: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_23: 2 loads, 2 LSLICEs
+     Net MD/n10244: 4 loads, 4 LSLICEs
+     Net MD/n10241: 1 loads, 1 LSLICEs
+     Net MD/n10240: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_837: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_840: 2 loads, 2 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net n28121: 335 loads
+     Net jtaghub16_jrstn: 332 loads
+     Net n28033: 328 loads
+     Net n28035: 328 loads
+     Net n28034: 327 loads
+     Net n28036: 327 loads
+     Net master_reveal_coretop_instance/core0/n28151: 273 loads
+     Net master_reveal_coretop_instance/core0/n28138: 189 loads
+     Net master_reveal_coretop_instance/core0/jtag_int_u/n28133: 163 loads
+     Net n28205: 162 loads
+
+
+
+
+   Number of warnings:  7
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: input pad net 'UART_RX' has no legal load.
+WARNING - map: input pad net 'PIC_CS' has no legal load.
+WARNING - map: Using local reset signal 'n27980' to infer global GSR net.
+WARNING - map: IO buffer missing for top level port UART_RX...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port PIC_CS...logic will be
+     discarded.
+WARNING - map: The reset of EBR 'MDM/GRam/GammaRam_0_1_0' cannot be controlled.
+     The local reset is not connected to any control signal and set to GND. The
+     global reset is disabled via GSR property. To control the EBR reset, either
+     connect the local reset to a control signal or force the GSR property to be
+     enabled.
+WARNING - map: The reset of EBR 'MDM/GRam/GammaRam_0_0_1' cannot be controlled.
+     The local reset is not connected to any control signal and set to GND. The
+     global reset is disabled via GSR property. To control the EBR reset, either
+     connect the local reset to a control signal or force the GSR property to be
+     enabled.
+
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[4]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[5]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[6]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[7]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[8]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[9]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[10]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[11]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[12]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[13]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[14]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[15]       | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[3]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[2]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[1]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_DATA[0]        | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[15]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[14]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[13]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[12]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[11]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[10]     | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[9]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[8]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[7]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+| PIC_DATA_IN[6]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[5]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[4]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[3]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[2]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[1]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_DATA_IN[0]      | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_TX             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[11] | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[10] | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[9]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[8]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[7]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[6]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[5]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[4]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[3]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[2]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[1]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_DATA_Out[0]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_LINE_SEL_Out[3]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_LINE_SEL_Out[2]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_LINE_SEL_Out[1]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_LINE_SEL_Out[0]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_CTRL_Out[2]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_CTRL_Out[1]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Matrix_CTRL_Out[0]  | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_OE             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+| SRAM_WE             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_CE             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[17]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[16]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[15]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[14]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[13]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[12]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[11]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[10]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[9]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[8]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[7]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[6]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[5]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[4]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[3]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[2]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[1]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRAM_ADDR[0]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_READY           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[7]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[5]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[3]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[2]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| LED[1]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+| LED[0]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| CLK                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_OE              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_WE_IN           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[18]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[17]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[16]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[15]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[14]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[13]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[12]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[11]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[10]     | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[9]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[8]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[7]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[6]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[5]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[4]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[3]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[2]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[1]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| PIC_ADDR_IN[0]      | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block xo2chub/VCC_0 undriven or does not drive anything - clipped.
+Block xo2chub/ip_enable[15] undriven or does not drive anything - clipped.
+Block xo2chub/cdn undriven or does not drive anything - clipped.
+Block MDM/n5577_d72/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5572_d22/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5578_d82/RAM1 undriven or does not drive anything - clipped.
+
+Block MDM/n5579_d92/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5576_d62/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5575_d52/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5573_d32/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n5574_d42/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n55792/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n55752/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n55732/RAM1 undriven or does not drive anything - clipped.
+Block MDM/n55772/RAM1 undriven or does not drive anything - clipped.
+Block PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_18 undriven or does not drive
+     anything - clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_0_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_1_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_0_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_1_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_0_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_1_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_0_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_1_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_0_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mem_1_0/RAM1 undriven or does not drive anything -
+     clipped.
+Block master_reveal_coretop_instance/jtag0_lut_buf_5 undriven or does not drive
+     anything - clipped.
+Signal xo2chub/jrstn_i was merged into signal jtaghub16_jrstn
+Signal xo2chub/cdn.CN was merged into signal jtaghub16_jtck
+Signal LOGIC_CLOCK_N_112 was merged into signal LOGIC_CLOCK
+Signal BUS_DIRECTION_IN_N_1244 was merged into signal BUS_dir
+Signal PIXEL_CLOCK_N_298 was merged into signal PIXEL_CLOCK
+Signal n4_adj_3509 was merged into signal BUS_req[2]
+Signal master_reveal_coretop_instance/jtck_N_1284 was merged into signal
+     jtaghub16_jtck
+Signal master_reveal_coretop_instance/core0/jrstn_N_1282 was merged into signal
+     jtaghub16_jrstn
+Signal master_reveal_coretop_instance/ip_enable[0] was merged into signal
+     jtaghub16_ip_enable0
+Signal master_reveal_coretop_instance/jce2[0] was merged into signal
+
+     jtaghub16_jce2
+Signal master_reveal_coretop_instance/jrstn[0] was merged into signal
+     jtaghub16_jrstn
+Signal master_reveal_coretop_instance/jshift[0] was merged into signal
+     jtaghub16_jshift
+Signal master_reveal_coretop_instance/jtdi[0] was merged into signal
+     jtaghub16_jtdi
+Signal master_reveal_coretop_instance/jtck[0] was merged into signal
+     jtaghub16_jtck
+Signal jtaghub16_er2_tdo0 was merged into signal
+     master_reveal_coretop_instance/er2_tdo[0]
+Signal n17 undriven or does not drive anything - clipped.
+Signal xo2chub/GND undriven or does not drive anything - clipped.
+Signal RAM/GND_net undriven or does not drive anything - clipped.
+Signal PLL_Ent/GND_net undriven or does not drive anything - clipped.
+Signal MD/GND_net undriven or does not drive anything - clipped.
+Signal MD/VRam/GND_net undriven or does not drive anything - clipped.
+Signal MDM/GND_net undriven or does not drive anything - clipped.
+Signal MDM/GRam/GND_net undriven or does not drive anything - clipped.
+Signal PIC_BUS_INTERFACE/GND_net undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/GND_net undriven or does not
+     drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeeda
+     syncdisablereg146101024146101024/scuba_vlo undriven or does not drive
+     anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeeda
+     syncdisablereg146101024146101024/scuba_vhi undriven or does not drive
+     anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/GND_net undriven or does
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/GND_net undriven or does
+
+     not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout1_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_1
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout0_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_0
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout1_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_1
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout0_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_0
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout1_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_1
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout0_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_0
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout1_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_1
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout0_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_0
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout1_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_1
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/dataout0_ffin was merged into signal master_reveal_core
+     top_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/
+     mdL0_0_0
+Signal xo2chub/VCC undriven or does not drive anything - clipped.
+Signal xo2chub/bit_count_cry_0_COUT[3] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/rom_rd_addr_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_2 undriven or does not drive anything - clipped.
+Signal xo2chub/rom_rd_addr_s_0_S1[7] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/rom_rd_addr_s_0_COUT[7] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_16_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_16_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_3 undriven or does not drive anything - clipped.
+
+Signal xo2chub/er2_tdo[14] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[15] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_15_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_15_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[12] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[13] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_13_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_13_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[10] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[11] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_11_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_11_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[8] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[9] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_9_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_9_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[6] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[7] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_7_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_7_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[4] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[5] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_5_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_5_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[2] undriven or does not drive anything - clipped.
+Signal xo2chub/er2_tdo[3] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_3_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_3_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/er2_tdo[1] undriven or does not drive anything - clipped.
+Signal xo2chub/jtdo2_int_prm_1_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/jtdo2_int_prm_1_0_0_COUT undriven or does not drive anything -
+     clipped.
+Signal xo2chub/ip_enable[15] undriven or does not drive anything - clipped.
+Signal xo2chub/genblk7.un1_jtagf_u_1 undriven or does not drive anything -
+     clipped.
+Signal xo2chub/genblk7.un1_jtagf_u undriven or does not drive anything -
+     clipped.
+Signal xo2chub/tdoa undriven or does not drive anything - clipped.
+Signal xo2chub/tdia undriven or does not drive anything - clipped.
+Signal xo2chub/tmsa undriven or does not drive anything - clipped.
+Signal xo2chub/tcka undriven or does not drive anything - clipped.
+
+Signal xo2chub/cdn undriven or does not drive anything - clipped.
+Signal xo2chub/bit_count_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal xo2chub/N_1 undriven or does not drive anything - clipped.
+Signal RAM/lastAddress_31__I_0_299_0/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_0/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_0/CI undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_31/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_31/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_32/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_32/CO undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_19/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_19/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_21/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_21/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_23/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_23/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/add_90_9/S1 undriven or does not drive anything - clipped.
+Signal RAM/add_90_9/CO undriven or does not drive anything - clipped.
+Signal RAM/lastAddress_31__I_0_299_25/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_25/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_27/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_27/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_29/S1 undriven or does not drive anything -
+     clipped.
+Signal RAM/lastAddress_31__I_0_299_29/S0 undriven or does not drive anything -
+     clipped.
+Signal RAM/add_90_1/S0 undriven or does not drive anything - clipped.
+Signal RAM/add_90_1/CI undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_15/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_15/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_17/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_17/CO undriven or does not drive anything - clipped.
+Signal MD/currPixel_1836_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal MD/currPixel_1836_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal MD/currPixel_1836_add_4_9/S1 undriven or does not drive anything -
+     clipped.
+
+Signal MD/currPixel_1836_add_4_9/CO undriven or does not drive anything -
+     clipped.
+Signal MD/add_107_17/S1 undriven or does not drive anything - clipped.
+Signal MD/add_107_17/CO undriven or does not drive anything - clipped.
+Signal MD/add_107_1/S0 undriven or does not drive anything - clipped.
+Signal MD/add_107_1/CI undriven or does not drive anything - clipped.
+Signal MD/add_19092_1/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_1/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_1/CI undriven or does not drive anything - clipped.
+Signal MD/add_19092_3/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_3/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_5/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_5/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_7/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_7/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_9/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_9/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_11/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_11/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_13/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_13/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_15/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_15/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_17/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_17/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_19/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_19/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_21/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_21/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_23/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_23/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_25/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_25/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_27/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_27/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_29/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_29/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_31/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19092_31/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_33/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19092_33/CO undriven or does not drive anything - clipped.
+Signal MD/add_19090_1/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_1/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_1/CI undriven or does not drive anything - clipped.
+Signal MD/add_19090_3/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_3/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_5/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_5/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_7/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_7/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_9/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_9/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_11/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_11/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_13/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_13/S0 undriven or does not drive anything - clipped.
+
+Signal MD/add_19090_15/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_15/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_17/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_17/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_19/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_19/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_21/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_21/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_23/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_23/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_25/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_25/S0 undriven or does not drive anything - clipped.
+Signal MD/add_19090_cout/S1 undriven or does not drive anything - clipped.
+Signal MD/add_19090_cout/CO undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_1/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_1/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_1/CI undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_3/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_3/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_5/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_5/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_7/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_7/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_9/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_9/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_11/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_11/S0 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_13/S1 undriven or does not drive anything - clipped.
+Signal MD/sub_1814_add_2_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_27/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_27/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_29/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_29/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_31/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_31/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_cout/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_cout/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19099_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19099_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19099_15/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19098_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_1/S0 undriven or does not drive anything - clipped.
+
+Signal MDM/add_19098_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19098_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_17/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_19/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_19/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_21/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_21/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_23/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19098_23/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19097_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19097_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19097_17/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19096_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19096_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_3488_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_3488_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19096_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_11/S1 undriven or does not drive anything - clipped.
+
+Signal MDM/add_19096_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_17/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_19/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_19/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_21/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_21/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_23/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_23/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_25/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19096_25/CO undriven or does not drive anything - clipped.
+Signal MDM/add_3488_9/CO undriven or does not drive anything - clipped.
+Signal MDM/state_1842_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/state_1842_add_4_1/CI undriven or does not drive anything - clipped.
+Signal MDM/state_1842_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/state_1842_add_4_9/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19094_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19094_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19094_17/CO undriven or does not drive anything - clipped.
+Signal MDM/xPre_7__I_0_2/S0 undriven or does not drive anything - clipped.
+Signal MDM/xPre_7__I_0_2/CI undriven or does not drive anything - clipped.
+Signal MDM/currSprite_1841_2125_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal MDM/currSprite_1841_2125_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal MDM/currSprite_1841_2125_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal MDM/currSprite_1841_2125_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal MDM/add_1061_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_1061_1/CI undriven or does not drive anything - clipped.
+Signal MDM/xPre_1838_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/xPre_1838_add_4_1/CI undriven or does not drive anything - clipped.
+Signal MDM/xPre_1838_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/xPre_1838_add_4_9/CO undriven or does not drive anything - clipped.
+Signal MDM/add_1061_19/S1 undriven or does not drive anything - clipped.
+
+Signal MDM/add_1061_19/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19091_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19091_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_13/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_17/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_19/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_19/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_21/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_21/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_23/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_23/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_25/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_25/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_27/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_27/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_29/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_29/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_31/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_31/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_cout/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19091_cout/CO undriven or does not drive anything - clipped.
+Signal MDM/xPre_7__I_0_8/CO undriven or does not drive anything - clipped.
+Signal MDM/add_3485_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_3485_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_3485_9/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19100_1/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_1/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_1/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19100_3/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_3/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_5/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_5/S0 undriven or does not drive anything - clipped.
+Signal MDM/yPre_7__I_0_2/S0 undriven or does not drive anything - clipped.
+Signal MDM/yPre_7__I_0_2/CI undriven or does not drive anything - clipped.
+Signal MDM/add_19100_7/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_7/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_9/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_9/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_11/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_11/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_13/S1 undriven or does not drive anything - clipped.
+
+Signal MDM/add_19100_13/S0 undriven or does not drive anything - clipped.
+Signal MDM/n5577_d72/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5577_d72/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5572_d22/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5572_d22/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5578_d82/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5578_d82/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5579_d92/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5579_d92/DO3 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_15/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_15/S0 undriven or does not drive anything - clipped.
+Signal MDM/yPre_7__I_0_8/CO undriven or does not drive anything - clipped.
+Signal MDM/add_19100_17/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_17/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_19/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_19/S0 undriven or does not drive anything - clipped.
+Signal MDM/n5576_d62/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5576_d62/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5575_d52/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5575_d52/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5573_d32/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5573_d32/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n5574_d42/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n5574_d42/DO3 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_21/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_21/S0 undriven or does not drive anything - clipped.
+Signal MDM/n55792/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n55792/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n55752/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n55752/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n55732/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n55732/DO3 undriven or does not drive anything - clipped.
+Signal MDM/n55772/DO2 undriven or does not drive anything - clipped.
+Signal MDM/n55772/DO3 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_23/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_23/S0 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_25/S1 undriven or does not drive anything - clipped.
+Signal MDM/add_19100_25/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_1/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_1/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_1/CI undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_3/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_3/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_5/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_5/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_7/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_7/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_9/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_9/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_11/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_11/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_13/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_13/S0 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_cout/S1 undriven or does not drive anything - clipped.
+Signal sub_1816_add_2_cout/CO undriven or does not drive anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_0/S1 undriven or does not drive
+
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_0/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_0/CI undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/add_19095_1/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_1/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_1/CI undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_3/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_3/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_13/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_13/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_15/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_15/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/add_19095_5/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_5/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_7/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_7/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_9/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_9/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_11/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_11/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_13/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_13/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_17/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_17/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_19_19090/S1 undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_19_19090/S0 undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_19/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/lastAddress_18__I_0_19/CO undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/add_19095_15/S1 undriven or does not drive anything -
+
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_15/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_17/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_17/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_19/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_19/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_21/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_21/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_23/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_23/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_25/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_25/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_27/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_27/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_29/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_29/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_31/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_31/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_33/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19095_33/CO undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_1/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_1/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_1/CI undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_3/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_3/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_5/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_5/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_7/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_7/S0 undriven or does not drive anything -
+
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_9/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_9/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_11/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_11/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_13/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_13/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_15/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_15/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_17/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_17/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_19/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_19/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_21/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_21/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_23/S1 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_23/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_25/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_19093_25/CO undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_2/S0 undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_2/CI undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_18/S1 undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite[16] undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_18/CO undriven or does not
+     drive anything - clipped.
+Signal PIC_BUS_INTERFACE/n23312 undriven or does not drive anything - clipped.
+Signal PIC_BUS_INTERFACE/add_318_1/S0 undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_318_1/CI undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/add_318_9/CO undriven or does not drive anything -
+     clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_mult_6_4/CO undriven or does not drive
+     anything - clipped.
+
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_mult_4_4/CO undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_mult_2_4/CO undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_mult_0_4/CO undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/rModDataWrite_16__N_1090[16] undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/t_mult_8u_9u_0_add_2_7/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_t_mult_8u_9u_0_2_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_add_1_6/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_1_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_7/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_7/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_6/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_6/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_4/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_2/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_2/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_t_mult_8u_8u_0_2_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_add_1_6/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_add_1_6/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_1_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_7/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_7/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_1/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_6_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_6_4/COUT undriven or does not drive
+     anything - clipped.
+
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_6/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_6/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_4_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_4_4/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_4/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_2_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_2_4/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_2/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_2/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_0_4/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_0_4/COUT undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_0/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_0/S0 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_0/S1 undriven or does not drive
+     anything - clipped.
+Signal PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_0/S0 undriven or does not drive
+     anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_1/S0
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_9/CO
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_7/S1
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_7/CO
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_1/S0 undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_1/CI undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_11/S1 undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_11/CO undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_1/S0 undriven or
+     does not drive anything - clipped.
+
+Signal master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_1/CI undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_11/S1 undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_11/CO undriven or
+     does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_11/S1
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_11/CO
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_11/S1
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_11/CO
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_17/
+     S1 undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_17/
+     CO undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_17/
+     S1 undriven or does not drive anything - clipped.
+
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_17/
+     CO undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_17/
+     S1 undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_17/
+     CO undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_17/
+     S1 undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_17/
+     CO undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3
+
+     LFbinarynonereg2532/mem_1_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_1/S0
+     undriven or does not drive anything - clipped.
+Signal
+     master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_1/CI
+     undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_17/
+     S1 undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_17/
+     CO undriven or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_0_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO2 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3
+     LFbinarynonereg2532/mem_1_0/DO3 undriven or does not drive anything -
+     clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/S1 undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/S0 undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/CI undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_7/S1 undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_7/S0 undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_8/S0 undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_8/CO undriven
+     or does not drive anything - clipped.
+Signal master_reveal_coretop_instance/jupdate[0] undriven or does not drive
+     anything - clipped.
+Block xo2chub/genblk7.jtagf_u_RNIO314 was optimized away.
+Block xo2chub/ip_enable_0_.CN was optimized away.
+Block i23547 was optimized away.
+Block RAM/BUS_DIRECTION_IN_I_0_1_lut was optimized away.
+Block PLL_Ent/i23548 was optimized away.
+Block i1_2_lut_adj_508 was optimized away.
+Block master_reveal_coretop_instance/i23549 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/jrstn_I_0_1_lut was
+     optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_8 was optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_7 was optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_6 was optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_4 was optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_3 was optimized away.
+Block master_reveal_coretop_instance/jtag0_lut_buf_2 was optimized away.
+Block master_reveal_coretop_instance/er2_tdo[0]_keep_buf_lut_buf_1 was optimized
+
+     away.
+Block i1_2_lut was optimized away.
+Block xo2chub/GND_0 was optimized away.
+Block RAM/i1 was optimized away.
+Block PLL_Ent/i1 was optimized away.
+Block MD/i1 was optimized away.
+Block MD/VRam/i1 was optimized away.
+Block MDM/i1 was optimized away.
+Block MDM/GRam/i1 was optimized away.
+Block PIC_BUS_INTERFACE/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/jtag_int_u/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/tm_u/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedas
+     yncdisablereg146101024146101024/scuba_vlo_inst was optimized away.
+Block master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedas
+     yncdisablereg146101024146101024/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/scuba_vhi_inst was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/tu_4/i1 was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_1/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_0/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_1/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_0/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_1/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_0/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_1/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_0/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_1/GATE was optimized away.
+Block master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3L
+     Fbinarynonereg2532/mux_0/GATE was optimized away.
+
+
+
+
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+/MD/VRam:
+    EBRs: 7
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR Outputbuffer_0_6_0:  TYPE= PDPW8KC,  Width= 12,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_1_5:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_0_6:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_2_4:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_3_3:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_4_2:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+    -Contains EBR Outputbuffer_0_5_1:  TYPE= PDPW8KC,  Width= 18,  Depth_R= 256,
+         Depth_W= 256,  REGMODE= OUTREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_1s,  MEM_LPC_FILE=
+         Outputbuffer.lpc
+/MDM:
+    EBRs: 2
+    RAM SLICEs: 17
+    Logic SLICEs: 202
+    PFU Registers: 114
+    -Contains EBR Sprite_options0:  TYPE= PDPW8KC,  Width= 1,  Depth_R= 64,
+         Depth_W= 64,  REGMODE= NOREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED
+    -Contains EBR Sprite_positions0:  TYPE= PDPW8KC,  Width= 8,  Depth_R= 64,
+         Depth_W= 64,  REGMODE= NOREG,  RESETMODE= SYNC,  ASYNC_RESET_RELEASE=
+         SYNC,  GSR= DISABLED
+/MDM/GRam:
+    EBRs: 2
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR GammaRam_0_1_0:  TYPE= DP8KC,  Width_A= 1,  Width_B= 1,
+         Depth_A= 256,  Depth_B= 256,  REGMODE_A= NOREG,  REGMODE_B= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_INIT_FILE= gammadefault.mem,
+         MEM_LPC_FILE= GammaRam.lpc
+    -Contains EBR GammaRam_0_0_1:  TYPE= DP8KC,  Width_A= 9,  Width_B= 9,
+
+         Depth_A= 256,  Depth_B= 256,  REGMODE_A= NOREG,  REGMODE_B= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_INIT_FILE= gammadefault.mem,
+         MEM_LPC_FILE= GammaRam.lpc
+/MDM/Sprite_options_d10:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d11:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d110:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d111:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d112:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d113:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d114:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d115:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d14:
+    EBRs: 0
+
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d15:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d16:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d17:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d18:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_options_d19:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers1:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers10:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers11:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers13:
+    EBRs: 0
+    RAM SLICEs: 3
+
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers15:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers2:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers4:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers7:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_pointers9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d00:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+
+    PFU Registers: 0
+/MDM/Sprite_positions_d01:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d010:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d011:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d012:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d013:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d014:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d015:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d02:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d03:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d04:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d05:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+
+/MDM/Sprite_positions_d06:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d07:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d08:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_positions_d09:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes1:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes10:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes11:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes15:
+
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes2:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes4:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes7:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/Sprite_sizes9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5572_d20:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5572_d21:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5572_d22:
+    EBRs: 0
+
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5572_d22/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55730:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55731:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55732:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55732/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5573_d30:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5573_d31:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5573_d32:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5573_d32/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5574_d40:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5574_d41:
+    EBRs: 0
+    RAM SLICEs: 3
+
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5574_d42:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5574_d42/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55750:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55751:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55752:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55752/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5575_d50:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5575_d51:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5575_d52:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5575_d52/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5576_d60:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+
+    PFU Registers: 0
+/MDM/n5576_d61:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5576_d62:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5576_d62/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55770:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55771:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55772:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55772/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5577_d70:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5577_d71:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5577_d72:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5577_d72/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+
+/MDM/n5578_d80:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5578_d81:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5578_d82:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5578_d82/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55790:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55791:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55792:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n55792/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5579_d90:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5579_d91:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5579_d92:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/MDM/n5579_d92/RAMW:
+
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/master_reveal_coretop_instance/core0:
+    EBRs: 0
+    RAM SLICEs: 8
+    Logic SLICEs: 155
+    PFU Registers: 300
+/master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedasyncdi
+     sablereg146101024146101024:
+    EBRs: 17
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_16_0:  TYPE=
+         DP8KC,  Width_B= 2,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_0_16:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_1_15:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_2_14:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_3_13:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_4_12:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_5_11:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_6_10:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_7_9:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_8_8:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_9_7:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_10_6:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_11_5:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_12_4:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_13_3:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_14_2:  TYPE=
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+    -Contains EBR pmi_ram_dpXbnonesadr146101024146101024123cc668_0_15_1:  TYPE=
+
+         DP8KC,  Width_B= 9,  Depth_A= 1024,  Depth_B= 1024,  REGMODE_A= OUTREG,
+         REGMODE_B= OUTREG,  RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,
+         WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE=
+         pmi_ram_dpXbnonesadr146101024146101024123cc668__PMIP__1024__146__146B
+/master_reveal_coretop_instance/core0/trig_u:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 44
+    PFU Registers: 74
+/master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbina
+     rynonereg2532:
+    EBRs: 0
+    RAM SLICEs: 4
+    Logic SLICEs: 0
+    PFU Registers: 4
+/master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbina
+     rynonereg2532:
+    EBRs: 0
+    RAM SLICEs: 4
+    Logic SLICEs: 0
+    PFU Registers: 4
+/master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbina
+     rynonereg2532:
+    EBRs: 0
+    RAM SLICEs: 4
+    Logic SLICEs: 0
+    PFU Registers: 4
+/master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbina
+     rynonereg2532:
+    EBRs: 0
+    RAM SLICEs: 4
+    Logic SLICEs: 0
+    PFU Registers: 3
+/master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbina
+     rynonereg2532:
+    EBRs: 0
+    RAM SLICEs: 4
+    Logic SLICEs: 0
+    PFU Registers: 3
+
+     
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                PLL_Ent/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             PIN      CLK_c
+  Output Clock(P):                         NODE     LOGIC_CLOCK
+  Output Clock(S):                         NODE     PIXEL_CLOCK
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     LOGIC_CLOCK
+  Reset Signal:                                     NONE
+
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                                  NONE
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      25.0000
+  Output Clock(P) Frequency (MHz):                  141.6667
+  Output Clock(S) Frequency (MHz):                  35.4167
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     3
+  CLKFB Divider:                                    17
+  CLKOP Divider:                                    4
+  CLKOS Divider:                                    16
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_16_0
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_0_16
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_1_15
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_2_14
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_3_13
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_4_12
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_5_11
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_6_10
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_7_9
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_8_8
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_9_7
+         Type: DP8KC
+
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_10_6
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_11_5
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_12_4
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_13_3
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_14_2
+         Type: DP8KC
+Instance Name: master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinaryno
+     nespeedasyncdisablereg146101024146101024/pmi_ram_dpXbnonesadr14610102414610
+     1024123cc668_0_15_1
+         Type: DP8KC
+Instance Name: MDM/Sprite_options0
+         Type: PDPW8KC
+Instance Name: MDM/Sprite_positions0
+         Type: PDPW8KC
+Instance Name: MDM/GRam/GammaRam_0_1_0
+         Type: DP8KC
+Instance Name: MDM/GRam/GammaRam_0_0_1
+         Type: DP8KC
+Instance Name: MD/VRam/Outputbuffer_0_6_0
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_1_5
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_0_6
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_2_4
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_3_3
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_4_2
+         Type: PDPW8KC
+Instance Name: MD/VRam/Outputbuffer_0_5_1
+         Type: PDPW8KC
+Instance Name: PLL_Ent/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: xo2chub/genblk7.jtagf_u
+         Type: JTAGF
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The local reset signal 'n27980' of the design has been inferred as Global Set
+
+        Reset (GSR). The reset signal used for GSR control is 'n27980'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 3 secs  
+   Total REAL Time: 4 secs  
+   Peak Memory Usage: 100 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

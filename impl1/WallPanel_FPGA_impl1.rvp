@@ -1,0 +1,47 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LCMXO3LF-9400C-6BG256C
+family = MachXO3LF
+device = LCMXO3LF-9400C
+speed = 6
+package = CABGA256
+operation = Commercial
+
+#design options
+[Design]
+title = WallPanel_FPGA
+path = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1
+core_generate = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1
+search_path = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA
+top = Master
+lpf = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/WallPanel_FPGA.lpf
+synthesis = lse
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PIC.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd = VHDL, work
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/master_la0_trig_gen.v=Verilog
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/master_la0_gen.v=Verilog
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/Master_rvl_top.vhd=VHDL,work

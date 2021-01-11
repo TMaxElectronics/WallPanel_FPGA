@@ -1,0 +1,375 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sat Jan 02 00:54:18 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     Master
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets LOGIC_CLOCK]
+            911 items scored, 605 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 1.960ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AY    CK             \MD/currPWMCount_i0  (from LOGIC_CLOCK +)
+   Destination:    FD1P3AY    SP             \MD/currPWMCount_i0  (to LOGIC_CLOCK +)
+
+   Delay:                   6.724ns  (42.6% logic, 57.4% route), 11 logic levels.
+
+ Constraint Details:
+
+      6.724ns data_path \MD/currPWMCount_i0 to \MD/currPWMCount_i0 violates
+      5.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 4.764ns) by 1.960ns
+
+ Path Details: \MD/currPWMCount_i0 to \MD/currPWMCount_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currPWMCount_i0 (from LOGIC_CLOCK)
+Route         3   e 0.919                                  \MD/currPWMCount[0]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              A to Z              \MD/i647_4_lut_4_lut
+Route        16   e 1.266                                  \MD/LOGIC_CLOCK_enable_16
+                  --------
+                    6.724  (42.6% logic, 57.4% route), 11 logic levels.
+
+
+Error:  The following path violates requirements by 1.960ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AY    CK             \MD/currPWMCount_i0  (from LOGIC_CLOCK +)
+   Destination:    FD1P3AY    SP             \MD/currPWMCount_i15  (to LOGIC_CLOCK +)
+
+   Delay:                   6.724ns  (42.6% logic, 57.4% route), 11 logic levels.
+
+ Constraint Details:
+
+      6.724ns data_path \MD/currPWMCount_i0 to \MD/currPWMCount_i15 violates
+      5.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 4.764ns) by 1.960ns
+
+ Path Details: \MD/currPWMCount_i0 to \MD/currPWMCount_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currPWMCount_i0 (from LOGIC_CLOCK)
+Route         3   e 0.919                                  \MD/currPWMCount[0]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              A to Z              \MD/i647_4_lut_4_lut
+Route        16   e 1.266                                  \MD/LOGIC_CLOCK_enable_16
+                  --------
+                    6.724  (42.6% logic, 57.4% route), 11 logic levels.
+
+
+Error:  The following path violates requirements by 1.960ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AY    CK             \MD/currPWMCount_i0  (from LOGIC_CLOCK +)
+   Destination:    FD1P3AY    SP             \MD/currPWMCount_i14  (to LOGIC_CLOCK +)
+
+   Delay:                   6.724ns  (42.6% logic, 57.4% route), 11 logic levels.
+
+ Constraint Details:
+
+      6.724ns data_path \MD/currPWMCount_i0 to \MD/currPWMCount_i14 violates
+      5.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 4.764ns) by 1.960ns
+
+ Path Details: \MD/currPWMCount_i0 to \MD/currPWMCount_i14
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currPWMCount_i0 (from LOGIC_CLOCK)
+Route         3   e 0.919                                  \MD/currPWMCount[0]
+A1_TO_FCO   ---     0.684           A[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              A to Z              \MD/i647_4_lut_4_lut
+Route        16   e 1.266                                  \MD/LOGIC_CLOCK_enable_16
+                  --------
+                    6.724  (42.6% logic, 57.4% route), 11 logic levels.
+
+Warning: 6.960 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets PIXEL_CLOCK]
+            1543 items scored, 1184 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 4.283ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \MD/currBit_82__i2  (from PIXEL_CLOCK +)
+   Destination:    FD1P3AX    D              \MD/currPixel_80__i7  (to PIXEL_CLOCK +)
+
+   Delay:                   9.150ns  (40.2% logic, 59.8% route), 13 logic levels.
+
+ Constraint Details:
+
+      9.150ns data_path \MD/currBit_82__i2 to \MD/currPixel_80__i7 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 4.283ns
+
+ Path Details: \MD/currBit_82__i2 to \MD/currPixel_80__i7
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currBit_82__i2 (from PIXEL_CLOCK)
+Route        22   e 1.319                                  \MD/currBit[2]
+LUT4        ---     0.408              B to Z              \MD/i107_2_lut_rep_32
+Route         4   e 0.937                                  \MD/n823
+A1_TO_FCO   ---     0.684           C[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              C to Z              \MD/i31_4_lut
+Route         3   e 0.879                                  \MD/n76
+LUT4        ---     0.408              C to Z              \MD/currPixel_80_mux_6_i8_3_lut_4_lut
+Route         1   e 0.660                                  \MD/n48
+                  --------
+                    9.150  (40.2% logic, 59.8% route), 13 logic levels.
+
+
+Error:  The following path violates requirements by 4.283ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \MD/currBit_82__i2  (from PIXEL_CLOCK +)
+   Destination:    FD1S3AX    D              \MD/currPixel_80__i1  (to PIXEL_CLOCK +)
+
+   Delay:                   9.150ns  (40.2% logic, 59.8% route), 13 logic levels.
+
+ Constraint Details:
+
+      9.150ns data_path \MD/currBit_82__i2 to \MD/currPixel_80__i1 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 4.283ns
+
+ Path Details: \MD/currBit_82__i2 to \MD/currPixel_80__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currBit_82__i2 (from PIXEL_CLOCK)
+Route        22   e 1.319                                  \MD/currBit[2]
+LUT4        ---     0.408              B to Z              \MD/i107_2_lut_rep_32
+Route         4   e 0.937                                  \MD/n823
+A1_TO_FCO   ---     0.684           C[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              C to Z              \MD/i31_4_lut
+Route         3   e 0.879                                  \MD/n76
+LUT4        ---     0.408              B to Z              \MD/n44_bdd_4_lut
+Route         1   e 0.660                                  \MD/n800
+                  --------
+                    9.150  (40.2% logic, 59.8% route), 13 logic levels.
+
+
+Error:  The following path violates requirements by 4.283ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \MD/currBit_82__i2  (from PIXEL_CLOCK +)
+   Destination:    FD1P3AX    D              \MD/currPixel_80__i0  (to PIXEL_CLOCK +)
+
+   Delay:                   9.150ns  (40.2% logic, 59.8% route), 13 logic levels.
+
+ Constraint Details:
+
+      9.150ns data_path \MD/currBit_82__i2 to \MD/currPixel_80__i0 violates
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 4.283ns
+
+ Path Details: \MD/currBit_82__i2 to \MD/currPixel_80__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \MD/currBit_82__i2 (from PIXEL_CLOCK)
+Route        22   e 1.319                                  \MD/currBit[2]
+LUT4        ---     0.408              B to Z              \MD/i107_2_lut_rep_32
+Route         4   e 0.937                                  \MD/n823
+A1_TO_FCO   ---     0.684           C[2] to COUT           \MD/sub_51_add_2_1
+Route         1   e 0.020                                  \MD/n670
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_3
+Route         1   e 0.020                                  \MD/n671
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_5
+Route         1   e 0.020                                  \MD/n672
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_7
+Route         1   e 0.020                                  \MD/n673
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_9
+Route         1   e 0.020                                  \MD/n674
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_11
+Route         1   e 0.020                                  \MD/n675
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_13
+Route         1   e 0.020                                  \MD/n676
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MD/sub_51_add_2_15
+Route         1   e 0.020                                  \MD/n677
+FCI_TO_F    ---     0.495            CIN to S[2]           \MD/sub_51_add_2_17
+Route        20   e 1.515                                  Matrix_CTRL_Out_c_2
+LUT4        ---     0.408              C to Z              \MD/i31_4_lut
+Route         3   e 0.879                                  \MD/n76
+LUT4        ---     0.408              C to Z              \MD/currPixel_80_mux_6_i1_3_lut_4_lut
+Route         1   e 0.660                                  \MD/n55
+                  --------
+                    9.150  (40.2% logic, 59.8% route), 13 logic levels.
+
+Warning: 9.283 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets LOGIC_CLOCK]             |     5.000 ns|     6.960 ns|    11 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets PIXEL_CLOCK]             |     5.000 ns|     9.283 ns|    13 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+Matrix_CTRL_Out_c_2                     |      20|    1146|     64.06%
+                                        |        |        |
+\MD/n677                                |       1|    1130|     63.16%
+                                        |        |        |
+\MD/n676                                |       1|     986|     55.11%
+                                        |        |        |
+\MD/n675                                |       1|     812|     45.39%
+                                        |        |        |
+\MD/n674                                |       1|     628|     35.10%
+                                        |        |        |
+\MD/PIXEL_CLOCK_enable_24               |       7|     483|     27.00%
+                                        |        |        |
+\MD/n673                                |       1|     474|     26.50%
+                                        |        |        |
+\MD/n819                                |       7|     404|     22.58%
+                                        |        |        |
+\MD/LOGIC_CLOCK_enable_16               |      16|     352|     19.68%
+                                        |        |        |
+\MD/n10_adj_128                         |       2|     344|     19.23%
+                                        |        |        |
+\MD/n672                                |       1|     330|     18.45%
+                                        |        |        |
+\MD/n76                                 |       3|     243|     13.58%
+                                        |        |        |
+\MD/n671                                |       1|     206|     11.51%
+                                        |        |        |
+\MD/currBit[2]                          |      22|     191|     10.68%
+                                        |        |        |
+\MD/n818                                |       8|     184|     10.29%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 1789  Score: 2804771
+
+Constraints cover  2594 paths, 155 nets, and 410 connections (84.7% coverage)
+
+
+Peak memory: 85868544 bytes, TRCE: 2551808 bytes, DLYMAN: 163840 bytes
+CPU_TIME_REPORT: 0 secs 

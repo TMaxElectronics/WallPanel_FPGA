@@ -1,0 +1,200 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Master.rvl" Date="2021-01-10">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/VHDL" Synthesis="lse" DeviceFamily="MachXO3LF" DesignName="WallPanel_FPGA"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="341121062" Name="Master_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="logic_clock" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="1024"/>
+            <Capture Mode="0" MinSamplesPerTrig="8"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_WallPanel_FPGA_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="mdm/curraddress">
+                    <Sig Type="SIG" Name="mdm/curraddress:0"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:1"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:2"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:3"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:4"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:5"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:6"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:7"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:8"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:9"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:10"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:11"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:12"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:13"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:14"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:15"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:16"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:17"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:18"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:19"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:20"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:21"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:22"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:23"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:24"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:25"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:26"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:27"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:28"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:29"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:30"/>
+                    <Sig Type="SIG" Name="mdm/curraddress:31"/>
+                </Bus>
+                <Bus Name="mdm/currreadrow">
+                    <Sig Type="SIG" Name="mdm/currreadrow:0"/>
+                    <Sig Type="SIG" Name="mdm/currreadrow:1"/>
+                    <Sig Type="SIG" Name="mdm/currreadrow:2"/>
+                    <Sig Type="SIG" Name="mdm/currreadrow:3"/>
+                    <Sig Type="SIG" Name="mdm/currreadrow:4"/>
+                </Bus>
+                <Bus Name="bus_currgrantid">
+                    <Sig Type="SIG" Name="bus_currgrantid:0"/>
+                    <Sig Type="SIG" Name="bus_currgrantid:1"/>
+                    <Sig Type="SIG" Name="bus_currgrantid:2"/>
+                    <Sig Type="SIG" Name="bus_currgrantid:3"/>
+                </Bus>
+                <Bus Name="bus_req">
+                    <Sig Type="SIG" Name="bus_req:0"/>
+                    <Sig Type="SIG" Name="bus_req:1"/>
+                    <Sig Type="SIG" Name="bus_req:2"/>
+                    <Sig Type="SIG" Name="bus_req:3"/>
+                </Bus>
+                <Sig Type="SIG" Name="bus_dir"/>
+                <Sig Type="SIG" Name="bus_done"/>
+                <Sig Type="SIG" Name="bus_done_override"/>
+                <Sig Type="SIG" Name="pic_bus_interface/pic_we_in"/>
+                <Sig Type="SIG" Name="pic_bus_interface/pic_oe_in"/>
+                <Sig Type="SIG" Name="pic_ready"/>
+                <Bus Name="pic_bus_interface/writedata">
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:7"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:8"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:9"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:10"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:11"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:12"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:13"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:14"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/writedata:15"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/pic_addr_in">
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:7"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:8"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:9"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:10"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:11"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:12"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:13"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:14"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:15"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:16"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:17"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_addr_in:18"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/pic_data_in">
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:7"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:8"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:9"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:10"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:11"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:12"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:13"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:14"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/pic_data_in:15"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/rmoddataread">
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddataread:7"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/rmoddatatrans">
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatatrans:7"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/rmoddatawrite">
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:7"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:8"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:9"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:10"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:11"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:12"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:13"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:14"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/rmoddatawrite:15"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/state">
+                    <Sig Type="SIG" Name="pic_bus_interface/state:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:3"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:4"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:5"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:6"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/state:7"/>
+                </Bus>
+                <Bus Name="pic_bus_interface/transfermode">
+                    <Sig Type="SIG" Name="pic_bus_interface/transfermode:0"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/transfermode:1"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/transfermode:2"/>
+                    <Sig Type="SIG" Name="pic_bus_interface/transfermode:3"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="mdm/bus_grant,"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="(BUS)mdm/currreadrow[4:0],"/>
+                <TU Serialbits="0" Type="0" ID="3" Sig="pic_oe,"/>
+                <TU Serialbits="0" Type="0" ID="4" Sig="pic_bus_interface/pic_ready,"/>
+                <TU Serialbits="0" Type="0" ID="5" Sig="(BUS)pic_bus_interface/rmoddatatrans[7:0],"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="1" Resource="0"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="2" Resource="0"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="3" Resource="0"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="4" Resource="0"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="5" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

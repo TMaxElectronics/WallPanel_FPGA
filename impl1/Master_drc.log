@@ -1,0 +1,33 @@
+Results of NGD DRC are available in Master_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_distributed_dpramxbnoner25328de3a5d.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr146101024146101024123cc668.ngo'...
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'C:/lscc/diamond/3.11_x64/ispfpga/xo3c00f/data/xo2chub.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'UART_RX' has no load.
+WARNING - synthesis: input pad net 'UART_RX' has no legal load.
+WARNING - synthesis: logical net 'PIC_CS' has no load.
+WARNING - synthesis: input pad net 'PIC_CS' has no legal load.
+WARNING - synthesis: logical net 'master_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'PIC_BUS_INTERFACE/rModDataWrite[16]' has no load.
+WARNING - synthesis: logical net 'xo2chub/tdoa' has no load.
+WARNING - synthesis: logical net 'xo2chub/cdn' has no load.
+WARNING - synthesis: logical net 'xo2chub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u_1' has no load.
+WARNING - synthesis: DRC complete with 11 warnings.
+
+Design Results:
+   4615 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file WallPanel_FPGA_impl1.ngd.

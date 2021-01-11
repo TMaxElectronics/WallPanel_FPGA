@@ -1,0 +1,893 @@
+synthesis:  version Diamond (64-bit) 3.11.0.396.4
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Jan 11 16:07:54 2021
+
+
+Command Line:  synthesis -f WallPanel_FPGA_impl1_lattice.synproj -gui -msgset D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml 
+
+Synthesis options:
+The -a option is MachXO3LF.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LCMXO3LF-9400C.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3LF
+
+### Device  : LCMXO3LF-9400C
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = Master.
+Target frequency = 145.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.11_x64/ispfpga/xo3c00f/data (searchpath added)
+-p D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1 (searchpath added)
+-p D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA (searchpath added)
+-p D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master (searchpath added)
+Key file = C:/lscc/diamond/3.11_x64/module/reveal/document/reveal_test.dat
+Mixed language design
+File C:/lscc/diamond/3.11_x64/module/reveal/src/ertl/ertl.v is encrypted
+
+File C:/lscc/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v is encrypted
+
+File C:/lscc/diamond/3.11_x64/module/reveal/src/ertl/JTAG_SOFT.v is encrypted
+
+Verilog design file = C:/lscc/diamond/3.11_x64/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = C:/lscc/diamond/3.11_x64/module/reveal/src/ertl/ertl.v
+Verilog design file = C:/lscc/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v
+Verilog design file = C:/lscc/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/wb2sci.v
+Verilog design file = C:/lscc/diamond/3.11_x64/module/reveal/src/ertl/JTAG_SOFT.v
+Verilog design file = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/master_la0_trig_gen.v
+Verilog design file = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/master_la0_gen.v
+VHDL library = work
+VHDL design file = D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/Master_rvl_top.vhd
+NGD file = WallPanel_FPGA_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/lscc/diamond/3.11_x64/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file c:/lscc/diamond/3.11_x64/module/reveal/src/rvl_j2w_module/wb2sci.v. VERI-1482
+Analyzing Verilog file d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_la0_trig_gen.v. VERI-1482
+Analyzing Verilog file d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_la0_gen.v. VERI-1482
+Analyzing Verilog file .__ydixd0.v. VERI-1482
+Analyzing Verilog file .__ydixd0.v. VERI-1482
+Analyzing VHDL file d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd. VHDL-1481
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4): analyzing entity reveal_coretop. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(18): analyzing architecture one. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(231): analyzing entity matrixdriver. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(258): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(445): analyzing entity matrixbushandler. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(466): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(825): analyzing entity sram. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(842): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(915): analyzing entity pic. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(937): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1037): analyzing entity master. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1069): analyzing entity matrixdriver_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1100): analyzing entity matrixbushandler_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1171): analyzing entity sram_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1192): analyzing entity pic_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1362): analyzing entity pll_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1369): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1633): analyzing entity outputbuffer. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1647): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1884): analyzing entity pll. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1891): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2033): analyzing entity gammaram. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2051): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2229): analyzing entity spriteram. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2243): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2954): analyzing entity outputbuffer_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2968): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3151): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3388): analyzing entity gammaram_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3408): analyzing entity spriteram_uniq_0. VHDL-1012
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3422): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3907): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4083): analyzing architecture structure. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4792): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4861): analyzing architecture behavioral. VHDL-1010
+INFO - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5173): analyzing architecture structure. VHDL-1010
+unit Master is not yet analyzed. VHDL-1485
+INFO - synthesis: The default VHDL library search path is now "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1". VHDL-1504
+Top module language type = VHDL.
+unit Master is not yet analyzed. VHDL-1485
+d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1037): executing Master(Behavioral)
+
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1587): bus_req should be on the sensitivity list of the process. VHDL-1251
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1605): incomplete sensitivity list specified, assuming completeness. VHDL-1613
+WARNING - synthesis: net n1170 does not have a driver. VDB-1002
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1063): replacing existing netlist Master(Behavioral). VHDL-1205
+Top module name (VHDL, mixed language): Master
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c9400.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.6.
+Top-level module name = Master.
+WARNING - synthesis: Initial value found on net BUS_VALID will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net BUS_RESET will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net PIC_dir will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net PIC_done will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net PIC_VALID will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net MATRIX_done will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net MATRIX_VALID will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net MDM_dir will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net MDM_done will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net MDM_VALID will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net SRAM_done will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net SRAM_VALID will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net BUS_DONE_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net BUS_dir_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net BUS_DONE_OVERRIDE_keep will be ignored due to unrecognized driver type
+Constant propagated thru Read Port :read_port_554.
+
+Constant propagated thru Read Port :read_port_580.
+
+Constant propagated thru Read Port :read_port_632.
+
+Constant propagated thru Read Port :read_port_658.
+
+Constant propagated thru Read Port :read_port_684.
+
+Constant propagated thru Read Port :read_port_736.
+
+Constant propagated thru Read Port :read_port_762.
+
+Constant propagated thru Read Port :read_port_788.
+
+Constant propagated thru Read Port :read_port_840.
+
+Constant propagated thru Read Port :read_port_866.
+
+Constant propagated thru Read Port :read_port_892.
+
+Constant propagated thru Read Port :read_port_918.
+
+Constant propagated thru Read Port :read_port_970.
+
+Constant propagated thru Read Port :read_port_996.
+
+Constant propagated thru Read Port :read_port_1022.
+
+Constant propagated thru Read Port :read_port_1074.
+
+Constant propagated thru Read Port :read_port_1100.
+
+Constant propagated thru Read Port :read_port_1126.
+
+Constant propagated thru Read Port :read_port_1204.
+
+Constant propagated thru Read Port :read_port_1230.
+
+Constant propagated thru Read Port :read_port_1256.
+
+Constant propagated thru Read Port :read_port_1308.
+
+Constant propagated thru Read Port :read_port_1334.
+
+Constant propagated thru Read Port :read_port_1360.
+
+Constant propagated thru Read Port :read_port_1412.
+
+Constant propagated thru Read Port :read_port_1438.
+
+Constant propagated thru Read Port :read_port_1464.
+
+Constant propagated thru Read Port :read_port_1490.
+
+Constant propagated thru Read Port :read_port_1542.
+
+Constant propagated thru Read Port :read_port_1568.
+
+Constant propagated thru Read Port :read_port_1594.
+
+Constant propagated thru Read Port :read_port_1646.
+
+Constant propagated thru Read Port :read_port_1672.
+
+Constant propagated thru Read Port :read_port_1698.
+
+Constant propagated thru Read Port :read_port_1750.
+
+Constant propagated thru Read Port :read_port_1776.
+
+WARNING - synthesis: Initial value found on net transferMode[3]_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net transferMode[2]_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net transferMode[1]_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net transferMode[0]_keep will be ignored due to unrecognized driver type
+WARNING - synthesis: net n1192 does not have a driver. VDB-1002
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2995): net PWMArray[0][15] does not have a driver. VDB-1002
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2996): net PWMMaxArray[10][15] does not have a driver. VDB-1002
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3003): net brightness[15] does not have a driver. VDB-1002
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3469): net yPre[7] does not have a driver. VDB-1002
+WARNING - synthesis: net n1192 does not have a driver. VDB-1002
+WARNING - synthesis: I/O Port UART_RX 's net has no driver and is unused.
+WARNING - synthesis: I/O Port UART_TX 's net has no driver and is unused.
+WARNING - synthesis: I/O Port PIC_CS 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[7] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[6] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[5] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[4] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[3] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[2] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[1] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port LED[0] 's net has no driver and is unused.
+WARNING - synthesis: net n1192 does not have a driver. VDB-1002
+######## Missing driver on net UART_TX. Patching with GND.
+######## Missing driver on net LED[7]. Patching with GND.
+######## Missing driver on net LED[6]. Patching with GND.
+######## Missing driver on net LED[5]. Patching with GND.
+######## Missing driver on net LED[4]. Patching with GND.
+######## Missing driver on net LED[3]. Patching with GND.
+######## Missing driver on net LED[2]. Patching with GND.
+######## Missing driver on net LED[1]. Patching with GND.
+######## Missing driver on net LED[0]. Patching with GND.
+######## Missing driver on net n1192. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[0][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[1][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[2][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[3][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[4][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[5][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[6][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[7][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[8][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[9][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[10][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[11][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[12][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[13][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[14][0]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][15]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][14]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][13]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][12]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][11]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][10]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][9]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][8]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][7]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][6]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][5]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][4]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][3]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][2]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][1]. Patching with GND.
+######## Missing driver on net \MD/PWMArray[15][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[10][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[11][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[12][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[13][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[14][0]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][15]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][14]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][13]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][12]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][11]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][10]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][9]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][8]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][7]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][6]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][5]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][4]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][3]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][2]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][1]. Patching with GND.
+######## Missing driver on net \MD/PWMMaxArray[15][0]. Patching with GND.
+######## Missing driver on net \MD/brightness[15]. Patching with GND.
+######## Missing driver on net \MD/brightness[14]. Patching with GND.
+######## Missing driver on net \MD/brightness[13]. Patching with GND.
+######## Missing driver on net \MD/brightness[12]. Patching with GND.
+######## Missing driver on net \MD/brightness[11]. Patching with GND.
+######## Missing driver on net \MD/brightness[10]. Patching with GND.
+######## Missing driver on net \MD/brightness[9]. Patching with GND.
+######## Missing driver on net \MD/brightness[8]. Patching with GND.
+######## Missing driver on net \MD/brightness[7]. Patching with GND.
+######## Missing driver on net \MD/brightness[6]. Patching with GND.
+######## Missing driver on net \MD/brightness[5]. Patching with GND.
+######## Missing driver on net \MD/brightness[4]. Patching with GND.
+######## Missing driver on net \MDM/yPre[7]. Patching with GND.
+######## Missing driver on net \MDM/yPre[6]. Patching with GND.
+######## Missing driver on net \MDM/yPre[5]. Patching with GND.
+
+
+
+WARNING - synthesis: Bit 0 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \MD/currPWMCountMax is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \MD/currPWMCountMax is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \MD/currPWMCountMax is stuck at Zero
+######## Duplicated RTL RAM \MDM/Sprite_positions to \MDM/Sprite_positions_d0 to map to Lattice RAM.
+######## Duplicated RTL RAM \MDM/Sprite_options to \MDM/Sprite_options_d1 to map to Lattice RAM.
+######## Duplicated RTL RAM n5572 to n5572_d2 to map to Lattice RAM.
+######## Duplicated RTL RAM n5573 to n5573_d3 to map to Lattice RAM.
+######## Duplicated RTL RAM n5574 to n5574_d4 to map to Lattice RAM.
+######## Duplicated RTL RAM n5575 to n5575_d5 to map to Lattice RAM.
+######## Duplicated RTL RAM n5576 to n5576_d6 to map to Lattice RAM.
+######## Duplicated RTL RAM n5577 to n5577_d7 to map to Lattice RAM.
+######## Duplicated RTL RAM n5578 to n5578_d8 to map to Lattice RAM.
+######## Duplicated RTL RAM n5579 to n5579_d9 to map to Lattice RAM.
+######## Found 18 RTL RAMs in the design.
+######## Mapping RTL RAM \MDM/Sprite_positions to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM \MDM/Sprite_sizes to 16 Distributed blocks in SINGLE_PORT Mode
+
+######## Mapping RTL RAM \MDM/Sprite_options to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM \MDM/Sprite_pointers to 16 Distributed blocks in SINGLE_PORT Mode
+
+######## Mapping RTL RAM \MDM/Sprite_positions_d0 to 16 Distributed blocks in SINGLE_PORT Mode
+
+######## Mapping RTL RAM \MDM/Sprite_options_d1 to 16 Distributed blocks in SINGLE_PORT Mode
+
+######## Mapping RTL RAM n5573 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5575 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5577 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5579 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5572_d2 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5573_d3 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5574_d4 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5575_d5 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5576_d6 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5577_d7 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5578_d8 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+######## Mapping RTL RAM n5579_d9 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
+
+Duplicate register/latch removal. \MDM/Sprite_positions_2227 is a one-to-one match with \MDM/Sprite_options_2309.
+Duplicate register/latch removal. \MDM/Sprite_positions_2224 is a one-to-one match with \MDM/Sprite_options_2306.
+Duplicate register/latch removal. \MDM/Sprite_options_2302 is a one-to-one match with \MDM/Sprite_positions_2220.
+Duplicate register/latch removal. \MDM/Sprite_options_2301 is a one-to-one match with \MDM/Sprite_positions_2219.
+Duplicate register/latch removal. \MDM/Sprite_positions_2226 is a one-to-one match with \MDM/Sprite_options_2308.
+Duplicate register/latch removal. \MDM/Sprite_positions_2223 is a one-to-one match with \MDM/Sprite_options_2305.
+Duplicate register/latch removal. \MDM/Sprite_options_2303 is a one-to-one match with \MDM/Sprite_positions_2221.
+Duplicate register/latch removal. \MDM/Sprite_options_2304 is a one-to-one match with \MDM/Sprite_positions_2222.
+Duplicate register/latch removal. \MDM/Sprite_options_2307 is a one-to-one match with \MDM/Sprite_positions_2225.
+Duplicate register/latch removal. \MDM/Sprite_options_2310 is a one-to-one match with \MDM/Sprite_positions_2228.
+Duplicate register/latch removal. \MDM/Sprite_options_2311 is a one-to-one match with \MDM/Sprite_positions_2229.
+Duplicate register/latch removal. \MDM/Sprite_options_2313 is a one-to-one match with \MDM/Sprite_positions_2231.
+Duplicate register/latch removal. \MDM/Sprite_options_2316 is a one-to-one match with \MDM/Sprite_positions_2234.
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_8u_9u.v. VERI-1482
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): input port a[7] is not connected on this instance. VDB-1013
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_8u_8u.v. VERI-1482
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): replacing existing cell VHI. VERI-1108
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): replacing existing cell AND2. VERI-1108
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): replacing existing cell FADD2B. VERI-1108
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): replacing existing cell MULT2. VERI-1108
+INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): replacing existing cell VLO. VERI-1108
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): input port a[7] is not connected on this instance. VDB-1013
+WARNING - synthesis: I/O Port UART_RX 's net has no driver and is unused.
+WARNING - synthesis: I/O Port PIC_CS 's net has no driver and is unused.
+WARNING - synthesis: d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3089): Register \MD/currPWMVal_i0_i15 is stuck at Zero. VDB-5013
+######## GSR will not be inferred because the gsr attribute is present in either the top or sub module or because an instantiated GSR is present.
+Duplicate register/latch removal. \MDM/BUS_transferState_i3 is a one-to-one match with \MDM/BUS_transferState_i2.
+Duplicate register/latch removal. \master_reveal_coretop_instance/core0/tm_u/rd_dout_tm_i0_i13 is a one-to-one match with \master_reveal_coretop_instance/core0/tm_u/rd_dout_tm_i0_i15.
+Applying 145.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Master_prim.v file will not be written because encrypted design file is being used
+
+WARNING - synthesis: Appending of file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v to file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v failed.
+WARNING - synthesis: Appending of file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v to file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v failed.
+WARNING - synthesis: Appending of file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v to file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v failed.
+WARNING - synthesis: Appending of file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v to file D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v failed.
+Results of NGD DRC are available in Master_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_distributed_dpramxbnoner25328de3a5d.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr146101024146101024123cc668.ngo'...
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'C:/lscc/diamond/3.11_x64/ispfpga/xo3c00f/data/xo2chub.ngl'...
+WARNING - synthesis: logical net 'UART_RX' has no load.
+WARNING - synthesis: input pad net 'UART_RX' has no legal load.
+WARNING - synthesis: logical net 'PIC_CS' has no load.
+WARNING - synthesis: input pad net 'PIC_CS' has no legal load.
+WARNING - synthesis: logical net 'master_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'PIC_BUS_INTERFACE/rModDataWrite[16]' has no load.
+WARNING - synthesis: logical net 'xo2chub/tdoa' has no load.
+WARNING - synthesis: logical net 'xo2chub/cdn' has no load.
+WARNING - synthesis: logical net 'xo2chub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u' has no load.
+WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u_1' has no load.
+WARNING - synthesis: DRC complete with 11 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file WallPanel_FPGA_impl1.ngd.
+
+################### Begin Area Report (Master)######################
+Number of register bits => 1437 of 10021 (14 % )
+AND2 => 8
+BB => 32
+CCU2D => 334
+DP8KC => 2
+DPR16X4C => 36
+EHXPLLJ => 1
+FADD2B => 52
+FD1P3AX => 159
+FD1P3AY => 4
+FD1P3BX => 56
+FD1P3DX => 726
+FD1P3IX => 24
+FD1S1A => 24
+FD1S1D => 32
+FD1S3AX => 82
+FD1S3BX => 37
+FD1S3DX => 293
+GSR => 1
+IB => 22
+INV => 3
+L6MUX21 => 65
+LUT4 => 2124
+MULT2 => 36
+OB => 50
+PDPW8KC => 9
+PFUMX => 161
+SPR16X4C => 64
+pmi_distributed_dpramXbnoner25328de3a5d => 5
+pmi_ram_dpXbnonesadr146101024146101024123cc668 => 1
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+jtagconn16 => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 43
+  Net : PLL_Ent/LOGIC_CLOCK, loads : 852
+  Net : MDM/reveal_ist_125_derived_5, loads : 33
+  Net : PIC_BUS_INTERFACE/PIC_OE_c_derived_19, loads : 31
+  Net : PLL_Ent/PIXEL_CLOCK, loads : 29
+  Net : MDM/offsetLatchClockOrd, loads : 16
+  Net : PLL_Ent/PIXEL_CLOCK_N_298, loads : 34
+  Net : MDM/VRAM_WC, loads : 8
+  Net : LOGIC_CLOCK_N_112, loads : 39
+  Net : lastAddress_31__N_812, loads : 2
+  Net : lastAddress_31__N_816, loads : 2
+  Net : lastAddress_31__N_817, loads : 2
+  Net : MDM/GR_WR_CLK, loads : 2
+  Net : lastAddress_31__N_818, loads : 2
+  Net : lastAddress_31__N_803, loads : 2
+  Net : lastAddress_31__N_819, loads : 2
+  Net : lastAddress_31__N_805, loads : 2
+  Net : lastAddress_31__N_820, loads : 2
+  Net : lastAddress_31__N_807, loads : 2
+  Net : lastAddress_31__N_821, loads : 2
+  Net : lastAddress_31__N_809, loads : 2
+  Net : lastAddress_31__N_822, loads : 2
+  Net : lastAddress_31__N_811, loads : 2
+  Net : lastAddress_31__N_823, loads : 2
+  Net : lastAddress_31__N_813, loads : 2
+  Net : lastAddress_31__N_824, loads : 2
+  Net : lastAddress_31__N_815, loads : 2
+  Net : lastAddress_31__N_825, loads : 2
+  Net : lastAddress_31__N_802, loads : 2
+  Net : lastAddress_31__N_826, loads : 2
+  Net : lastAddress_31__N_806, loads : 2
+  Net : lastAddress_31__N_827, loads : 2
+  Net : lastAddress_31__N_810, loads : 2
+  Net : lastAddress_31__N_828, loads : 2
+  Net : lastAddress_31__N_814, loads : 2
+  Net : lastAddress_31__N_829, loads : 2
+  Net : lastAddress_31__N_804, loads : 2
+  Net : lastAddress_31__N_830, loads : 2
+  Net : lastAddress_31__N_808, loads : 2
+  Net : lastAddress_31__N_831, loads : 2
+  Net : lastAddress_31__N_833, loads : 2
+  Net : lastAddress_31__N_832, loads : 2
+  Net : CLK_c, loads : 1
+  Net : master_reveal_coretop_instance/jtck[0], loads : 1
+Clock Enable Nets
+Number of Clock Enables: 136
+Top 10 highest fanout Clock Enables:
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176, loads : 50
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373, loads : 50
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_225, loads : 49
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65, loads : 35
+  Net : MDM/LOGIC_CLOCK_N_112_enable_36, loads : 32
+  Net : PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_60, loads : 27
+  Net : MD/PIXEL_CLOCK_N_298_enable_26, loads : 26
+  Net : MDM/LOGIC_CLOCK_keep_enable_112, loads : 21
+  Net : master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_165, loads : 20
+  Net : RAM/LOGIC_CLOCK_keep_enable_42, loads : 18
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : master_reveal_coretop_instance/jtck_N_1284, loads : 541
+  Net : master_reveal_coretop_instance/core0/trig_u/te_4/jrstn_N_1282, loads : 536
+  Net : master_reveal_coretop_instance/core0/trig_u/tcnt_0/n28151, loads : 420
+  Net : n28121, loads : 335
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/n28138, loads : 188
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/n28133, loads : 163
+  Net : n28205, loads : 162
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/n17, loads : 154
+  Net : n28187, loads : 146
+  Net : n28073, loads : 140
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk9 [get_nets                          |             |             |
+\MDM/reveal_ist_125_derived_5]          |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk8 [get_nets PIXEL_CLOCK_N_298]       |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk7 [get_nets VRAM_WC]                 |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk6 [get_nets LOGIC_CLOCK_N_112]       |  145.011 MHz|   49.940 MHz|    11 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk5 [get_nets \MDM/GR_WR_CLK]          |  145.011 MHz|  112.982 MHz|     5 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk4 [get_nets \MDM/offsetLatchClockOrd]|            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk3 [get_nets PIXEL_CLOCK]             |  145.011 MHz|  142.207 MHz|     5 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk2 [get_nets                          |             |             |
+\PIC_BUS_INTERFACE/PIC_OE_c_derived_19] |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk1 [get_nets                          |             |             |
+\master_reveal_coretop_instance/jtck[0]]|  145.011 MHz|   74.444 MHz|    14 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk0 [get_nets LOGIC_CLOCK]             |  145.011 MHz|   53.839 MHz|    16 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+5 constraints not met.
+
+
+Peak Memory Usage: 147.328  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 10.547  secs
+--------------------------------------------------------------

@@ -1,0 +1,855 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file wallpanel_fpga_impl1_map.ncd.
+Design name: Master
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-9400C
+Package:     CABGA256
+Performance: 6
+Loading device for application trce from file 'xo3c9400.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.6.
+Performance Hardware Data Status:   Final          Version 37.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Mon Jan 11 16:08:13 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -e 1 -gt -mapchkpnt 0 -sethld -o WallPanel_FPGA_impl1.tw1 -gui -msgset D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.prf 
+Design file:     wallpanel_fpga_impl1_map.ncd
+Preference file: wallpanel_fpga_impl1.prf
+Device,speed:    LCMXO3LF-9400C,6
+Report level:    error report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_0' Target='right'><FONT COLOR=red>FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz (4096 errors)</FONT></A></LI>
+</FONT>            4096 items scored, 4096 timing errors detected.
+Warning:  26.084MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "CLK_c" 25.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_2' Target='right'><FONT COLOR=red>FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz (20 errors)</FONT></A></LI>
+</FONT>            1205 items scored, 20 timing errors detected.
+Warning:  28.322MHz is the maximum frequency for this preference.
+
+20 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;
+            4096 items scored, 4096 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 15.640ns (weighted slack = -31.280ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         Sync_RAM   Q              MDM/BUS_ADDR_INTERNAL_i0_i16  (from LOGIC_CLOCK -)
+   Destination:    FF         Data in        MDM/Sprite_pointers0/RAM0  (to LOGIC_CLOCK +)
+                   FF                        MDM/Sprite_pointers0/RAM0
+
+   Delay:              18.972ns  (32.0% logic, 68.0% route), 15 logic levels.
+
+ Constraint Details:
+
+     18.972ns physical path delay MDM/SLICE_534 to MDM/Sprite_pointers0/SLICE_682 exceeds
+      3.530ns delay constraint less
+      0.198ns WRE_SET requirement (totaling 3.332ns) by 15.640ns
+
+ Physical Path Details:
+
+      Data path MDM/SLICE_534 to MDM/Sprite_pointers0/SLICE_682:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.367 *SLICE_534.CLK to */SLICE_534.Q0 MDM/SLICE_534 (from LOGIC_CLOCK)
+ROUTE         2   e 0.896 */SLICE_534.Q0 to  SLICE_2167.B0 BUS_ADDR_INTERNAL[16]
+CTOF_DEL    ---     0.408  SLICE_2167.B0 to  SLICE_2167.F0 SLICE_2167
+ROUTE        10   e 0.896  SLICE_2167.F0 to  SLICE_1019.C0 n28092
+CTOF_DEL    ---     0.408  SLICE_1019.C0 to  SLICE_1019.F0 SLICE_1019
+ROUTE         7   e 0.896  SLICE_1019.F0 to  SLICE_1988.B0 BUS_addr[16]
+CTOF_DEL    ---     0.408  SLICE_1988.B0 to  SLICE_1988.F0 SLICE_1988
+ROUTE         1   e 0.896  SLICE_1988.F0 to  SLICE_1982.B0 n14
+CTOF_DEL    ---     0.408  SLICE_1982.B0 to  SLICE_1982.F0 SLICE_1982
+ROUTE         1   e 0.896  SLICE_1982.F0 to  SLICE_1944.C0 n16
+CTOF_DEL    ---     0.408  SLICE_1944.C0 to  SLICE_1944.F0 SLICE_1944
+ROUTE         3   e 0.896  SLICE_1944.F0 to  SLICE_1957.C0 n9516
+CTOF_DEL    ---     0.408  SLICE_1957.C0 to  SLICE_1957.F0 SLICE_1957
+ROUTE         4   e 0.896  SLICE_1957.F0 to  SLICE_1951.D0 n27986
+CTOF_DEL    ---     0.408  SLICE_1951.D0 to  SLICE_1951.F0 SLICE_1951
+ROUTE         3   e 0.896  SLICE_1951.F0 to  SLICE_1930.D1 n25423
+CTOF_DEL    ---     0.408  SLICE_1930.D1 to  SLICE_1930.F1 SLICE_1930
+ROUTE         3   e 0.896  SLICE_1930.F1 to  SLICE_1929.D0 n27983
+CTOF_DEL    ---     0.408  SLICE_1929.D0 to  SLICE_1929.F0 SLICE_1929
+ROUTE         2   e 0.896  SLICE_1929.F0 to *SLICE_2035.B0 n27977
+CTOF_DEL    ---     0.408 *SLICE_2035.B0 to *SLICE_2035.F0 MDM/SLICE_2035
+ROUTE         2   e 0.896 *SLICE_2035.F0 to  SLICE_1980.C1 MDM/n9271
+CTOF_DEL    ---     0.408  SLICE_1980.C1 to  SLICE_1980.F1 SLICE_1980
+ROUTE        10   e 0.896  SLICE_1980.F1 to  SLICE_1793.C0 n27964
+CTOF_DEL    ---     0.408  SLICE_1793.C0 to  SLICE_1793.F0 SLICE_1793
+ROUTE         5   e 0.349  SLICE_1793.F0 to  SLICE_1793.C1 n29291
+CTOF_DEL    ---     0.408  SLICE_1793.C1 to  SLICE_1793.F1 SLICE_1793
+ROUTE         4   e 0.896  SLICE_1793.F1 to  SLICE_2068.C0 n11231
+CTOF_DEL    ---     0.408  SLICE_2068.C0 to  SLICE_2068.F0 SLICE_2068
+ROUTE         8   e 0.896  SLICE_2068.F0 to *SLICE_682.WRE n5925 (to LOGIC_CLOCK)
+                  --------
+                   18.972   (32.0% logic, 68.0% route), 15 logic levels.
+
+Warning:  26.084MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_1"></A>Preference: FREQUENCY NET "CLK_c" 25.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_0_2"></A>Preference: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;
+            1205 items scored, 20 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 0.884ns (weighted slack = -7.072ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              MD/brightness[1]_161  (from LOGIC_CLOCK -)
+   Destination:    FF         Data in        MD/currPWMVal_i0_i6  (to PIXEL_CLOCK -)
+
+   Delay:               4.280ns  (37.2% logic, 62.8% route), 4 logic levels.
+
+ Constraint Details:
+
+      4.280ns physical path delay MD/SLICE_2043 to MD/SLICE_833 exceeds
+      3.529ns delay constraint less
+      0.133ns DIN_SET requirement (totaling 3.396ns) by 0.884ns
+
+ Physical Path Details:
+
+      Data path MD/SLICE_2043 to MD/SLICE_833:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.367 *LICE_2043.CLK to *SLICE_2043.Q1 MD/SLICE_2043 (from LOGIC_CLOCK)
+ROUTE         5   e 0.896 *SLICE_2043.Q1 to *SLICE_2040.A1 PWMArray[0][10]
+CTOF_DEL    ---     0.408 *SLICE_2040.A1 to *SLICE_2040.F1 MD/SLICE_2040
+ROUTE         4   e 0.896 *SLICE_2040.F1 to *SLICE_1032.B1 MD/n8
+CTOF_DEL    ---     0.408 *SLICE_1032.B1 to *SLICE_1032.F1 MD/SLICE_1032
+ROUTE         1   e 0.896 *SLICE_1032.F1 to */SLICE_833.B0 MD/n6_adj_3108
+CTOF_DEL    ---     0.408 */SLICE_833.B0 to */SLICE_833.F0 MD/SLICE_833
+ROUTE         1   e 0.001 */SLICE_833.F0 to *SLICE_833.DI0 MD/currPWMVal_15__N_209[6] (to PIXEL_CLOCK)
+                  --------
+                    4.280   (37.2% logic, 62.8% route), 4 logic levels.
+
+Warning:  28.322MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "LOGIC_CLOCK" 141.666667  |             |             |
+MHz ;                                   |  141.667 MHz|   26.084 MHz|  15 *
+                                        |             |             |
+FREQUENCY NET "CLK_c" 25.000000 MHz ;   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "PIXEL_CLOCK" 35.416667   |             |             |
+MHz ;                                   |   35.417 MHz|   28.322 MHz|   4 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+2 preferences(marked by "*" above) not met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 41 clocks:
+
+Clock Domain: reveal_ist_125_derived_5   Source: MDM/SLICE_2005.F0   Loads: 23
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_833   Source: SLICE_2073.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_832   Source: SLICE_2069.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_831   Source: SLICE_871.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_830   Source: SLICE_2085.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_829   Source: SLICE_864.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_828   Source: SLICE_2084.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_827   Source: SLICE_2083.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_826   Source: SLICE_2082.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_825   Source: SLICE_2081.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_824   Source: SLICE_2080.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_823   Source: SLICE_2079.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_822   Source: SLICE_2078.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_821   Source: SLICE_2074.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_820   Source: SLICE_1974.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_819   Source: SLICE_2077.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_818   Source: SLICE_2076.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_817   Source: SLICE_2075.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_816   Source: SLICE_2070.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_815   Source: SLICE_2072.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_814   Source: SLICE_2119.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_813   Source: SLICE_1798.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_812   Source: SLICE_1805.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_811   Source: SLICE_2116.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_810   Source: SLICE_2117.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_809   Source: SLICE_2071.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_808   Source: SLICE_1804.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_807   Source: SLICE_1797.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_806   Source: SLICE_2115.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_805   Source: SLICE_2116.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_804   Source: SLICE_1802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_803   Source: SLICE_1803.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_802   Source: SLICE_2118.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK   Loads: 348
+   No transfer within this clock domain is found
+
+Clock Domain: VRAM_WC   Source: MDM/SLICE_1026.Q0   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: PIXEL_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOS   Loads: 45
+   Covered under: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;   Transfers: 20
+
+Clock Domain: PIC_OE_c_derived_19   Source: SLICE_1928.F0   Loads: 22
+   No transfer within this clock domain is found
+
+Clock Domain: MDM/offsetLatchClockOrd   Source: MDM/SLICE_2037.F0   Loads: 8
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 16
+
+Clock Domain: MDM/GR_WR_CLK   Source: MDM/SLICE_845.Q0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP   Loads: 709
+   Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;
+
+   Data transfers from:
+   Clock Domain: reveal_ist_125_derived_5   Source: MDM/SLICE_2005.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 4
+
+   Clock Domain: lastAddress_31__N_833   Source: SLICE_2073.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_832   Source: SLICE_2069.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_831   Source: SLICE_871.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_830   Source: SLICE_2085.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_829   Source: SLICE_864.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_828   Source: SLICE_2084.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_827   Source: SLICE_2083.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_826   Source: SLICE_2082.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_825   Source: SLICE_2081.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_824   Source: SLICE_2080.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_823   Source: SLICE_2079.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_822   Source: SLICE_2078.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_821   Source: SLICE_2074.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_820   Source: SLICE_1974.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_819   Source: SLICE_2077.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_818   Source: SLICE_2076.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_817   Source: SLICE_2075.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_816   Source: SLICE_2070.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_815   Source: SLICE_2072.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_814   Source: SLICE_2119.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_813   Source: SLICE_1798.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_812   Source: SLICE_1805.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_811   Source: SLICE_2116.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_810   Source: SLICE_2117.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_809   Source: SLICE_2071.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_808   Source: SLICE_1804.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_807   Source: SLICE_1797.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_806   Source: SLICE_2115.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_805   Source: SLICE_2116.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_804   Source: SLICE_1802.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_803   Source: SLICE_1803.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_802   Source: SLICE_2118.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: PIXEL_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 24
+
+   Clock Domain: PIC_OE_c_derived_19   Source: SLICE_1928.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: MDM/offsetLatchClockOrd   Source: MDM/SLICE_2037.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 32
+
+   Clock Domain: MDM/GR_WR_CLK   Source: MDM/SLICE_845.Q0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 14
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 4116  Score: 108409502
+Cumulative negative slack: 54226507
+
+Constraints cover 2765860 paths, 5 nets, and 16655 connections (90.09% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4</big></U></B>
+Mon Jan 11 16:08:13 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -e 1 -gt -mapchkpnt 0 -sethld -o WallPanel_FPGA_impl1.tw1 -gui -msgset D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.prf 
+Design file:     wallpanel_fpga_impl1_map.ncd
+Preference file: wallpanel_fpga_impl1.prf
+Device,speed:    LCMXO3LF-9400C,M
+Report level:    error report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "CLK_c" 25.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_2' Target='right'>FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz (0 errors)</A></LI>            1205 items scored, 0 timing errors detected.
+
+20 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_1"></A>Preference: FREQUENCY NET "CLK_c" 25.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_2"></A>Preference: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;
+            1205 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "LOGIC_CLOCK" 141.666667  |             |             |
+MHz ;                                   |     0.000 ns|     0.290 ns|   0  
+                                        |             |             |
+FREQUENCY NET "CLK_c" 25.000000 MHz ;   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "PIXEL_CLOCK" 35.416667   |             |             |
+MHz ;                                   |     0.000 ns|     0.447 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 41 clocks:
+
+Clock Domain: reveal_ist_125_derived_5   Source: MDM/SLICE_2005.F0   Loads: 23
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_833   Source: SLICE_2073.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_832   Source: SLICE_2069.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_831   Source: SLICE_871.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_830   Source: SLICE_2085.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_829   Source: SLICE_864.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_828   Source: SLICE_2084.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_827   Source: SLICE_2083.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_826   Source: SLICE_2082.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_825   Source: SLICE_2081.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_824   Source: SLICE_2080.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_823   Source: SLICE_2079.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_822   Source: SLICE_2078.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_821   Source: SLICE_2074.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_820   Source: SLICE_1974.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_819   Source: SLICE_2077.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_818   Source: SLICE_2076.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_817   Source: SLICE_2075.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_816   Source: SLICE_2070.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_815   Source: SLICE_2072.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_814   Source: SLICE_2119.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_813   Source: SLICE_1798.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_812   Source: SLICE_1805.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_811   Source: SLICE_2116.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_810   Source: SLICE_2117.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_809   Source: SLICE_2071.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_808   Source: SLICE_1804.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_807   Source: SLICE_1797.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_806   Source: SLICE_2115.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_805   Source: SLICE_2116.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_804   Source: SLICE_1802.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_803   Source: SLICE_1803.F0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: lastAddress_31__N_802   Source: SLICE_2118.F1   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK   Loads: 348
+   No transfer within this clock domain is found
+
+Clock Domain: VRAM_WC   Source: MDM/SLICE_1026.Q0   Loads: 8
+   No transfer within this clock domain is found
+
+Clock Domain: PIXEL_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOS   Loads: 45
+   Covered under: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;   Transfers: 20
+
+Clock Domain: PIC_OE_c_derived_19   Source: SLICE_1928.F0   Loads: 22
+   No transfer within this clock domain is found
+
+Clock Domain: MDM/offsetLatchClockOrd   Source: MDM/SLICE_2037.F0   Loads: 8
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 16
+
+Clock Domain: MDM/GR_WR_CLK   Source: MDM/SLICE_845.Q0   Loads: 2
+   No transfer within this clock domain is found
+
+Clock Domain: LOGIC_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOP   Loads: 709
+   Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;
+
+   Data transfers from:
+   Clock Domain: reveal_ist_125_derived_5   Source: MDM/SLICE_2005.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 4
+
+   Clock Domain: lastAddress_31__N_833   Source: SLICE_2073.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_832   Source: SLICE_2069.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_831   Source: SLICE_871.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_830   Source: SLICE_2085.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_829   Source: SLICE_864.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_828   Source: SLICE_2084.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_827   Source: SLICE_2083.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_826   Source: SLICE_2082.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_825   Source: SLICE_2081.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_824   Source: SLICE_2080.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_823   Source: SLICE_2079.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_822   Source: SLICE_2078.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_821   Source: SLICE_2074.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_820   Source: SLICE_1974.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_819   Source: SLICE_2077.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_818   Source: SLICE_2076.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_817   Source: SLICE_2075.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_816   Source: SLICE_2070.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_815   Source: SLICE_2072.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_814   Source: SLICE_2119.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_813   Source: SLICE_1798.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_812   Source: SLICE_1805.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_811   Source: SLICE_2116.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_810   Source: SLICE_2117.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_809   Source: SLICE_2071.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_808   Source: SLICE_1804.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_807   Source: SLICE_1797.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_806   Source: SLICE_2115.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_805   Source: SLICE_2116.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_804   Source: SLICE_1802.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_803   Source: SLICE_1803.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: lastAddress_31__N_802   Source: SLICE_2118.F1
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 1
+
+   Clock Domain: jtaghub16_jtck   Source: xo2chub/genblk7.jtagf_u.JTCK
+
+   Clock Domain: PIXEL_CLOCK   Source: PLL_Ent/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 24
+
+   Clock Domain: PIC_OE_c_derived_19   Source: SLICE_1928.F0
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: MDM/offsetLatchClockOrd   Source: MDM/SLICE_2037.F0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 32
+
+   Clock Domain: MDM/GR_WR_CLK   Source: MDM/SLICE_845.Q0
+      Covered under: FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;   Transfers: 14
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 2765860 paths, 5 nets, and 17167 connections (92.86% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 4116 (setup), 0 (hold)
+Score: 108409502 (setup), 0 (hold)
+Cumulative negative slack: 54226507 (54226507+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

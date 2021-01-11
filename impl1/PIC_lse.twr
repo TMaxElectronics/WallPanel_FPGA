@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Jan 04 18:13:50 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     PIC
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets LOGIC_CLOCK_c]
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 2.594ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             BUS_DIRECTION_INTERNAL_101  (from LOGIC_CLOCK_c +)
+   Destination:    FD1S3AX    D              BUS_DIRECTION_INTERNAL_101  (to LOGIC_CLOCK_c -)
+
+   Delay:                   2.273ns  (34.1% logic, 65.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.273ns data_path BUS_DIRECTION_INTERNAL_101 to BUS_DIRECTION_INTERNAL_101 meets
+      5.000ns delay constraint less
+      0.133ns L_S requirement (totaling 4.867ns) by 2.594ns
+
+ Path Details: BUS_DIRECTION_INTERNAL_101 to BUS_DIRECTION_INTERNAL_101
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              BUS_DIRECTION_INTERNAL_101 (from LOGIC_CLOCK_c)
+Route         2   e 0.838                                  BUS_DIRECTION_INTERNAL
+LUT4        ---     0.408              C to Z              i1_3_lut
+Route         1   e 0.660                                  n257
+                  --------
+                    2.273  (34.1% logic, 65.9% route), 2 logic levels.
+
+Report: 2.406 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets LOGIC_CLOCK_c]           |     5.000 ns|     2.406 ns|     2  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  1 paths, 3 nets, and 5 connections (3.0% coverage)
+
+
+Peak memory: 83603456 bytes, TRCE: 843776 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

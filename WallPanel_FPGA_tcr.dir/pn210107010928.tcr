@@ -1,0 +1,4 @@
+#Start recording tcl command: 1/7/2021 01:08:23
+#Project Location: F:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA; Project name: WallPanel_FPGA
+prj_project open "F:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/WallPanel_FPGA.ldf"
+#Stop recording: 1/7/2021 01:09:28

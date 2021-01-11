@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="GammaRam" module="GammaRam" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 01 07 19:49:05.004" version="7.5" type="Module" synthesis="lse" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2021 01 07 19:49:04.833"/>
+		<File name="GammaRam.lpc" type="lpc" modified="2021 01 07 19:49:02.466"/>
+		<File name="GammaRam.vhd" type="top_level_vhdl" modified="2021 01 07 19:49:02.552"/>
+		<File name="GammaRam_tmpl.vhd" type="template_vhdl" modified="2021 01 07 19:49:02.571"/>
+		<File name="d:/onedrive/lattice diamond projects/wallpanel_fpga/gammadefault.mem" type="mem" modified="2021 01 06 00:54:21.577"/>
+		<File name="tb_GammaRam_tmpl.vhd" type="testbench_vhdl" modified="2021 01 07 19:49:02.585"/>
+  </Package>
+</DiamondModule>

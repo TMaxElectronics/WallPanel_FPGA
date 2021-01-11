@@ -1,0 +1,245 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>Mi 6. Jan 01:28:16 2021</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LCMXO3LF-9400C</DeviceName>
+  <DeviceID>0x612BE043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>master.rvl</RVLFileName>
+  <RVSFileName>master.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="mdm/frameendclock" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress" NodeType="1" PortIndex="1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:0" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:1" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:2" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:3" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:4" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:5" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:6" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:7" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:8" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:9" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:10" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:11" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:12" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:13" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:14" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:15" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:16" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:17" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:18" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:19" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:20" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:21" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:22" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:23" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:24" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:25" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:26" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:27" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:28" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:29" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:30" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="mdm/curraddress:31" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="mdm/currcolor" NodeType="1" PortIndex="33">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="mdm/currcolor:0" NodeType="2" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="mdm/currcolor:1" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="mdm/currcolor:2" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="mdm/currcolor:3" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow" NodeType="1" PortIndex="37">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow:0" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow:1" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow:2" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow:3" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="mdm/currreadrow:4" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="mdm/currrowoffset" NodeType="1" PortIndex="42">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="mdm/currrowoffset:0" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="mdm/currrowoffset:1" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="bus_currgrantid" NodeType="1" PortIndex="44">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="bus_currgrantid:0" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="bus_currgrantid:1" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="bus_currgrantid:2" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="bus_currgrantid:3" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="bus_req" NodeType="1" PortIndex="48">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="true"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="bus_req:0" NodeType="2" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="bus_req:1" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="bus_req:2" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="bus_req:3" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="bus_dir" NodeType="0" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="bus_done" NodeType="0" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="bus_done_override" NodeType="0" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_we_in" NodeType="0" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_oe_in" NodeType="0" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata" NodeType="1" PortIndex="57">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:0" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:1" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:2" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:3" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:4" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:5" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:6" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:7" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:8" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:9" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:10" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:11" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:12" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:13" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:14" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/writedata:15" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in" NodeType="1" PortIndex="73">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:0" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:1" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:2" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:3" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:4" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:5" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:6" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:7" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:8" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:9" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:10" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:11" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:12" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:13" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:14" NodeType="2" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:15" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:16" NodeType="2" PortIndex="89"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:17" NodeType="2" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_addr_in:18" NodeType="2" PortIndex="91"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in" NodeType="1" PortIndex="92">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:0" NodeType="2" PortIndex="92"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:1" NodeType="2" PortIndex="93"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:2" NodeType="2" PortIndex="94"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:3" NodeType="2" PortIndex="95"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:4" NodeType="2" PortIndex="96"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:5" NodeType="2" PortIndex="97"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:6" NodeType="2" PortIndex="98"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:7" NodeType="2" PortIndex="99"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:8" NodeType="2" PortIndex="100"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:9" NodeType="2" PortIndex="101"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:10" NodeType="2" PortIndex="102"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:11" NodeType="2" PortIndex="103"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:12" NodeType="2" PortIndex="104"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:13" NodeType="2" PortIndex="105"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:14" NodeType="2" PortIndex="106"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/pic_data_in:15" NodeType="2" PortIndex="107"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread" NodeType="1" PortIndex="108">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:0" NodeType="2" PortIndex="108"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:1" NodeType="2" PortIndex="109"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:2" NodeType="2" PortIndex="110"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:3" NodeType="2" PortIndex="111"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:4" NodeType="2" PortIndex="112"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:5" NodeType="2" PortIndex="113"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:6" NodeType="2" PortIndex="114"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddataread:7" NodeType="2" PortIndex="115"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans" NodeType="1" PortIndex="116">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:0" NodeType="2" PortIndex="116"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:1" NodeType="2" PortIndex="117"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:2" NodeType="2" PortIndex="118"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:3" NodeType="2" PortIndex="119"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:4" NodeType="2" PortIndex="120"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:5" NodeType="2" PortIndex="121"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:6" NodeType="2" PortIndex="122"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatatrans:7" NodeType="2" PortIndex="123"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite" NodeType="1" PortIndex="124">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:0" NodeType="2" PortIndex="124"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:1" NodeType="2" PortIndex="125"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:2" NodeType="2" PortIndex="126"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:3" NodeType="2" PortIndex="127"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:4" NodeType="2" PortIndex="128"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:5" NodeType="2" PortIndex="129"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:6" NodeType="2" PortIndex="130"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:7" NodeType="2" PortIndex="131"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:8" NodeType="2" PortIndex="132"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:9" NodeType="2" PortIndex="133"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:10" NodeType="2" PortIndex="134"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:11" NodeType="2" PortIndex="135"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:12" NodeType="2" PortIndex="136"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:13" NodeType="2" PortIndex="137"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:14" NodeType="2" PortIndex="138"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/rmoddatawrite:15" NodeType="2" PortIndex="139"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state" NodeType="1" PortIndex="140">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:0" NodeType="2" PortIndex="140"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:1" NodeType="2" PortIndex="141"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:2" NodeType="2" PortIndex="142"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:3" NodeType="2" PortIndex="143"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:4" NodeType="2" PortIndex="144"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:5" NodeType="2" PortIndex="145"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:6" NodeType="2" PortIndex="146"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/state:7" NodeType="2" PortIndex="147"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/transfermode" NodeType="1" PortIndex="148">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/transfermode:0" NodeType="2" PortIndex="148"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/transfermode:1" NodeType="2" PortIndex="149"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/transfermode:2" NodeType="2" PortIndex="150"/>
+    <TraceSignal IsHidden="false" Name="pic_bus_interface/transfermode:3" NodeType="2" PortIndex="151"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

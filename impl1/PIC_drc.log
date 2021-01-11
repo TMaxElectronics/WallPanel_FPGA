@@ -1,0 +1,82 @@
+Results of NGD DRC are available in PIC_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'PIC_CS_IN' has no load.
+WARNING - synthesis: input pad net 'PIC_CS_IN' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[31]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[31]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[30]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[30]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[29]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[29]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[28]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[28]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[27]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[27]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[26]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[26]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[25]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[25]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[24]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[24]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[23]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[23]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[22]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[22]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[21]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[21]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[20]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[20]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[19]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[19]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[18]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[18]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[17]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[17]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[16]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[16]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[15]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[15]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[14]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[14]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[13]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[13]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[12]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[12]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[11]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[11]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[10]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[10]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[9]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[9]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[8]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[8]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[7]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[7]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[6]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[6]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[5]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[5]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[4]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[4]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[3]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[3]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[2]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[2]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[1]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[1]' has no legal load.
+WARNING - synthesis: logical net 'BUS_ADDR_IN[0]' has no load.
+WARNING - synthesis: input pad net 'BUS_ADDR_IN[0]' has no legal load.
+WARNING - synthesis: DRC complete with 66 warnings.
+
+Design Results:
+    152 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file WallPanel_FPGA_impl1.ngd.

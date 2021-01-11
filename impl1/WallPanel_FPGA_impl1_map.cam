@@ -1,0 +1,777 @@
+[ START MERGED ]
+jtaghub16_er2_tdo0 master_reveal_coretop_instance/er2_tdo[0]
+master_reveal_coretop_instance/jtck[0] jtaghub16_jtck
+master_reveal_coretop_instance/jtdi[0] jtaghub16_jtdi
+master_reveal_coretop_instance/jshift[0] jtaghub16_jshift
+master_reveal_coretop_instance/jrstn[0] jtaghub16_jrstn
+master_reveal_coretop_instance/jce2[0] jtaghub16_jce2
+master_reveal_coretop_instance/ip_enable[0] jtaghub16_ip_enable0
+master_reveal_coretop_instance/jtck_N_1284 jtaghub16_jtck
+master_reveal_coretop_instance/core0/jrstn_N_1282 jtaghub16_jrstn
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout0_ffin master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_0
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout1_ffin master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_1
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout0_ffin master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_0
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout1_ffin master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_1
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout0_ffin master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_0
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout1_ffin master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_1
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout0_ffin master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_0
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout1_ffin master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_1
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout0_ffin master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_0
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/dataout1_ffin master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mdL0_0_1
+n4_adj_3509 BUS_req[2]
+LOGIC_CLOCK_N_112 LOGIC_CLOCK
+BUS_DIRECTION_IN_N_1244 BUS_dir
+PIXEL_CLOCK_N_298 PIXEL_CLOCK
+xo2chub/cdn.CN jtaghub16_jtck
+xo2chub/jrstn_i jtaghub16_jrstn
+[ END MERGED ]
+[ START CLIPPED ]
+n17
+xo2chub/GND
+RAM/GND_net
+PLL_Ent/GND_net
+MD/GND_net
+MD/VRam/GND_net
+MDM/GND_net
+MDM/GRam/GND_net
+PIC_BUS_INTERFACE/GND_net
+master_reveal_coretop_instance/core0/jtag_int_u/GND_net
+master_reveal_coretop_instance/core0/tm_u/GND_net
+master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedasyncdisablereg146101024146101024/scuba_vlo
+master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedasyncdisablereg146101024146101024/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/te_0/GND_net
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/te_1/GND_net
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/te_2/GND_net
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/te_3/GND_net
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/te_4/GND_net
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/scuba_vhi
+master_reveal_coretop_instance/core0/trig_u/tu_4/GND_net
+xo2chub/VCC
+xo2chub/bit_count_cry_0_COUT[3]
+xo2chub/rom_rd_addr_cry_0_S0[0]
+xo2chub/N_2
+xo2chub/rom_rd_addr_s_0_S1[7]
+xo2chub/rom_rd_addr_s_0_COUT[7]
+xo2chub/jtdo2_int_prm_16_0_0_S1
+xo2chub/jtdo2_int_prm_16_0_0_S0
+xo2chub/N_3
+xo2chub/er2_tdo[14]
+xo2chub/er2_tdo[15]
+xo2chub/jtdo2_int_prm_15_0_0_S1
+xo2chub/jtdo2_int_prm_15_0_0_S0
+xo2chub/er2_tdo[12]
+xo2chub/er2_tdo[13]
+xo2chub/jtdo2_int_prm_13_0_0_S1
+xo2chub/jtdo2_int_prm_13_0_0_S0
+xo2chub/er2_tdo[10]
+xo2chub/er2_tdo[11]
+xo2chub/jtdo2_int_prm_11_0_0_S1
+xo2chub/jtdo2_int_prm_11_0_0_S0
+xo2chub/er2_tdo[8]
+xo2chub/er2_tdo[9]
+xo2chub/jtdo2_int_prm_9_0_0_S1
+xo2chub/jtdo2_int_prm_9_0_0_S0
+xo2chub/er2_tdo[6]
+xo2chub/er2_tdo[7]
+xo2chub/jtdo2_int_prm_7_0_0_S1
+xo2chub/jtdo2_int_prm_7_0_0_S0
+xo2chub/er2_tdo[4]
+xo2chub/er2_tdo[5]
+xo2chub/jtdo2_int_prm_5_0_0_S1
+xo2chub/jtdo2_int_prm_5_0_0_S0
+xo2chub/er2_tdo[2]
+xo2chub/er2_tdo[3]
+xo2chub/jtdo2_int_prm_3_0_0_S1
+xo2chub/jtdo2_int_prm_3_0_0_S0
+xo2chub/er2_tdo[1]
+xo2chub/jtdo2_int_prm_1_0_0_S0
+xo2chub/jtdo2_int_prm_1_0_0_COUT
+xo2chub/ip_enable[15]
+xo2chub/genblk7.un1_jtagf_u_1
+xo2chub/genblk7.un1_jtagf_u
+xo2chub/tdoa
+xo2chub/tdia
+xo2chub/tmsa
+xo2chub/tcka
+xo2chub/cdn
+xo2chub/bit_count_cry_0_S0[0]
+xo2chub/N_1
+RAM/lastAddress_31__I_0_299_0/S1
+RAM/lastAddress_31__I_0_299_0/S0
+RAM/lastAddress_31__I_0_299_0/CI
+RAM/lastAddress_31__I_0_299_31/S1
+RAM/lastAddress_31__I_0_299_31/S0
+RAM/lastAddress_31__I_0_299_32/S0
+RAM/lastAddress_31__I_0_299_32/CO
+RAM/lastAddress_31__I_0_299_19/S1
+RAM/lastAddress_31__I_0_299_19/S0
+RAM/lastAddress_31__I_0_299_21/S1
+RAM/lastAddress_31__I_0_299_21/S0
+RAM/lastAddress_31__I_0_299_23/S1
+RAM/lastAddress_31__I_0_299_23/S0
+RAM/add_90_9/S1
+RAM/add_90_9/CO
+RAM/lastAddress_31__I_0_299_25/S1
+RAM/lastAddress_31__I_0_299_25/S0
+RAM/lastAddress_31__I_0_299_27/S1
+RAM/lastAddress_31__I_0_299_27/S0
+RAM/lastAddress_31__I_0_299_29/S1
+RAM/lastAddress_31__I_0_299_29/S0
+RAM/add_90_1/S0
+RAM/add_90_1/CI
+MD/sub_1814_add_2_15/S1
+MD/sub_1814_add_2_15/S0
+MD/sub_1814_add_2_17/S0
+MD/sub_1814_add_2_17/CO
+MD/currPixel_1836_add_4_1/S0
+MD/currPixel_1836_add_4_1/CI
+MD/currPixel_1836_add_4_9/S1
+MD/currPixel_1836_add_4_9/CO
+MD/add_107_17/S1
+MD/add_107_17/CO
+MD/add_107_1/S0
+MD/add_107_1/CI
+MD/add_19092_1/S1
+MD/add_19092_1/S0
+MD/add_19092_1/CI
+MD/add_19092_3/S1
+MD/add_19092_3/S0
+MD/add_19092_5/S1
+MD/add_19092_5/S0
+MD/add_19092_7/S1
+MD/add_19092_7/S0
+MD/add_19092_9/S1
+MD/add_19092_9/S0
+MD/add_19092_11/S1
+MD/add_19092_11/S0
+MD/add_19092_13/S1
+MD/add_19092_13/S0
+MD/add_19092_15/S1
+MD/add_19092_15/S0
+MD/add_19092_17/S1
+MD/add_19092_17/S0
+MD/add_19092_19/S1
+MD/add_19092_19/S0
+MD/add_19092_21/S1
+MD/add_19092_21/S0
+MD/add_19092_23/S1
+MD/add_19092_23/S0
+MD/add_19092_25/S1
+MD/add_19092_25/S0
+MD/add_19092_27/S1
+MD/add_19092_27/S0
+MD/add_19092_29/S1
+MD/add_19092_29/S0
+MD/add_19092_31/S1
+MD/add_19092_31/S0
+MD/add_19092_33/S0
+MD/add_19092_33/CO
+MD/add_19090_1/S1
+MD/add_19090_1/S0
+MD/add_19090_1/CI
+MD/add_19090_3/S1
+MD/add_19090_3/S0
+MD/add_19090_5/S1
+MD/add_19090_5/S0
+MD/add_19090_7/S1
+MD/add_19090_7/S0
+MD/add_19090_9/S1
+MD/add_19090_9/S0
+MD/add_19090_11/S1
+MD/add_19090_11/S0
+MD/add_19090_13/S1
+MD/add_19090_13/S0
+MD/add_19090_15/S1
+MD/add_19090_15/S0
+MD/add_19090_17/S1
+MD/add_19090_17/S0
+MD/add_19090_19/S1
+MD/add_19090_19/S0
+MD/add_19090_21/S1
+MD/add_19090_21/S0
+MD/add_19090_23/S1
+MD/add_19090_23/S0
+MD/add_19090_25/S1
+MD/add_19090_25/S0
+MD/add_19090_cout/S1
+MD/add_19090_cout/CO
+MD/sub_1814_add_2_1/S1
+MD/sub_1814_add_2_1/S0
+MD/sub_1814_add_2_1/CI
+MD/sub_1814_add_2_3/S1
+MD/sub_1814_add_2_3/S0
+MD/sub_1814_add_2_5/S1
+MD/sub_1814_add_2_5/S0
+MD/sub_1814_add_2_7/S1
+MD/sub_1814_add_2_7/S0
+MD/sub_1814_add_2_9/S1
+MD/sub_1814_add_2_9/S0
+MD/sub_1814_add_2_11/S1
+MD/sub_1814_add_2_11/S0
+MD/sub_1814_add_2_13/S1
+MD/sub_1814_add_2_13/S0
+MDM/add_19100_27/S1
+MDM/add_19100_27/S0
+MDM/add_19100_29/S1
+MDM/add_19100_29/S0
+MDM/add_19100_31/S1
+MDM/add_19100_31/S0
+MDM/add_19100_cout/S1
+MDM/add_19100_cout/CO
+MDM/add_19099_1/S1
+MDM/add_19099_1/S0
+MDM/add_19099_1/CI
+MDM/add_19099_3/S1
+MDM/add_19099_3/S0
+MDM/add_19099_5/S1
+MDM/add_19099_5/S0
+MDM/add_19099_7/S1
+MDM/add_19099_7/S0
+MDM/add_19099_9/S1
+MDM/add_19099_9/S0
+MDM/add_19099_11/S1
+MDM/add_19099_11/S0
+MDM/add_19099_13/S1
+MDM/add_19099_13/S0
+MDM/add_19099_15/S0
+MDM/add_19099_15/CO
+MDM/add_19098_1/S1
+MDM/add_19098_1/S0
+MDM/add_19098_1/CI
+MDM/add_19098_3/S1
+MDM/add_19098_3/S0
+MDM/add_19098_5/S1
+MDM/add_19098_5/S0
+MDM/add_19098_7/S1
+MDM/add_19098_7/S0
+MDM/add_19098_9/S1
+MDM/add_19098_9/S0
+MDM/add_19098_11/S1
+MDM/add_19098_11/S0
+MDM/add_19098_13/S1
+MDM/add_19098_13/S0
+MDM/add_19098_15/S1
+MDM/add_19098_15/S0
+MDM/add_19098_17/S1
+MDM/add_19098_17/S0
+MDM/add_19098_19/S1
+MDM/add_19098_19/S0
+MDM/add_19098_21/S1
+MDM/add_19098_21/S0
+MDM/add_19098_23/S0
+MDM/add_19098_23/CO
+MDM/add_19097_1/S1
+MDM/add_19097_1/S0
+MDM/add_19097_1/CI
+MDM/add_19097_3/S1
+MDM/add_19097_3/S0
+MDM/add_19097_5/S1
+MDM/add_19097_5/S0
+MDM/add_19097_7/S1
+MDM/add_19097_7/S0
+MDM/add_19097_9/S1
+MDM/add_19097_9/S0
+MDM/add_19097_11/S1
+MDM/add_19097_11/S0
+MDM/add_19097_13/S1
+MDM/add_19097_13/S0
+MDM/add_19097_15/S1
+MDM/add_19097_15/S0
+MDM/add_19097_17/S0
+MDM/add_19097_17/CO
+MDM/add_19096_1/S1
+MDM/add_19096_1/S0
+MDM/add_19096_1/CI
+MDM/add_19096_3/S1
+MDM/add_19096_3/S0
+MDM/add_3488_1/S0
+MDM/add_3488_1/CI
+MDM/add_19096_5/S1
+MDM/add_19096_5/S0
+MDM/add_19096_7/S1
+MDM/add_19096_7/S0
+MDM/add_19096_9/S1
+MDM/add_19096_9/S0
+MDM/add_19096_11/S1
+MDM/add_19096_11/S0
+MDM/add_19096_13/S1
+MDM/add_19096_13/S0
+MDM/add_19096_15/S1
+MDM/add_19096_15/S0
+MDM/add_19096_17/S1
+MDM/add_19096_17/S0
+MDM/add_19096_19/S1
+MDM/add_19096_19/S0
+MDM/add_19096_21/S1
+MDM/add_19096_21/S0
+MDM/add_19096_23/S1
+MDM/add_19096_23/S0
+MDM/add_19096_25/S0
+MDM/add_19096_25/CO
+MDM/add_3488_9/CO
+MDM/state_1842_add_4_1/S0
+MDM/state_1842_add_4_1/CI
+MDM/state_1842_add_4_9/S1
+MDM/state_1842_add_4_9/CO
+MDM/add_19094_1/S1
+MDM/add_19094_1/S0
+MDM/add_19094_1/CI
+MDM/add_19094_3/S1
+MDM/add_19094_3/S0
+MDM/add_19094_5/S1
+MDM/add_19094_5/S0
+MDM/add_19094_7/S1
+MDM/add_19094_7/S0
+MDM/add_19094_9/S1
+MDM/add_19094_9/S0
+MDM/add_19094_11/S1
+MDM/add_19094_11/S0
+MDM/add_19094_13/S1
+MDM/add_19094_13/S0
+MDM/add_19094_15/S1
+MDM/add_19094_15/S0
+MDM/add_19094_17/S0
+MDM/add_19094_17/CO
+MDM/xPre_7__I_0_2/S0
+MDM/xPre_7__I_0_2/CI
+MDM/currSprite_1841_2125_add_4_1/S0
+MDM/currSprite_1841_2125_add_4_1/CI
+MDM/currSprite_1841_2125_add_4_7/S1
+MDM/currSprite_1841_2125_add_4_7/CO
+MDM/add_1061_1/S0
+MDM/add_1061_1/CI
+MDM/xPre_1838_add_4_1/S0
+MDM/xPre_1838_add_4_1/CI
+MDM/xPre_1838_add_4_9/S1
+MDM/xPre_1838_add_4_9/CO
+MDM/add_1061_19/S1
+MDM/add_1061_19/CO
+MDM/add_19091_1/S1
+MDM/add_19091_1/S0
+MDM/add_19091_1/CI
+MDM/add_19091_3/S1
+MDM/add_19091_3/S0
+MDM/add_19091_5/S1
+MDM/add_19091_5/S0
+MDM/add_19091_7/S1
+MDM/add_19091_7/S0
+MDM/add_19091_9/S1
+MDM/add_19091_9/S0
+MDM/add_19091_11/S1
+MDM/add_19091_11/S0
+MDM/add_19091_13/S1
+MDM/add_19091_13/S0
+MDM/add_19091_15/S1
+MDM/add_19091_15/S0
+MDM/add_19091_17/S1
+MDM/add_19091_17/S0
+MDM/add_19091_19/S1
+MDM/add_19091_19/S0
+MDM/add_19091_21/S1
+MDM/add_19091_21/S0
+MDM/add_19091_23/S1
+MDM/add_19091_23/S0
+MDM/add_19091_25/S1
+MDM/add_19091_25/S0
+MDM/add_19091_27/S1
+MDM/add_19091_27/S0
+MDM/add_19091_29/S1
+MDM/add_19091_29/S0
+MDM/add_19091_31/S1
+MDM/add_19091_31/S0
+MDM/add_19091_cout/S1
+MDM/add_19091_cout/CO
+MDM/xPre_7__I_0_8/CO
+MDM/add_3485_1/S0
+MDM/add_3485_1/CI
+MDM/add_3485_9/CO
+MDM/add_19100_1/S1
+MDM/add_19100_1/S0
+MDM/add_19100_1/CI
+MDM/add_19100_3/S1
+MDM/add_19100_3/S0
+MDM/add_19100_5/S1
+MDM/add_19100_5/S0
+MDM/yPre_7__I_0_2/S0
+MDM/yPre_7__I_0_2/CI
+MDM/add_19100_7/S1
+MDM/add_19100_7/S0
+MDM/add_19100_9/S1
+MDM/add_19100_9/S0
+MDM/add_19100_11/S1
+MDM/add_19100_11/S0
+MDM/add_19100_13/S1
+MDM/add_19100_13/S0
+MDM/n5577_d72/DO2
+MDM/n5577_d72/DO3
+MDM/n5572_d22/DO2
+MDM/n5572_d22/DO3
+MDM/n5578_d82/DO2
+MDM/n5578_d82/DO3
+MDM/n5579_d92/DO2
+MDM/n5579_d92/DO3
+MDM/add_19100_15/S1
+MDM/add_19100_15/S0
+MDM/yPre_7__I_0_8/CO
+MDM/add_19100_17/S1
+MDM/add_19100_17/S0
+MDM/add_19100_19/S1
+MDM/add_19100_19/S0
+MDM/n5576_d62/DO2
+MDM/n5576_d62/DO3
+MDM/n5575_d52/DO2
+MDM/n5575_d52/DO3
+MDM/n5573_d32/DO2
+MDM/n5573_d32/DO3
+MDM/n5574_d42/DO2
+MDM/n5574_d42/DO3
+MDM/add_19100_21/S1
+MDM/add_19100_21/S0
+MDM/n55792/DO2
+MDM/n55792/DO3
+MDM/n55752/DO2
+MDM/n55752/DO3
+MDM/n55732/DO2
+MDM/n55732/DO3
+MDM/n55772/DO2
+MDM/n55772/DO3
+MDM/add_19100_23/S1
+MDM/add_19100_23/S0
+MDM/add_19100_25/S1
+MDM/add_19100_25/S0
+sub_1816_add_2_1/S1
+sub_1816_add_2_1/S0
+sub_1816_add_2_1/CI
+sub_1816_add_2_3/S1
+sub_1816_add_2_3/S0
+sub_1816_add_2_5/S1
+sub_1816_add_2_5/S0
+sub_1816_add_2_7/S1
+sub_1816_add_2_7/S0
+sub_1816_add_2_9/S1
+sub_1816_add_2_9/S0
+sub_1816_add_2_11/S1
+sub_1816_add_2_11/S0
+sub_1816_add_2_13/S1
+sub_1816_add_2_13/S0
+sub_1816_add_2_cout/S1
+sub_1816_add_2_cout/CO
+PIC_BUS_INTERFACE/lastAddress_18__I_0_0/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_0/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_0/CI
+PIC_BUS_INTERFACE/add_19095_1/S1
+PIC_BUS_INTERFACE/add_19095_1/S0
+PIC_BUS_INTERFACE/add_19095_1/CI
+PIC_BUS_INTERFACE/add_19095_3/S1
+PIC_BUS_INTERFACE/add_19095_3/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_13/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_13/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_15/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_15/S0
+PIC_BUS_INTERFACE/add_19095_5/S1
+PIC_BUS_INTERFACE/add_19095_5/S0
+PIC_BUS_INTERFACE/add_19095_7/S1
+PIC_BUS_INTERFACE/add_19095_7/S0
+PIC_BUS_INTERFACE/add_19095_9/S1
+PIC_BUS_INTERFACE/add_19095_9/S0
+PIC_BUS_INTERFACE/add_19095_11/S1
+PIC_BUS_INTERFACE/add_19095_11/S0
+PIC_BUS_INTERFACE/add_19095_13/S1
+PIC_BUS_INTERFACE/add_19095_13/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_17/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_17/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_19_19090/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_19_19090/S0
+PIC_BUS_INTERFACE/lastAddress_18__I_0_19/S1
+PIC_BUS_INTERFACE/lastAddress_18__I_0_19/CO
+PIC_BUS_INTERFACE/add_19095_15/S1
+PIC_BUS_INTERFACE/add_19095_15/S0
+PIC_BUS_INTERFACE/add_19095_17/S1
+PIC_BUS_INTERFACE/add_19095_17/S0
+PIC_BUS_INTERFACE/add_19095_19/S1
+PIC_BUS_INTERFACE/add_19095_19/S0
+PIC_BUS_INTERFACE/add_19095_21/S1
+PIC_BUS_INTERFACE/add_19095_21/S0
+PIC_BUS_INTERFACE/add_19095_23/S1
+PIC_BUS_INTERFACE/add_19095_23/S0
+PIC_BUS_INTERFACE/add_19095_25/S1
+PIC_BUS_INTERFACE/add_19095_25/S0
+PIC_BUS_INTERFACE/add_19095_27/S1
+PIC_BUS_INTERFACE/add_19095_27/S0
+PIC_BUS_INTERFACE/add_19095_29/S1
+PIC_BUS_INTERFACE/add_19095_29/S0
+PIC_BUS_INTERFACE/add_19095_31/S1
+PIC_BUS_INTERFACE/add_19095_31/S0
+PIC_BUS_INTERFACE/add_19095_33/S0
+PIC_BUS_INTERFACE/add_19095_33/CO
+PIC_BUS_INTERFACE/add_19093_1/S1
+PIC_BUS_INTERFACE/add_19093_1/S0
+PIC_BUS_INTERFACE/add_19093_1/CI
+PIC_BUS_INTERFACE/add_19093_3/S1
+PIC_BUS_INTERFACE/add_19093_3/S0
+PIC_BUS_INTERFACE/add_19093_5/S1
+PIC_BUS_INTERFACE/add_19093_5/S0
+PIC_BUS_INTERFACE/add_19093_7/S1
+PIC_BUS_INTERFACE/add_19093_7/S0
+PIC_BUS_INTERFACE/add_19093_9/S1
+PIC_BUS_INTERFACE/add_19093_9/S0
+PIC_BUS_INTERFACE/add_19093_11/S1
+PIC_BUS_INTERFACE/add_19093_11/S0
+PIC_BUS_INTERFACE/add_19093_13/S1
+PIC_BUS_INTERFACE/add_19093_13/S0
+PIC_BUS_INTERFACE/add_19093_15/S1
+PIC_BUS_INTERFACE/add_19093_15/S0
+PIC_BUS_INTERFACE/add_19093_17/S1
+PIC_BUS_INTERFACE/add_19093_17/S0
+PIC_BUS_INTERFACE/add_19093_19/S1
+PIC_BUS_INTERFACE/add_19093_19/S0
+PIC_BUS_INTERFACE/add_19093_21/S1
+PIC_BUS_INTERFACE/add_19093_21/S0
+PIC_BUS_INTERFACE/add_19093_23/S1
+PIC_BUS_INTERFACE/add_19093_23/S0
+PIC_BUS_INTERFACE/add_19093_25/S0
+PIC_BUS_INTERFACE/add_19093_25/CO
+PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_2/S0
+PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_2/CI
+PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_18/S1
+PIC_BUS_INTERFACE/rModDataWrite[16]
+PIC_BUS_INTERFACE/rModDataWrite_16__I_0_313_18/CO
+PIC_BUS_INTERFACE/n23312
+PIC_BUS_INTERFACE/add_318_1/S0
+PIC_BUS_INTERFACE/add_318_1/CI
+PIC_BUS_INTERFACE/add_318_9/CO
+PIC_BUS_INTERFACE/mult_8u_9u_0_mult_6_4/CO
+PIC_BUS_INTERFACE/mult_8u_9u_0_mult_4_4/CO
+PIC_BUS_INTERFACE/mult_8u_9u_0_mult_2_4/CO
+PIC_BUS_INTERFACE/mult_8u_9u_0_mult_0_4/CO
+PIC_BUS_INTERFACE/rModDataWrite_16__N_1090[16]
+PIC_BUS_INTERFACE/t_mult_8u_9u_0_add_2_7/COUT
+PIC_BUS_INTERFACE/Cadd_t_mult_8u_9u_0_2_1/S0
+PIC_BUS_INTERFACE/mult_8u_9u_0_add_1_6/COUT
+PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_1_1/S0
+PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_7/S1
+PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_7/COUT
+PIC_BUS_INTERFACE/Cadd_mult_8u_9u_0_0_1/S0
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_6/S1
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_6/S0
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_4/S1
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_4/S0
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_2/S1
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_2/S0
+PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7/S1
+PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7/COUT
+PIC_BUS_INTERFACE/Cadd_t_mult_8u_8u_0_2_1/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_add_1_6/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_add_1_6/COUT
+PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_1_1/S0
+PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_7/S1
+PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_7/COUT
+PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_1/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_6_4/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_6_4/COUT
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_6/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_6/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_4_4/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_4_4/COUT
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_4/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_4/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_2_4/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_2_4/COUT
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_2/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_2/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_0_4/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_Cadd_0_4/COUT
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_0/S1
+PIC_BUS_INTERFACE/mult_8u_9u_0_cin_lr_add_0/S0
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_0/S1
+PIC_BUS_INTERFACE/mult_8u_8u_0_cin_lr_add_0/S0
+master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_1/S0
+master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_1/CI
+master_reveal_coretop_instance/core0/jtag_int_u/sub_54_add_2_9/CO
+master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_1/S0
+master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_1/CI
+master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_7/S1
+master_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_1843_add_4_7/CO
+master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_1/S0
+master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_1/CI
+master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_11/S1
+master_reveal_coretop_instance/core0/tm_u/sub_55_add_2_11/CO
+master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_1/S0
+master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_1/CI
+master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_11/S1
+master_reveal_coretop_instance/core0/tm_u/sub_57_add_2_11/CO
+master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_1/S0
+master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_1/CI
+master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_11/S1
+master_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_1845_add_4_11/CO
+master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_1/S0
+master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_1/CI
+master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_11/S1
+master_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_1846_add_4_11/CO
+master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_1/S0
+master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_1/CI
+master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_17/S1
+master_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_1848_add_4_17/CO
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_1/S0
+master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_1/CI
+master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_17/S1
+master_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_1850_add_4_17/CO
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_1/S0
+master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_1/CI
+master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_17/S1
+master_reveal_coretop_instance/core0/trig_u/te_2/te_precnt_1852_add_4_17/CO
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_1/S0
+master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_1/CI
+master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_17/S1
+master_reveal_coretop_instance/core0/trig_u/te_3/te_precnt_1854_add_4_17/CO
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_1/S0
+master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_1/CI
+master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_17/S1
+master_reveal_coretop_instance/core0/trig_u/te_4/te_precnt_1856_add_4_17/CO
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_0_0/DO3
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO2
+master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532/mem_1_0/DO3
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/S1
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/S0
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_0/CI
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_7/S1
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_7/S0
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_8/S0
+master_reveal_coretop_instance/core0/trig_u/tu_4/eq_I_0_80_8/CO
+master_reveal_coretop_instance/jupdate[0]
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.11.0.396.4 -- WARNING: Map write only section -- Mon Jan 11 16:08:11 2021
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE DUALBOOTGOLDEN=INTERNAL BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "SRAM_DATA[4]" SITE "R9" ;
+LOCATE COMP "SRAM_DATA[5]" SITE "R10" ;
+LOCATE COMP "SRAM_DATA[6]" SITE "T9" ;
+LOCATE COMP "SRAM_DATA[7]" SITE "T10" ;
+LOCATE COMP "SRAM_DATA[8]" SITE "T2" ;
+LOCATE COMP "SRAM_DATA[9]" SITE "N9" ;
+LOCATE COMP "SRAM_DATA[10]" SITE "P4" ;
+LOCATE COMP "SRAM_DATA[11]" SITE "P5" ;
+LOCATE COMP "SRAM_DATA[12]" SITE "P12" ;
+LOCATE COMP "SRAM_DATA[13]" SITE "P13" ;
+LOCATE COMP "SRAM_DATA[14]" SITE "R14" ;
+LOCATE COMP "SRAM_DATA[15]" SITE "T15" ;
+LOCATE COMP "SRAM_DATA[3]" SITE "R8" ;
+LOCATE COMP "SRAM_DATA[2]" SITE "T8" ;
+LOCATE COMP "SRAM_DATA[1]" SITE "R7" ;
+LOCATE COMP "SRAM_DATA[0]" SITE "T7" ;
+LOCATE COMP "PIC_DATA_IN[15]" SITE "F2" ;
+LOCATE COMP "PIC_DATA_IN[14]" SITE "E2" ;
+LOCATE COMP "PIC_DATA_IN[13]" SITE "H2" ;
+LOCATE COMP "PIC_DATA_IN[12]" SITE "G2" ;
+LOCATE COMP "PIC_DATA_IN[11]" SITE "J2" ;
+LOCATE COMP "PIC_DATA_IN[10]" SITE "K2" ;
+LOCATE COMP "PIC_DATA_IN[9]" SITE "L2" ;
+LOCATE COMP "PIC_DATA_IN[8]" SITE "M2" ;
+LOCATE COMP "PIC_DATA_IN[7]" SITE "J1" ;
+LOCATE COMP "PIC_DATA_IN[6]" SITE "K1" ;
+LOCATE COMP "PIC_DATA_IN[5]" SITE "L1" ;
+LOCATE COMP "PIC_DATA_IN[4]" SITE "N1" ;
+LOCATE COMP "PIC_DATA_IN[3]" SITE "P1" ;
+LOCATE COMP "PIC_DATA_IN[2]" SITE "R1" ;
+LOCATE COMP "PIC_DATA_IN[1]" SITE "P2" ;
+LOCATE COMP "PIC_DATA_IN[0]" SITE "N2" ;
+LOCATE COMP "UART_TX" SITE "H13" ;
+LOCATE COMP "Matrix_DATA_Out[11]" SITE "P15" ;
+LOCATE COMP "Matrix_DATA_Out[10]" SITE "N15" ;
+LOCATE COMP "Matrix_DATA_Out[9]" SITE "M15" ;
+LOCATE COMP "Matrix_DATA_Out[8]" SITE "L15" ;
+LOCATE COMP "Matrix_DATA_Out[7]" SITE "K15" ;
+LOCATE COMP "Matrix_DATA_Out[6]" SITE "J15" ;
+LOCATE COMP "Matrix_DATA_Out[5]" SITE "H15" ;
+LOCATE COMP "Matrix_DATA_Out[4]" SITE "G15" ;
+LOCATE COMP "Matrix_DATA_Out[3]" SITE "F15" ;
+LOCATE COMP "Matrix_DATA_Out[2]" SITE "E15" ;
+LOCATE COMP "Matrix_DATA_Out[1]" SITE "D15" ;
+LOCATE COMP "Matrix_DATA_Out[0]" SITE "C15" ;
+LOCATE COMP "Matrix_LINE_SEL_Out[3]" SITE "L16" ;
+LOCATE COMP "Matrix_LINE_SEL_Out[2]" SITE "K16" ;
+LOCATE COMP "Matrix_LINE_SEL_Out[1]" SITE "J16" ;
+LOCATE COMP "Matrix_LINE_SEL_Out[0]" SITE "H16" ;
+LOCATE COMP "Matrix_CTRL_Out[2]" SITE "P16" ;
+LOCATE COMP "Matrix_CTRL_Out[1]" SITE "M16" ;
+LOCATE COMP "Matrix_CTRL_Out[0]" SITE "N16" ;
+LOCATE COMP "SRAM_OE" SITE "T3" ;
+LOCATE COMP "SRAM_WE" SITE "R11" ;
+LOCATE COMP "SRAM_CE" SITE "R6" ;
+LOCATE COMP "SRAM_ADDR[17]" SITE "R5" ;
+LOCATE COMP "SRAM_ADDR[16]" SITE "P9" ;
+LOCATE COMP "SRAM_ADDR[15]" SITE "P10" ;
+LOCATE COMP "SRAM_ADDR[14]" SITE "R12" ;
+LOCATE COMP "SRAM_ADDR[13]" SITE "P11" ;
+LOCATE COMP "SRAM_ADDR[12]" SITE "R13" ;
+LOCATE COMP "SRAM_ADDR[11]" SITE "T11" ;
+LOCATE COMP "SRAM_ADDR[10]" SITE "T12" ;
+LOCATE COMP "SRAM_ADDR[9]" SITE "T13" ;
+LOCATE COMP "SRAM_ADDR[8]" SITE "T14" ;
+LOCATE COMP "SRAM_ADDR[7]" SITE "P8" ;
+LOCATE COMP "SRAM_ADDR[6]" SITE "P7" ;
+LOCATE COMP "SRAM_ADDR[5]" SITE "R4" ;
+LOCATE COMP "SRAM_ADDR[4]" SITE "P6" ;
+LOCATE COMP "SRAM_ADDR[3]" SITE "R3" ;
+LOCATE COMP "SRAM_ADDR[2]" SITE "T6" ;
+LOCATE COMP "SRAM_ADDR[1]" SITE "T5" ;
+LOCATE COMP "SRAM_ADDR[0]" SITE "T4" ;
+LOCATE COMP "PIC_READY" SITE "J3" ;
+LOCATE COMP "LED[7]" SITE "A15" ;
+LOCATE COMP "LED[6]" SITE "A14" ;
+LOCATE COMP "LED[5]" SITE "A13" ;
+LOCATE COMP "LED[4]" SITE "A12" ;
+LOCATE COMP "LED[3]" SITE "A11" ;
+LOCATE COMP "LED[2]" SITE "A10" ;
+LOCATE COMP "LED[1]" SITE "A9" ;
+LOCATE COMP "LED[0]" SITE "A8" ;
+LOCATE COMP "CLK" SITE "C8" ;
+LOCATE COMP "PIC_OE" SITE "E1" ;
+LOCATE COMP "PIC_WE_IN" SITE "F1" ;
+LOCATE COMP "PIC_ADDR_IN[18]" SITE "A4" ;
+LOCATE COMP "PIC_ADDR_IN[17]" SITE "A5" ;
+LOCATE COMP "PIC_ADDR_IN[16]" SITE "A3" ;
+LOCATE COMP "PIC_ADDR_IN[15]" SITE "N3" ;
+LOCATE COMP "PIC_ADDR_IN[14]" SITE "K3" ;
+LOCATE COMP "PIC_ADDR_IN[13]" SITE "D3" ;
+LOCATE COMP "PIC_ADDR_IN[12]" SITE "G1" ;
+LOCATE COMP "PIC_ADDR_IN[11]" SITE "E3" ;
+LOCATE COMP "PIC_ADDR_IN[10]" SITE "C2" ;
+LOCATE COMP "PIC_ADDR_IN[9]" SITE "L3" ;
+LOCATE COMP "PIC_ADDR_IN[8]" SITE "M3" ;
+LOCATE COMP "PIC_ADDR_IN[7]" SITE "D2" ;
+LOCATE COMP "PIC_ADDR_IN[6]" SITE "H1" ;
+LOCATE COMP "PIC_ADDR_IN[5]" SITE "M1" ;
+LOCATE COMP "PIC_ADDR_IN[4]" SITE "D1" ;
+LOCATE COMP "PIC_ADDR_IN[3]" SITE "C1" ;
+LOCATE COMP "PIC_ADDR_IN[2]" SITE "B1" ;
+LOCATE COMP "PIC_ADDR_IN[1]" SITE "F3" ;
+LOCATE COMP "PIC_ADDR_IN[0]" SITE "G3" ;
+FREQUENCY NET "LOGIC_CLOCK" 141.666667 MHz ;
+FREQUENCY NET "CLK_c" 25.000000 MHz ;
+FREQUENCY NET "PIXEL_CLOCK" 35.416667 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

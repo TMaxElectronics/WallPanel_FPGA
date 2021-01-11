@@ -1,0 +1,57 @@
+[Device]
+Family=machxo3lf
+PartType=LCMXO3LF-9400C
+PartName=LCMXO3LF-9400C-6BG256C
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP_TRUE
+CoreRevision=7.5
+ModuleName=GammaRam
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=01/07/2021
+Time=19:49:02
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=256
+RData=10
+WAddress=256
+WData=10
+ROutputEn=0
+RClockEn=0
+WOutputEn=0
+WClockEn=0
+enByte=0
+ByteSize=9
+Optimization=Speed
+Reset=Sync
+Reset1=Sync
+Init=mem
+MemFile=d:/onedrive/lattice diamond projects/wallpanel_fpga/gammadefault.mem
+MemFormat=bin
+EnECC=0
+Pipeline=0
+WriteA=Normal
+WriteB=Normal
+init_data=0
+no_init=0
+
+[FilesGenerated]
+d:/onedrive/lattice diamond projects/wallpanel_fpga/gammadefault.mem=mem
+
+[Command]
+cmd_line= -w -n GammaRam -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-9400C -aaddr_width 8 -widtha 10 -baddr_width 8 -widthb 10 -anum_words 256 -bnum_words 256 -cascade -1 -memfile {d:/onedrive/lattice diamond projects/wallpanel_fpga/gammadefault.mem} -memformat bin -writemodeA NORMAL -writemodeB NORMAL

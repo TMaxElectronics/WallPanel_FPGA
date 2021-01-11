@@ -1,0 +1,287 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+20 potential circuit loops found in timing analysis.
+Loading design for application iotiming from file wallpanel_fpga_impl1.ncd.
+Design name: Master
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-9400C
+Package:     CABGA256
+Performance: M
+Package Status:                     Final          Version 1.6.
+Performance Hardware Data Status:   Final          Version 37.4.
+// Design: Master
+// Package: CABGA256
+// ncd File: wallpanel_fpga_impl1.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Mon Jan 11 16:09:09 2021
+// M: Minimum Performance Grade
+// iotiming WallPanel_FPGA_impl1.ncd WallPanel_FPGA_impl1.prf -gui -msgset D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6):
+
+// Input Setup and Hold Times
+
+Port            Clock     Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+PIC_ADDR_IN[0]  CLK       R    10.000      6      -0.853     M
+PIC_ADDR_IN[0]  PIC_WE_IN R    -1.695      M       6.633     6
+PIC_ADDR_IN[0]  PIC_OE    R    -0.801      M       4.023     6
+PIC_ADDR_IN[10] CLK       R    10.579      6      -1.539     M
+PIC_ADDR_IN[10] PIC_WE_IN R    -1.103      M       5.500     6
+PIC_ADDR_IN[10] PIC_OE    R    -0.209      M       2.890     6
+PIC_ADDR_IN[11] CLK       R    11.826      6      -1.253     M
+PIC_ADDR_IN[11] PIC_WE_IN R    -1.203      M       5.650     6
+PIC_ADDR_IN[11] PIC_OE    R    -0.309      M       3.040     6
+PIC_ADDR_IN[12] CLK       R    10.739      6      -1.085     M
+PIC_ADDR_IN[12] PIC_WE_IN R    -1.370      M       6.105     6
+PIC_ADDR_IN[12] PIC_OE    R    -0.476      M       3.495     6
+PIC_ADDR_IN[13] CLK       R    11.056      6      -1.175     M
+PIC_ADDR_IN[13] PIC_WE_IN R    -1.663      M       6.461     6
+PIC_ADDR_IN[13] PIC_OE    R    -0.769      M       3.851     6
+PIC_ADDR_IN[14] CLK       R     9.685      6      -0.522     M
+PIC_ADDR_IN[14] PIC_WE_IN R    -1.649      M       6.512     6
+PIC_ADDR_IN[14] PIC_OE    R    -0.755      M       3.902     6
+PIC_ADDR_IN[15] CLK       R    11.058      6      -0.836     M
+PIC_ADDR_IN[15] PIC_WE_IN R    -1.213      M       5.783     6
+PIC_ADDR_IN[15] PIC_OE    R    -0.319      M       3.173     6
+PIC_ADDR_IN[16] CLK       R     4.540      6      -1.209     M
+PIC_ADDR_IN[16] PIC_WE_IN R    -1.818      M       6.801     6
+PIC_ADDR_IN[16] PIC_OE    R    -0.924      M       4.191     6
+PIC_ADDR_IN[17] CLK       R     4.723      6      -1.037     M
+PIC_ADDR_IN[17] PIC_WE_IN R    -1.309      M       5.824     6
+PIC_ADDR_IN[17] PIC_OE    R    -0.415      M       3.214     6
+PIC_ADDR_IN[18] CLK       R     5.148      6      -1.093     M
+PIC_ADDR_IN[18] PIC_WE_IN R    -1.129      M       5.371     6
+PIC_ADDR_IN[18] PIC_OE    R    -0.235      M       2.761     6
+PIC_ADDR_IN[1]  CLK       R     9.882      6      -1.170     M
+PIC_ADDR_IN[1]  PIC_WE_IN R    -1.193      M       5.701     6
+PIC_ADDR_IN[1]  PIC_OE    R    -0.299      M       3.091     6
+PIC_ADDR_IN[2]  CLK       R    10.941      6      -1.182     M
+PIC_ADDR_IN[2]  PIC_WE_IN R    -0.962      M       5.188     6
+PIC_ADDR_IN[2]  PIC_OE    R    -0.068      M       2.578     6
+PIC_ADDR_IN[3]  CLK       R    11.719      6      -1.133     M
+PIC_ADDR_IN[3]  PIC_WE_IN R    -1.028      M       5.374     6
+PIC_ADDR_IN[3]  PIC_OE    R    -0.134      M       2.764     6
+PIC_ADDR_IN[4]  CLK       R    12.432      6      -1.071     M
+PIC_ADDR_IN[4]  PIC_WE_IN R    -1.163      M       5.543     6
+PIC_ADDR_IN[4]  PIC_OE    R    -0.269      M       2.933     6
+PIC_ADDR_IN[5]  CLK       R    10.586      6      -1.171     M
+PIC_ADDR_IN[5]  PIC_WE_IN R    -1.873      M       6.915     6
+PIC_ADDR_IN[5]  PIC_OE    R    -0.979      M       4.305     6
+PIC_ADDR_IN[6]  CLK       R     9.407      6      -0.984     M
+PIC_ADDR_IN[6]  PIC_WE_IN R    -2.015      M       7.297     6
+PIC_ADDR_IN[6]  PIC_OE    R    -1.121      M       4.687     6
+PIC_ADDR_IN[7]  CLK       R    10.758      6      -1.256     M
+PIC_ADDR_IN[7]  PIC_WE_IN R    -0.879      M       4.965     6
+PIC_ADDR_IN[7]  PIC_OE    R     0.015      M       2.355     6
+PIC_ADDR_IN[8]  CLK       R    12.051      6      -1.152     M
+PIC_ADDR_IN[8]  PIC_WE_IN R    -0.926      M       5.086     6
+PIC_ADDR_IN[8]  PIC_OE    R    -0.032      M       2.476     6
+PIC_ADDR_IN[9]  CLK       R    10.647      6      -0.531     M
+PIC_ADDR_IN[9]  PIC_WE_IN R    -1.381      M       6.136     6
+PIC_ADDR_IN[9]  PIC_OE    R    -0.487      M       3.526     6
+PIC_DATA_IN[0]  CLK       R    22.337      6      -1.230     M
+PIC_DATA_IN[10] CLK       R    12.929      6      -0.634     M
+PIC_DATA_IN[11] CLK       R    12.769      6      -0.659     M
+PIC_DATA_IN[12] CLK       R    12.512      6      -1.205     M
+PIC_DATA_IN[13] CLK       R    13.336      6      -1.202     M
+PIC_DATA_IN[14] CLK       R    12.875      6      -0.870     M
+PIC_DATA_IN[15] CLK       R    11.042      6      -1.662     M
+PIC_DATA_IN[1]  CLK       R    22.427      6      -1.167     M
+PIC_DATA_IN[2]  CLK       R    18.655      6      -1.113     M
+PIC_DATA_IN[3]  CLK       R    18.967      6      -0.897     M
+PIC_DATA_IN[4]  CLK       R    20.634      6      -1.103     M
+PIC_DATA_IN[5]  CLK       R    21.217      6      -0.859     M
+PIC_DATA_IN[6]  CLK       R    19.999      6      -0.973     M
+PIC_DATA_IN[7]  CLK       R    20.986      6      -1.000     M
+PIC_DATA_IN[8]  CLK       R    11.669      6      -0.959     M
+PIC_DATA_IN[9]  CLK       R    10.526      6      -0.491     M
+PIC_OE          CLK       R    13.830      6      -0.947     M
+PIC_WE_IN       CLK       R    21.071      6      -1.307     M
+SRAM_DATA[0]    CLK       R     2.144      6      -0.560     M
+SRAM_DATA[10]   CLK       R     3.406      6      -1.021     M
+SRAM_DATA[11]   CLK       R     2.815      6      -0.804     M
+SRAM_DATA[12]   CLK       R     3.583      6      -1.084     M
+SRAM_DATA[13]   CLK       R     3.613      6      -1.101     M
+SRAM_DATA[14]   CLK       R     3.925      6      -1.189     M
+SRAM_DATA[15]   CLK       R     3.583      6      -1.084     M
+SRAM_DATA[1]    CLK       R     2.384      6      -0.624     M
+SRAM_DATA[2]    CLK       R     2.047      6      -0.524     M
+SRAM_DATA[3]    CLK       R     2.130      6      -0.551     M
+SRAM_DATA[4]    CLK       R     2.409      6      -0.629     M
+SRAM_DATA[5]    CLK       R     2.208      6      -0.587     M
+SRAM_DATA[6]    CLK       R     2.978      6      -0.888     M
+SRAM_DATA[7]    CLK       R     2.815      6      -0.796     M
+SRAM_DATA[8]    CLK       R     2.443      6      -0.677     M
+SRAM_DATA[9]    CLK       R     0.878      6      -0.126     M
+
+
+// Clock to Output Delay
+
+Port                   Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+Matrix_CTRL_Out[0]     CLK   F    11.689         6        4.001          M
+Matrix_CTRL_Out[1]     CLK   R     6.760         6        2.368          M
+Matrix_CTRL_Out[2]     CLK   R    11.298         6        3.072          M
+Matrix_DATA_Out[0]     CLK   R    14.276         6        3.435          M
+Matrix_DATA_Out[10]    CLK   F    14.550         6        4.021          M
+Matrix_DATA_Out[11]    CLK   R    13.859         6        4.076          M
+Matrix_DATA_Out[1]     CLK   R    13.478         6        3.562          M
+Matrix_DATA_Out[2]     CLK   R    13.500         6        3.585          M
+Matrix_DATA_Out[3]     CLK   F    13.665         6        3.481          M
+Matrix_DATA_Out[4]     CLK   R    12.066         6        2.782          M
+Matrix_DATA_Out[5]     CLK   R    12.317         6        2.684          M
+Matrix_DATA_Out[6]     CLK   R    11.441         6        2.641          M
+Matrix_DATA_Out[7]     CLK   R    13.728         6        3.575          M
+Matrix_DATA_Out[8]     CLK   R    13.069         6        3.413          M
+Matrix_DATA_Out[9]     CLK   F    12.207         6        3.071          M
+Matrix_LINE_SEL_Out[0] CLK   R     6.765         6        2.386          M
+Matrix_LINE_SEL_Out[1] CLK   R     6.321         6        2.228          M
+Matrix_LINE_SEL_Out[2] CLK   R    12.210         6        3.154          M
+PIC_DATA_IN[0]         CLK   R    24.438         6        3.462          M
+PIC_DATA_IN[10]        CLK   R    24.170         6        3.416          M
+PIC_DATA_IN[11]        CLK   R    25.027         6        3.861          M
+PIC_DATA_IN[12]        CLK   R    25.543         6        3.969          M
+PIC_DATA_IN[13]        CLK   R    25.355         6        3.738          M
+PIC_DATA_IN[14]        CLK   R    26.339         6        4.025          M
+PIC_DATA_IN[15]        CLK   R    27.010         6        4.375          M
+PIC_DATA_IN[1]         CLK   R    25.622         6        3.617          M
+PIC_DATA_IN[2]         CLK   R    23.808         6        3.601          M
+PIC_DATA_IN[3]         CLK   R    24.354         6        3.227          M
+PIC_DATA_IN[4]         CLK   R    24.904         6        3.601          M
+PIC_DATA_IN[5]         CLK   R    24.263         6        3.296          M
+PIC_DATA_IN[6]         CLK   R    25.055         6        3.780          M
+PIC_DATA_IN[7]         CLK   R    26.274         6        4.124          M
+PIC_DATA_IN[8]         CLK   R    24.374         6        3.616          M
+PIC_DATA_IN[9]         CLK   R    24.418         6        3.338          M
+PIC_READY              CLK   R     8.463         6        2.929          M
+SRAM_ADDR[0]           CLK   R     7.216         6        2.466          M
+SRAM_ADDR[10]          CLK   R     7.222         6        2.507          M
+SRAM_ADDR[11]          CLK   R     6.563         6        2.243          M
+SRAM_ADDR[12]          CLK   R     7.302         6        2.525          M
+SRAM_ADDR[13]          CLK   R     6.687         6        2.302          M
+SRAM_ADDR[14]          CLK   R     7.606         6        2.647          M
+SRAM_ADDR[15]          CLK   R     7.284         6        2.492          M
+SRAM_ADDR[16]          CLK   R     6.790         6        2.291          M
+SRAM_ADDR[17]          CLK   R     7.300         6        2.536          M
+SRAM_ADDR[1]           CLK   R     6.900         6        2.352          M
+SRAM_ADDR[2]           CLK   R     6.343         6        2.199          M
+SRAM_ADDR[3]           CLK   R     7.371         6        2.513          M
+SRAM_ADDR[4]           CLK   R     6.192         6        2.140          M
+SRAM_ADDR[5]           CLK   R     7.040         6        2.453          M
+SRAM_ADDR[6]           CLK   R     6.189         6        2.130          M
+SRAM_ADDR[7]           CLK   R     6.882         6        2.391          M
+SRAM_ADDR[8]           CLK   R     6.989         6        2.426          M
+SRAM_ADDR[9]           CLK   R     7.300         6        2.536          M
+SRAM_DATA[0]           CLK   R    22.820         6        2.815          M
+SRAM_DATA[10]          CLK   R    22.947         6        2.928          M
+SRAM_DATA[11]          CLK   R    23.647         6        3.331          M
+SRAM_DATA[12]          CLK   R    24.881         6        3.308          M
+SRAM_DATA[13]          CLK   R    24.649         6        3.423          M
+SRAM_DATA[14]          CLK   R    25.410         6        3.423          M
+SRAM_DATA[15]          CLK   R    25.139         6        3.423          M
+SRAM_DATA[1]           CLK   R    23.241         6        2.733          M
+SRAM_DATA[2]           CLK   R    22.897         6        3.029          M
+SRAM_DATA[3]           CLK   R    22.478         6        2.511          M
+SRAM_DATA[4]           CLK   R    24.473         6        2.822          M
+SRAM_DATA[5]           CLK   R    25.215         6        2.919          M
+SRAM_DATA[6]           CLK   R    25.654         6        2.927          M
+SRAM_DATA[7]           CLK   R    25.242         6        2.822          M
+SRAM_DATA[8]           CLK   R    23.488         6        3.256          M
+SRAM_DATA[9]           CLK   R    23.709         6        2.924          M
+SRAM_OE                CLK   R     6.734         6        2.342          M
+SRAM_WE                CLK   R     8.932         6        3.076          M
+
+
+// Internal_Clock to Output
+
+Port           Internal_Clock
+--------------------------------------------------------
+PIC_DATA_IN[0] MDM/GR_WR_CLK 
+PIC_DATA_IN[1] MDM/GR_WR_CLK 
+PIC_DATA_IN[2] MDM/GR_WR_CLK 
+PIC_DATA_IN[3] MDM/GR_WR_CLK 
+PIC_DATA_IN[4] MDM/GR_WR_CLK 
+PIC_DATA_IN[5] MDM/GR_WR_CLK 
+PIC_DATA_IN[6] MDM/GR_WR_CLK 
+PIC_DATA_IN[7] MDM/GR_WR_CLK 
+PIC_DATA_IN[8] MDM/GR_WR_CLK 
+PIC_DATA_IN[9] MDM/GR_WR_CLK 
+SRAM_DATA[0]   MDM/GR_WR_CLK 
+SRAM_DATA[1]   MDM/GR_WR_CLK 
+SRAM_DATA[2]   MDM/GR_WR_CLK 
+SRAM_DATA[3]   MDM/GR_WR_CLK 
+SRAM_DATA[4]   MDM/GR_WR_CLK 
+SRAM_DATA[5]   MDM/GR_WR_CLK 
+SRAM_DATA[6]   MDM/GR_WR_CLK 
+SRAM_DATA[7]   MDM/GR_WR_CLK 
+SRAM_DATA[8]   MDM/GR_WR_CLK 
+SRAM_DATA[9]   MDM/GR_WR_CLK 
+WARNING: you must also run trce with hold speed: 6
+WARNING: you must also run trce with setup speed: M
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
