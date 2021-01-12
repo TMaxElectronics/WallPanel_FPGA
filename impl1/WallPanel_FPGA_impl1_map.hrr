@@ -3,309 +3,252 @@ Report for cell Master
    Instance path: Master
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	    1891.00        100.0
-                                  LUT4	    2178.00        100.0
-                               DISTRAM	     330.00        100.0
+                                  SLIC	    2569.00        100.0
+                                  LUT4	    2600.00        100.0
+                               DISTRAM	     396.00        100.0
                                  IOBUF	        104        100.0
-                                PFUREG	       1498        100.0
-                                RIPPLE	        438        100.0
-                                   EBR	         28        100.0
+                                PFUREG	       1553        100.0
+                                RIPPLE	        842        100.0
+                                   EBR	         47        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                               xo2chub	          1         1.4
-                        reveal_coretop	          1        36.6
-                           SRAM_uniq_0	          1         5.2
+                               xo2chub	          1         1.0
+                        reveal_coretop	          1        25.1
+                           SRAM_uniq_0	          1         4.9
                             PLL_uniq_0	          1         0.0
-                            PIC_uniq_0	          1        11.1
-               MatrixBusHandler_uniq_0	          1        28.9
-                   MatrixDriver_uniq_0	          1         7.7
+                            PIC_uniq_0	          1         9.7
+                   MatrixDriver_uniq_0	          1         5.2
+               MatrixBusHandler_uniq_0	          1        50.0
+---------------------------------------------------
+Report for cell PIC_uniq_0
+   Instance path: Master/PIC_BUS_INTERFACE
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     248.90         9.7
+                                  LUT4	     131.33         5.1
+                                PFUREG	         86         5.5
+                                RIPPLE	        181        21.5
 ---------------------------------------------------
 Report for cell reveal_coretop
    Instance path: Master/master_reveal_coretop_instance
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     691.92        36.6
-                                  LUT4	    1102.33        50.6
-                               DISTRAM	      20.00         6.1
-                                PFUREG	        986        65.8
-                                RIPPLE	         81        18.5
-                                   EBR	         17        60.7
+                                  SLIC	     645.58        25.1
+                                  LUT4	    1008.00        38.8
+                               DISTRAM	       8.00         2.0
+                                PFUREG	        978        63.0
+                                RIPPLE	         65         7.7
+                                   EBR	         10        21.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                            master_la0	          1        36.6
+                            master_la0	          1        24.9
 ---------------------------------------------------
 Report for cell master_la0
    Instance path: Master/master_reveal_coretop_instance/core0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     691.58        36.6
-                                  LUT4	    1101.33        50.6
-                               DISTRAM	      20.00         6.1
-                                PFUREG	        986        65.8
-                                RIPPLE	         81        18.5
-                                   EBR	         17        60.7
+                                  SLIC	     639.08        24.9
+                                  LUT4	     985.00        37.9
+                               DISTRAM	       8.00         2.0
+                                PFUREG	        978        63.0
+                                RIPPLE	         65         7.7
+                                   EBR	         10        21.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-rvl_tm(NUM_TRACE_SIGNALS=146,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=16,NUM_TRIG_MAX=1,REVEAL_SIG=341121062,LSCC_FAMILY="XO3LF")	          1         9.1
-rvl_jtag_int(NUM_TRACE_SIGNALS=146,NUM_TRIGGER_SIGNALS=16)	          1        14.0
-                       master_la0_trig	          1        13.4
+   rvl_jtag_int(NUM_TRACE_SIGNALS=173)	          1        10.6
+rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO3LF")	          1         7.4
+                       master_la0_trig	          1         7.0
 ---------------------------------------------------
 Report for cell master_la0_trig
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     253.42        13.4
-                                  LUT4	     439.33        20.2
-                               DISTRAM	      20.00         6.1
-                                PFUREG	        313        20.9
-                                RIPPLE	         48        11.0
+                                  SLIC	     178.83         7.0
+                                  LUT4	     313.00        12.0
+                               DISTRAM	       8.00         2.0
+                                PFUREG	        233        15.0
+                                RIPPLE	         36         4.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                 rvl_tu(NUM_TU_BITS=8)	          1         1.6
-              rvl_tu(NUM_TU_BITS=1)_U0	          1         0.2
-                 rvl_tu(NUM_TU_BITS=5)	          1         0.9
-              rvl_tu(NUM_TU_BITS=1)_U1	          1         0.2
                  rvl_tu(NUM_TU_BITS=1)	          1         0.2
-         rvl_decode(NUM_TU=5,NUM_TE=5)	          1         0.5
-rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")	          1         1.9
-rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U3	          1         1.5
-rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4	          1         1.5
-rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U5	          1         2.4
-rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U2	          1         1.6
-    rvl_tcnt(NUM_TE=5,NUM_TCNT_BITS=3)	          1         0.6
----------------------------------------------------
-Report for cell rvl_tu(NUM_TU_BITS=8)
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tu_4
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      29.50         1.6
-                                  LUT4	      55.67         2.6
-                                PFUREG	         36         2.4
-                                RIPPLE	          3         0.7
+                 rvl_tu(NUM_TU_BITS=5)	          1         0.6
+              rvl_tu(NUM_TU_BITS=1)_U1	          1         0.2
+              rvl_tu(NUM_TU_BITS=1)_U0	          1         0.2
+rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U3	          1         1.0
+rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4	          1         1.4
+rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")	          1         1.3
+rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U2	          1         1.0
+    rvl_tcnt(NUM_TE=4,NUM_TCNT_BITS=3)	          1         0.4
+         rvl_decode(NUM_TU=4,NUM_TE=4)	          1         0.3
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tu_3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       4.58         0.2
-                                  LUT4	       6.00         0.3
+                                  SLIC	       5.00         0.2
+                                  LUT4	       6.00         0.2
                                 PFUREG	          8         0.5
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)_U0
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tu_2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       4.33         0.2
-                                  LUT4	       6.00         0.3
+                                  SLIC	       5.75         0.2
+                                  LUT4	       8.00         0.3
                                 PFUREG	          8         0.5
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=5)
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tu_1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      16.42         0.9
-                                  LUT4	      28.67         1.3
-                                PFUREG	         24         1.6
+                                  SLIC	      16.67         0.6
+                                  LUT4	      28.67         1.1
+                                PFUREG	         24         1.5
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)_U1
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tu_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       4.25         0.2
-                                  LUT4	       6.00         0.3
+                                  SLIC	       4.08         0.2
+                                  LUT4	       6.00         0.2
                                 PFUREG	          8         0.5
 ---------------------------------------------------
-Report for cell rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_4
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      36.42         1.9
-                                  LUT4	      58.00         2.7
-                               DISTRAM	       4.00         1.2
-                                PFUREG	         40         2.7
-                                RIPPLE	          9         2.1
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-pmi_distributed_dpramXbnoner25328de3a5d	          1         0.2
----------------------------------------------------
-Report for cell pmi_distributed_dpramXbnoner25328de3a5d
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_4/pmi_distributed_dpramXO3LFbinarynonereg2532
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	       3.83         0.2
-                                  LUT4	       1.00         0.0
-                               DISTRAM	       4.00         1.2
-                                PFUREG	          2         0.1
----------------------------------------------------
-Report for cell rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U2
+Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      29.92         1.6
-                                  LUT4	      43.00         2.0
-                               DISTRAM	       4.00         1.2
-                                PFUREG	         39         2.6
-                                RIPPLE	          9         2.1
+                                  SLIC	      33.50         1.3
+                                  LUT4	      54.67         2.1
+                               DISTRAM	       2.00         0.5
+                                PFUREG	         39         2.5
+                                RIPPLE	          9         1.1
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_distributed_dpramXbnoner25328de3a5d	          1         0.2
+pmi_distributed_dpramXbnoner24168de3ddc	          1         0.1
 ---------------------------------------------------
-Report for cell pmi_distributed_dpramXbnoner25328de3a5d
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2532
+Report for cell pmi_distributed_dpramXbnoner24168de3ddc
+   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_3/pmi_distributed_dpramXO3LFbinarynonereg2416
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       3.83         0.2
-                                  LUT4	       1.00         0.0
-                               DISTRAM	       4.00         1.2
+                                  SLIC	       2.00         0.1
+                               DISTRAM	       2.00         0.5
                                 PFUREG	          2         0.1
 ---------------------------------------------------
-Report for cell rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U3
+Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U2
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      28.67         1.5
-                                  LUT4	      37.00         1.7
-                               DISTRAM	       4.00         1.2
-                                PFUREG	         39         2.6
-                                RIPPLE	          9         2.1
+                                  SLIC	      26.67         1.0
+                                  LUT4	      38.00         1.5
+                               DISTRAM	       2.00         0.5
+                                PFUREG	         38         2.4
+                                RIPPLE	          9         1.1
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_distributed_dpramXbnoner25328de3a5d	          1         0.2
+pmi_distributed_dpramXbnoner24168de3ddc	          1         0.1
 ---------------------------------------------------
-Report for cell pmi_distributed_dpramXbnoner25328de3a5d
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2532
+Report for cell pmi_distributed_dpramXbnoner24168de3ddc
+   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_2/pmi_distributed_dpramXO3LFbinarynonereg2416
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       3.67         0.2
-                                  LUT4	       1.00         0.0
-                               DISTRAM	       4.00         1.2
+                                  SLIC	       2.00         0.1
+                               DISTRAM	       2.00         0.5
                                 PFUREG	          2         0.1
 ---------------------------------------------------
-Report for cell rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4
+Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U3
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      28.25         1.5
-                                  LUT4	      38.00         1.7
-                               DISTRAM	       4.00         1.2
-                                PFUREG	         39         2.6
-                                RIPPLE	          9         2.1
+                                  SLIC	      26.58         1.0
+                                  LUT4	      39.00         1.5
+                               DISTRAM	       2.00         0.5
+                                PFUREG	         38         2.4
+                                RIPPLE	          9         1.1
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_distributed_dpramXbnoner25328de3a5d	          1         0.2
+pmi_distributed_dpramXbnoner24168de3ddc	          1         0.1
 ---------------------------------------------------
-Report for cell pmi_distributed_dpramXbnoner25328de3a5d
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2532
+Report for cell pmi_distributed_dpramXbnoner24168de3ddc
+   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_1/pmi_distributed_dpramXO3LFbinarynonereg2416
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       3.67         0.2
-                                  LUT4	       1.00         0.0
-                               DISTRAM	       4.00         1.2
+                                  SLIC	       2.00         0.1
+                               DISTRAM	       2.00         0.5
                                 PFUREG	          2         0.1
 ---------------------------------------------------
-Report for cell rvl_te(NUM_TU=5,NUM_TE_ROW=32,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U5
+Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      46.08         2.4
-                                  LUT4	      89.33         4.1
-                               DISTRAM	       4.00         1.2
-                                PFUREG	         56         3.7
-                                RIPPLE	          9         2.1
+                                  SLIC	      35.50         1.4
+                                  LUT4	      60.33         2.3
+                               DISTRAM	       2.00         0.5
+                                PFUREG	         55         3.5
+                                RIPPLE	          9         1.1
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_distributed_dpramXbnoner25328de3a5d	          1         0.2
+pmi_distributed_dpramXbnoner24168de3ddc	          1         0.1
 ---------------------------------------------------
-Report for cell pmi_distributed_dpramXbnoner25328de3a5d
-   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2532
+Report for cell pmi_distributed_dpramXbnoner24168de3ddc
+   Instance path: Master/master_reveal_coretop_instance/core0/trig_u/te_0/pmi_distributed_dpramXO3LFbinarynonereg2416
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       3.67         0.2
-                                  LUT4	       1.00         0.0
-                               DISTRAM	       4.00         1.2
+                                  SLIC	       2.00         0.1
+                               DISTRAM	       2.00         0.5
                                 PFUREG	          2         0.1
 ---------------------------------------------------
-Report for cell rvl_tcnt(NUM_TE=5,NUM_TCNT_BITS=3)
+Report for cell rvl_tcnt(NUM_TE=4,NUM_TCNT_BITS=3)
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/tcnt_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      11.75         0.6
-                                  LUT4	      28.00         1.3
-                                PFUREG	         16         1.1
+                                  SLIC	      10.50         0.4
+                                  LUT4	      23.00         0.9
+                                PFUREG	         15         1.0
 ---------------------------------------------------
-Report for cell rvl_decode(NUM_TU=5,NUM_TE=5)
+Report for cell rvl_decode(NUM_TU=4,NUM_TE=4)
    Instance path: Master/master_reveal_coretop_instance/core0/trig_u/decode_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       9.92         0.5
-                                  LUT4	      35.00         1.6
+                                  SLIC	       8.67         0.3
+                                  LUT4	      33.00         1.3
 ---------------------------------------------------
-Report for cell rvl_tm(NUM_TRACE_SIGNALS=146,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=16,NUM_TRIG_MAX=1,REVEAL_SIG=341121062,LSCC_FAMILY="XO3LF")
+Report for cell rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO3LF")
    Instance path: Master/master_reveal_coretop_instance/core0/tm_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     172.92         9.1
-                                  LUT4	     141.33         6.5
-                                PFUREG	        406        27.1
-                                RIPPLE	         24         5.5
-                                   EBR	         17        60.7
+                                  SLIC	     189.17         7.4
+                                  LUT4	     142.00         5.5
+                                PFUREG	        451        29.0
+                                RIPPLE	         20         2.4
+                                   EBR	         10        21.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_ram_dpXbnonesadr146101024146101024123cc668	          1         0.0
+pmi_ram_dpXbnonesadr1739512173951211f540e2	          1         0.0
 ---------------------------------------------------
-Report for cell pmi_ram_dpXbnonesadr146101024146101024123cc668
-   Instance path: Master/master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedasyncdisablereg146101024146101024
+Report for cell pmi_ram_dpXbnonesadr1739512173951211f540e2
+   Instance path: Master/master_reveal_coretop_instance/core0/tm_u/pmi_ram_dpXO3LFbinarynonespeedasyncdisablereg17395121739512
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                   EBR	         17        60.7
+                                   EBR	         10        21.3
 ---------------------------------------------------
-Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=146,NUM_TRIGGER_SIGNALS=16)
+Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=173)
    Instance path: Master/master_reveal_coretop_instance/core0/jtag_int_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     265.25        14.0
-                                  LUT4	     520.67        23.9
-                                PFUREG	        267        17.8
-                                RIPPLE	          9         2.1
----------------------------------------------------
-Report for cell PIC_uniq_0
-   Instance path: Master/PIC_BUS_INTERFACE
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	     209.92        11.1
-                                  LUT4	     150.33         6.9
-                                PFUREG	         86         5.7
-                                RIPPLE	        137        31.3
----------------------------------------------------
-Report for cell MatrixBusHandler_uniq_0
-   Instance path: Master/MDM
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	     545.75        28.9
-                                  LUT4	     252.00        11.6
-                               DISTRAM	     288.00        87.3
-                                PFUREG	        154        10.3
-                                RIPPLE	        127        29.0
-                                   EBR	          4        14.3
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                       GammaRam_uniq_0	          1         0.0
----------------------------------------------------
-Report for cell GammaRam_uniq_0
-   Instance path: Master/MDM/GRam
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                   EBR	          2         7.1
+                                  SLIC	     271.08        10.6
+                                  LUT4	     530.00        20.4
+                                PFUREG	        294        18.9
+                                RIPPLE	          9         1.1
 ---------------------------------------------------
 Report for cell MatrixDriver_uniq_0
    Instance path: Master/MD
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     145.75         7.7
-                                  LUT4	     189.00         8.7
-                                PFUREG	         75         5.0
-                                RIPPLE	         54        12.3
-                                   EBR	          7        25.0
+                                  SLIC	     132.83         5.2
+                                  LUT4	     197.17         7.6
+                                PFUREG	         70         4.5
+                                RIPPLE	         54         6.4
+                                   EBR	         15        31.9
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                    Outputbuffer_uniq_0	          1         0.0
@@ -314,27 +257,85 @@ Report for cell Outputbuffer_uniq_0
    Instance path: Master/MD/VRam
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                   EBR	          7        25.0
+                                   EBR	         15        31.9
+---------------------------------------------------
+Report for cell MatrixBusHandler_uniq_0
+   Instance path: Master/MDM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1284.10        50.0
+                                  LUT4	     804.50        30.9
+                               DISTRAM	     384.00        97.0
+                                PFUREG	        226        14.6
+                                RIPPLE	        508        60.3
+                                   EBR	         22        46.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      SpriteRam_uniq_0	          1         2.0
+                        LUT_RAM_uniq_1	          1         0.0
+                        LUT_RAM_uniq_3	          1         0.0
+                        LUT_RAM_uniq_2	          1         0.0
+                        LUT_RAM_uniq_0	          1         0.0
+                       GammaRam_uniq_0	          1         0.0
+---------------------------------------------------
+Report for cell SpriteRam_uniq_0
+   Instance path: Master/MDM/SRam
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.00         2.0
+                                  LUT4	     104.00         4.0
+                                PFUREG	          4         0.3
+                                   EBR	         16        34.0
+---------------------------------------------------
+Report for cell LUT_RAM_uniq_0
+   Instance path: Master/MDM/RedLut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell LUT_RAM_uniq_1
+   Instance path: Master/MDM/GreenLut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell GammaRam_uniq_0
+   Instance path: Master/MDM/GRam
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         4.3
+---------------------------------------------------
+Report for cell LUT_RAM_uniq_2
+   Instance path: Master/MDM/BlueLut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell LUT_RAM_uniq_3
+   Instance path: Master/MDM/AlphaLut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         2.1
+---------------------------------------------------
+Report for cell SRAM_uniq_0
+   Instance path: Master/RAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     124.75         4.9
+                                  LUT4	     148.00         5.7
+                                PFUREG	        139         9.0
+                                RIPPLE	          9         1.1
 ---------------------------------------------------
 Report for cell PLL_uniq_0
    Instance path: Master/PLL_Ent
                      Cell usage:
                                   cell	      count    Res Usage(%)
 ---------------------------------------------------
-Report for cell SRAM_uniq_0
-   Instance path: Master/RAM
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      98.42         5.2
-                                  LUT4	      70.00         3.2
-                                PFUREG	        141         9.4
-                                RIPPLE	         14         3.2
----------------------------------------------------
 Report for cell xo2chub
    Instance path: Master/xo2chub
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      27.17         1.4
-                                  LUT4	      12.00         0.6
-                                PFUREG	         51         3.4
-                                RIPPLE	         17         3.9
+                                  SLIC	      25.50         1.0
+                                  LUT4	      12.00         0.5
+                                PFUREG	         51         3.3
+                                RIPPLE	         17         2.0

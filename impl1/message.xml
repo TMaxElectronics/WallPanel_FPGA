@@ -72,7 +72,7 @@
         <Message>
             <ID>51001030</ID>
             <Severity>Warning</Severity>
-            <Dynamic>n27980</Dynamic>
+            <Dynamic>MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
@@ -87,12 +87,112 @@
         <Message>
             <ID>51001051</ID>
             <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_15_0_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_0_0_15</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_1_0_14</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_2_0_13</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_3_0_12</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_4_0_11</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_5_0_10</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_6_0_9</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_7_0_8</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_8_0_7</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_9_0_6</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_10_0_5</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_11_0_4</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_12_0_3</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_13_0_2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/SRam/SpriteRam_14_0_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/RedLut/LUT_RAM_0_0_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/GreenLut/LUT_RAM_0_0_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
             <Dynamic>MDM/GRam/GammaRam_0_1_0</Dynamic>
         </Message>
         <Message>
             <ID>51001051</ID>
             <Severity>Warning</Severity>
             <Dynamic>MDM/GRam/GammaRam_0_0_1</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/BlueLut/LUT_RAM_0_0_0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001051</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MDM/AlphaLut/LUT_RAM_0_0_0</Dynamic>
         </Message>
     </Task>
     <Task name="Lattice_Synthesis">
@@ -339,10 +439,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41): </Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd</Navigation>
-            <Navigation>41</Navigation>
+            <Navigation>43</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -355,10 +455,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33): </Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -419,10 +519,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28): </Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -435,10 +535,10 @@
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28): </Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
@@ -535,6 +635,38 @@
             <Dynamic>structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd</Navigation>
             <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>lut_ram</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>lut_ram</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35921067</ID>
@@ -593,6 +725,42 @@
         <Message>
             <ID>35921067</ID>
             <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>LUT_RAM_uniq_0</Dynamic>
+            <Dynamic>Structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921067</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>LUT_RAM_uniq_1</Dynamic>
+            <Dynamic>Structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921067</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>LUT_RAM_uniq_2</Dynamic>
+            <Dynamic>Structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921067</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): </Dynamic>
+            <Dynamic>LUT_RAM_uniq_3</Dynamic>
+            <Dynamic>Structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921067</ID>
+            <Severity>Info</Severity>
             <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(6): </Dynamic>
             <Dynamic>SRAM_uniq_0</Dynamic>
             <Dynamic>Behavioral</Dynamic>
@@ -620,12 +788,12 @@
         <Message>
             <ID>2120344</ID>
             <Severity>Info</Severity>
-            <Dynamic>17</Dynamic>
+            <Dynamic>10</Dynamic>
         </Message>
         <Message>
             <ID>2120346</ID>
             <Severity>Info</Severity>
-            <Dynamic>30</Dynamic>
+            <Dynamic>12</Dynamic>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -637,16 +805,16 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33,14-33,24) (VHDL-1201) re-analyze unit behavioral since unit spriteram_uniq_0 is overwritten or removed</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35,14-35,24) (VHDL-1201) re-analyze unit behavioral since unit lut_ram_uniq_3 is overwritten or removed</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41,14-41,24) (VHDL-1201) re-analyze unit behavioral since unit outputbuffer_uniq_0 is overwritten or removed</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43,14-43,24) (VHDL-1201) re-analyze unit behavioral since unit outputbuffer_uniq_0 is overwritten or removed</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd</Navigation>
-            <Navigation>41</Navigation>
+            <Navigation>43</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -721,9 +889,9 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd(36,14-36,26) (VHDL-1010) analyzing architecture master_la0_u</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd(35,14-35,26) (VHDL-1010) analyzing architecture master_la0_u</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd</Navigation>
-            <Navigation>36</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -952,9 +1120,9 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41,14-41,24) (VHDL-1010) analyzing architecture behavioral</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43,14-43,24) (VHDL-1010) analyzing architecture behavioral</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd</Navigation>
-            <Navigation>41</Navigation>
+            <Navigation>43</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -966,9 +1134,9 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33,14-33,24) (VHDL-1010) analyzing architecture behavioral</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35,14-35,24) (VHDL-1010) analyzing architecture behavioral</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -1022,9 +1190,9 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -1036,9 +1204,9 @@
         <Message>
             <ID>2049992</ID>
             <Severity>Info</Severity>
-            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure</Dynamic>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -1123,6 +1291,34 @@
             <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd</Navigation>
             <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1012) analyzing entity lut_ram</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1012) analyzing entity lut_ram</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>2049992</ID>
@@ -1164,6 +1360,34 @@
             <Severity>Info</Severity>
             <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(14,8-14,17) (VHDL-1067) elaborating SpriteRam_uniq_0(Structure)</Dynamic>
             <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_0(Structure)</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_1(Structure)</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_2(Structure)</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>2049992</ID>
+            <Severity>Info</Severity>
+            <Dynamic>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_3(Structure)</Dynamic>
+            <Navigation>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd</Navigation>
             <Navigation>14</Navigation>
         </Message>
         <Message>
@@ -1274,274 +1498,354 @@
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(231): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(249): </Dynamic>
             <Dynamic>matrixdriver</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>231</Navigation>
+            <Navigation>249</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(258): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(278): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>258</Navigation>
+            <Navigation>278</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(445): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(468): </Dynamic>
             <Dynamic>matrixbushandler</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>445</Navigation>
+            <Navigation>468</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(466): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(491): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>466</Navigation>
+            <Navigation>491</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(825): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1004): </Dynamic>
             <Dynamic>sram</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>825</Navigation>
+            <Navigation>1004</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(842): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1021): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>842</Navigation>
+            <Navigation>1021</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(915): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1098): </Dynamic>
             <Dynamic>pic</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>915</Navigation>
+            <Navigation>1098</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(937): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1120): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>937</Navigation>
+            <Navigation>1120</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1037): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1219): </Dynamic>
             <Dynamic>master</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1037</Navigation>
+            <Navigation>1219</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1069): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1285): </Dynamic>
             <Dynamic>matrixdriver_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1069</Navigation>
+            <Navigation>1285</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1100): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1318): </Dynamic>
             <Dynamic>matrixbushandler_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1100</Navigation>
+            <Navigation>1318</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1171): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1502): </Dynamic>
             <Dynamic>sram_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1171</Navigation>
+            <Navigation>1502</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1192): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1523): </Dynamic>
             <Dynamic>pic_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1192</Navigation>
+            <Navigation>1523</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1362): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1549): </Dynamic>
             <Dynamic>pll_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1362</Navigation>
+            <Navigation>1549</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1369): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1556): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1369</Navigation>
+            <Navigation>1556</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1633): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1852): </Dynamic>
             <Dynamic>outputbuffer</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1633</Navigation>
+            <Navigation>1852</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1647): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1870): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1647</Navigation>
+            <Navigation>1870</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
-            <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1884): </Dynamic>
-            <Dynamic>pll</Dynamic>
-            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1884</Navigation>
-        </Message>
-        <Message>
-            <ID>35921010</ID>
-            <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1891): </Dynamic>
-            <Dynamic>structure</Dynamic>
-            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1891</Navigation>
-        </Message>
-        <Message>
-            <ID>35921012</ID>
-            <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2033): </Dynamic>
-            <Dynamic>gammaram</Dynamic>
-            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2033</Navigation>
-        </Message>
-        <Message>
-            <ID>35921010</ID>
-            <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2051): </Dynamic>
-            <Dynamic>structure</Dynamic>
-            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2051</Navigation>
-        </Message>
-        <Message>
-            <ID>35921012</ID>
-            <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2229): </Dynamic>
-            <Dynamic>spriteram</Dynamic>
-            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2229</Navigation>
-        </Message>
-        <Message>
-            <ID>35921010</ID>
             <Severity>Info</Severity>
             <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2243): </Dynamic>
-            <Dynamic>structure</Dynamic>
+            <Dynamic>pll</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
             <Navigation>2243</Navigation>
         </Message>
         <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2250): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>2250</Navigation>
+        </Message>
+        <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2954): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2392): </Dynamic>
+            <Dynamic>gammaram</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>2392</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2410): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>2410</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2588): </Dynamic>
+            <Dynamic>spriteram</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>2588</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2602): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>2602</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3301): </Dynamic>
+            <Dynamic>lut_ram</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>3301</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3319): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>3319</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3482): </Dynamic>
             <Dynamic>outputbuffer_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2954</Navigation>
+            <Navigation>3482</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2968): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3500): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2968</Navigation>
+            <Navigation>3500</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3151): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3686): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3151</Navigation>
+            <Navigation>3686</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3388): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4059): </Dynamic>
             <Dynamic>gammaram_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3388</Navigation>
+            <Navigation>4059</Navigation>
         </Message>
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3408): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4079): </Dynamic>
             <Dynamic>spriteram_uniq_0</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3408</Navigation>
+            <Navigation>4079</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4095): </Dynamic>
+            <Dynamic>lut_ram_uniq_0</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4095</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4115): </Dynamic>
+            <Dynamic>lut_ram_uniq_1</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4115</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4135): </Dynamic>
+            <Dynamic>lut_ram_uniq_2</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4135</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4155): </Dynamic>
+            <Dynamic>lut_ram_uniq_3</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4155</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3422): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4173): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3422</Navigation>
+            <Navigation>4173</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3907): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5111): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3907</Navigation>
+            <Navigation>5111</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4083): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5287): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>4083</Navigation>
+            <Navigation>5287</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4792): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5984): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>5984</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6145): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>6145</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6306): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>6306</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6467): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>6467</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6628): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>4792</Navigation>
+            <Navigation>6628</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4861): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6701): </Dynamic>
             <Dynamic>behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>4861</Navigation>
+            <Navigation>6701</Navigation>
         </Message>
         <Message>
             <ID>35921010</ID>
             <Severity>Info</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5173): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6796): </Dynamic>
             <Dynamic>structure</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>5173</Navigation>
+            <Navigation>6796</Navigation>
         </Message>
         <Message>
             <ID>35921504</ID>
@@ -1552,32 +1856,44 @@
         <Message>
             <ID>35921251</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1587): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1803): </Dynamic>
             <Dynamic>bus_req</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1587</Navigation>
+            <Navigation>1803</Navigation>
         </Message>
         <Message>
             <ID>35921613</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1605): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1821): </Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1605</Navigation>
+            <Navigation>1821</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>n1170</Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1573): </Dynamic>
+            <Dynamic>BUS_req[3]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>1573</Navigation>
         </Message>
         <Message>
             <ID>35921205</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1063): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1279): </Dynamic>
             <Dynamic>Master</Dynamic>
             <Dynamic>Behavioral</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>1063</Navigation>
+            <Navigation>1279</Navigation>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BUS_dir</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BUS_DONE</Dynamic>
         </Message>
         <Message>
             <ID>35001771</ID>
@@ -1640,83 +1956,44 @@
             <Dynamic>SRAM_VALID</Dynamic>
         </Message>
         <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>BUS_DONE_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>BUS_dir_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>BUS_DONE_OVERRIDE_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>transferMode[3]_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>transferMode[2]_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>transferMode[1]_keep</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001771</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>transferMode[0]_keep</Dynamic>
-        </Message>
-        <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>n1192</Dynamic>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2995): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3531): </Dynamic>
             <Dynamic>PWMArray[0][15]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2995</Navigation>
+            <Navigation>3531</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2996): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3532): </Dynamic>
             <Dynamic>PWMMaxArray[10][15]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>2996</Navigation>
+            <Navigation>3532</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3003): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3539): </Dynamic>
             <Dynamic>brightness[15]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3003</Navigation>
+            <Navigation>3539</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3469): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4237): </Dynamic>
             <Dynamic>yPre[7]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3469</Navigation>
+            <Navigation>4237</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>n1192</Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4346): </Dynamic>
+            <Dynamic>currRowOffset_MULT[7]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4346</Navigation>
         </Message>
         <Message>
             <ID>35002005</ID>
@@ -1774,10 +2051,40 @@
             <Dynamic>LED[0]</Dynamic>
         </Message>
         <Message>
-            <ID>35931002</ID>
+            <ID>35001747</ID>
             <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>n1192</Dynamic>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>4</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>5</Dynamic>
+            <Dynamic>\MDM/GR_WR_DOUT_16</Dynamic>
         </Message>
         <Message>
             <ID>35001747</ID>
@@ -1876,12 +2183,312 @@
             <Dynamic>\MD/currPWMCountMax</Dynamic>
         </Message>
         <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>BUS_currGrantID</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>BUS_currGrantID</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[11]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[10]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[13]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[9]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[14]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[8]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[15]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[12]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[11]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[10]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[13]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[8]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[14]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[12]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[9]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[8]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[15]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[15]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a2[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[12]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[14]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a0[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[13]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[9]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[11]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[10]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>\/a1[5]</Dynamic>
+        </Message>
+        <Message>
             <ID>35931013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4805): </Dynamic>
             <Dynamic>a[7]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>5119</Navigation>
+            <Navigation>4805</Navigation>
         </Message>
         <Message>
             <ID>35901108</ID>
@@ -1926,10 +2533,386 @@
         <Message>
             <ID>35931013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4809): </Dynamic>
+            <Dynamic>a[9]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4809</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4809): </Dynamic>
+            <Dynamic>a[8]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4809</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>mult_10u_9u.v(8): </Dynamic>
+            <Dynamic>mult_10u_9u</Dynamic>
+            <Navigation>mult_10u_9u.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4810): </Dynamic>
+            <Dynamic>a[9]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4810</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>mult_9u_9u.v(8): </Dynamic>
+            <Dynamic>mult_9u_9u</Dynamic>
+            <Navigation>mult_9u_9u.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4810): </Dynamic>
+            <Dynamic>a[8]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4810</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>mult_10u_9u.v(8): </Dynamic>
+            <Dynamic>mult_10u_9u</Dynamic>
+            <Navigation>mult_10u_9u.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4811): </Dynamic>
+            <Dynamic>a[9]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4811</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>mult_9u_9u.v(8): </Dynamic>
+            <Dynamic>mult_9u_9u</Dynamic>
+            <Navigation>mult_9u_9u.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4811): </Dynamic>
+            <Dynamic>a[8]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>4811</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6743): </Dynamic>
             <Dynamic>a[7]</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>5119</Navigation>
+            <Navigation>6743</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): </Dynamic>
+            <Dynamic>VHI</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1120</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): </Dynamic>
+            <Dynamic>AND2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): </Dynamic>
+            <Dynamic>FADD2B</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>138</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): </Dynamic>
+            <Dynamic>MULT2</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>684</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): </Dynamic>
+            <Dynamic>VLO</Dynamic>
+            <Navigation>C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v</Navigation>
+            <Navigation>1124</Navigation>
+        </Message>
+        <Message>
+            <ID>35901108</ID>
+            <Severity>Info</Severity>
+            <Dynamic>mult_8u_8u.v(8): </Dynamic>
+            <Dynamic>mult_8u_8u</Dynamic>
+            <Navigation>mult_8u_8u.v</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6743): </Dynamic>
+            <Dynamic>a[7]</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>6743</Navigation>
         </Message>
         <Message>
             <ID>35002005</ID>
@@ -1944,10 +2927,18 @@
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3089): </Dynamic>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3623): </Dynamic>
             <Dynamic>\MD/currPWMVal_i0_i15</Dynamic>
             <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
-            <Navigation>3089</Navigation>
+            <Navigation>3623</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6697): </Dynamic>
+            <Dynamic>\RAM/state_i7</Dynamic>
+            <Navigation>d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd</Navigation>
+            <Navigation>6697</Navigation>
         </Message>
         <Message>
             <ID>35001611</ID>
@@ -1956,25 +2947,19 @@
         <Message>
             <ID>35001551</ID>
             <Severity>Warning</Severity>
-            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v</Dynamic>
+            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v</Dynamic>
             <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v</Dynamic>
         </Message>
         <Message>
             <ID>35001551</ID>
             <Severity>Warning</Severity>
-            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v</Dynamic>
+            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v</Dynamic>
             <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v</Dynamic>
         </Message>
         <Message>
             <ID>35001551</ID>
             <Severity>Warning</Severity>
-            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v</Dynamic>
-            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001551</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v</Dynamic>
+            <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v</Dynamic>
             <Dynamic>D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v</Dynamic>
         </Message>
         <Message>
@@ -2014,13 +2999,6 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>PIC_BUS_INTERFACE/rModDataWrite[16]</Dynamic>
-            <Navigation>PIC_BUS_INTERFACE/rModDataWrite[16]</Navigation>
-        </Message>
-        <Message>
-            <ID>1166052</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>logical</Dynamic>
             <Dynamic>xo2chub/tdoa</Dynamic>
             <Navigation>xo2chub/tdoa</Navigation>
         </Message>
@@ -2055,7 +3033,7 @@
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>11</Dynamic>
+            <Dynamic>10</Dynamic>
         </Message>
     </Task>
     <Task name="PAR">
@@ -2067,31 +3045,27 @@
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=lastAddress_31__N_820 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_807 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_813 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_832 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_806 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_805 loads=2 clock_loads=1
-   ....   loads=8 clock_loads=8
-   Signal=reveal_ist_125_derived_5 loads=23 clock_loads=3
-   Signal=VRAM_WC loads=8 clock_loads=7
-   Signal=MDM/GR_WR_CLK loads=2 clock_loads=2</Dynamic>
+   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
+   Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8
+   Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4
+   Signal=MDM/GR_WR_CLK loads=3 clock_loads=2
+   Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4
+   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
-   Signal=lastAddress_31__N_820 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_807 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_813 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_832 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_806 loads=2 clock_loads=1
-   Signal=lastAddress_31__N_805 loads=2 clock_loads=1
-   ....   loads=8 clock_loads=8
-   Signal=reveal_ist_125_derived_5 loads=23 clock_loads=3
-   Signal=VRAM_WC loads=8 clock_loads=7
-   Signal=MDM/GR_WR_CLK loads=2 clock_loads=2</Dynamic>
+   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
+   Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8
+   Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4
+   Signal=MDM/GR_WR_CLK loads=3 clock_loads=2
+   Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4
+   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1</Dynamic>
         </Message>
     </Task>
     <Task name="TimingSimFileVHD">

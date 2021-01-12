@@ -49,10 +49,10 @@ Analyzing VHDL file C:/lscc/diamond/3.11_x64/cae_library/vhdl_packages/../../isp
     <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/cae_library/vhdl_packages/../../ispfpga/vhdl_packages/synattr.vhd(50): " arg1="attributes" arg2="C:/lscc/diamond/3.11_x64/cae_library/vhdl_packages/../../ispfpga/vhdl_packages/synattr.vhd" arg3="50"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(6): " arg1="matrixdriver" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg3="6"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg3="41"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg3="43"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(6): " arg1="matrixbushandler" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg3="6"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg3="33"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg3="35"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(6): " arg1="sram" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg3="6"  />
     <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(27): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg3="27"  />
@@ -64,10 +64,10 @@ Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd
     <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd(34): " arg1="behavioral" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd" arg3="34"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14): " arg1="outputbuffer" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="14"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="28"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="32"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14): " arg1="outputbuffer" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="14"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="28"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg3="32"  />
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(14): " arg1="pll" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg3="14"  />
     <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(21): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg3="21"  />
@@ -86,19 +86,29 @@ Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRa
 Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(14): " arg1="spriteram" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg3="14"  />
     <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(28): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg3="28"  />
+Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="lut_ram" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg3="14"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg3="32"  />
+Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="lut_ram" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg3="14"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32): " arg1="structure" arg2="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg3="32"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd(6): " arg1="Master" arg2="Behavioral" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd" arg4="6"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(6): " arg1="MatrixDriver_uniq_0" arg2="Behavioral" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg4="6"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14): " arg1="Outputbuffer_uniq_0" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg4="14"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(6): " arg1="MatrixBusHandler_uniq_0" arg2="Behavioral" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg4="6"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd(14): " arg1="GammaRam_uniq_0" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd" arg4="14"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(14): " arg1="SpriteRam_uniq_0" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg4="14"  />
+    <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="LUT_RAM_uniq_0" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg4="14"  />
+    <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="LUT_RAM_uniq_1" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg4="14"  />
+    <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="LUT_RAM_uniq_2" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg4="14"  />
+    <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14): " arg1="LUT_RAM_uniq_3" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg4="14"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(6): " arg1="SRAM_uniq_0" arg2="Behavioral" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg4="6"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PIC.vhd(6): " arg1="PIC_uniq_0" arg2="Behavioral" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PIC.vhd" arg4="6"  />
     <postMsg mid="35921067" type="Info"    dynamic="3" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(14): " arg1="PLL_uniq_0" arg2="Structure" arg3="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg4="14"  />
 Copyright (c) 2001-2013 Lattice Semiconductor Corporation. All rights reserved.
 Check Reveal Inserter settings...
-    <postMsg mid="2120344" type="Info"    dynamic="1" navigation="0" arg0="17"  />
-    <postMsg mid="2120346" type="Info"    dynamic="1" navigation="0" arg0="30"  />
+    <postMsg mid="2120344" type="Info"    dynamic="1" navigation="0" arg0="10"  />
+    <postMsg mid="2120346" type="Info"    dynamic="1" navigation="0" arg0="12"  />
 Design Rule Check PASSED.
 Finished checking Reveal Inserter settings.
 Generating core template(s)...
@@ -108,8 +118,8 @@ IP template generation completed ok.
 
 Finished running Tcl command: "C:/lscc/diamond/3.11_x64/tcltk/bin/tclsh" "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/Master_generate.tcl".
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd(34,14-34,24) (VHDL-1201) re-analyze unit behavioral since unit pll_uniq_0 is overwritten or removed" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd" arg2="34"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33,14-33,24) (VHDL-1201) re-analyze unit behavioral since unit spriteram_uniq_0 is overwritten or removed" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="33"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41,14-41,24) (VHDL-1201) re-analyze unit behavioral since unit outputbuffer_uniq_0 is overwritten or removed" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="41"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35,14-35,24) (VHDL-1201) re-analyze unit behavioral since unit lut_ram_uniq_3 is overwritten or removed" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="35"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43,14-43,24) (VHDL-1201) re-analyze unit behavioral since unit outputbuffer_uniq_0 is overwritten or removed" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="43"  />
 all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_error.log
 (VHDL-1481) Analyzing VHDL file C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd(9,9-9,17) (VHDL-1014) analyzing package standard" arg1="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd" arg2="9"  />
@@ -127,7 +137,7 @@ all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/numeric_std.vhd(874,14-874,25) (VHDL-1013) analyzing package body numeric_std" arg1="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/numeric_std.vhd" arg2="874"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd(13,8-13,18) (VHDL-1012) analyzing entity master_la0" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd" arg2="13"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd(36,14-36,26) (VHDL-1010) analyzing architecture master_la0_u" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd" arg2="36"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd(35,14-35,26) (VHDL-1010) analyzing architecture master_la0_u" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/Master/master_la0_sim.vhd" arg2="35"  />
 all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_error.log
 (VHDL-1481) Analyzing VHDL file C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd(9,9-9,17) (VHDL-1014) analyzing package standard" arg1="C:/lscc/diamond/3.11_x64/ispfpga/vhdl_packages/standard.vhd" arg2="9"  />
@@ -179,10 +189,10 @@ all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/Master_reveal_coretop.vhd(22,14-22,17) (VHDL-1010) analyzing architecture one" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/reveal_workspace/tmpreveal/Master_reveal_coretop.vhd" arg2="22"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(6,8-6,20) (VHDL-1012) analyzing entity matrixdriver" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="6"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(41,14-41,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="41"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(43,14-43,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="43"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(6,8-6,24) (VHDL-1012) analyzing entity matrixbushandler" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="6"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(33,14-33,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="33"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(35,14-35,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="35"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(6,8-6,12) (VHDL-1012) analyzing entity sram" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(27,14-27,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg2="27"  />
@@ -194,10 +204,10 @@ all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd(34,14-34,24) (VHDL-1010) analyzing architecture behavioral" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd" arg2="34"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14,8-14,20) (VHDL-1012) analyzing entity outputbuffer" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="14"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="28"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="32"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14,8-14,20) (VHDL-1012) analyzing entity outputbuffer" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="14"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="28"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="32"  />
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(14,8-14,11) (VHDL-1012) analyzing entity pll" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg2="14"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(21,14-21,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg2="21"  />
@@ -216,12 +226,22 @@ all messages logged in file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/
 (VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(14,8-14,17) (VHDL-1012) analyzing entity spriteram" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg2="14"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(28,14-28,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg2="28"  />
+(VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1012) analyzing entity lut_ram" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="32"  />
+(VHDL-1481) Analyzing VHDL file D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1012) analyzing entity lut_ram" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(32,14-32,23) (VHDL-1010) analyzing architecture structure" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="32"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd(6,8-6,14) (VHDL-1067) elaborating Master(Behavioral)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Main.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd(6,8-6,20) (VHDL-1067) elaborating MatrixDriver_uniq_0(Behavioral)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixDriver.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd(14,8-14,20) (VHDL-1067) elaborating Outputbuffer_uniq_0(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Outputbuffer.vhd" arg2="14"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd(6,8-6,24) (VHDL-1067) elaborating MatrixBusHandler_uniq_0(Behavioral)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/MatrixBusHandler.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd(14,8-14,16) (VHDL-1067) elaborating GammaRam_uniq_0(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd" arg2="14"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd(14,8-14,17) (VHDL-1067) elaborating SpriteRam_uniq_0(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_0(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_1(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_2(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd(14,8-14,15) (VHDL-1067) elaborating LUT_RAM_uniq_3(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd" arg2="14"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd(6,8-6,12) (VHDL-1067) elaborating SRAM_uniq_0(Behavioral)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SRAM.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PIC.vhd(6,8-6,11) (VHDL-1067) elaborating PIC_uniq_0(Behavioral)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PIC.vhd" arg2="6"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd(14,8-14,11) (VHDL-1067) elaborating PLL_uniq_0(Structure)" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/PLL.vhd" arg2="14"  />
@@ -246,7 +266,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Jan 11 16:07:54 2021
+Tue Jan 12 12:23:58 2021
 
 
 Command Line:  synthesis -f WallPanel_FPGA_impl1_lattice.synproj -gui -msgset D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml 
@@ -343,50 +363,60 @@ Analyzing Verilog file .__ydixd0.v. VERI-1482
 Analyzing VHDL file d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd. VHDL-1481
     <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4): " arg1="reveal_coretop" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4"  />
     <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(18): " arg1="one" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="18"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(231): " arg1="matrixdriver" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="231"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(258): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="258"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(445): " arg1="matrixbushandler" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="445"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(466): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="466"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(825): " arg1="sram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="825"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(842): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="842"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(915): " arg1="pic" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="915"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(937): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="937"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1037): " arg1="master" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1037"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1069): " arg1="matrixdriver_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1069"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1100): " arg1="matrixbushandler_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1100"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1171): " arg1="sram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1171"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1192): " arg1="pic_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1192"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1362): " arg1="pll_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1362"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1369): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1369"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1633): " arg1="outputbuffer" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1633"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1647): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1647"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1884): " arg1="pll" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1884"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1891): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1891"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2033): " arg1="gammaram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2033"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2051): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2051"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2229): " arg1="spriteram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2229"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2243): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2243"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2954): " arg1="outputbuffer_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2954"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2968): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2968"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3151): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3151"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3388): " arg1="gammaram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3388"  />
-    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3408): " arg1="spriteram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3408"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3422): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3422"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3907): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3907"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4083): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4083"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4792): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4792"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4861): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4861"  />
-    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5173): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5173"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(249): " arg1="matrixdriver" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="249"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(278): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="278"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(468): " arg1="matrixbushandler" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="468"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(491): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="491"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1004): " arg1="sram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1004"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1021): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1021"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1098): " arg1="pic" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1098"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1120): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1120"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1219): " arg1="master" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1219"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1285): " arg1="matrixdriver_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1285"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1318): " arg1="matrixbushandler_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1318"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1502): " arg1="sram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1502"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1523): " arg1="pic_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1523"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1549): " arg1="pll_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1549"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1556): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1556"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1852): " arg1="outputbuffer" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1852"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1870): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1870"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2243): " arg1="pll" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2243"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2250): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2250"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2392): " arg1="gammaram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2392"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2410): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2410"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2588): " arg1="spriteram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2588"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2602): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2602"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3301): " arg1="lut_ram" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3301"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3319): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3319"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3482): " arg1="outputbuffer_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3482"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3500): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3500"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3686): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3686"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4059): " arg1="gammaram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4059"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4079): " arg1="spriteram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4079"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4095): " arg1="lut_ram_uniq_0" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4095"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4115): " arg1="lut_ram_uniq_1" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4115"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4135): " arg1="lut_ram_uniq_2" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4135"  />
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4155): " arg1="lut_ram_uniq_3" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4155"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4173): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4173"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5111): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5111"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5287): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5287"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5984): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5984"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6145): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6145"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6306): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6306"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6467): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6467"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6628): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6628"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6701): " arg1="behavioral" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6701"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6796): " arg1="structure" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6796"  />
 unit Master is not yet analyzed. VHDL-1485
     <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1"  />
 Top module language type = VHDL.
 unit Master is not yet analyzed. VHDL-1485
-d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1037): executing Master(Behavioral)
+d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1219): executing Master(Behavioral)
 
-    <postMsg mid="35921251" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1587): " arg1="bus_req" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1587"  />
-    <postMsg mid="35921613" type="Warning" dynamic="1" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1605): " arg1="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg2="1605"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="n1170"  />
-    <postMsg mid="35921205" type="Warning" dynamic="3" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1063): " arg1="Master" arg2="Behavioral" arg3="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg4="1063"  />
+    <postMsg mid="35921251" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1803): " arg1="bus_req" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1803"  />
+    <postMsg mid="35921613" type="Warning" dynamic="1" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1821): " arg1="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg2="1821"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1573): " arg1="BUS_req[3]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="1573"  />
+    <postMsg mid="35921205" type="Warning" dynamic="3" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(1279): " arg1="Master" arg2="Behavioral" arg3="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg4="1279"  />
 Top module name (VHDL, mixed language): Master
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
@@ -395,6 +425,8 @@ Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'.
 Loading device for application map from file 'xo3c9400.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
 Package Status:                     Final          Version 1.6.
 Top-level module name = Master.
+    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_dir"  />
+    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_DONE"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_VALID"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_RESET"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="PIC_dir"  />
@@ -407,91 +439,11 @@ Top-level module name = Master.
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="MDM_VALID"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="SRAM_done"  />
     <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="SRAM_VALID"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_DONE_keep"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_dir_keep"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="BUS_DONE_OVERRIDE_keep"  />
-Constant propagated thru Read Port :read_port_554.
-
-Constant propagated thru Read Port :read_port_580.
-
-Constant propagated thru Read Port :read_port_632.
-
-Constant propagated thru Read Port :read_port_658.
-
-Constant propagated thru Read Port :read_port_684.
-
-Constant propagated thru Read Port :read_port_736.
-
-Constant propagated thru Read Port :read_port_762.
-
-Constant propagated thru Read Port :read_port_788.
-
-Constant propagated thru Read Port :read_port_840.
-
-Constant propagated thru Read Port :read_port_866.
-
-Constant propagated thru Read Port :read_port_892.
-
-Constant propagated thru Read Port :read_port_918.
-
-Constant propagated thru Read Port :read_port_970.
-
-Constant propagated thru Read Port :read_port_996.
-
-Constant propagated thru Read Port :read_port_1022.
-
-Constant propagated thru Read Port :read_port_1074.
-
-Constant propagated thru Read Port :read_port_1100.
-
-Constant propagated thru Read Port :read_port_1126.
-
-Constant propagated thru Read Port :read_port_1204.
-
-Constant propagated thru Read Port :read_port_1230.
-
-Constant propagated thru Read Port :read_port_1256.
-
-Constant propagated thru Read Port :read_port_1308.
-
-Constant propagated thru Read Port :read_port_1334.
-
-Constant propagated thru Read Port :read_port_1360.
-
-Constant propagated thru Read Port :read_port_1412.
-
-Constant propagated thru Read Port :read_port_1438.
-
-Constant propagated thru Read Port :read_port_1464.
-
-Constant propagated thru Read Port :read_port_1490.
-
-Constant propagated thru Read Port :read_port_1542.
-
-Constant propagated thru Read Port :read_port_1568.
-
-Constant propagated thru Read Port :read_port_1594.
-
-Constant propagated thru Read Port :read_port_1646.
-
-Constant propagated thru Read Port :read_port_1672.
-
-Constant propagated thru Read Port :read_port_1698.
-
-Constant propagated thru Read Port :read_port_1750.
-
-Constant propagated thru Read Port :read_port_1776.
-
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="transferMode[3]_keep"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="transferMode[2]_keep"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="transferMode[1]_keep"  />
-    <postMsg mid="35001771" type="Warning" dynamic="1" navigation="0" arg0="transferMode[0]_keep"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="n1192"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2995): " arg1="PWMArray[0][15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2995"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(2996): " arg1="PWMMaxArray[10][15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="2996"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3003): " arg1="brightness[15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3003"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3469): " arg1="yPre[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3469"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="n1192"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3531): " arg1="PWMArray[0][15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3531"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3532): " arg1="PWMMaxArray[10][15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3532"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3539): " arg1="brightness[15]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3539"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4237): " arg1="yPre[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4237"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4346): " arg1="currRowOffset_MULT[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4346"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="UART_RX"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="UART_TX"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="PIC_CS"  />
@@ -503,7 +455,6 @@ Constant propagated thru Read Port :read_port_1776.
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LED[2]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LED[1]"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="LED[0]"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="n1192"  />
 ######## Missing driver on net UART_TX. Patching with GND.
 ######## Missing driver on net LED[7]. Patching with GND.
 ######## Missing driver on net LED[6]. Patching with GND.
@@ -513,7 +464,7 @@ Constant propagated thru Read Port :read_port_1776.
 ######## Missing driver on net LED[2]. Patching with GND.
 ######## Missing driver on net LED[1]. Patching with GND.
 ######## Missing driver on net LED[0]. Patching with GND.
-######## Missing driver on net n1192. Patching with GND.
+######## Missing driver on net BUS_req[3]. Patching with GND.
 ######## Missing driver on net \MD/PWMArray[0][15]. Patching with GND.
 ######## Missing driver on net \MD/PWMArray[0][14]. Patching with GND.
 ######## Missing driver on net \MD/PWMArray[0][13]. Patching with GND.
@@ -841,9 +792,16 @@ Constant propagated thru Read Port :read_port_1776.
 ######## Missing driver on net \MDM/yPre[7]. Patching with GND.
 ######## Missing driver on net \MDM/yPre[6]. Patching with GND.
 ######## Missing driver on net \MDM/yPre[5]. Patching with GND.
+######## Missing driver on net \MDM/currRowOffset_MULT[7]. Patching with GND.
 
 
 
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\MDM/GR_WR_DOUT_16"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="\MDM/GR_WR_DOUT_16"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="\MDM/GR_WR_DOUT_16"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="\MDM/GR_WR_DOUT_16"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="\MDM/GR_WR_DOUT_16"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="\MDM/GR_WR_DOUT_16"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="\PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="\PIC_BUS_INTERFACE/BUS_ADDR_INTERNAL"  />
@@ -860,68 +818,332 @@ Constant propagated thru Read Port :read_port_1776.
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\MD/currPWMCountMax"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="\MD/currPWMCountMax"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="\MD/currPWMCountMax"  />
-######## Duplicated RTL RAM \MDM/Sprite_positions to \MDM/Sprite_positions_d0 to map to Lattice RAM.
-######## Duplicated RTL RAM \MDM/Sprite_options to \MDM/Sprite_options_d1 to map to Lattice RAM.
-######## Duplicated RTL RAM n5572 to n5572_d2 to map to Lattice RAM.
-######## Duplicated RTL RAM n5573 to n5573_d3 to map to Lattice RAM.
-######## Duplicated RTL RAM n5574 to n5574_d4 to map to Lattice RAM.
-######## Duplicated RTL RAM n5575 to n5575_d5 to map to Lattice RAM.
-######## Duplicated RTL RAM n5576 to n5576_d6 to map to Lattice RAM.
-######## Duplicated RTL RAM n5577 to n5577_d7 to map to Lattice RAM.
-######## Duplicated RTL RAM n5578 to n5578_d8 to map to Lattice RAM.
-######## Duplicated RTL RAM n5579 to n5579_d9 to map to Lattice RAM.
-######## Found 18 RTL RAMs in the design.
-######## Mapping RTL RAM \MDM/Sprite_positions to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="BUS_currGrantID"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="BUS_currGrantID"  />
+######## Found 4 RTL RAMs in the design.
+######## Mapping RTL RAM \MDM/Sprite_positions to 16 Distributed blocks in PSEUDO_DUAL_PORT Mode
 
-######## Mapping RTL RAM \MDM/Sprite_sizes to 16 Distributed blocks in SINGLE_PORT Mode
+######## Mapping RTL RAM \MDM/Sprite_sizes to 16 Distributed blocks in PSEUDO_DUAL_PORT Mode
 
-######## Mapping RTL RAM \MDM/Sprite_options to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+######## Mapping RTL RAM \MDM/Sprite_options to 16 Distributed blocks in PSEUDO_DUAL_PORT Mode
 
-######## Mapping RTL RAM \MDM/Sprite_pointers to 16 Distributed blocks in SINGLE_PORT Mode
+######## Mapping RTL RAM \MDM/Sprite_pointers to 16 Distributed blocks in PSEUDO_DUAL_PORT Mode
 
-######## Mapping RTL RAM \MDM/Sprite_positions_d0 to 16 Distributed blocks in SINGLE_PORT Mode
-
-######## Mapping RTL RAM \MDM/Sprite_options_d1 to 16 Distributed blocks in SINGLE_PORT Mode
-
-######## Mapping RTL RAM n5573 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5575 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5577 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5579 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5572_d2 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5573_d3 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5574_d4 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5575_d5 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5576_d6 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5577_d7 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5578_d8 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-######## Mapping RTL RAM n5579_d9 to 3 Distributed blocks in PSEUDO_DUAL_PORT Mode
-
-Duplicate register/latch removal. \MDM/Sprite_positions_2227 is a one-to-one match with \MDM/Sprite_options_2309.
-Duplicate register/latch removal. \MDM/Sprite_positions_2224 is a one-to-one match with \MDM/Sprite_options_2306.
-Duplicate register/latch removal. \MDM/Sprite_options_2302 is a one-to-one match with \MDM/Sprite_positions_2220.
-Duplicate register/latch removal. \MDM/Sprite_options_2301 is a one-to-one match with \MDM/Sprite_positions_2219.
-Duplicate register/latch removal. \MDM/Sprite_positions_2226 is a one-to-one match with \MDM/Sprite_options_2308.
-Duplicate register/latch removal. \MDM/Sprite_positions_2223 is a one-to-one match with \MDM/Sprite_options_2305.
-Duplicate register/latch removal. \MDM/Sprite_options_2303 is a one-to-one match with \MDM/Sprite_positions_2221.
-Duplicate register/latch removal. \MDM/Sprite_options_2304 is a one-to-one match with \MDM/Sprite_positions_2222.
-Duplicate register/latch removal. \MDM/Sprite_options_2307 is a one-to-one match with \MDM/Sprite_positions_2225.
-Duplicate register/latch removal. \MDM/Sprite_options_2310 is a one-to-one match with \MDM/Sprite_positions_2228.
-Duplicate register/latch removal. \MDM/Sprite_options_2311 is a one-to-one match with \MDM/Sprite_positions_2229.
-Duplicate register/latch removal. \MDM/Sprite_options_2313 is a one-to-one match with \MDM/Sprite_positions_2231.
-Duplicate register/latch removal. \MDM/Sprite_options_2316 is a one-to-one match with \MDM/Sprite_positions_2234.
 SCUBA, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:07:58 2021
+Tue Jan 12 12:24:03 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_8u_8u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 8 -widthb 8 -widthp 16 -pl_stages 0 
+    Circuit name     : mult_8u_8u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[7:0], B[7:0]
+	Outputs      : P[15:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_8u_8u.edn
+    Verilog output   : mult_8u_8u.v
+    Verilog template : mult_8u_8u_tmpl.v
+    Verilog testbench: tb_mult_8u_8u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_8u_8u.srp
+    Estimated Resource Usage:
+            LUT : 92
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_8u_8u.v. VERI-1482
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[11]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[2]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[4]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[1]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[10]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[3]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[13]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[3]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[9]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[14]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[8]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[15]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[2]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[0]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[6]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[12]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[11]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[10]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[13]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[8]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[5]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[14]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[5]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[12]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[9]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[1]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[8]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[4]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[3]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[7]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[6]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[15]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[15]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[0]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[2]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a2[1]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[0]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[7]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[4]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[12]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[6]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[14]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a0[7]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[13]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[9]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[11]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[10]"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="0" arg0="" arg1="\/a1[5]"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4805): " arg1="a[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4805"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:03 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_10u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 10 -widthb 9 -widthp 19 -pl_stages 0 
+    Circuit name     : mult_10u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[9:0], B[8:0]
+	Outputs      : P[18:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_10u_9u.edn
+    Verilog output   : mult_10u_9u.v
+    Verilog template : mult_10u_9u_tmpl.v
+    Verilog testbench: tb_mult_10u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_10u_9u.srp
+    Estimated Resource Usage:
+            LUT : 128
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_10u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4809): " arg1="a[9]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4809"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:03 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_9u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 9 -widthb 9 -widthp 18 -pl_stages 0 
+    Circuit name     : mult_9u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[8:0], B[8:0]
+	Outputs      : P[17:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_9u_9u.edn
+    Verilog output   : mult_9u_9u.v
+    Verilog template : mult_9u_9u_tmpl.v
+    Verilog testbench: tb_mult_9u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_9u_9u.srp
+    Estimated Resource Usage:
+            LUT : 117
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_9u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4809): " arg1="a[8]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4809"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:03 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_10u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 10 -widthb 9 -widthp 19 -pl_stages 0 
+    Circuit name     : mult_10u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[9:0], B[8:0]
+	Outputs      : P[18:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_10u_9u.edn
+    Verilog output   : mult_10u_9u.v
+    Verilog template : mult_10u_9u_tmpl.v
+    Verilog testbench: tb_mult_10u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_10u_9u.srp
+    Estimated Resource Usage:
+            LUT : 128
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_10u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="mult_10u_9u.v(8): " arg1="mult_10u_9u" arg2="mult_10u_9u.v" arg3="8"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4810): " arg1="a[9]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4810"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:04 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_9u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 9 -widthb 9 -widthp 18 -pl_stages 0 
+    Circuit name     : mult_9u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[8:0], B[8:0]
+	Outputs      : P[17:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_9u_9u.edn
+    Verilog output   : mult_9u_9u.v
+    Verilog template : mult_9u_9u_tmpl.v
+    Verilog testbench: tb_mult_9u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_9u_9u.srp
+    Estimated Resource Usage:
+            LUT : 117
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_9u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="mult_9u_9u.v(8): " arg1="mult_9u_9u" arg2="mult_9u_9u.v" arg3="8"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4810): " arg1="a[8]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4810"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:04 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_10u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 10 -widthb 9 -widthp 19 -pl_stages 0 
+    Circuit name     : mult_10u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[9:0], B[8:0]
+	Outputs      : P[18:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_10u_9u.edn
+    Verilog output   : mult_10u_9u.v
+    Verilog template : mult_10u_9u_tmpl.v
+    Verilog testbench: tb_mult_10u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_10u_9u.srp
+    Estimated Resource Usage:
+            LUT : 128
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_10u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="mult_10u_9u.v(8): " arg1="mult_10u_9u" arg2="mult_10u_9u.v" arg3="8"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4811): " arg1="a[9]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4811"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:04 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+BEGIN SCUBA Module Synthesis
+
+    Issued command   : c:/lscc/diamond/3.11_x64/ispfpga/bin/nt64/scuba.exe -w -n mult_9u_9u -lang verilog -bb -arch xo3c00f -type dspmult -pfu_mult -widtha 9 -widthb 9 -widthp 18 -pl_stages 0 
+    Circuit name     : mult_9u_9u
+    Module type      : dspmult
+    Module Version   : 4.2
+    Ports            : 
+	Inputs       : A[8:0], B[8:0]
+	Outputs      : P[17:0]
+    I/O buffer       : not inserted
+    EDIF output      : mult_9u_9u.edn
+    Verilog output   : mult_9u_9u.v
+    Verilog template : mult_9u_9u_tmpl.v
+    Verilog testbench: tb_mult_9u_9u_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : mult_9u_9u.srp
+    Estimated Resource Usage:
+            LUT : 117
+
+END   SCUBA Module Synthesis
+Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Analyzing Verilog file mult_9u_9u.v. VERI-1482
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="mult_9u_9u.v(8): " arg1="mult_9u_9u" arg2="mult_9u_9u.v" arg3="8"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(4811): " arg1="a[8]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="4811"  />
+SCUBA, Version Diamond (64-bit) 3.11.0.396.4
+Tue Jan 12 12:24:04 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -952,9 +1174,14 @@ BEGIN SCUBA Module Synthesis
 END   SCUBA Module Synthesis
 Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
 Analyzing Verilog file mult_8u_9u.v. VERI-1482
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): " arg1="a[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5119"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1120): " arg1="VHI" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1120"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(43): " arg1="AND2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="43"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6743): " arg1="a[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6743"  />
 SCUBA, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:07:58 2021
+Tue Jan 12 12:24:04 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -990,10 +1217,12 @@ Analyzing Verilog file mult_8u_8u.v. VERI-1482
     <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(138): " arg1="FADD2B" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="138"  />
     <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(684): " arg1="MULT2" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="684"  />
     <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): " arg1="VLO" arg2="C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v" arg3="1124"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(5119): " arg1="a[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="5119"  />
+    <postMsg mid="35901108" type="Info"    dynamic="2" navigation="2" arg0="mult_8u_8u.v(8): " arg1="mult_8u_8u" arg2="mult_8u_8u.v" arg3="8"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6743): " arg1="a[7]" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6743"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="UART_RX"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="PIC_CS"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3089): " arg1="\MD/currPWMVal_i0_i15" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3089"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(3623): " arg1="\MD/currPWMVal_i0_i15" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="3623"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd(6697): " arg1="\RAM/state_i7" arg2="d:/onedrive/lattice diamond projects/wallpanel_fpga/impl1/reveal_workspace/tmpreveal/master_rvl_top.vhd" arg3="6697"  />
 ######## GSR will not be inferred because the gsr attribute is present in either the top or sub module or because an instantiated GSR is present.
 Duplicate register/latch removal. \MDM/BUS_transferState_i3 is a one-to-one match with \MDM/BUS_transferState_i2.
 Duplicate register/latch removal. \master_reveal_coretop_instance/core0/tm_u/rd_dout_tm_i0_i13 is a one-to-one match with \master_reveal_coretop_instance/core0/tm_u/rd_dout_tm_i0_i15.
@@ -1002,10 +1231,9 @@ Applying 145.000000 MHz constraint to all clocks
     <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
 Master_prim.v file will not be written because encrypted design file is being used
 
-    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
-    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
-    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
-    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner25328de3a5d.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
+    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
+    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
+    <postMsg mid="35001551" type="Warning" dynamic="2" navigation="0" arg0="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/pmi_distributed_dpramXbnoner24168de3ddc.v" arg1="D:\OneDrive\Lattice Diamond Projects\WallPanel_FPGA\impl1/Master_prim.v"  />
 Results of NGD DRC are available in Master_drc.log.
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
@@ -1013,8 +1241,8 @@ Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'..
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neoprims.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/data/neomacro.ngl'...
-Loading NGO design 'lngotmp/pmi_distributed_dpramxbnoner25328de3a5d.ngo'...
-Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr146101024146101024123cc668.ngo'...
+Loading NGO design 'lngotmp/pmi_distributed_dpramxbnoner24168de3ddc.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpxbnonesadr1739512173951211f540e2.ngo'...
 Logic has been added to the IP to support JTAG capability.
 Loading NGO design 'C:/lscc/diamond/3.11_x64/ispfpga/xo3c00f/data/xo2chub.ngl'...
 
@@ -1026,51 +1254,49 @@ Running DRC...
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="PIC_CS" arg2="PIC_CS"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="PIC_CS"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="master_reveal_coretop_instance/jupdate[0]" arg2="master_reveal_coretop_instance/jupdate[0]"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="PIC_BUS_INTERFACE/rModDataWrite[16]" arg2="PIC_BUS_INTERFACE/rModDataWrite[16]"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="xo2chub/tdoa" arg2="xo2chub/tdoa"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="xo2chub/cdn" arg2="xo2chub/cdn"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="xo2chub/ip_enable[15]" arg2="xo2chub/ip_enable[15]"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="xo2chub/genblk7.un1_jtagf_u" arg2="xo2chub/genblk7.un1_jtagf_u"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="xo2chub/genblk7.un1_jtagf_u_1" arg2="xo2chub/genblk7.un1_jtagf_u_1"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="11"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="10"  />
 
 Design Results:
-   4615 blocks expanded
+   5659 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file WallPanel_FPGA_impl1.ngd.
 
 ################### Begin Area Report (Master)######################
-Number of register bits => 1437 of 10021 (14 % )
-AND2 => 8
+Number of register bits => 1494 of 10021 (14 % )
+AND2 => 93
 BB => 32
-CCU2D => 334
-DP8KC => 2
-DPR16X4C => 36
+CCU2D => 366
+DP8KC => 37
+DPR16X4C => 128
 EHXPLLJ => 1
-FADD2B => 52
-FD1P3AX => 159
+FADD2B => 287
+FD1P3AX => 231
 FD1P3AY => 4
 FD1P3BX => 56
 FD1P3DX => 726
-FD1P3IX => 24
+FD1P3IX => 32
 FD1S1A => 24
 FD1S1D => 32
-FD1S3AX => 82
-FD1S3BX => 37
-FD1S3DX => 293
+FD1S3AX => 49
+FD1S3BX => 36
+FD1S3DX => 304
 GSR => 1
 IB => 22
-INV => 3
-L6MUX21 => 65
-LUT4 => 2124
-MULT2 => 36
+INV => 11
+L6MUX21 => 91
+LUT4 => 2425
+MULT2 => 172
 OB => 50
-PDPW8KC => 9
-PFUMX => 161
-SPR16X4C => 64
-pmi_distributed_dpramXbnoner25328de3a5d => 5
-pmi_ram_dpXbnonesadr146101024146101024123cc668 => 1
+PFUMX => 274
+ROM16X1A => 32
+pmi_distributed_dpramXbnoner24168de3ddc => 4
+pmi_ram_dpXbnonesadr1739512173951211f540e2 => 1
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -1080,75 +1306,79 @@ jtagconn16 => 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 43
-  Net : PLL_Ent/LOGIC_CLOCK, loads : 852
-  Net : MDM/reveal_ist_125_derived_5, loads : 33
-  Net : PIC_BUS_INTERFACE/PIC_OE_c_derived_19, loads : 31
-  Net : PLL_Ent/PIXEL_CLOCK, loads : 29
+Number of Clocks: 47
+  Net : PLL_Ent/LOGIC_CLOCK, loads : 936
+  Net : MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5, loads : 46
+  Net : PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467, loads : 29
+  Net : PLL_Ent/PIXEL_CLOCK, loads : 24
+  Net : MDM/Sprite_readClk, loads : 23
+  Net : MDM/VRAM_WC, loads : 17
+  Net : PLL_Ent/PIXEL_CLOCK_N_293, loads : 42
+  Net : MDM/Sprite_writeClk, loads : 16
   Net : MDM/offsetLatchClockOrd, loads : 16
-  Net : PLL_Ent/PIXEL_CLOCK_N_298, loads : 34
-  Net : MDM/VRAM_WC, loads : 8
-  Net : LOGIC_CLOCK_N_112, loads : 39
-  Net : lastAddress_31__N_812, loads : 2
-  Net : lastAddress_31__N_816, loads : 2
-  Net : lastAddress_31__N_817, loads : 2
-  Net : MDM/GR_WR_CLK, loads : 2
-  Net : lastAddress_31__N_818, loads : 2
-  Net : lastAddress_31__N_803, loads : 2
-  Net : lastAddress_31__N_819, loads : 2
-  Net : lastAddress_31__N_805, loads : 2
-  Net : lastAddress_31__N_820, loads : 2
-  Net : lastAddress_31__N_807, loads : 2
-  Net : lastAddress_31__N_821, loads : 2
-  Net : lastAddress_31__N_809, loads : 2
-  Net : lastAddress_31__N_822, loads : 2
-  Net : lastAddress_31__N_811, loads : 2
-  Net : lastAddress_31__N_823, loads : 2
-  Net : lastAddress_31__N_813, loads : 2
-  Net : lastAddress_31__N_824, loads : 2
-  Net : lastAddress_31__N_815, loads : 2
-  Net : lastAddress_31__N_825, loads : 2
-  Net : lastAddress_31__N_802, loads : 2
-  Net : lastAddress_31__N_826, loads : 2
-  Net : lastAddress_31__N_806, loads : 2
-  Net : lastAddress_31__N_827, loads : 2
-  Net : lastAddress_31__N_810, loads : 2
-  Net : lastAddress_31__N_828, loads : 2
-  Net : lastAddress_31__N_814, loads : 2
-  Net : lastAddress_31__N_829, loads : 2
-  Net : lastAddress_31__N_804, loads : 2
-  Net : lastAddress_31__N_830, loads : 2
-  Net : lastAddress_31__N_808, loads : 2
-  Net : lastAddress_31__N_831, loads : 2
-  Net : lastAddress_31__N_833, loads : 2
-  Net : lastAddress_31__N_832, loads : 2
+  Net : LOGIC_CLOCK_keep_N_57, loads : 10
+  Net : MDM/SpriteLut_readClk, loads : 4
+  Net : MDM/SpriteLut_writeClk, loads : 4
+  Net : RAM/lastAddress_31__N_1237, loads : 2
+  Net : RAM/lastAddress_31__N_1243, loads : 2
+  Net : RAM/lastAddress_31__N_1244, loads : 2
+  Net : MDM/GR_WR_CLK, loads : 3
+  Net : RAM/lastAddress_31__N_1245, loads : 2
+  Net : RAM/lastAddress_31__N_1230, loads : 2
+  Net : RAM/lastAddress_31__N_1246, loads : 2
+  Net : RAM/lastAddress_31__N_1232, loads : 2
+  Net : RAM/lastAddress_31__N_1247, loads : 2
+  Net : RAM/lastAddress_31__N_1234, loads : 2
+  Net : RAM/lastAddress_31__N_1248, loads : 2
+  Net : RAM/lastAddress_31__N_1236, loads : 2
+  Net : RAM/lastAddress_31__N_1249, loads : 2
+  Net : RAM/lastAddress_31__N_1238, loads : 2
+  Net : RAM/lastAddress_31__N_1250, loads : 2
+  Net : RAM/lastAddress_31__N_1240, loads : 2
+  Net : RAM/lastAddress_31__N_1251, loads : 2
+  Net : RAM/lastAddress_31__N_1242, loads : 2
+  Net : RAM/lastAddress_31__N_1252, loads : 2
+  Net : RAM/lastAddress_31__N_1229, loads : 2
+  Net : RAM/lastAddress_31__N_1253, loads : 2
+  Net : RAM/lastAddress_31__N_1233, loads : 2
+  Net : RAM/lastAddress_31__N_1254, loads : 2
+  Net : RAM/lastAddress_31__N_1239, loads : 2
+  Net : RAM/lastAddress_31__N_1255, loads : 2
+  Net : RAM/lastAddress_31__N_1241, loads : 2
+  Net : RAM/lastAddress_31__N_1256, loads : 2
+  Net : RAM/lastAddress_31__N_1235, loads : 2
+  Net : RAM/lastAddress_31__N_1257, loads : 2
+  Net : RAM/lastAddress_31__N_1231, loads : 2
+  Net : RAM/lastAddress_31__N_1258, loads : 2
+  Net : RAM/lastAddress_31__N_1260, loads : 2
+  Net : RAM/lastAddress_31__N_1259, loads : 2
   Net : CLK_c, loads : 1
   Net : master_reveal_coretop_instance/jtck[0], loads : 1
 Clock Enable Nets
-Number of Clock Enables: 136
+Number of Clock Enables: 142
 Top 10 highest fanout Clock Enables:
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176, loads : 50
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373, loads : 50
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_225, loads : 49
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65, loads : 35
-  Net : MDM/LOGIC_CLOCK_N_112_enable_36, loads : 32
-  Net : PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_60, loads : 27
-  Net : MD/PIXEL_CLOCK_N_298_enable_26, loads : 26
-  Net : MDM/LOGIC_CLOCK_keep_enable_112, loads : 21
-  Net : master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_165, loads : 20
-  Net : RAM/LOGIC_CLOCK_keep_enable_42, loads : 18
+  Net : master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_63, loads : 35
+  Net : MDM/LOGIC_CLOCK_keep_enable_201, loads : 32
+  Net : PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_81, loads : 27
+  Net : MD/PIXEL_CLOCK_N_293_enable_26, loads : 27
+  Net : MDM/LOGIC_CLOCK_keep_enable_136, loads : 23
+  Net : master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_137, loads : 18
+  Net : RAM/LOGIC_CLOCK_keep_enable_102, loads : 18
+  Net : master_reveal_coretop_instance/core0/tm_u/sample_en_d, loads : 17
+  Net : PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_249, loads : 17
+  Net : RAM/SRAM_OE_N_1431, loads : 17
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : master_reveal_coretop_instance/jtck_N_1284, loads : 541
-  Net : master_reveal_coretop_instance/core0/trig_u/te_4/jrstn_N_1282, loads : 536
-  Net : master_reveal_coretop_instance/core0/trig_u/tcnt_0/n28151, loads : 420
-  Net : n28121, loads : 335
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/n28138, loads : 188
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/n28133, loads : 163
-  Net : n28205, loads : 162
-  Net : master_reveal_coretop_instance/core0/jtag_int_u/n17, loads : 154
-  Net : n28187, loads : 146
-  Net : n28073, loads : 140
+  Net : master_reveal_coretop_instance/jtck_N_1731, loads : 566
+  Net : master_reveal_coretop_instance/core0/trig_u/te_3/jrstn_N_1729, loads : 561
+  Net : master_reveal_coretop_instance/core0/trig_u/tcnt_0/n31194, loads : 389
+  Net : BUS_currGrantID[1], loads : 351
+  Net : BUS_currGrantID[0], loads : 350
+  Net : master_reveal_coretop_instance/n31164, loads : 214
+  Net : n31141, loads : 202
+  Net : n31139, loads : 202
+  Net : n31133, loads : 201
+  Net : n31132, loads : 201
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -1158,37 +1388,51 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk9 [get_nets                          |             |             |
-\MDM/reveal_ist_125_derived_5]          |            -|            -|     0  
+clk13 [get_nets \MDM/Sprite_writeClk]   |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk8 [get_nets PIXEL_CLOCK_N_298]       |            -|            -|     0  
+clk12 [get_nets reveal_ist_101_N]       |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk7 [get_nets VRAM_WC]                 |            -|            -|     0  
+clk11 [get_nets \MDM/GR_WR_CLK]         |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk6 [get_nets LOGIC_CLOCK_N_112]       |  145.011 MHz|   49.940 MHz|    11 *
+clk10 [get_nets LOGIC_CLOCK_keep_N_57]  |  145.011 MHz|   64.834 MHz|    11 *
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk5 [get_nets \MDM/GR_WR_CLK]          |  145.011 MHz|  112.982 MHz|     5 *
+clk9 [get_nets \MDM/SpriteLut_readClk]  |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk4 [get_nets \MDM/offsetLatchClockOrd]|            -|            -|     0  
+clk8 [get_nets \MDM/SpriteLut_writeClk] |  145.011 MHz|   89.127 MHz|     8 *
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk3 [get_nets PIXEL_CLOCK]             |  145.011 MHz|  142.207 MHz|     5 *
+clk7 [get_nets PIXEL_CLOCK_N_293]       |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk6 [get_nets VRAM_WC_N]               |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk5 [get_nets PIXEL_CLOCK]             |  145.011 MHz|  142.776 MHz|     5 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk4 [get_nets                          |             |             |
+\MDM/SpriteRead_yInSprite_7__N_654[2]_de|             |             |
+rived_5]                                |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk3 [get_nets \MDM/offsetLatchClockOrd]|            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
 clk2 [get_nets                          |             |             |
-\PIC_BUS_INTERFACE/PIC_OE_c_derived_19] |            -|            -|     0  
+\master_reveal_coretop_instance/jtck[0]]|  145.011 MHz|   69.214 MHz|    15 *
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
 clk1 [get_nets                          |             |             |
-\master_reveal_coretop_instance/jtck[0]]|  145.011 MHz|   74.444 MHz|    14 *
+\PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNA|             |             |
+L_N_1467]                               |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk0 [get_nets LOGIC_CLOCK]             |  145.011 MHz|   53.839 MHz|    16 *
+clk0 [get_nets LOGIC_CLOCK]             |  145.011 MHz|   56.815 MHz|    15 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -1196,10 +1440,10 @@ clk0 [get_nets LOGIC_CLOCK]             |  145.011 MHz|   53.839 MHz|    16 *
 5 constraints not met.
 
 
-Peak Memory Usage: 147.328  MB
+Peak Memory Usage: 163.867  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 10.547  secs
+Elapsed CPU time for LSE flow : 13.828  secs
 --------------------------------------------------------------
 
 map -a "MachXO3LF" -p LCMXO3LF-9400C -t CABGA256 -s 6 -oc Commercial   "WallPanel_FPGA_impl1.ngd" -o "WallPanel_FPGA_impl1_map.ncd" -pr "WallPanel_FPGA_impl1.prf" -mp "WallPanel_FPGA_impl1.mrp" -lpf "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/WallPanel_FPGA_impl1.lpf" -lpf "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/WallPanel_FPGA.lpf" -c 0           
@@ -1234,29 +1478,49 @@ Removing unused logic...
 
 Optimizing...
 
-    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="n27980"  />
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="UART_RX"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="PIC_CS"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_15_0_0"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_0_0_15"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_1_0_14"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_2_0_13"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_3_0_12"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_4_0_11"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_5_0_10"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_6_0_9"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_7_0_8"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_8_0_7"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_9_0_6"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_10_0_5"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_11_0_4"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_12_0_3"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_13_0_2"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/SRam/SpriteRam_14_0_1"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/RedLut/LUT_RAM_0_0_0"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/GreenLut/LUT_RAM_0_0_0"  />
     <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/GRam/GammaRam_0_1_0"  />
     <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/GRam/GammaRam_0_0_1"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/BlueLut/LUT_RAM_0_0_0"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="MDM/AlphaLut/LUT_RAM_0_0_0"  />
 
 
 
 Design Summary:
-   Number of registers:   1498 out of 10021 (15%)
-      PFU registers:         1498 out of  9400 (16%)
+   Number of registers:   1553 out of 10021 (15%)
+      PFU registers:         1553 out of  9400 (17%)
       PIO registers:            0 out of   621 (0%)
-   Number of SLICEs:      1891 out of  4700 (40%)
-      SLICEs as Logic/ROM:   1561 out of  4700 (33%)
-      SLICEs as RAM:          330 out of  3525 (9%)
-      SLICEs as Carry:        438 out of  4700 (9%)
-   Number of LUT4s:        3714 out of  9400 (40%)
-      Number used as logic LUTs:        2178
-      Number used as distributed RAM:   660
-      Number used as ripple logic:      876
+   Number of SLICEs:      2569 out of  4700 (55%)
+      SLICEs as Logic/ROM:   2173 out of  4700 (46%)
+      SLICEs as RAM:          396 out of  3525 (11%)
+      SLICEs as Carry:        842 out of  4700 (18%)
+   Number of LUT4s:        5076 out of  9400 (54%)
+      Number used as logic LUTs:        2600
+      Number used as distributed RAM:   792
+      Number used as ripple logic:      1684
       Number used as shift registers:     0
    Number of PIO sites used: 104 + 4(JTAG) out of 207 (52%)
-   Number of block RAMs:  28 out of 48 (58%)
+   Number of block RAMs:  47 out of 48 (98%)
    Number of GSRs:        1 out of 1 (100%)
    EFB used :        No
    JTAG used :       Yes
@@ -1278,294 +1542,304 @@ Design Summary:
    Notes:-
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
-   Number of clocks:  41
-     Net LOGIC_CLOCK: 708 loads, 687 rising, 21 falling (Driver: PLL_Ent/PLLInst_0 )
+   Number of clocks:  45
+     Net LOGIC_CLOCK: 796 loads, 789 rising, 7 falling (Driver: PLL_Ent/PLLInst_0 )
+     Net PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467: 10 loads, 10 rising, 0 falling (Driver: PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_I_190_2_lut_3_lut )
      Net jtaghub16_jtck: 348 loads, 0 rising, 348 falling (Driver: xo2chub/genblk7.jtagf_u )
-     Net PIC_OE_c_derived_19: 10 loads, 10 rising, 0 falling (Driver: PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_I_124_2_lut_rep_446_3_lut )
+     Net reveal_ist_101_N: 18 loads, 18 rising, 0 falling (Driver: MDM/Sprite_readClk_699 )
+     Net VRAM_WC_N: 15 loads, 15 rising, 0 falling (Driver: MDM/VRAM_WC_693 )
+     Net PIXEL_CLOCK: 50 loads, 16 rising, 34 falling (Driver: PLL_Ent/PLLInst_0 )
      Net CLK_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK )
-     Net lastAddress_31__N_820: 1 loads, 1 rising, 0 falling (Driver: i1_3_lut_3_lut_4_lut )
-     Net lastAddress_31__N_807: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_240_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_813: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_246_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_832: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_265_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_806: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_239_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_805: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_238_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_804: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_237_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_803: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_236_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_816: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_249_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_808: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_241_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_809: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_242_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_812: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_245_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_814: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_247_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_831: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_264_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_833: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_266_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_815: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_248_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_802: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_235_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_810: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_243_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_811: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_244_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_817: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_250_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_818: 1 loads, 1 rising, 0 falling (Driver: i1_2_lut_4_lut_4_lut_adj_540 )
-     Net lastAddress_31__N_819: 1 loads, 1 rising, 0 falling (Driver: i1_2_lut_4_lut_4_lut_adj_542 )
-     Net lastAddress_31__N_821: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_254_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_822: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_255_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_823: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_256_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_824: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_257_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_825: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_258_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_826: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_259_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_827: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_260_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_828: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_261_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_829: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_262_2_lut_4_lut_4_lut )
-     Net lastAddress_31__N_830: 1 loads, 1 rising, 0 falling (Driver: SRAM_WE_N_748_I_0_263_2_lut_4_lut_4_lut )
+     Net MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5: 3 loads, 3 rising, 0 falling (Driver: MDM/i4_4_lut_rep_504 )
      Net MDM/offsetLatchClockOrd: 8 loads, 8 rising, 0 falling (Driver: MDM/offsetLatchClock_I_0_4_lut )
-     Net reveal_ist_125_derived_5: 3 loads, 3 rising, 0 falling (Driver: MDM/i4_4_lut_rep_489 )
-     Net VRAM_WC: 7 loads, 7 rising, 0 falling (Driver: MDM/VRAM_WC_428 )
-     Net MDM/GR_WR_CLK: 2 loads, 2 rising, 0 falling (Driver: MDM/GR_WR_CLK_454 )
-     Net PIXEL_CLOCK: 44 loads, 18 rising, 26 falling (Driver: PLL_Ent/PLLInst_0 )
-   Number of Clock Enables:  139
+     Net MDM/SpriteLut_readClk: 4 loads, 4 rising, 0 falling (Driver: MDM/SpriteLut_readClk_700 )
+     Net MDM/GR_WR_CLK: 2 loads, 2 rising, 0 falling (Driver: MDM/GR_WR_CLK_725 )
+     Net MDM/Sprite_writeClk: 16 loads, 16 rising, 0 falling (Driver: MDM/Sprite_writeClk_737 )
+     Net MDM/SpriteLut_writeClk: 4 loads, 4 rising, 0 falling (Driver: MDM/SpriteLut_writeClk_738 )
+     Net RAM/lastAddress_31__N_1246: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_257_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1244: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_255_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1229: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_240_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1243: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_254_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1260: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_271_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1242: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_253_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1241: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_252_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1240: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_251_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1239: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_250_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1230: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_241_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1231: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_242_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1232: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_243_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1233: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_244_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1238: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_249_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1237: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_248_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1234: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_245_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1235: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_246_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1236: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_247_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1245: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_256_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1247: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_258_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1248: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_259_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1249: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_260_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1250: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_261_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1251: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_262_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1252: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_263_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1253: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_264_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1254: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_265_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1255: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_266_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1256: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_267_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1257: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_268_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1258: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_269_2_lut_4_lut )
+     Net RAM/lastAddress_31__N_1259: 1 loads, 1 rising, 0 falling (Driver: RAM/SRAM_WE_N_1175_I_0_270_2_lut_4_lut )
+   Number of Clock Enables:  145
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_249: 8 loads, 8 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_84: 2 loads, 2 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_81: 14 loads, 14 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_54: 4 loads, 4 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_42: 1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_43: 1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_44: 1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_45: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_N_57_enable_5: 1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_59: 1 loads, 1 LSLICEs
+     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_106: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_424: 26 loads, 26 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_175: 25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_225: 25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_22: 1 loads, 1 LSLICEs
      Net jtaghub16_jupdate: 8 loads, 8 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_251: 13 loads, 13 LSLICEs
      Net jtaghub16_ip_enable0: 13 loads, 13 LSLICEs
-     Net master_reveal_coretop_instance/jtck_N_1284_enable_80: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/op_code_2__N_2091: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_112: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_119: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/op_code_2__N_1962: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_26: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_27: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/op_code_2__N_1962_adj_3431: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_22: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_25: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/op_code_2__N_2013: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_101: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_105: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_2: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/op_code_2__N_1962_adj_3433: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_168: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/clk_N_keep_enable_154: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/next_then_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/jtck_N_1284_enable_9: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/cnt_contig_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/clk_N_keep_enable_153: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen_adj_3363: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/num_then_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_4/jtck_N_1284_enable_476: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_491: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/cnt_contig_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/cnt_contig_reg_wen_adj_3382: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_28: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/jtck_N_1731_enable_79: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_95: 3 loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_99: 3 loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/op_code_2__N_2510: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/op_code_2__N_2459: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_35: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_37: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/op_code_2__N_2459_adj_4282: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/tu_2/clk_N_keep_enable_32: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/tu_2/clk_N_keep_enable_33: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/op_code_2__N_2459: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_30: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_31: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_124: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_138: 2 loads, 2 LSLICEs
      Net master_reveal_coretop_instance/core0/trig_u/te_3/next_then_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_3/jtck_N_1284_enable_8: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_145: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_31: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_3/clk_N_keep_enable_144: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/num_then_wen_adj_3436: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_3/jtck_N_1284_enable_457: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_472: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_2/jtck_N_1284_enable_7: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_2/clk_N_keep_enable_143: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_19: 1 loads, 1 LSLICEs
      Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_142: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_2/jtck_N_1284_enable_438: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_453: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen_adj_3442: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen_adj_3398: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_6: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_462: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_465: 3 loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen_adj_4299: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/next_then_reg_wen_adj_4300: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_2/clk_N_keep_enable_120: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_2/clk_N_keep_enable_6: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_2/clk_N_keep_enable_119: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_18: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen_adj_4337: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen_adj_4304: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_480: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_483: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_516: 8 loads, 8 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_118: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_117: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_17: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen_adj_4341: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/num_then_wen_adj_4311: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_498: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1731_enable_501: 2 loads, 2 LSLICEs
      Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_139: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_33: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_1/jtck_N_1284_enable_419: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/jtck_N_1284_enable_434: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_1/clk_N_keep_enable_138: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/next_then_reg_wen: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_5: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/clk_N_keep_enable_135: 8 loads, 8 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_137: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_400: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1284_enable_415: 8 loads, 8 LSLICEs
-     Net master_reveal_coretop_instance/core0/num_then_wen_adj_3444: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_166: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_148: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_152: 3 loads, 3 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_155: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/reg0_read_N_2455: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_1: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_274: 25 loads, 25 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_52: 7 loads, 7 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_61: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/trace_dout_int_145__N_2720: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_70: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_79: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_165: 10 loads, 10 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_97: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_116: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/clk_N_keep_enable_115: 3 loads, 3 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1731_enable_16: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_114: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/cnt_contig_reg_wen_adj_4346: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/num_then_wen: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/trig_u/te_0/jtck_N_1731_enable_519: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_122: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_127: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_128: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/reg0_read_N_2851: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_26: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_4: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_300: 25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_51: 7 loads, 7 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_59: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/trace_dout_int_172__N_3134: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_67: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_75: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_137: 10 loads, 10 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_91: 5 loads, 5 LSLICEs
      Net master_reveal_coretop_instance/core0/tm_u/sample_en_d: 4 loads, 4 LSLICEs
-     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_156: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_167: 1 loads, 1 LSLICEs
      Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_24: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_28: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_36: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_140: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_146: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_324: 25 loads, 25 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtck_N_1284_enable_370: 23 loads, 23 LSLICEs
-     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_141: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65: 25 loads, 25 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373: 26 loads, 26 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_371: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_52: 2 loads, 2 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_381: 5 loads, 5 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_396: 9 loads, 9 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_14: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_45: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_24: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_44: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_49: 1 loads, 1 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176: 25 loads, 25 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_225: 25 loads, 25 LSLICEs
-     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_372: 1 loads, 1 LSLICEs
-     Net PIC_BUS_INTERFACE/LOGIC_CLOCK_keep_enable_60: 10 loads, 10 LSLICEs
-     Net LOGIC_CLOCK_keep_enable_25: 1 loads, 1 LSLICEs
-     Net LOGIC_CLOCK_keep_enable_99: 1 loads, 1 LSLICEs
-     Net LOGIC_CLOCK_keep_enable_14: 1 loads, 0 LSLICEs
-     Net LOGIC_CLOCK_N_112_enable_5: 2 loads, 2 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_105: 4 loads, 4 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_112: 11 loads, 11 LSLICEs
-     Net MDM/LOGIC_CLOCK_N_112_enable_36: 16 loads, 16 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_6: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_70: 4 loads, 4 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_63: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_25: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_27: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/clk_N_keep_enable_129: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_29: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_34: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/tm_u/clk_N_keep_enable_38: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_350: 26 loads, 26 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_400: 25 loads, 25 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtck_N_1731_enable_423: 12 loads, 12 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_63: 24 loads, 24 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_447: 9 loads, 9 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_21: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_432: 5 loads, 5 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_26: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_29: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_30: 1 loads, 1 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_32: 2 loads, 2 LSLICEs
+     Net master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1731_enable_64: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_104: 1 loads, 1 LSLICEs
+     Net MD/LOGIC_CLOCK_keep_enable_228: 9 loads, 9 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_20: 3 loads, 3 LSLICEs
+     Net LOGIC_CLOCK_keep_N_57_enable_6: 2 loads, 2 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_16: 2 loads, 2 LSLICEs
+     Net MD/PIXEL_CLOCK_N_293_enable_26: 19 loads, 19 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_4: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_5: 1 loads, 1 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_17: 5 loads, 5 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_9: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_N_57_enable_7: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_103: 1 loads, 1 LSLICEs
+     Net LOGIC_CLOCK_keep_enable_100: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_155: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_3: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_5: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_212: 7 loads, 7 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_7: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_235: 6 loads, 6 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_201: 16 loads, 16 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_170: 16 loads, 16 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_19: 1 loads, 1 LSLICEs
      Net MDM/LOGIC_CLOCK_keep_enable_11: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_12: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_13: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_72: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_15: 1 loads, 0 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_18: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_20: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_130: 6 loads, 6 LSLICEs
-     Net MDM/state_7__N_318: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_116: 2 loads, 2 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_122: 4 loads, 4 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_123: 1 loads, 1 LSLICEs
-     Net MDM/LOGIC_CLOCK_keep_enable_120: 1 loads, 1 LSLICEs
-     Net MD/LOGIC_CLOCK_keep_enable_97: 8 loads, 8 LSLICEs
-     Net MD/PIXEL_CLOCK_N_298_enable_26: 18 loads, 18 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_25: 5 loads, 5 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_6: 1 loads, 1 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_26: 3 loads, 3 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_23: 2 loads, 2 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_19: 3 loads, 3 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_13: 1 loads, 1 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_14: 1 loads, 1 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_15: 1 loads, 1 LSLICEs
-     Net RAM/SRAM_OE_N_1004: 8 loads, 8 LSLICEs
-     Net RAM/LOGIC_CLOCK_keep_enable_42: 9 loads, 9 LSLICEs
-     Net RAM/LOGIC_CLOCK_keep_enable_19: 1 loads, 1 LSLICEs
-     Net RAM/LOGIC_CLOCK_keep_enable_17: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_154: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_146: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_14: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_139: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_136: 12 loads, 12 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_115: 4 loads, 4 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_57: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_244: 5 loads, 5 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_105: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_107: 1 loads, 1 LSLICEs
+     Net MDM/lastReadRow_4__N_307: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_108: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_247: 2 loads, 2 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_213: 1 loads, 1 LSLICEs
+     Net MDM/LOGIC_CLOCK_keep_enable_248: 1 loads, 1 LSLICEs
+     Net RAM/SRAM_OE_N_1431: 8 loads, 8 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_102: 9 loads, 9 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_56: 1 loads, 1 LSLICEs
+     Net RAM/LOGIC_CLOCK_keep_enable_62: 1 loads, 1 LSLICEs
      Net xo2chub/id_enable_0_sqmuxa: 1 loads, 1 LSLICEs
      Net xo2chub/er1_shift_reg8: 10 loads, 10 LSLICEs
-   Number of local set/reset loads for net n27980 merged into GSR:  27
+   Number of local set/reset loads for net MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 merged into GSR:  36
    Number of LSRs:  82
-     Net BUS_currGrantID_3__N_70: 3 loads, 3 LSLICEs
-     Net jtaghub16_jrstn: 329 loads, 329 LSLICEs
-     Net master_reveal_coretop_instance/core0/n28151: 272 loads, 238 LSLICEs
-     Net master_reveal_coretop_instance/core0/trig_u/tu_out[4]: 5 loads, 5 LSLICEs
-     Net PIC_OE_c_derived_19: 10 loads, 10 LSLICEs
-     Net PIC_BUS_INTERFACE/transferMode_3__N_1085: 1 loads, 1 LSLICEs
-     Net Matrix_CTRL_Out_c_1: 8 loads, 8 LSLICEs
-     Net lastAddress_31__N_864: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_820: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_807: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_813: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_849: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_834: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_832: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_846: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_806: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_843: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_805: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_804: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_803: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_816: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_808: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_852: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_809: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_855: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_867: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_812: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_814: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_873: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_831: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_833: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_815: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_921: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_924: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_802: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_861: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_858: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_810: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_811: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_891: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_817: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_879: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_818: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_882: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_819: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_885: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_821: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_888: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_822: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_894: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_823: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_897: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_824: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_900: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_825: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_903: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_826: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_906: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_827: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_909: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_828: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_912: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_829: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_915: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_830: 1 loads, 1 LSLICEs
-     Net lastAddress_31__N_918: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_927: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_876: 2 loads, 2 LSLICEs
-     Net lastAddress_31__N_870: 2 loads, 2 LSLICEs
-     Net reveal_ist_125_derived_5: 16 loads, 16 LSLICEs
-     Net n27966: 5 loads, 5 LSLICEs
-     Net MD/PWMArray_0__12__N_106: 1 loads, 1 LSLICEs
-     Net MD/n16377: 1 loads, 1 LSLICEs
-     Net MD/n10254: 2 loads, 2 LSLICEs
-     Net MD/n10269: 3 loads, 3 LSLICEs
-     Net MD/n5381: 1 loads, 1 LSLICEs
-     Net MD/PIXEL_CLOCK_enable_23: 2 loads, 2 LSLICEs
-     Net MD/n10244: 4 loads, 4 LSLICEs
-     Net MD/n10241: 1 loads, 1 LSLICEs
-     Net MD/n10240: 1 loads, 1 LSLICEs
-     Net RAM/lastAddress_31__N_837: 2 loads, 2 LSLICEs
-     Net RAM/lastAddress_31__N_840: 2 loads, 2 LSLICEs
+     Net PIC_BUS_INTERFACE/n11157: 4 loads, 4 LSLICEs
+     Net PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467: 9 loads, 9 LSLICEs
+     Net PIC_BUS_INTERFACE/transferMode_3__N_1585: 1 loads, 1 LSLICEs
+     Net jtaghub16_jrstn: 336 loads, 336 LSLICEs
+     Net master_reveal_coretop_instance/core0/n31194: 239 loads, 229 LSLICEs
+     Net MD/PWMArray_0__12__N_107: 1 loads, 1 LSLICEs
+     Net Matrix_CTRL_Out_c_1: 9 loads, 9 LSLICEs
+     Net MD/PIXEL_CLOCK_enable_16: 2 loads, 2 LSLICEs
+     Net MD/n11210: 2 loads, 2 LSLICEs
+     Net MD/n11185: 4 loads, 4 LSLICEs
+     Net MD/n11205: 1 loads, 1 LSLICEs
+     Net MD/n11204: 1 loads, 1 LSLICEs
+     Net MD/n11148: 1 loads, 1 LSLICEs
+     Net MD/n28012: 1 loads, 1 LSLICEs
+     Net MD/n14533: 3 loads, 3 LSLICEs
+     Net BUS_currGrantID_3__N_55: 2 loads, 2 LSLICEs
+     Net n31060: 14 loads, 14 LSLICEs
+     Net MDM/n31042: 9 loads, 9 LSLICEs
+     Net RAM/lastAddress_31__N_1312: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1246: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1306: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1244: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1229: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1261: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1303: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1243: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1260: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1300: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1242: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1297: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1309: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1241: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1294: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1240: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1264: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1291: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1239: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1230: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1231: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1267: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1232: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1270: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1233: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1273: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1288: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1238: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1285: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1237: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1234: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1276: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1235: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1279: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1236: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1282: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1245: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1247: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1315: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1248: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1318: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1249: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1321: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1250: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1324: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1251: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1327: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1252: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1330: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1253: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1333: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1254: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1336: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1255: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1339: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1256: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1342: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1257: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1345: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1258: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1348: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1259: 1 loads, 1 LSLICEs
+     Net RAM/lastAddress_31__N_1351: 2 loads, 2 LSLICEs
+     Net RAM/lastAddress_31__N_1354: 2 loads, 2 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net n28121: 335 loads
-     Net jtaghub16_jrstn: 332 loads
-     Net n28033: 328 loads
-     Net n28035: 328 loads
-     Net n28034: 327 loads
-     Net n28036: 327 loads
-     Net master_reveal_coretop_instance/core0/n28151: 273 loads
-     Net master_reveal_coretop_instance/core0/n28138: 189 loads
-     Net master_reveal_coretop_instance/core0/jtag_int_u/n28133: 163 loads
-     Net n28205: 162 loads
+     Net n31139: 394 loads
+     Net n31141: 394 loads
+     Net n31132: 393 loads
+     Net n31133: 393 loads
+     Net BUS_currGrantID[1]: 351 loads
+     Net BUS_currGrantID[0]: 350 loads
+     Net jtaghub16_jrstn: 339 loads
+     Net reveal_ist_111_N: 259 loads
+     Net reveal_ist_113_N: 259 loads
+     Net reveal_ist_115_N: 259 loads
  
 
-   Number of warnings:  7
+   Number of warnings:  27
    Number of errors:    0
 
 
 
 Total CPU Time: 3 secs  
 Total REAL Time: 4 secs  
-Peak Memory Usage: 100 MB
+Peak Memory Usage: 108 MB
 
 Dumping design to file WallPanel_FPGA_impl1_map.ncd.
 
@@ -1596,7 +1870,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:08:13 2021
+Tue Jan 12 12:24:21 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1613,7 +1887,7 @@ Device,speed:    LCMXO3LF-9400C,6
 Report level:    error report, limited to 1 item per preference
 --------------------------------------------------------------------------------
 
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 BLOCK JTAG PATHS
@@ -1624,14 +1898,14 @@ BLOCK JTAG PATHS
 Timing summary (Setup):
 ---------------
 
-Timing errors: 4116  Score: 108409502
-Cumulative negative slack: 54226507
+Timing errors: 4317  Score: 97412208
+Cumulative negative slack: 49387856
 
-Constraints cover 2765860 paths, 5 nets, and 16655 connections (90.09% coverage)
+Constraints cover 10492338 paths, 5 nets, and 21500 connections (88.23% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:08:13 2021
+Tue Jan 12 12:24:21 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1648,7 +1922,7 @@ Device,speed:    LCMXO3LF-9400C,M
 Report level:    error report, limited to 1 item per preference
 --------------------------------------------------------------------------------
 
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 BLOCK JTAG PATHS
@@ -1662,23 +1936,23 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 2765860 paths, 5 nets, and 17167 connections (92.86% coverage)
+Constraints cover 10492338 paths, 5 nets, and 21901 connections (89.88% coverage)
 
 
 
 Timing summary (Setup and Hold):
 ---------------
 
-Timing errors: 4116 (setup), 0 (hold)
-Score: 108409502 (setup), 0 (hold)
-Cumulative negative slack: 54226507 (54226507+0)
+Timing errors: 4317 (setup), 0 (hold)
+Score: 97412208 (setup), 0 (hold)
+Cumulative negative slack: 49387856 (49387856+0)
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
 Total CPU Time: 1 secs 
 Total REAL Time: 2 secs 
-Peak Memory Usage: 102 MB
+Peak Memory Usage: 112 MB
 
 
 mpartrce -p "WallPanel_FPGA_impl1.p2t" -f "WallPanel_FPGA_impl1.p3t" -tf "WallPanel_FPGA_impl1.pt" "WallPanel_FPGA_impl1_map.ncd" "WallPanel_FPGA_impl1.ncd"
@@ -1688,7 +1962,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "WallPanel_FPGA_impl1_map.ncd"
-Mon Jan 11 16:08:14 2021
+Tue Jan 12 12:24:22 2021
 
 PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.dir/5_1.ncd WallPanel_FPGA_impl1.prf
@@ -1715,52 +1989,55 @@ Device utilization summary:
    PIO (prelim)  104+4(JTAG)/384     28% used
                  104+4(JTAG)/207     52% bonded
 
-   SLICE           1891/4700         40% used
+   SLICE           2569/4700         54% used
 
    GSR                1/1           100% used
    JTAG               1/1           100% used
-   EBR               28/48           58% used
+   EBR               47/48           97% used
    PLL                1/2            50% used
 
 
-20 potential circuit loops found in timing analysis.
-Number of Signals: 5997
-Number of Connections: 18487
+12 potential circuit loops found in timing analysis.
+Number of Signals: 7998
+Number of Connections: 24367
     <postMsg mid="61001101" type="Warning" dynamic="0" navigation="0"  />
 
 Pin Constraint Summary:
    104 out of 104 pins locked (100% locked).
 
-The following 3 signals are selected to use the primary clock routing resources:
-    LOGIC_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 707)
-    PIXEL_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 44)
+The following 6 signals are selected to use the primary clock routing resources:
+    LOGIC_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 795)
+    PIXEL_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 50)
     jtaghub16_jtck (driver: xo2chub/genblk7.jtagf_u, clk load #: 348)
+    reveal_ist_101_N (driver: MDM/SLICE_2087, clk load #: 18)
+    MDM/Sprite_writeClk (driver: MDM/SLICE_737, clk load #: 16)
+    VRAM_WC_N (driver: MDM/SLICE_1551, clk load #: 15)
 
 
 The following 8 signals are selected to use the secondary clock routing resources:
-    jtaghub16_jrstn (driver: xo2chub/genblk7.jtagf_u, clk load #: 0, sr load #: 329, ce load #: 0)
-    master_reveal_coretop_instance/core0/n28151 (driver: master_reveal_coretop_instance/core0/SLICE_2151, clk load #: 0, sr load #: 272, ce load #: 0)
-    PIC_OE_c_derived_19 (driver: SLICE_1928, clk load #: 10, sr load #: 10, ce load #: 0)
-    master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2065, clk load #: 0, sr load #: 0, ce load #: 26)
-    master_reveal_coretop_instance/core0/jtck_N_1284_enable_274 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2066, clk load #: 0, sr load #: 0, ce load #: 25)
-    master_reveal_coretop_instance/core0/jtck_N_1284_enable_324 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2300, clk load #: 0, sr load #: 0, ce load #: 25)
-    master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_1915, clk load #: 0, sr load #: 0, ce load #: 25)
-    master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2102, clk load #: 0, sr load #: 0, ce load #: 25)
+    jtaghub16_jrstn (driver: xo2chub/genblk7.jtagf_u, clk load #: 0, sr load #: 336, ce load #: 0)
+    master_reveal_coretop_instance/core0/n31194 (driver: master_reveal_coretop_instance/core0/SLICE_2482, clk load #: 0, sr load #: 249, ce load #: 0)
+    PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467 (driver: PIC_BUS_INTERFACE/SLICE_2708, clk load #: 10, sr load #: 9, ce load #: 0)
+    master_reveal_coretop_instance/jtck_N_1731_enable_424 (driver: master_reveal_coretop_instance/SLICE_2430, clk load #: 0, sr load #: 0, ce load #: 26)
+    master_reveal_coretop_instance/core0/jtck_N_1731_enable_350 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651, clk load #: 0, sr load #: 0, ce load #: 26)
+    master_reveal_coretop_instance/jtck_N_1731_enable_175 (driver: master_reveal_coretop_instance/SLICE_2644, clk load #: 0, sr load #: 0, ce load #: 25)
+    master_reveal_coretop_instance/jtck_N_1731_enable_225 (driver: master_reveal_coretop_instance/SLICE_2710, clk load #: 0, sr load #: 0, ce load #: 25)
+    master_reveal_coretop_instance/core0/jtck_N_1731_enable_300 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2764, clk load #: 0, sr load #: 0, ce load #: 25)
 
-Signal n27980 is selected as Global Set/Reset.
+Signal MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 is selected as Global Set/Reset.
 Starting Placer Phase 0.
 ...........
-Finished Placer Phase 0.  REAL time: 5 secs 
+Finished Placer Phase 0.  REAL time: 22 secs 
 
 Starting Placer Phase 1.
-.......
-Placer score = 218213991.
-Finished Placer Phase 1.  REAL time: 10 secs 
+.........
+Placer score = 170265470.
+Finished Placer Phase 1.  REAL time: 30 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  208472960
-Finished Placer Phase 2.  REAL time: 11 secs 
+Placer score =  154257094
+Finished Placer Phase 2.  REAL time: 32 secs 
 
 
 ------------------ Clock Report ------------------
@@ -1772,19 +2049,22 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Global Clocks:
-  PRIMARY "LOGIC_CLOCK" from CLKOP on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 707
-  PRIMARY "PIXEL_CLOCK" from CLKOS on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 44
+  PRIMARY "LOGIC_CLOCK" from CLKOP on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 795
+  PRIMARY "PIXEL_CLOCK" from CLKOS on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 50
   PRIMARY "jtaghub16_jtck" from JTCK on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 348
-  SECONDARY "jtaghub16_jrstn" from JRSTN on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 0, ce load = 0, sr load = 329
-  SECONDARY "master_reveal_coretop_instance/core0/n28151" from F0 on comp "master_reveal_coretop_instance/core0/SLICE_2151" on site "R12C48C", clk load = 0, ce load = 0, sr load = 272
-  SECONDARY "PIC_OE_c_derived_19" from F0 on comp "SLICE_1928" on site "R27C21B", clk load = 10, ce load = 0, sr load = 10
-  SECONDARY "master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_373" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2065" on site "R9C26B", clk load = 0, ce load = 26, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1284_enable_274" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2066" on site "R9C24D", clk load = 0, ce load = 25, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1284_enable_324" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2300" on site "R9C24B", clk load = 0, ce load = 25, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_65" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_1915" on site "R9C24A", clk load = 0, ce load = 25, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1284_enable_176" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2102" on site "R9C26D", clk load = 0, ce load = 25, sr load = 0
+  PRIMARY "reveal_ist_101_N" from Q0 on comp "MDM/SLICE_2087" on site "R2C25B", clk load = 18
+  PRIMARY "MDM/Sprite_writeClk" from Q0 on comp "MDM/SLICE_737" on site "R26C2A", clk load = 16
+  PRIMARY "VRAM_WC_N" from Q0 on comp "MDM/SLICE_1551" on site "R6C25A", clk load = 15
+  SECONDARY "jtaghub16_jrstn" from JRSTN on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 0, ce load = 0, sr load = 336
+  SECONDARY "master_reveal_coretop_instance/core0/n31194" from F0 on comp "master_reveal_coretop_instance/core0/SLICE_2482" on site "R9C23D", clk load = 0, ce load = 0, sr load = 249
+  SECONDARY "PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467" from F1 on comp "PIC_BUS_INTERFACE/SLICE_2708" on site "R16C48A", clk load = 10, ce load = 0, sr load = 9
+  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_424" from F0 on comp "master_reveal_coretop_instance/SLICE_2430" on site "R9C24A", clk load = 0, ce load = 26, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1731_enable_350" from F1 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651" on site "R9C24D", clk load = 0, ce load = 26, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_175" from F0 on comp "master_reveal_coretop_instance/SLICE_2644" on site "R9C24C", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_225" from F0 on comp "master_reveal_coretop_instance/SLICE_2710" on site "R9C24B", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1731_enable_300" from F1 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2764" on site "R13C2C", clk load = 0, ce load = 25, sr load = 0
 
-  PRIMARY  : 3 out of 8 (37%)
+  PRIMARY  : 6 out of 8 (75%)
   SECONDARY: 8 out of 8 (100%)
 
 Edge Clocks:
@@ -1811,19 +2091,19 @@ I/O Bank Usage Summary:
 | 5        | 14 / 20 ( 70%) | 3.3V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 10 secs 
+Total placer CPU time: 28 secs 
 
 Dumping design to file WallPanel_FPGA_impl1.dir/5_1.ncd.
 
-20 potential circuit loops found in timing analysis.
-0 connections routed; 18487 unrouted.
+12 potential circuit loops found in timing analysis.
+0 connections routed; 24367 unrouted.
 Starting router resource preassignment
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=lastAddress_31__N_820 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_807 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_813 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_832 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_806 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_805 loads=2 clock_loads=1&#xA;   ....   loads=8 clock_loads=8&#xA;   Signal=reveal_ist_125_derived_5 loads=23 clock_loads=3&#xA;   Signal=VRAM_WC loads=8 clock_loads=7&#xA;   Signal=MDM/GR_WR_CLK loads=2 clock_loads=2"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3&#xA;   Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8&#xA;   Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4&#xA;   Signal=MDM/GR_WR_CLK loads=3 clock_loads=2&#xA;   Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4&#xA;   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1&#xA;   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1&#xA;   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1"  />
 
-Completed router resource preassignment. Real time: 18 secs 
+Completed router resource preassignment. Real time: 39 secs 
 
-Start NBR router at 16:08:32 01/11/21
+Start NBR router at 12:25:01 01/12/21
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1838,126 +2118,111 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-20 potential circuit loops found in timing analysis.
-Start NBR special constraint process at 16:08:33 01/11/21
+12 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 12:25:02 01/12/21
 
-Start NBR section for initial routing at 16:08:35 01/11/21
+Start NBR section for initial routing at 12:25:04 01/12/21
 Level 1, iteration 1
-91(0.02%) conflicts; 13408(72.53%) untouched conns; 135351772 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -34.287ns/-135351.773ns; real time: 22 secs 
+173(0.03%) conflicts; 18184(74.63%) untouched conns; 211385198 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -32.854ns/-211385.198ns; real time: 47 secs 
 Level 2, iteration 1
-103(0.02%) conflicts; 11710(63.34%) untouched conns; 140491895 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -33.933ns/-140491.896ns; real time: 22 secs 
+186(0.04%) conflicts; 15705(64.45%) untouched conns; 231431683 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -34.345ns/-231431.684ns; real time: 49 secs 
 Level 3, iteration 1
-190(0.04%) conflicts; 9371(50.69%) untouched conns; 145954118 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -35.511ns/-145954.119ns; real time: 24 secs 
+287(0.06%) conflicts; 12208(50.10%) untouched conns; 234256659 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -36.031ns/-234256.659ns; real time: 51 secs 
 Level 4, iteration 1
-817(0.16%) conflicts; 0(0.00%) untouched conn; 147829568 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -31.390ns/-147829.568ns; real time: 26 secs 
+1429(0.28%) conflicts; 0(0.00%) untouched conn; 235862663 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -31.674ns/-235862.664ns; real time: 56 secs 
 
-Info: Initial congestion level at 75% usage is 2
-Info: Initial congestion area  at 75% usage is 86 (6.18%)
+Info: Initial congestion level at 75% usage is 13
+Info: Initial congestion area  at 75% usage is 293 (21.05%)
 
-Start NBR section for normal routing at 16:08:40 01/11/21
+Start NBR section for normal routing at 12:25:18 01/12/21
 Level 4, iteration 1
-707(0.14%) conflicts; 0(0.00%) untouched conn; 146576797 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -30.518ns/-146576.797ns; real time: 28 secs 
+393(0.08%) conflicts; 0(0.00%) untouched conn; 244618399 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -39.002ns/-244618.399ns; real time: 1 mins 4 secs 
 Level 4, iteration 2
-535(0.10%) conflicts; 0(0.00%) untouched conn; 142986452 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -30.532ns/-142986.452ns; real time: 29 secs 
+131(0.03%) conflicts; 0(0.00%) untouched conn; 255598973 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -39.994ns/-255598.973ns; real time: 1 mins 7 secs 
 Level 4, iteration 3
-381(0.07%) conflicts; 0(0.00%) untouched conn; 144041467 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -30.518ns/-144041.468ns; real time: 30 secs 
+63(0.01%) conflicts; 0(0.00%) untouched conn; 264632811 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -43.256ns/-264632.811ns; real time: 1 mins 9 secs 
 Level 4, iteration 4
-231(0.04%) conflicts; 0(0.00%) untouched conn; 144041467 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -30.518ns/-144041.468ns; real time: 31 secs 
+23(0.00%) conflicts; 0(0.00%) untouched conn; 264632811 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -43.256ns/-264632.811ns; real time: 1 mins 10 secs 
 Level 4, iteration 5
-166(0.03%) conflicts; 0(0.00%) untouched conn; 149090778 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -38.600ns/-149090.778ns; real time: 32 secs 
+8(0.00%) conflicts; 0(0.00%) untouched conn; 257756201 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.837ns/-257756.201ns; real time: 1 mins 10 secs 
 Level 4, iteration 6
-93(0.02%) conflicts; 0(0.00%) untouched conn; 149090778 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -38.600ns/-149090.778ns; real time: 32 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 257756201 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.837ns/-257756.201ns; real time: 1 mins 10 secs 
 Level 4, iteration 7
-63(0.01%) conflicts; 0(0.00%) untouched conn; 155233564 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.074ns/-155233.564ns; real time: 33 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 257817976 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.861ns/-257817.976ns; real time: 1 mins 11 secs 
 Level 4, iteration 8
-57(0.01%) conflicts; 0(0.00%) untouched conn; 155233564 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.074ns/-155233.564ns; real time: 34 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 257817976 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.861ns/-257817.976ns; real time: 1 mins 11 secs 
 Level 4, iteration 9
-25(0.00%) conflicts; 0(0.00%) untouched conn; 156118004 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-156118.004ns; real time: 34 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 11 secs 
 Level 4, iteration 10
-15(0.00%) conflicts; 0(0.00%) untouched conn; 156118004 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-156118.004ns; real time: 34 secs 
-Level 4, iteration 11
-7(0.00%) conflicts; 0(0.00%) untouched conn; 155533074 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-155533.074ns; real time: 35 secs 
-Level 4, iteration 12
-3(0.00%) conflicts; 0(0.00%) untouched conn; 155533074 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-155533.074ns; real time: 35 secs 
-Level 4, iteration 13
-1(0.00%) conflict; 0(0.00%) untouched conn; 152788626 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-152788.626ns; real time: 36 secs 
-Level 4, iteration 14
-3(0.00%) conflicts; 0(0.00%) untouched conn; 152788626 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-152788.626ns; real time: 36 secs 
-Level 4, iteration 15
-0(0.00%) conflict; 0(0.00%) untouched conn; 152638750 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-152638.750ns; real time: 37 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 11 secs 
 
-Start NBR section for performance tuning (iteration 1) at 16:08:51 01/11/21
+Start NBR section for performance tuning (iteration 1) at 12:25:33 01/12/21
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 152638750 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-152638.750ns; real time: 37 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 12 secs 
 
-Start NBR section for re-routing at 16:08:51 01/11/21
+Start NBR section for re-routing at 12:25:34 01/12/21
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 151190593 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.053ns/-151190.593ns; real time: 40 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 255999645 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.857ns/-255999.645ns; real time: 1 mins 27 secs 
 
-Start NBR section for post-routing at 16:08:54 01/11/21
-20 potential circuit loops found in timing analysis.
+Start NBR section for post-routing at 12:25:49 01/12/21
+12 potential circuit loops found in timing analysis.
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 7985 (43.19%)
-  Estimated worst slack<setup> : -39.053ns
-  Timing score<setup> : 112929268
+  Number of connections with timing violations : 13056 (53.58%)
+  Estimated worst slack<setup> : -42.857ns
+  Timing score<setup> : 114536360
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=lastAddress_31__N_820 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_807 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_813 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_832 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_806 loads=2 clock_loads=1&#xA;   Signal=lastAddress_31__N_805 loads=2 clock_loads=1&#xA;   ....   loads=8 clock_loads=8&#xA;   Signal=reveal_ist_125_derived_5 loads=23 clock_loads=3&#xA;   Signal=VRAM_WC loads=8 clock_loads=7&#xA;   Signal=MDM/GR_WR_CLK loads=2 clock_loads=2"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3&#xA;   Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8&#xA;   Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4&#xA;   Signal=MDM/GR_WR_CLK loads=3 clock_loads=2&#xA;   Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4&#xA;   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1&#xA;   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1&#xA;   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1"  />
 
-20 potential circuit loops found in timing analysis.
-20 potential circuit loops found in timing analysis.
-20 potential circuit loops found in timing analysis.
-Total CPU time 44 secs 
-Total REAL time: 46 secs 
+12 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
+Total CPU time 1 mins 27 secs 
+Total REAL time: 1 mins 31 secs 
 Completely routed.
-End of route.  18487 routed (100.00%); 0 unrouted.
+End of route.  24367 routed (100.00%); 0 unrouted.
 
-Hold time timing score: 30, hold timing errors: 16
+Hold time timing score: 72, hold timing errors: 16
 
-Timing score: 112929268 
+Timing score: 114536360 
 
 Dumping design to file WallPanel_FPGA_impl1.dir/5_1.ncd.
 
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -31.110
-PAR_SUMMARY::Timing score<setup/<ns>> = 112929.268
-PAR_SUMMARY::Worst  slack<hold /<ns>> = -2.419
-PAR_SUMMARY::Timing score<hold /<ns>> = 30.796
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -36.738
+PAR_SUMMARY::Timing score<setup/<ns>> = 114536.360
+PAR_SUMMARY::Worst  slack<hold /<ns>> = -5.086
+PAR_SUMMARY::Timing score<hold /<ns>> = 72.680
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 45 secs 
-Total REAL time to completion: 47 secs 
+Total CPU  time to completion: 1 mins 28 secs 
+Total REAL time to completion: 1 mins 33 secs 
 
 par done!
 
@@ -1994,7 +2259,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:09:02 2021
+Tue Jan 12 12:25:56 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -2011,7 +2276,7 @@ Device,speed:    LCMXO3LF-9400C,6
 Report level:    verbose report, limited to 10 items per preference
 --------------------------------------------------------------------------------
 
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 BLOCK JTAG PATHS
@@ -2022,14 +2287,14 @@ BLOCK JTAG PATHS
 Timing summary (Setup):
 ---------------
 
-Timing errors: 4239  Score: 112929268
-Cumulative negative slack: 83449257
+Timing errors: 4373  Score: 114536360
+Cumulative negative slack: 58953514
 
-Constraints cover 2765860 paths, 5 nets, and 17223 connections (93.16% coverage)
+Constraints cover 10492338 paths, 5 nets, and 22065 connections (90.55% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 16:09:03 2021
+Tue Jan 12 12:25:56 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -2046,7 +2311,7 @@ Device,speed:    LCMXO3LF-9400C,m
 Report level:    verbose report, limited to 10 items per preference
 --------------------------------------------------------------------------------
 
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 BLOCK JTAG PATHS
@@ -2057,26 +2322,26 @@ BLOCK JTAG PATHS
 Timing summary (Hold):
 ---------------
 
-Timing errors: 16  Score: 30796
-Cumulative negative slack: 30796
+Timing errors: 16  Score: 72680
+Cumulative negative slack: 72680
 
-Constraints cover 2765860 paths, 5 nets, and 17223 connections (93.16% coverage)
+Constraints cover 10492338 paths, 5 nets, and 22065 connections (90.55% coverage)
 
 
 
 Timing summary (Setup and Hold):
 ---------------
 
-Timing errors: 4239 (setup), 16 (hold)
-Score: 112929268 (setup), 30796 (hold)
-Cumulative negative slack: 83480053 (83449257+30796)
+Timing errors: 4373 (setup), 16 (hold)
+Score: 114536360 (setup), 72680 (hold)
+Cumulative negative slack: 59026194 (58953514+72680)
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
 Total CPU Time: 2 secs 
 Total REAL Time: 2 secs 
-Peak Memory Usage: 106 MB
+Peak Memory Usage: 117 MB
 
 
 iotiming  "WallPanel_FPGA_impl1.ncd" "WallPanel_FPGA_impl1.prf"
@@ -2099,12 +2364,12 @@ Performance: 6
 Loading device for application iotiming from file 'xo3c9400.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
 Package Status:                     Final          Version 1.6.
 Performance Hardware Data Status:   Final          Version 37.4.
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 Running Performance Grade: 6
 Computing Setup Time ...
 Computing Max Clock to Output Delay ...
 Computing Hold Time ...
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 Computing Min Clock to Output Delay ...
 
 Loading design for application iotiming from file wallpanel_fpga_impl1.ncd.
@@ -2116,12 +2381,12 @@ Package:     CABGA256
 Performance: M
 Package Status:                     Final          Version 1.6.
 Performance Hardware Data Status:   Final          Version 37.4.
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 Running Performance Grade: M
 Computing Setup Time ...
 Computing Max Clock to Output Delay ...
 Computing Hold Time ...
-20 potential circuit loops found in timing analysis.
+12 potential circuit loops found in timing analysis.
 Computing Min Clock to Output Delay ...
 Done.
 
@@ -2202,6 +2467,6 @@ Creating bit map...
 Bitstream Status: Final           Version 1.95.
  
 Saving bit stream in "WallPanel_FPGA_impl1.bit".
-Total CPU Time: 3 secs 
-Total REAL Time: 3 secs 
-Peak Memory Usage: 321 MB
+Total CPU Time: 4 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 327 MB

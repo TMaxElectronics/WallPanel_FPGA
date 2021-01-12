@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Jan 11 16:08:14 2021
+Tue Jan 12 12:24:22 2021
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f WallPanel_FPGA_impl1.p2t
 WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.dir WallPanel_FPGA_impl1.prf
@@ -16,11 +16,11 @@ Preference file: WallPanel_FPGA_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -31.110      112929268    -2.419       30796        47           Completed
+5_1   *      0            -36.738      114536360    -5.086       72680        01:32        Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 47 secs 
+Total (real) run time for 1-seed: 1 mins 33 secs 
 
 par done!
 

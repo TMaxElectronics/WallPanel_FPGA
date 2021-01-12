@@ -17,7 +17,7 @@ ModuleName=SpriteRam
 SourceFormat=VHDL
 ParameterFileVersion=1.0
 Date=01/11/2021
-Time=14:29:12
+Time=23:26:26
 
 [Parameters]
 Verilog=0
@@ -33,7 +33,7 @@ WAddress=16384
 WData=9
 enByte=0
 ByteSize=8
-OutputEn=1
+OutputEn=0
 ClockEn=0
 Optimization=Speed
 Reset=Sync
@@ -50,4 +50,4 @@ no_init=0
 =mem
 
 [Command]
-cmd_line= -w -n SpriteRam -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdps -device LCMXO3LF-9400C -raddr_width 14 -rwidth 9 -waddr_width 14 -wwidth 9 -rnum_words 16384 -wnum_words 16384 -outdata REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0
+cmd_line= -w -n SpriteRam -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdps -device LCMXO3LF-9400C -raddr_width 14 -rwidth 9 -waddr_width 14 -wwidth 9 -rnum_words 16384 -wnum_words 16384 -cascade -1 -mem_init0

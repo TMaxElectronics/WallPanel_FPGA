@@ -20,7 +20,7 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/impl1/WallPanel_FPGA_impl1.bit</File>
-			<FileTime>01/08/21 18:38:18</FileTime>
+			<FileTime>01/11/21 17:27:11</FileTime>
 			<Operation>SRAM Fast Program</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

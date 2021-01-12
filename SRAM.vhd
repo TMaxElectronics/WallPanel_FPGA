@@ -100,8 +100,12 @@ begin
 				state <= x"30";
 				BUS_DONE_INTERNAL <= '1';
 				
-			else
-				state <= state + '1';
+			elsif state = x"0f" then
+				state <= x"10";
+			elsif state = x"1e" then
+				state <= x"1f";
+			elsif state = x"1f" then
+				state <= x"20";
 			end if;
 		end if;
 	end process;

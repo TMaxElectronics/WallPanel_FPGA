@@ -14,41 +14,49 @@ end entity tb;
 architecture test of tb is 
 
     component Outputbuffer
-        port (WrAddress : in std_logic_vector(7 downto 0); 
-        RdAddress : in std_logic_vector(7 downto 0); 
-        Data : in std_logic_vector(119 downto 0); WE: in std_logic; 
-        RdClock: in std_logic; RdClockEn: in std_logic; 
-        Reset: in std_logic; WrClock: in std_logic; 
-        WrClockEn: in std_logic; Q : out std_logic_vector(119 downto 0)
+        port (DataInA : in std_logic_vector(29 downto 0); 
+        DataInB : in std_logic_vector(119 downto 0); 
+        AddressA : in std_logic_vector(9 downto 0); 
+        AddressB : in std_logic_vector(7 downto 0); ClockA: in std_logic; 
+        ClockB: in std_logic; ClockEnA: in std_logic; 
+        ClockEnB: in std_logic; WrA: in std_logic; WrB: in std_logic; 
+        ResetA: in std_logic; ResetB: in std_logic; 
+        QA : out std_logic_vector(29 downto 0); 
+        QB : out std_logic_vector(119 downto 0)
     );
     end component;
 
-    signal WrAddress : std_logic_vector(7 downto 0) := (others => '0');
-    signal RdAddress : std_logic_vector(7 downto 0) := (others => '0');
-    signal Data : std_logic_vector(119 downto 0) := (others => '0');
-    signal WE: std_logic := '0';
-    signal RdClock: std_logic := '0';
-    signal RdClockEn: std_logic := '0';
-    signal Reset: std_logic := '0';
-    signal WrClock: std_logic := '0';
-    signal WrClockEn: std_logic := '0';
-    signal Q : std_logic_vector(119 downto 0);
+    signal DataInA : std_logic_vector(29 downto 0) := (others => '0');
+    signal DataInB : std_logic_vector(119 downto 0) := (others => '0');
+    signal AddressA : std_logic_vector(9 downto 0) := (others => '0');
+    signal AddressB : std_logic_vector(7 downto 0) := (others => '0');
+    signal ClockA: std_logic := '0';
+    signal ClockB: std_logic := '0';
+    signal ClockEnA: std_logic := '0';
+    signal ClockEnB: std_logic := '0';
+    signal WrA: std_logic := '0';
+    signal WrB: std_logic := '0';
+    signal ResetA: std_logic := '0';
+    signal ResetB: std_logic := '0';
+    signal QA : std_logic_vector(29 downto 0);
+    signal QB : std_logic_vector(119 downto 0);
 begin
     u1 : Outputbuffer
-        port map (WrAddress => WrAddress, RdAddress => RdAddress, Data => Data, 
-            WE => WE, RdClock => RdClock, RdClockEn => RdClockEn, Reset => Reset, 
-            WrClock => WrClock, WrClockEn => WrClockEn, Q => Q
+        port map (DataInA => DataInA, DataInB => DataInB, AddressA => AddressA, 
+            AddressB => AddressB, ClockA => ClockA, ClockB => ClockB, 
+            ClockEnA => ClockEnA, ClockEnB => ClockEnB, WrA => WrA, WrB => WrB, 
+            ResetA => ResetA, ResetB => ResetB, QA => QA, QB => QB
         );
 
     process
 
     begin
-      WrAddress <= (others => '0') ;
+      DataInA <= (others => '0') ;
       wait for 100 ns;
-      wait until Reset = '0';
-      for i in 0 to 518 loop
-        wait until WrClock'event and WrClock = '1';
-        WrAddress <= WrAddress + '1' after 1 ns;
+      wait until ResetA = '0';
+      for i in 0 to 1027 loop
+        wait until ClockA'event and ClockA = '1';
+        DataInA <= DataInA + '1' after 1 ns;
       end loop;
       wait;
     end process;
@@ -56,12 +64,13 @@ begin
     process
 
     begin
-      RdAddress <= (others => '0') ;
+      DataInB <= (others => '0') ;
       wait for 100 ns;
-      wait until Reset = '0';
-      for i in 0 to 518 loop
-        wait until RdClock'event and RdClock = '1';
-        RdAddress <= RdAddress + '1' after 1 ns;
+      wait until ResetB = '0';
+      wait until WrB = '1';
+      for i in 0 to 1027 loop
+        wait until ClockB'event and ClockB = '1';
+        DataInB <= DataInB + '1' after 1 ns;
       end loop;
       wait;
     end process;
@@ -69,59 +78,100 @@ begin
     process
 
     begin
-      Data <= (others => '0') ;
+      AddressA <= (others => '0') ;
       wait for 100 ns;
-      wait until Reset = '0';
+      wait until ResetA = '0';
+      for i in 0 to 2054 loop
+        wait until ClockA'event and ClockA = '1';
+        AddressA <= AddressA + '1' after 1 ns;
+      end loop;
+      wait;
+    end process;
+
+    process
+
+    begin
+      AddressB <= (others => '0') ;
+      wait for 100 ns;
+      wait until ResetB = '0';
+      wait until WrB = '1';
+      for i in 0 to 2054 loop
+        wait until ClockB'event and ClockB = '1';
+        AddressB <= AddressB + '1' after 1 ns;
+      end loop;
+      wait;
+    end process;
+
+    ClockA <= not ClockA after 5.00 ns;
+
+    ClockB <= not ClockB after 1.25 ns;
+
+    process
+
+    begin
+      ClockEnA <= '0' ;
+      wait for 100 ns;
+      wait until ResetA = '0';
+      ClockEnA <= '1' ;
+      wait;
+    end process;
+
+    process
+
+    begin
+      ClockEnB <= '0' ;
+      wait for 100 ns;
+      wait until ResetB = '0';
+      ClockEnB <= '1' ;
+      wait;
+    end process;
+
+    process
+
+    begin
+      WrA <= '0' ;
+      wait until ResetA = '0';
+      for i in 0 to 1027 loop
+        wait until ClockA'event and ClockA = '1';
+        WrA <= '1' after 1 ns;
+      end loop;
+      WrA <= '0' ;
+      wait;
+    end process;
+
+    process
+
+    begin
+      WrB <= '0' ;
+      wait until ResetB = '0';
+      wait until WrA = '1';
+      wait until WrA = '0';
+      for i in 0 to 1027 loop
+        wait until ClockA'event and ClockA = '1';
+      end loop;
       for i in 0 to 259 loop
-        wait until WrClock'event and WrClock = '1';
-        Data <= Data + '1' after 1 ns;
+        wait until ClockB'event and ClockB = '1';
+        WrB <= '1' after 1 ns;
       end loop;
+      WrB <= '0' ;
       wait;
     end process;
 
     process
 
     begin
-      WE <= '0' ;
-      wait until Reset = '0';
-      for i in 0 to 259 loop
-        wait until WrClock'event and WrClock = '1';
-        WE <= '1' after 1 ns;
-      end loop;
-      WE <= '0' ;
-      wait;
-    end process;
-
-    RdClock <= not RdClock after 5.00 ns;
-
-    process
-
-    begin
-      RdClockEn <= '0' ;
+      ResetA <= '1' ;
       wait for 100 ns;
-      wait until Reset = '0';
-      RdClockEn <= '1' ;
+      ResetA <= '0' ;
       wait;
     end process;
 
     process
 
     begin
-      Reset <= '1' ;
+      ResetB <= '1' ;
       wait for 100 ns;
-      Reset <= '0' ;
-      wait;
-    end process;
-
-    WrClock <= not WrClock after 5.00 ns;
-
-    process
-
-    begin
-      WrClockEn <= '0' ;
-      wait for 100 ns;
-      wait until Reset = '0';
-      WrClockEn <= '1' ;
+      ResetB <= '0' ;
       wait;
     end process;
 

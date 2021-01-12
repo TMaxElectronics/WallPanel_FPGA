@@ -38,6 +38,8 @@ D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd = VHDL, work
 D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/GammaRam.vhd = VHDL, work
 D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd = VHDL, work
 D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/SpriteRam.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd = VHDL, work
+D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/LUT_RAM.vhd = VHDL, work
 [HDL_Defines]
 SBP_SYNTHESIS=
 [HDL_Param]

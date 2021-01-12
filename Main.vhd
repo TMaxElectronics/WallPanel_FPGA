@@ -85,9 +85,12 @@ signal BUS_DONE_OVERRIDE	:	STD_LOGIC := '0';
 
 signal PIC_busState			:	STD_LOGIC_VECTOR(7 downto 0);
 
-signal VRAM_ADDR			:	STD_LOGIC_VECTOR(7 downto 0);
-signal VRAM_DATA			:	STD_LOGIC_VECTOR(119 downto 0);
+signal VRAM_ADDR			:	STD_LOGIC_VECTOR(9 downto 0);
+signal VRAM_DATA			:	STD_LOGIC_VECTOR(29 downto 0);
+signal VRAM_DATA_OUT		:	STD_LOGIC_VECTOR(29 downto 0);
 signal VRAM_WC				:	STD_LOGIC;
+signal VRAM_WE				:	STD_LOGIC;
+		
 signal MATRIX_CURRROW		:	STD_LOGIC_VECTOR(4 downto 0);
 
 begin 
@@ -117,7 +120,7 @@ process(LOGIC_CLOCK, BUS_currGrantID) begin
 		BUS_currGrantID <= (others => '0');
 		BUS_DONE_OVERRIDE <= '0';
 		
-	elsif RISING_EDGE(LOGIC_CLOCK) then
+	elsif FALLING_EDGE(LOGIC_CLOCK) then
 		if BUS_currGrantID = x"0" then
 			if BUS_req(1) = '1' then
 				BUS_currGrantID <= x"1";
@@ -151,6 +154,8 @@ MD : entity work.MatrixDriver
 		VRAM_ADDR	=>	VRAM_ADDR,
 		VRAM_DATA	=>	VRAM_DATA,
 		VRAM_WC		=>	VRAM_WC,
+		VRAM_DATA_OUT	=>	VRAM_DATA_OUT,
+		VRAM_WE			=>	VRAM_WE,
 		
 		currRow_out		=> 	MATRIX_CURRROW,
 		
@@ -168,9 +173,11 @@ MDM : entity work.MatrixBusHandler
 	port map( 
 		LOGIC_CLOCK => 	LOGIC_CLOCK,
 		
-		VRAM_ADDR	=>	VRAM_ADDR,
-		VRAM_DATA	=>	VRAM_DATA,
-		VRAM_WC		=>	VRAM_WC,
+		VRAM_ADDR		=>	VRAM_ADDR,
+		VRAM_DATA		=>	VRAM_DATA,
+		VRAM_WC			=>	VRAM_WC,
+		VRAM_DATA_IN	=>	VRAM_DATA_OUT,
+		VRAM_WE			=>	VRAM_WE,
 		
 		currRow		=> 	MATRIX_CURRROW,
 		

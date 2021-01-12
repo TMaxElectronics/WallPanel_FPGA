@@ -4,9 +4,9 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2021 1 11 14 29 12)
+      (timestamp 2021 1 11 23 26 26)
       (program "SCUBA" (version "Diamond (64-bit) 3.11.0.396.4"))))
-      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n SpriteRam -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type bram -wp 10 -rp 0011 -rdata_width 9 -data_width 9 -num_rows 16384 -outdata REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 ")
+      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n SpriteRam -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type bram -wp 10 -rp 0011 -rdata_width 9 -data_width 9 -num_rows 16384 -cascade -1 -mem_init0 ")
   (library ORCLIB
     (edifLevel 0)
     (technology
@@ -569,11 +569,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -664,11 +664,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -759,11 +759,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -854,11 +854,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -949,11 +949,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1044,11 +1044,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1139,11 +1139,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1234,11 +1234,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1329,11 +1329,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1424,11 +1424,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1519,11 +1519,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1614,11 +1614,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1709,11 +1709,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1804,11 +1804,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1899,11 +1899,11 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1997,35 +1997,15 @@
             (property GSR
               (string "ENABLED"))
             (property RESETMODE
-              (string "SYNC"))
+              (string "ASYNC"))
             (property REGMODE_B
-              (string "OUTREG"))
+              (string "NOREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
               (string "9")))
-          (instance FF_7
-            (viewRef view1 
-              (cellRef FD1P3DX))
-            (property GSR
-              (string "ENABLED")))
-          (instance FF_6
-            (viewRef view1 
-              (cellRef FD1P3DX))
-            (property GSR
-              (string "ENABLED")))
-          (instance FF_5
-            (viewRef view1 
-              (cellRef FD1P3DX))
-            (property GSR
-              (string "ENABLED")))
-          (instance FF_4
-            (viewRef view1 
-              (cellRef FD1P3DX))
-            (property GSR
-              (string "ENABLED")))
           (instance FF_3
             (viewRef view1 
               (cellRef FD1P3DX))
@@ -2311,18 +2291,6 @@
               (portRef ADA0 (instanceRef SpriteRam_13_0_2))
               (portRef ADA0 (instanceRef SpriteRam_14_0_1))
               (portRef ADA0 (instanceRef SpriteRam_15_0_0))))
-          (net raddr10_ff
-            (joined
-              (portRef D (instanceRef FF_3))
-              (portRef Q (instanceRef FF_7))))
-          (net raddr11_ff
-            (joined
-              (portRef D (instanceRef FF_2))
-              (portRef Q (instanceRef FF_6))))
-          (net raddr12_ff
-            (joined
-              (portRef D (instanceRef FF_1))
-              (portRef Q (instanceRef FF_5))))
           (net scuba_vlo
             (joined
               (portRef Z (instanceRef scuba_vlo_inst))
@@ -2630,18 +2598,10 @@
               (portRef DIB2 (instanceRef SpriteRam_15_0_0))
               (portRef DIB1 (instanceRef SpriteRam_15_0_0))
               (portRef DIB0 (instanceRef SpriteRam_15_0_0))
-              (portRef CD (instanceRef FF_7))
-              (portRef CD (instanceRef FF_6))
-              (portRef CD (instanceRef FF_5))
-              (portRef CD (instanceRef FF_4))
               (portRef CD (instanceRef FF_3))
               (portRef CD (instanceRef FF_2))
               (portRef CD (instanceRef FF_1))
               (portRef CD (instanceRef FF_0))))
-          (net raddr13_ff
-            (joined
-              (portRef D (instanceRef FF_0))
-              (portRef Q (instanceRef FF_4))))
           (net mdout1_15_0
             (joined
               (portRef D15 (instanceRef mux_8))
@@ -3154,7 +3114,7 @@
             (joined
               (portRef D0 (instanceRef mux_1))
               (portRef DOB7 (instanceRef SpriteRam_0_0_15))))
-          (net raddr13_ff2
+          (net raddr13_ff
             (joined
               (portRef SD4 (instanceRef mux_0))
               (portRef Q (instanceRef FF_0))
@@ -3166,7 +3126,7 @@
               (portRef SD4 (instanceRef mux_3))
               (portRef SD4 (instanceRef mux_2))
               (portRef SD4 (instanceRef mux_1))))
-          (net raddr12_ff2
+          (net raddr12_ff
             (joined
               (portRef SD3 (instanceRef mux_0))
               (portRef Q (instanceRef FF_1))
@@ -3178,7 +3138,7 @@
               (portRef SD3 (instanceRef mux_3))
               (portRef SD3 (instanceRef mux_2))
               (portRef SD3 (instanceRef mux_1))))
-          (net raddr11_ff2
+          (net raddr11_ff
             (joined
               (portRef SD2 (instanceRef mux_0))
               (portRef Q (instanceRef FF_2))
@@ -3190,7 +3150,7 @@
               (portRef SD2 (instanceRef mux_3))
               (portRef SD2 (instanceRef mux_2))
               (portRef SD2 (instanceRef mux_1))))
-          (net raddr10_ff2
+          (net raddr10_ff
             (joined
               (portRef SD1 (instanceRef mux_0))
               (portRef Q (instanceRef FF_3))
@@ -3426,10 +3386,6 @@
               (portRef CEB (instanceRef SpriteRam_14_0_1))
               (portRef OCEB (instanceRef SpriteRam_15_0_0))
               (portRef CEB (instanceRef SpriteRam_15_0_0))
-              (portRef SP (instanceRef FF_7))
-              (portRef SP (instanceRef FF_6))
-              (portRef SP (instanceRef FF_5))
-              (portRef SP (instanceRef FF_4))
               (portRef SP (instanceRef FF_3))
               (portRef SP (instanceRef FF_2))
               (portRef SP (instanceRef FF_1))
@@ -3453,10 +3409,6 @@
               (portRef CLKB (instanceRef SpriteRam_13_0_2))
               (portRef CLKB (instanceRef SpriteRam_14_0_1))
               (portRef CLKB (instanceRef SpriteRam_15_0_0))
-              (portRef CK (instanceRef FF_7))
-              (portRef CK (instanceRef FF_6))
-              (portRef CK (instanceRef FF_5))
-              (portRef CK (instanceRef FF_4))
               (portRef CK (instanceRef FF_3))
               (portRef CK (instanceRef FF_2))
               (portRef CK (instanceRef FF_1))
@@ -3663,7 +3615,7 @@
               (portRef AD0 (instanceRef LUT4_4))
               (portRef AD0 (instanceRef LUT4_2))
               (portRef AD0 (instanceRef LUT4_0))
-              (portRef D (instanceRef FF_4))))
+              (portRef D (instanceRef FF_0))))
           (net raddr12
             (joined
               (portRef (member RdAddress 1))
@@ -3676,7 +3628,7 @@
               (portRef AD1 (instanceRef LUT4_4))
               (portRef AD1 (instanceRef LUT4_2))
               (portRef AD1 (instanceRef LUT4_0))
-              (portRef D (instanceRef FF_5))))
+              (portRef D (instanceRef FF_1))))
           (net raddr11
             (joined
               (portRef (member RdAddress 2))
@@ -3689,7 +3641,7 @@
               (portRef AD2 (instanceRef LUT4_8))
               (portRef AD2 (instanceRef LUT4_2))
               (portRef AD2 (instanceRef LUT4_0))
-              (portRef D (instanceRef FF_6))))
+              (portRef D (instanceRef FF_2))))
           (net raddr10
             (joined
               (portRef (member RdAddress 3))
@@ -3702,7 +3654,7 @@
               (portRef AD3 (instanceRef LUT4_8))
               (portRef AD3 (instanceRef LUT4_4))
               (portRef AD3 (instanceRef LUT4_0))
-              (portRef D (instanceRef FF_7))))
+              (portRef D (instanceRef FF_3))))
           (net raddr9
             (joined
               (portRef (member RdAddress 4))

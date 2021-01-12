@@ -1,4 +1,4 @@
-<Project ModBy="Inserter" Name="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Master.rvl" Date="2021-01-10">
+<Project ModBy="Inserter" Name="D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/Master.rvl" Date="2021-01-12">
     <Core Name="Master_LA0">
         <Setting>
             <Capture SamplesPerTrig="1024" NumTrigsCap="1"/>
@@ -41,154 +41,177 @@
                     <Sig Name="mdm/curraddress:30"/>
                     <Sig Name="mdm/curraddress:31"/>
                 </Bus>
-                <Bus Name="mdm/currreadrow" Radix="0">
-                    <Sig Name="mdm/currreadrow:0"/>
-                    <Sig Name="mdm/currreadrow:1"/>
-                    <Sig Name="mdm/currreadrow:2"/>
-                    <Sig Name="mdm/currreadrow:3"/>
-                    <Sig Name="mdm/currreadrow:4"/>
+                <Bus Name="mdm/data[0:2]" Radix="0">
+                    <Sig Name="mdm/data:0:0"/>
+                    <Sig Name="mdm/data:0:1"/>
+                    <Sig Name="mdm/data:0:2"/>
+                    <Sig Name="mdm/data:0:3"/>
+                    <Sig Name="mdm/data:0:4"/>
+                    <Sig Name="mdm/data:0:5"/>
+                    <Sig Name="mdm/data:0:6"/>
+                    <Sig Name="mdm/data:0:7"/>
+                    <Sig Name="mdm/data:0:8"/>
+                    <Sig Name="mdm/data:0:9"/>
+                    <Sig Name="mdm/data:1:0"/>
+                    <Sig Name="mdm/data:1:1"/>
+                    <Sig Name="mdm/data:1:2"/>
+                    <Sig Name="mdm/data:1:3"/>
+                    <Sig Name="mdm/data:1:4"/>
+                    <Sig Name="mdm/data:1:5"/>
+                    <Sig Name="mdm/data:1:6"/>
+                    <Sig Name="mdm/data:1:7"/>
+                    <Sig Name="mdm/data:1:8"/>
+                    <Sig Name="mdm/data:1:9"/>
+                    <Sig Name="mdm/data:2:0"/>
+                    <Sig Name="mdm/data:2:1"/>
+                    <Sig Name="mdm/data:2:2"/>
+                    <Sig Name="mdm/data:2:3"/>
+                    <Sig Name="mdm/data:2:4"/>
+                    <Sig Name="mdm/data:2:5"/>
+                    <Sig Name="mdm/data:2:6"/>
+                    <Sig Name="mdm/data:2:7"/>
+                    <Sig Name="mdm/data:2:8"/>
+                    <Sig Name="mdm/data:2:9"/>
                 </Bus>
-                <Bus Name="bus_currgrantid" Radix="0">
-                    <Sig Name="bus_currgrantid:0"/>
-                    <Sig Name="bus_currgrantid:1"/>
-                    <Sig Name="bus_currgrantid:2"/>
-                    <Sig Name="bus_currgrantid:3"/>
+                <Bus Name="mdm/state" Radix="0">
+                    <Sig Name="mdm/state:0"/>
+                    <Sig Name="mdm/state:1"/>
+                    <Sig Name="mdm/state:2"/>
+                    <Sig Name="mdm/state:3"/>
+                    <Sig Name="mdm/state:4"/>
+                    <Sig Name="mdm/state:5"/>
+                    <Sig Name="mdm/state:6"/>
+                    <Sig Name="mdm/state:7"/>
                 </Bus>
-                <Bus Name="bus_req" Radix="0">
-                    <Sig Name="bus_req:0"/>
-                    <Sig Name="bus_req:1"/>
-                    <Sig Name="bus_req:2"/>
-                    <Sig Name="bus_req:3"/>
+                <Bus Name="mdm/currsprite" Radix="0">
+                    <Sig Name="mdm/currsprite:0"/>
+                    <Sig Name="mdm/currsprite:1"/>
+                    <Sig Name="mdm/currsprite:2"/>
+                    <Sig Name="mdm/currsprite:3"/>
+                    <Sig Name="mdm/currsprite:4"/>
+                    <Sig Name="mdm/currsprite:5"/>
+                    <Sig Name="mdm/currsprite:6"/>
+                    <Sig Name="mdm/currsprite:7"/>
                 </Bus>
-                <Sig Name="bus_dir"/>
-                <Sig Name="bus_done"/>
-                <Sig Name="bus_done_override"/>
-                <Sig Name="pic_bus_interface/pic_we_in"/>
-                <Sig Name="pic_bus_interface/pic_oe_in"/>
+                <Sig Name="mdm/sprite_readclk"/>
+                <Sig Name="pic_we_in"/>
                 <Sig Name="pic_ready"/>
-                <Bus Name="pic_bus_interface/writedata" Radix="0">
-                    <Sig Name="pic_bus_interface/writedata:0"/>
-                    <Sig Name="pic_bus_interface/writedata:1"/>
-                    <Sig Name="pic_bus_interface/writedata:2"/>
-                    <Sig Name="pic_bus_interface/writedata:3"/>
-                    <Sig Name="pic_bus_interface/writedata:4"/>
-                    <Sig Name="pic_bus_interface/writedata:5"/>
-                    <Sig Name="pic_bus_interface/writedata:6"/>
-                    <Sig Name="pic_bus_interface/writedata:7"/>
-                    <Sig Name="pic_bus_interface/writedata:8"/>
-                    <Sig Name="pic_bus_interface/writedata:9"/>
-                    <Sig Name="pic_bus_interface/writedata:10"/>
-                    <Sig Name="pic_bus_interface/writedata:11"/>
-                    <Sig Name="pic_bus_interface/writedata:12"/>
-                    <Sig Name="pic_bus_interface/writedata:13"/>
-                    <Sig Name="pic_bus_interface/writedata:14"/>
-                    <Sig Name="pic_bus_interface/writedata:15"/>
+                <Sig Name="pic_oe"/>
+                <Bus Name="pic_data" Radix="0">
+                    <Sig Name="pic_data:0"/>
+                    <Sig Name="pic_data:1"/>
+                    <Sig Name="pic_data:2"/>
+                    <Sig Name="pic_data:3"/>
+                    <Sig Name="pic_data:4"/>
+                    <Sig Name="pic_data:5"/>
+                    <Sig Name="pic_data:6"/>
+                    <Sig Name="pic_data:7"/>
+                    <Sig Name="pic_data:8"/>
+                    <Sig Name="pic_data:9"/>
+                    <Sig Name="pic_data:10"/>
+                    <Sig Name="pic_data:11"/>
+                    <Sig Name="pic_data:12"/>
+                    <Sig Name="pic_data:13"/>
+                    <Sig Name="pic_data:14"/>
+                    <Sig Name="pic_data:15"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/pic_addr_in" Radix="0">
-                    <Sig Name="pic_bus_interface/pic_addr_in:0"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:1"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:2"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:3"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:4"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:5"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:6"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:7"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:8"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:9"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:10"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:11"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:12"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:13"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:14"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:15"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:16"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:17"/>
-                    <Sig Name="pic_bus_interface/pic_addr_in:18"/>
+                <Bus Name="pic_data_in" Radix="0">
+                    <Sig Name="pic_data_in:0"/>
+                    <Sig Name="pic_data_in:1"/>
+                    <Sig Name="pic_data_in:2"/>
+                    <Sig Name="pic_data_in:3"/>
+                    <Sig Name="pic_data_in:4"/>
+                    <Sig Name="pic_data_in:5"/>
+                    <Sig Name="pic_data_in:6"/>
+                    <Sig Name="pic_data_in:7"/>
+                    <Sig Name="pic_data_in:8"/>
+                    <Sig Name="pic_data_in:9"/>
+                    <Sig Name="pic_data_in:10"/>
+                    <Sig Name="pic_data_in:11"/>
+                    <Sig Name="pic_data_in:12"/>
+                    <Sig Name="pic_data_in:13"/>
+                    <Sig Name="pic_data_in:14"/>
+                    <Sig Name="pic_data_in:15"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/pic_data_in" Radix="0">
-                    <Sig Name="pic_bus_interface/pic_data_in:0"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:1"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:2"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:3"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:4"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:5"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:6"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:7"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:8"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:9"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:10"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:11"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:12"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:13"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:14"/>
-                    <Sig Name="pic_bus_interface/pic_data_in:15"/>
+                <Bus Name="mdm/currsprite_conf" Radix="0">
+                    <Sig Name="mdm/currsprite_conf:0"/>
+                    <Sig Name="mdm/currsprite_conf:1"/>
+                    <Sig Name="mdm/currsprite_conf:2"/>
+                    <Sig Name="mdm/currsprite_conf:3"/>
+                    <Sig Name="mdm/currsprite_conf:4"/>
+                    <Sig Name="mdm/currsprite_conf:5"/>
+                    <Sig Name="mdm/currsprite_conf:6"/>
+                    <Sig Name="mdm/currsprite_conf:7"/>
+                    <Sig Name="mdm/currsprite_conf:8"/>
+                    <Sig Name="mdm/currsprite_conf:9"/>
+                    <Sig Name="mdm/currsprite_conf:10"/>
+                    <Sig Name="mdm/currsprite_conf:11"/>
+                    <Sig Name="mdm/currsprite_conf:12"/>
+                    <Sig Name="mdm/currsprite_conf:13"/>
+                    <Sig Name="mdm/currsprite_conf:14"/>
+                    <Sig Name="mdm/currsprite_conf:15"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/rmoddataread" Radix="0">
-                    <Sig Name="pic_bus_interface/rmoddataread:0"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:1"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:2"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:3"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:4"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:5"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:6"/>
-                    <Sig Name="pic_bus_interface/rmoddataread:7"/>
+                <Sig Name="mdm/spriteread_xvalid"/>
+                <Sig Name="mdm/spriteread_yvalid"/>
+                <Sig Name="mdm/vram_wc"/>
+                <Bus Name="mdm/vram_addr" Radix="0">
+                    <Sig Name="mdm/vram_addr:0"/>
+                    <Sig Name="mdm/vram_addr:1"/>
+                    <Sig Name="mdm/vram_addr:2"/>
+                    <Sig Name="mdm/vram_addr:3"/>
+                    <Sig Name="mdm/vram_addr:4"/>
+                    <Sig Name="mdm/vram_addr:5"/>
+                    <Sig Name="mdm/vram_addr:6"/>
+                    <Sig Name="mdm/vram_addr:7"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/rmoddatatrans" Radix="0">
-                    <Sig Name="pic_bus_interface/rmoddatatrans:0"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:1"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:2"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:3"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:4"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:5"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:6"/>
-                    <Sig Name="pic_bus_interface/rmoddatatrans:7"/>
+                <Bus Name="mdm/spriteread_xinsprite" Radix="0">
+                    <Sig Name="mdm/spriteread_xinsprite:0"/>
+                    <Sig Name="mdm/spriteread_xinsprite:1"/>
+                    <Sig Name="mdm/spriteread_xinsprite:2"/>
+                    <Sig Name="mdm/spriteread_xinsprite:3"/>
+                    <Sig Name="mdm/spriteread_xinsprite:4"/>
+                    <Sig Name="mdm/spriteread_xinsprite:5"/>
+                    <Sig Name="mdm/spriteread_xinsprite:6"/>
+                    <Sig Name="mdm/spriteread_xinsprite:7"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/rmoddatawrite" Radix="0">
-                    <Sig Name="pic_bus_interface/rmoddatawrite:0"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:1"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:2"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:3"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:4"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:5"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:6"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:7"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:8"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:9"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:10"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:11"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:12"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:13"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:14"/>
-                    <Sig Name="pic_bus_interface/rmoddatawrite:15"/>
+                <Bus Name="mdm/spriteread_yinsprite" Radix="0">
+                    <Sig Name="mdm/spriteread_yinsprite:0"/>
+                    <Sig Name="mdm/spriteread_yinsprite:1"/>
+                    <Sig Name="mdm/spriteread_yinsprite:2"/>
+                    <Sig Name="mdm/spriteread_yinsprite:3"/>
+                    <Sig Name="mdm/spriteread_yinsprite:4"/>
+                    <Sig Name="mdm/spriteread_yinsprite:5"/>
+                    <Sig Name="mdm/spriteread_yinsprite:6"/>
+                    <Sig Name="mdm/spriteread_yinsprite:7"/>
                 </Bus>
-                <Bus Name="pic_bus_interface/state" Radix="0">
-                    <Sig Name="pic_bus_interface/state:0"/>
-                    <Sig Name="pic_bus_interface/state:1"/>
-                    <Sig Name="pic_bus_interface/state:2"/>
-                    <Sig Name="pic_bus_interface/state:3"/>
-                    <Sig Name="pic_bus_interface/state:4"/>
-                    <Sig Name="pic_bus_interface/state:5"/>
-                    <Sig Name="pic_bus_interface/state:6"/>
-                    <Sig Name="pic_bus_interface/state:7"/>
-                </Bus>
-                <Bus Name="pic_bus_interface/transfermode" Radix="0">
-                    <Sig Name="pic_bus_interface/transfermode:0"/>
-                    <Sig Name="pic_bus_interface/transfermode:1"/>
-                    <Sig Name="pic_bus_interface/transfermode:2"/>
-                    <Sig Name="pic_bus_interface/transfermode:3"/>
+                <Bus Name="mdm/sprite_readaddr" Radix="0">
+                    <Sig Name="mdm/sprite_readaddr:0"/>
+                    <Sig Name="mdm/sprite_readaddr:1"/>
+                    <Sig Name="mdm/sprite_readaddr:2"/>
+                    <Sig Name="mdm/sprite_readaddr:3"/>
+                    <Sig Name="mdm/sprite_readaddr:4"/>
+                    <Sig Name="mdm/sprite_readaddr:5"/>
+                    <Sig Name="mdm/sprite_readaddr:6"/>
+                    <Sig Name="mdm/sprite_readaddr:7"/>
+                    <Sig Name="mdm/sprite_readaddr:8"/>
+                    <Sig Name="mdm/sprite_readaddr:9"/>
+                    <Sig Name="mdm/sprite_readaddr:10"/>
+                    <Sig Name="mdm/sprite_readaddr:11"/>
+                    <Sig Name="mdm/sprite_readaddr:12"/>
+                    <Sig Name="mdm/sprite_readaddr:13"/>
+                    <Sig Name="mdm/sprite_readaddr:14"/>
+                    <Sig Name="mdm/sprite_readaddr:15"/>
                 </Bus>
             </Trace>
             <Trigger>
                 <TU Operator="6" Name="TU1" ID="1" Value="1" Radix="0"/>
                 <TU Operator="0" Name="TU2" ID="2" Value="00000" Radix="0"/>
-                <TU Operator="7" Name="TU3" ID="3" Value="1" Radix="0"/>
+                <TU Operator="6" Name="TU3" ID="3" Value="1" Radix="0"/>
                 <TU Operator="6" Name="TU4" ID="4" Value="1" Radix="0"/>
-                <TU Operator="0" Name="TU5" ID="5" Value="00000000" Radix="0"/>
                 <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
                 <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
                 <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
                 <TE Enable="1" Expression="TU4" Name="TE4" ID="4"/>
-                <TE Enable="0" Expression="TU5" Name="TE5" ID="5"/>
             </Trigger>
         </Dataset>
     </Core>

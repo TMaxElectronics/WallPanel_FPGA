@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="LUT_RAM" module="LUT_RAM" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2021 01 11 22:13:37.276" version="7.5" type="Module" synthesis="lse" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2021 01 11 22:13:37.163"/>
+		<File name="LUT_RAM.lpc" type="lpc" modified="2021 01 11 22:13:35.949"/>
+		<File name="LUT_RAM.vhd" type="top_level_vhdl" modified="2021 01 11 22:13:36.005"/>
+		<File name="LUT_RAM_tmpl.vhd" type="template_vhdl" modified="2021 01 11 22:13:36.010"/>
+		<File name="tb_LUT_RAM_tmpl.vhd" type="testbench_vhdl" modified="2021 01 11 22:13:36.020"/>
+  </Package>
+</DiamondModule>

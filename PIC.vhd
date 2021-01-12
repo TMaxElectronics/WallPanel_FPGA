@@ -145,8 +145,8 @@ begin
 				BUS_REQ <= '1';
 				state <= x"ff";
 				
-			else
-				BUS_REQ <= '1';
+			elsif state = x"ff" then
+				--BUS_REQ <= '1';
 				if (BUS_GRANT = '1') and (BUS_DONE_IN = '1') then
 					PIC_READY <= '1';
 				end if;

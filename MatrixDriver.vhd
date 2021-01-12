@@ -16,9 +16,11 @@ entity MatrixDriver is
 		MATRIX_ROWLAT						:	out	STD_LOGIC;
 		MATRIX_ROWDATA						:	out	STD_LOGIC;
 		
-		VRAM_ADDR							: in	STD_LOGIC_VECTOR(7 downto 0);
-		VRAM_DATA							: in	STD_LOGIC_VECTOR(119 downto 0);
+		VRAM_ADDR							: in	STD_LOGIC_VECTOR(9 downto 0);
+		VRAM_DATA							: in	STD_LOGIC_VECTOR(29 downto 0);
+		VRAM_DATA_OUT						: out	STD_LOGIC_VECTOR(29 downto 0);
 		VRAM_WC								: in	STD_LOGIC;
+		VRAM_WE								: in	STD_LOGIC;
 		
 		currRow_out							: out	STD_LOGIC_VECTOR(4 downto 0);
 			
@@ -42,16 +44,20 @@ architecture Behavioral of MatrixDriver is
 
 	component Outputbuffer
 		port (
-        WrAddress: in  std_logic_vector(7 downto 0); 
-        RdAddress: in  std_logic_vector(7 downto 0); 
-        Data: in  std_logic_vector(119 downto 0); 
-        WE: in  std_logic; 
-        RdClock: in  std_logic; 
-        RdClockEn: in  std_logic; 
-        Reset: in  std_logic; 
-        WrClock: in  std_logic; 
-        WrClockEn: in  std_logic; 
-        Q: out  std_logic_vector(119 downto 0));
+			DataInA: in  std_logic_vector(29 downto 0); 
+			DataInB: in  std_logic_vector(119 downto 0); 
+			AddressA: in  std_logic_vector(9 downto 0); 
+			AddressB: in  std_logic_vector(7 downto 0); 
+			ClockA: in  std_logic; 
+			ClockB: in  std_logic; 
+			ClockEnA: in  std_logic; 
+			ClockEnB: in  std_logic; 
+			WrA: in  std_logic; 
+			WrB: in  std_logic; 
+			ResetA: in  std_logic; 
+			ResetB: in  std_logic; 
+			QA: out  std_logic_vector(29 downto 0); 
+			QB: out  std_logic_vector(119 downto 0));
 	end component;
 
 	signal MATRIX_LAT			: 	STD_LOGIC;
@@ -97,7 +103,7 @@ architecture Behavioral of MatrixDriver is
 	signal WRITE_DONE					:	std_logic;
 	signal readData						:	STD_LOGIC_VECTOR(15 downto 0);
 	
-	signal VRAM_WRITE_ADDR				:	STD_LOGIC_VECTOR(7 downto 0);
+	signal VRAM_WRITE_ADDR				:	STD_LOGIC_VECTOR(9 downto 0);
 
 begin
 
@@ -157,7 +163,7 @@ begin
 			elsif currPixel = x"81" then
 				MATRIX_LAT <= '1';
 				currPixel <= currPixel + '1';
-				if not (lastRow = currRow) then
+				if currBit = x"0" then
 					lastRow <= currRow;
 					MATRIX_ROWCLK <= '1';
 				end if;
@@ -180,8 +186,6 @@ begin
 				MATRIX_CLKEN <= '1';
 				currPixel <= x"00";
 				
-			else
-				currPixel <= x"00";
 			end if;
 		end if;
 		
@@ -233,9 +237,9 @@ begin
 	PWMMaxArray(9) <= x"0F00";
 										
 	VRAM_READ_ADDR(7) <= VRAM_PAGEMAPPING;
-	VRAM_WRITE_ADDR(7) <= not VRAM_PAGEMAPPING;
+	VRAM_WRITE_ADDR(9) <= not VRAM_PAGEMAPPING;
 	VRAM_READ_ADDR(6 downto 0) <= currPixel(6 downto 0);
-	VRAM_WRITE_ADDR(6 downto 0) <= VRAM_ADDR(6 downto 0);
+	VRAM_WRITE_ADDR(8 downto 0) <= VRAM_ADDR(8 downto 0);
 	
 	--debug(0) <= VRAM_READ_CLK;
 	--debug(3 downto 1) <= VRAM_DOUT(3 downto 1);
@@ -245,16 +249,20 @@ begin
 
 	VRam: Outputbuffer 
 		port map(
-			WrAddress 		=>	VRAM_WRITE_ADDR,
-			RdAddress 		=> 	VRAM_READ_ADDR,
-			Data 			=> 	VRAM_DATA,
-			WE 				=> 	'1',
-			RdClock 		=> 	VRAM_READ_CLK,
-			RdClockEn		=>	'1',
-			Reset			=> 	'0',
-			WrClock			=>	VRAM_WC, 
-			WrClockEn		=>	'1',
-			Q				=> 	VRAM_DOUT
+			DataInA		=>	VRAM_DATA,
+			DataInB		=>	(others => '0'),
+			AddressA 	=> 	VRAM_WRITE_ADDR,
+			AddressB	=> 	VRAM_READ_ADDR,
+			ClockA		=>	VRAM_WC,
+			ClockB		=> 	VRAM_READ_CLK,
+			ClockEnA	=> 	'1',
+			ClockEnB	=> 	'1',
+			WrA			=> 	VRAM_WE,
+			WrB			=> 	'0',
+			ResetA		=> 	'0', 
+			ResetB		=> 	'0',
+			QA			=> 	VRAM_DATA_OUT,
+			QB			=> 	VRAM_DOUT
 		);
 		
 -- bus logic
