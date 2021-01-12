@@ -6,7 +6,7 @@ I/O cells:      104
                                cell     count   Res Usage(%)
                                AND2        93          100.0
                                  BB        32          100.0
-                              CCU2D       366          100.0
+                              CCU2D       361          100.0
                               DP8KC        37          100.0
                            DPR16X4C       128          100.0
                             EHXPLLJ         1          100.0
@@ -24,11 +24,11 @@ I/O cells:      104
                                 GSR         1          100.0
                                  IB        22          100.0
                                 INV        11          100.0
-                            L6MUX21        91          100.0
-                               LUT4      2425          100.0
+                            L6MUX21        90          100.0
+                               LUT4      2423          100.0
                               MULT2       172          100.0
                                  OB        50          100.0
-                              PFUMX       274          100.0
+                              PFUMX       286          100.0
                            ROM16X1A        32          100.0
                         VERIFIC_GND        19          100.0
 pmi_distributed_dpramXbnoner24168de3ddc         4          100.0
@@ -61,40 +61,22 @@ rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO
            rvl_tu(NUM_TU_BITS=1)_U0         1
            rvl_tu(NUM_TU_BITS=1)_U1         1
               rvl_tu(NUM_TU_BITS=5)         1
-                              TOTAL      5567
-----------------------------------------------------------------------
-Report for cell PIC_uniq_0.v1
-Instance Path : PIC_BUS_INTERFACE
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                               AND2        12           12.9
-                              CCU2D        49           13.4
-                             FADD2B        80           27.9
-                            FD1P3AX        48           20.8
-                            FD1P3DX         5            0.7
-                            FD1P3IX         8           25.0
-                             FD1S1A        19           79.2
-                            FD1S3DX         6            2.0
-                               LUT4       120            4.9
-                              MULT2        52           30.2
-                              PFUMX         3            1.1
-                        VERIFIC_GND         1            5.3
-                              TOTAL       403
+                              TOTAL      5571
 ----------------------------------------------------------------------
 Report for cell reveal_coretop.v1
 Instance Path : master_reveal_coretop_instance
                                   Cell usage:
                                cell     count   Res Usage(%)
-                              CCU2D        65           17.8
+                              CCU2D        65           18.0
                             FD1P3AX        18            7.8
                             FD1P3BX        37           66.1
                             FD1P3DX       671           92.4
                             FD1S3BX         4           11.1
                             FD1S3DX       240           78.9
                                 INV         1            9.1
-                            L6MUX21         4            4.4
-                               LUT4      1019           42.0
-                              PFUMX        37           13.5
+                            L6MUX21         3            3.3
+                               LUT4      1028           42.4
+                              PFUMX        43           15.0
                         VERIFIC_GND         6           31.6
 pmi_distributed_dpramXbnoner24168de3ddc         4          100.0
 pmi_ram_dpXbnonesadr1739512173951211f540e2         1          100.0
@@ -113,21 +95,21 @@ rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO
            rvl_tu(NUM_TU_BITS=1)_U0         1
            rvl_tu(NUM_TU_BITS=1)_U1         1
               rvl_tu(NUM_TU_BITS=5)         1
-                              TOTAL      2121
+                              TOTAL      2135
 ----------------------------------------------------------------------
 Report for cell master_la0.v1
 Instance Path : master_reveal_coretop_instance.core0
                                   Cell usage:
                                cell     count   Res Usage(%)
-                              CCU2D        65           17.8
+                              CCU2D        65           18.0
                             FD1P3AX        18            7.8
                             FD1P3BX        37           66.1
                             FD1P3DX       671           92.4
                             FD1S3BX         4           11.1
                             FD1S3DX       240           78.9
-                            L6MUX21         4            4.4
-                               LUT4       988           40.7
-                              PFUMX        37           13.5
+                            L6MUX21         3            3.3
+                               LUT4      1018           42.0
+                              PFUMX        43           15.0
                         VERIFIC_GND         6           31.6
 pmi_distributed_dpramXbnoner24168de3ddc         4          100.0
 pmi_ram_dpXbnonesadr1739512173951211f540e2         1          100.0
@@ -145,21 +127,21 @@ rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO
            rvl_tu(NUM_TU_BITS=1)_U0         1
            rvl_tu(NUM_TU_BITS=1)_U1         1
               rvl_tu(NUM_TU_BITS=5)         1
-                              TOTAL      2088
+                              TOTAL      2123
 ----------------------------------------------------------------------
 Report for cell master_la0_trig.v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u
                                   Cell usage:
                                cell     count   Res Usage(%)
-                              CCU2D        36            9.8
+                              CCU2D        36           10.0
                             FD1P3AX        16            6.9
                             FD1P3BX         5            8.9
                             FD1P3DX       157           21.6
                             FD1S3BX         4           11.1
                             FD1S3DX        43           14.1
                             L6MUX21         3            3.3
-                               LUT4       314           12.9
-                              PFUMX        16            5.8
+                               LUT4       309           12.8
+                              PFUMX        16            5.6
                         VERIFIC_GND         4           21.1
 pmi_distributed_dpramXbnoner24168de3ddc         4          100.0
 SUB MODULES
@@ -173,7 +155,7 @@ rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4         1
            rvl_tu(NUM_TU_BITS=1)_U0         1
            rvl_tu(NUM_TU_BITS=1)_U1         1
               rvl_tu(NUM_TU_BITS=5)         1
-                              TOTAL       612
+                              TOTAL       607
 ----------------------------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1).v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_3
@@ -182,7 +164,7 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_3
                             FD1P3DX         5            0.7
                             FD1S3DX         3            1.0
                                LUT4         6            0.2
-                              PFUMX         1            0.4
+                              PFUMX         1            0.3
                               TOTAL        15
 ----------------------------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)_U0.v1
@@ -192,7 +174,7 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_2
                             FD1P3DX         5            0.7
                             FD1S3DX         3            1.0
                                LUT4         8            0.3
-                              PFUMX         1            0.4
+                              PFUMX         1            0.3
                               TOTAL        17
 ----------------------------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=5).v1
@@ -201,9 +183,9 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_1
                                cell     count   Res Usage(%)
                             FD1P3DX        13            1.8
                             FD1S3DX        11            3.6
-                               LUT4        29            1.2
-                              PFUMX         3            1.1
-                              TOTAL        56
+                               LUT4        27            1.1
+                              PFUMX         3            1.0
+                              TOTAL        54
 ----------------------------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)_U1.v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_0
@@ -212,7 +194,7 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.tu_0
                             FD1P3DX         5            0.7
                             FD1S3DX         3            1.0
                                LUT4         6            0.2
-                              PFUMX         1            0.4
+                              PFUMX         1            0.3
                               TOTAL        15
 ----------------------------------------------------------------------
 Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF").v1
@@ -224,10 +206,10 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.te_3
                             FD1P3DX        30            4.1
                             FD1S3BX         1            2.8
                             FD1S3DX         5            1.6
-                               LUT4        59            2.4
+                               LUT4        74            3.1
                         VERIFIC_GND         1            5.3
 pmi_distributed_dpramXbnoner24168de3ddc         1           25.0
-                              TOTAL       107
+                              TOTAL       122
 ----------------------------------------------------------------------
 Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U2.v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.te_2
@@ -238,10 +220,10 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.te_2
                             FD1P3DX        30            4.1
                             FD1S3BX         1            2.8
                             FD1S3DX         4            1.3
-                               LUT4        38            1.6
+                               LUT4        54            2.2
                         VERIFIC_GND         1            5.3
 pmi_distributed_dpramXbnoner24168de3ddc         1           25.0
-                              TOTAL        85
+                              TOTAL       101
 ----------------------------------------------------------------------
 Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U3.v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.te_1
@@ -252,10 +234,10 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.te_1
                             FD1P3DX        30            4.1
                             FD1S3BX         1            2.8
                             FD1S3DX         4            1.3
-                               LUT4        39            1.6
+                               LUT4        34            1.4
                         VERIFIC_GND         1            5.3
 pmi_distributed_dpramXbnoner24168de3ddc         1           25.0
-                              TOTAL        86
+                              TOTAL        81
 ----------------------------------------------------------------------
 Report for cell rvl_te(NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="XO3LF")_U4.v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.te_0
@@ -268,11 +250,11 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.te_0
                             FD1S3BX         1            2.8
                             FD1S3DX         5            1.6
                             L6MUX21         1            1.1
-                               LUT4        59            2.4
+                               LUT4        35            1.4
                               PFUMX         2            0.7
                         VERIFIC_GND         1            5.3
 pmi_distributed_dpramXbnoner24168de3ddc         1           25.0
-                              TOTAL       126
+                              TOTAL       102
 ----------------------------------------------------------------------
 Report for cell rvl_tcnt(NUM_TE=4,NUM_TCNT_BITS=3).v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.tcnt_0
@@ -281,16 +263,16 @@ Instance Path : master_reveal_coretop_instance.core0.trig_u.tcnt_0
                             FD1P3BX         1            1.8
                             FD1P3DX         9            1.2
                             FD1S3DX         5            1.6
-                               LUT4        23            0.9
-                              PFUMX         2            0.7
-                              TOTAL        40
+                               LUT4        21            0.9
+                              PFUMX         1            0.3
+                              TOTAL        37
 ----------------------------------------------------------------------
 Report for cell rvl_decode(NUM_TU=4,NUM_TE=4).v1
 Instance Path : master_reveal_coretop_instance.core0.trig_u.decode_u
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        33            1.4
-                              TOTAL        33
+                               LUT4        31            1.3
+                              TOTAL        31
 ----------------------------------------------------------------------
 Report for cell rvl_tm(NUM_TRACE_SIGNALS=173,NUM_TRIG_MAX=1,REVEAL_SIG=341360058,LSCC_FAMILY="XO3LF").v1
 Instance Path : master_reveal_coretop_instance.core0.tm_u
@@ -299,9 +281,8 @@ Instance Path : master_reveal_coretop_instance.core0.tm_u
                               CCU2D        20            5.5
                             FD1P3DX       264           36.4
                             FD1S3DX       187           61.5
-                            L6MUX21         1            1.1
-                               LUT4       142            5.9
-                              PFUMX         8            2.9
+                               LUT4       141            5.8
+                              PFUMX        10            3.5
                         VERIFIC_GND         1            5.3
 pmi_ram_dpXbnonesadr1739512173951211f540e2         1          100.0
                               TOTAL       624
@@ -315,16 +296,16 @@ Instance Path : master_reveal_coretop_instance.core0.jtag_int_u
                             FD1P3BX        32           57.1
                             FD1P3DX       250           34.4
                             FD1S3DX        10            3.3
-                               LUT4       532           21.9
-                              PFUMX        13            4.7
+                               LUT4       568           23.4
+                              PFUMX        17            5.9
                         VERIFIC_GND         1            5.3
-                              TOTAL       849
+                              TOTAL       889
 ----------------------------------------------------------------------
 Report for cell MatrixDriver_uniq_0.v1
 Instance Path : MD
                                   Cell usage:
                                cell     count   Res Usage(%)
-                              CCU2D        54           14.8
+                              CCU2D        54           15.0
                               DP8KC        15           40.5
                             FD1P3AX        22            9.5
                             FD1P3AY         4          100.0
@@ -332,13 +313,13 @@ Instance Path : MD
                             FD1P3IX        24           75.0
                             FD1S3AX         3            6.1
                             FD1S3DX         1            0.3
-                            L6MUX21        12           13.2
-                               LUT4       196            8.1
-                              PFUMX        27            9.9
+                            L6MUX21        12           13.3
+                               LUT4       190            7.8
+                              PFUMX        27            9.4
                         VERIFIC_GND         2           10.5
 SUB MODULES
                 Outputbuffer_uniq_0         1
-                              TOTAL       377
+                              TOTAL       371
 ----------------------------------------------------------------------
 Report for cell Outputbuffer_uniq_0.v1
 Instance Path : MD.VRam
@@ -348,12 +329,30 @@ Instance Path : MD.VRam
                         VERIFIC_GND         1            5.3
                               TOTAL        16
 ----------------------------------------------------------------------
+Report for cell PIC_uniq_0.v1
+Instance Path : PIC_BUS_INTERFACE
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2        12           12.9
+                              CCU2D        49           13.6
+                             FADD2B        80           27.9
+                            FD1P3AX        48           20.8
+                            FD1P3DX         5            0.7
+                            FD1P3IX         8           25.0
+                             FD1S1A        19           79.2
+                            FD1S3DX         6            2.0
+                               LUT4       110            4.5
+                              MULT2        52           30.2
+                              PFUMX         2            0.7
+                        VERIFIC_GND         1            5.3
+                              TOTAL       392
+----------------------------------------------------------------------
 Report for cell MatrixBusHandler_uniq_0.v1
 Instance Path : MDM
                                   Cell usage:
                                cell     count   Res Usage(%)
                                AND2        81           87.1
-                              CCU2D       181           49.5
+                              CCU2D       176           48.8
                               DP8KC        22           59.5
                            DPR16X4C       128          100.0
                              FADD2B       207           72.1
@@ -364,10 +363,10 @@ Instance Path : MDM
                             FD1S3AX        46           93.9
                             FD1S3DX        18            5.9
                                 INV         8           72.7
-                            L6MUX21        75           82.4
-                               LUT4       649           26.8
+                            L6MUX21        75           83.3
+                               LUT4       614           25.3
                               MULT2       120           69.8
-                              PFUMX       198           72.3
+                              PFUMX       207           72.4
                            ROM16X1A        32          100.0
                         VERIFIC_GND         7           36.8
 SUB MODULES
@@ -377,7 +376,7 @@ SUB MODULES
                      LUT_RAM_uniq_2         1
                      LUT_RAM_uniq_3         1
                    SpriteRam_uniq_0         1
-                              TOTAL      1940
+                              TOTAL      1909
 ----------------------------------------------------------------------
 Report for cell SpriteRam_uniq_0.v1
 Instance Path : MDM.SRam
@@ -386,9 +385,9 @@ Instance Path : MDM.SRam
                               DP8KC        16           43.2
                             FD1P3DX         4            0.6
                                 INV         8           72.7
-                            L6MUX21        27           29.7
+                            L6MUX21        27           30.0
                                LUT4        72            3.0
-                              PFUMX        36           13.1
+                              PFUMX        36           12.6
                            ROM16X1A        32          100.0
                         VERIFIC_GND         1            5.3
                               TOTAL       196
@@ -444,10 +443,10 @@ Instance Path : RAM
                              FD1S1D        32          100.0
                             FD1S3BX        32           88.9
                             FD1S3DX        39           12.8
-                               LUT4       148            6.1
-                              PFUMX         2            0.7
+                               LUT4       145            6.0
+                              PFUMX         3            1.0
                         VERIFIC_GND         1            5.3
-                              TOTAL       299
+                              TOTAL       297
 ----------------------------------------------------------------------
 Report for cell PLL_uniq_0.v1
 Instance Path : PLL_Ent

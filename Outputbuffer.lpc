@@ -16,8 +16,8 @@ CoreRevision=7.5
 ModuleName=Outputbuffer
 SourceFormat=VHDL
 ParameterFileVersion=1.0
-Date=01/11/2021
-Time=20:14:51
+Date=01/12/2021
+Time=13:04:37
 
 [Parameters]
 Verilog=0
@@ -31,7 +31,7 @@ RAddress=1024
 RData=30
 WAddress=256
 WData=120
-ROutputEn=1
+ROutputEn=0
 RClockEn=0
 WOutputEn=1
 WClockEn=0
@@ -54,4 +54,4 @@ no_init=0
 =mem
 
 [Command]
-cmd_line= -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-9400C -aaddr_width 10 -widtha 30 -baddr_width 8 -widthb 120 -anum_words 1024 -bnum_words 256 -outdataA REGISTERED -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL
+cmd_line= -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-9400C -aaddr_width 10 -widtha 30 -baddr_width 8 -widthb 120 -anum_words 1024 -bnum_words 256 -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL

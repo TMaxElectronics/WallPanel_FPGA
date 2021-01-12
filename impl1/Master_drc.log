@@ -26,7 +26,7 @@ WARNING - synthesis: logical net 'xo2chub/genblk7.un1_jtagf_u_1' has no load.
 WARNING - synthesis: DRC complete with 10 warnings.
 
 Design Results:
-   5659 blocks expanded
+   5663 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file WallPanel_FPGA_impl1.ngd.

@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 Lattice Synthesis Timing Report, Version  
-Tue Jan 12 12:24:12 2021
+Tue Jan 12 13:08:03 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -18,172 +18,202 @@ Report level:    verbose report, limited to 3 items per constraint
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk13 [get_nets \MDM/Sprite_writeClk]
+Constraint: create_clock -period 6.896552 -name clk13 [get_nets \MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5]
             0 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk12 [get_nets reveal_ist_101_N]
+Constraint: create_clock -period 6.896552 -name clk12 [get_nets \PIC_BUS_INTERFACE/PIC_OE_c_derived_19]
             0 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk11 [get_nets \MDM/GR_WR_CLK]
+Constraint: create_clock -period 6.896552 -name clk11 [get_nets VRAM_WC_N]
             0 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk10 [get_nets LOGIC_CLOCK_keep_N_57]
+Constraint: create_clock -period 6.896552 -name clk10 [get_nets PIXEL_CLOCK_N_293]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk9 [get_nets \MDM/offsetLatchClockOrd]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk8 [get_nets \MDM/Sprite_writeClk]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk7 [get_nets reveal_ist_101_N]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk6 [get_nets LOGIC_CLOCK_keep_N_57]
             4096 items scored, 4096 timing errors detected.
 --------------------------------------------------------------------------------
 
 
-Error:  The following path violates requirements by 4.264ns
+Error:  The following path violates requirements by 4.280ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1P3DX    CK             BUS_currGrantID__i2  (from LOGIC_CLOCK_keep_N_57 +)
-   Destination:    FD1S1D     CD             \RAM/i6508  (to LOGIC_CLOCK_keep_N_57 +)
+   Destination:    FD1S1D     CD             \RAM/i6506  (to LOGIC_CLOCK_keep_N_57 +)
 
-   Delay:                   7.579ns  (41.5% logic, 58.5% route), 11 logic levels.
+   Delay:                   7.595ns  (41.4% logic, 58.6% route), 11 logic levels.
 
  Constraint Details:
 
-      7.579ns data_path BUS_currGrantID__i2 to \RAM/i6508 violates
+      7.595ns data_path BUS_currGrantID__i2 to \RAM/i6506 violates
       3.448ns delay constraint less
-      0.133ns L_S requirement (totaling 3.315ns) by 4.264ns
+      0.133ns L_S requirement (totaling 3.315ns) by 4.280ns
 
- Path Details: BUS_currGrantID__i2 to \RAM/i6508
+ Path Details: BUS_currGrantID__i2 to \RAM/i6506
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              BUS_currGrantID__i2 (from LOGIC_CLOCK_keep_N_57)
-Route       351   e 0.402                                  BUS_currGrantID[1]
-LUT4        ---     0.408              B to Z              i12979_2_lut_3_lut_rep_789
-Route        11   e 1.139                                  n32456
-A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_20542_1
-Route         1   e 0.020                                  \MDM/n25728
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_3
-Route         1   e 0.020                                  \MDM/n25729
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_5
-Route         1   e 0.020                                  \MDM/n25730
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_7
-Route         1   e 0.020                                  \MDM/n25731
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_9
-Route         1   e 0.020                                  \MDM/n25732
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_11
-Route         1   e 0.020                                  \MDM/n25733
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_13
-Route         1   e 0.020                                  \MDM/n25734
-FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_20542_15
-Route        88   e 1.958                                  BUS_VALID_N_394
-LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1175_I_0_273_2_lut_4_lut
-Route         2   e 0.798                                  \RAM/lastAddress_31__N_1261
+Route       365   e 0.402                                  BUS_currGrantID[1]
+LUT4        ---     0.408              B to Z              i12624_2_lut_rep_764
+Route        12   e 1.156                                  n30903
+A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_19159_1
+Route         1   e 0.020                                  \MDM/n24123
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_3
+Route         1   e 0.020                                  \MDM/n24124
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_5
+Route         1   e 0.020                                  \MDM/n24125
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_7
+Route         1   e 0.020                                  \MDM/n24126
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_9
+Route         1   e 0.020                                  \MDM/n24127
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_11
+Route         1   e 0.020                                  \MDM/n24128
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_13
+Route         1   e 0.020                                  \MDM/n24129
+FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_19159_15
+Route        86   e 1.957                                  BUS_VALID_N_394
+LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1157_I_0_2_lut_4_lut
+Route         2   e 0.798                                  \RAM/lastAddress_31__N_1336
                   --------
-                    7.579  (41.5% logic, 58.5% route), 11 logic levels.
+                    7.595  (41.4% logic, 58.6% route), 11 logic levels.
 
 
-Error:  The following path violates requirements by 4.264ns
+Error:  The following path violates requirements by 4.280ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1P3DX    CK             BUS_currGrantID__i2  (from LOGIC_CLOCK_keep_N_57 +)
-   Destination:    FD1S1D     CD             \RAM/i6512  (to LOGIC_CLOCK_keep_N_57 +)
+   Destination:    FD1S1D     CD             \RAM/i6510  (to LOGIC_CLOCK_keep_N_57 +)
 
-   Delay:                   7.579ns  (41.5% logic, 58.5% route), 11 logic levels.
+   Delay:                   7.595ns  (41.4% logic, 58.6% route), 11 logic levels.
 
  Constraint Details:
 
-      7.579ns data_path BUS_currGrantID__i2 to \RAM/i6512 violates
+      7.595ns data_path BUS_currGrantID__i2 to \RAM/i6510 violates
       3.448ns delay constraint less
-      0.133ns L_S requirement (totaling 3.315ns) by 4.264ns
+      0.133ns L_S requirement (totaling 3.315ns) by 4.280ns
 
- Path Details: BUS_currGrantID__i2 to \RAM/i6512
+ Path Details: BUS_currGrantID__i2 to \RAM/i6510
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              BUS_currGrantID__i2 (from LOGIC_CLOCK_keep_N_57)
-Route       351   e 0.402                                  BUS_currGrantID[1]
-LUT4        ---     0.408              B to Z              i12979_2_lut_3_lut_rep_789
-Route        11   e 1.139                                  n32456
-A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_20542_1
-Route         1   e 0.020                                  \MDM/n25728
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_3
-Route         1   e 0.020                                  \MDM/n25729
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_5
-Route         1   e 0.020                                  \MDM/n25730
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_7
-Route         1   e 0.020                                  \MDM/n25731
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_9
-Route         1   e 0.020                                  \MDM/n25732
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_11
-Route         1   e 0.020                                  \MDM/n25733
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_13
-Route         1   e 0.020                                  \MDM/n25734
-FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_20542_15
-Route        88   e 1.958                                  BUS_VALID_N_394
-LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1175_I_0_274_2_lut_4_lut
-Route         2   e 0.798                                  \RAM/lastAddress_31__N_1264
+Route       365   e 0.402                                  BUS_currGrantID[1]
+LUT4        ---     0.408              B to Z              i12624_2_lut_rep_764
+Route        12   e 1.156                                  n30903
+A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_19159_1
+Route         1   e 0.020                                  \MDM/n24123
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_3
+Route         1   e 0.020                                  \MDM/n24124
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_5
+Route         1   e 0.020                                  \MDM/n24125
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_7
+Route         1   e 0.020                                  \MDM/n24126
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_9
+Route         1   e 0.020                                  \MDM/n24127
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_11
+Route         1   e 0.020                                  \MDM/n24128
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_13
+Route         1   e 0.020                                  \MDM/n24129
+FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_19159_15
+Route        86   e 1.957                                  BUS_VALID_N_394
+LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1157_I_0_273_2_lut_4_lut
+Route         2   e 0.798                                  \RAM/lastAddress_31__N_1243
                   --------
-                    7.579  (41.5% logic, 58.5% route), 11 logic levels.
+                    7.595  (41.4% logic, 58.6% route), 11 logic levels.
 
 
-Error:  The following path violates requirements by 4.264ns
+Error:  The following path violates requirements by 4.280ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1P3DX    CK             BUS_currGrantID__i2  (from LOGIC_CLOCK_keep_N_57 +)
-   Destination:    FD1S1D     CD             \RAM/i6516  (to LOGIC_CLOCK_keep_N_57 +)
+   Destination:    FD1S1D     CD             \RAM/i6514  (to LOGIC_CLOCK_keep_N_57 +)
 
-   Delay:                   7.579ns  (41.5% logic, 58.5% route), 11 logic levels.
+   Delay:                   7.595ns  (41.4% logic, 58.6% route), 11 logic levels.
 
  Constraint Details:
 
-      7.579ns data_path BUS_currGrantID__i2 to \RAM/i6516 violates
+      7.595ns data_path BUS_currGrantID__i2 to \RAM/i6514 violates
       3.448ns delay constraint less
-      0.133ns L_S requirement (totaling 3.315ns) by 4.264ns
+      0.133ns L_S requirement (totaling 3.315ns) by 4.280ns
 
- Path Details: BUS_currGrantID__i2 to \RAM/i6516
+ Path Details: BUS_currGrantID__i2 to \RAM/i6514
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              BUS_currGrantID__i2 (from LOGIC_CLOCK_keep_N_57)
-Route       351   e 0.402                                  BUS_currGrantID[1]
-LUT4        ---     0.408              B to Z              i12979_2_lut_3_lut_rep_789
-Route        11   e 1.139                                  n32456
-A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_20542_1
-Route         1   e 0.020                                  \MDM/n25728
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_3
-Route         1   e 0.020                                  \MDM/n25729
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_5
-Route         1   e 0.020                                  \MDM/n25730
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_7
-Route         1   e 0.020                                  \MDM/n25731
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_9
-Route         1   e 0.020                                  \MDM/n25732
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_11
-Route         1   e 0.020                                  \MDM/n25733
-FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_20542_13
-Route         1   e 0.020                                  \MDM/n25734
-FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_20542_15
-Route        88   e 1.958                                  BUS_VALID_N_394
-LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1175_I_0_275_2_lut_4_lut
-Route         2   e 0.798                                  \RAM/lastAddress_31__N_1267
+Route       365   e 0.402                                  BUS_currGrantID[1]
+LUT4        ---     0.408              B to Z              i12624_2_lut_rep_764
+Route        12   e 1.156                                  n30903
+A1_TO_FCO   ---     0.684           D[2] to COUT           \MDM/add_19159_1
+Route         1   e 0.020                                  \MDM/n24123
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_3
+Route         1   e 0.020                                  \MDM/n24124
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_5
+Route         1   e 0.020                                  \MDM/n24125
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_7
+Route         1   e 0.020                                  \MDM/n24126
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_9
+Route         1   e 0.020                                  \MDM/n24127
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_11
+Route         1   e 0.020                                  \MDM/n24128
+FCI_TO_FCO  ---     0.130            CIN to COUT           \MDM/add_19159_13
+Route         1   e 0.020                                  \MDM/n24129
+FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/add_19159_15
+Route        86   e 1.957                                  BUS_VALID_N_394
+LUT4        ---     0.408              A to Z              \RAM/SRAM_WE_N_1157_I_0_274_2_lut_4_lut
+Route         2   e 0.798                                  \RAM/lastAddress_31__N_1246
                   --------
-                    7.579  (41.5% logic, 58.5% route), 11 logic levels.
+                    7.595  (41.4% logic, 58.6% route), 11 logic levels.
 
-Warning: 7.712 ns is the maximum delay for this constraint.
+Warning: 7.728 ns is the maximum delay for this constraint.
 
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk9 [get_nets \MDM/SpriteLut_readClk]
+Constraint: create_clock -period 6.896552 -name clk5 [get_nets \MDM/GR_WR_CLK]
             0 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk8 [get_nets \MDM/SpriteLut_writeClk]
+Constraint: create_clock -period 6.896552 -name clk4 [get_nets \MDM/SpriteLut_readClk]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk3 [get_nets \MDM/SpriteLut_writeClk]
             144 items scored, 144 timing errors detected.
 --------------------------------------------------------------------------------
 
@@ -207,20 +237,20 @@ Error:  The following path violates requirements by 4.324ns
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 EBSR_CO     ---     4.057           CLKA to DOA[9]         \MDM/RedLut/LUT_RAM_0_0_0 (from \MDM/SpriteLut_writeClk)
-Route         1   e 0.660                                  \MDM/RED_WRITE[3]
-LUT4        ---     0.408              A to Z              \MDM/i23899_3_lut
-Route         1   e 0.020                                  \MDM/n28942
-MUXL5       ---     0.193           BLUT to Z              \MDM/i23902
-Route         1   e 0.660                                  \MDM/n28945
-LUT4        ---     0.408              B to Z              \MDM/i23903_3_lut
+Route         1   e 0.660                                  RED_WRITE[3]
+LUT4        ---     0.408              B to Z              i22438_3_lut_4_lut_4_lut
+Route         1   e 0.020                                  n27468
+MUXL5       ---     0.193           BLUT to Z              \MDM/i22441
+Route         1   e 0.660                                  \MDM/n27471
+LUT4        ---     0.408              B to Z              \MDM/i22442_3_lut
 Route         1   e 0.660                                  \MDM/otherData2[3]
 LUT4        ---     0.408              B to Z              \MDM/GR_WR_DOUT_16_15__I_0_i4_3_lut
 Route         1   e 0.020                                  \MDM/otherData[3]
-MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1196_i4
-Route         1   e 0.660                                  \MDM/BUS_DATA_INTERNAL[3]
-LUT4        ---     0.408              B to Z              \MDM/i1_2_lut_3_lut_3_lut
-Route         1   e 0.660                                  MDM_data[3]
-LUT4        ---     0.408              B to Z              i1_4_lut_adj_909
+MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1199_i4
+Route         1   e 0.660                                  BUS_DATA_INTERNAL[3]
+LUT4        ---     0.408              A to Z              i1_4_lut_adj_908
+Route         1   e 0.660                                  n4_adj_4571
+LUT4        ---     0.408              C to Z              i1_4_lut_adj_907
 Route        47   e 1.438                                  BUS_data[3]
                   --------
                    11.261  (57.6% logic, 42.4% route), 8 logic levels.
@@ -245,20 +275,20 @@ Error:  The following path violates requirements by 4.324ns
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 EBSR_CO     ---     4.057           CLKA to DOA[9]         \MDM/RedLut/LUT_RAM_0_0_0 (from \MDM/SpriteLut_writeClk)
-Route         1   e 0.660                                  \MDM/RED_WRITE[2]
-LUT4        ---     0.408              A to Z              \MDM/i23906_3_lut
-Route         1   e 0.020                                  \MDM/n28949
-MUXL5       ---     0.193           BLUT to Z              \MDM/i23909
-Route         1   e 0.660                                  \MDM/n28952
-LUT4        ---     0.408              B to Z              \MDM/i23910_3_lut
+Route         1   e 0.660                                  RED_WRITE[2]
+LUT4        ---     0.408              B to Z              i22445_3_lut_4_lut_4_lut
+Route         1   e 0.020                                  n27475
+MUXL5       ---     0.193           BLUT to Z              \MDM/i22448
+Route         1   e 0.660                                  \MDM/n27478
+LUT4        ---     0.408              B to Z              \MDM/i22449_3_lut
 Route         1   e 0.660                                  \MDM/otherData2[2]
 LUT4        ---     0.408              B to Z              \MDM/GR_WR_DOUT_16_15__I_0_i3_3_lut
 Route         1   e 0.020                                  \MDM/otherData[2]
-MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1196_i3
+MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1199_i3
 Route         1   e 0.660                                  BUS_DATA_INTERNAL[2]
-LUT4        ---     0.408              C to Z              i1_4_lut_adj_908
-Route         1   e 0.660                                  n4_adj_4510
-LUT4        ---     0.408              C to Z              i1_4_lut_adj_907
+LUT4        ---     0.408              B to Z              i2_4_lut_adj_906
+Route         1   e 0.660                                  n6_adj_4567
+LUT4        ---     0.408              B to Z              i3_4_lut_adj_905
 Route        47   e 1.438                                  BUS_data[2]
                   --------
                    11.261  (57.6% logic, 42.4% route), 8 logic levels.
@@ -283,20 +313,20 @@ Error:  The following path violates requirements by 4.324ns
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 EBSR_CO     ---     4.057           CLKA to DOA[9]         \MDM/RedLut/LUT_RAM_0_0_0 (from \MDM/SpriteLut_writeClk)
-Route         1   e 0.660                                  \MDM/RED_WRITE[0]
-LUT4        ---     0.408              A to Z              \MDM/i24167_3_lut
-Route         1   e 0.020                                  \MDM/n29210
-MUXL5       ---     0.193           BLUT to Z              \MDM/i24170
-Route         1   e 0.660                                  \MDM/n29213
-LUT4        ---     0.408              B to Z              \MDM/i24171_3_lut
+Route         1   e 0.660                                  RED_WRITE[0]
+LUT4        ---     0.408              B to Z              i22482_3_lut_4_lut_4_lut
+Route         1   e 0.020                                  n27512
+MUXL5       ---     0.193           BLUT to Z              \MDM/i22485
+Route         1   e 0.660                                  \MDM/n27515
+LUT4        ---     0.408              B to Z              \MDM/i22486_3_lut
 Route         1   e 0.660                                  \MDM/otherData2[0]
 LUT4        ---     0.408              B to Z              \MDM/GR_WR_DOUT_16_15__I_0_i1_3_lut
 Route         1   e 0.020                                  \MDM/otherData[0]
-MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1196_i1
+MUXL5       ---     0.193           BLUT to Z              \MDM/mux_1199_i1
 Route         1   e 0.660                                  \MDM/BUS_DATA_INTERNAL[0]
-LUT4        ---     0.408              B to Z              \MDM/i1_2_lut_3_lut_3_lut_adj_640
+LUT4        ---     0.408              B to Z              \MDM/i12277_2_lut_3_lut_3_lut
 Route         1   e 0.660                                  MDM_data[0]
-LUT4        ---     0.408              B to Z              i1_4_lut_adj_895
+LUT4        ---     0.408              B to Z              i1_4_lut_adj_897
 Route        47   e 1.438                                  BUS_data[0]
                   --------
                    11.261  (57.6% logic, 42.4% route), 8 logic levels.
@@ -306,467 +336,443 @@ Warning: 11.220 ns is the maximum delay for this constraint.
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk7 [get_nets PIXEL_CLOCK_N_293]
-            0 items scored, 0 timing errors detected.
+Constraint: create_clock -period 6.896552 -name clk2 [get_nets PIXEL_CLOCK]
+            420 items scored, 8 timing errors detected.
 --------------------------------------------------------------------------------
 
 
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk6 [get_nets VRAM_WC_N]
-            0 items scored, 0 timing errors detected.
---------------------------------------------------------------------------------
-
-
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk5 [get_nets PIXEL_CLOCK]
-            486 items scored, 24 timing errors detected.
---------------------------------------------------------------------------------
-
-
-Error:  The following path violates requirements by 0.108ns
+Error:  The following path violates requirements by 0.714ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \MD/currPixel_1991__i6  (from PIXEL_CLOCK +)
-   Destination:    FD1P3IX    CD             \MD/currPixel_1991__i6  (to PIXEL_CLOCK +)
+   Source:         FD1P3IX    CK             \MD/currPixel_1992__i3  (from PIXEL_CLOCK +)
+   Destination:    FD1P3AX    D              \MD/currPixel_1992__i0  (to PIXEL_CLOCK +)
 
-   Delay:                   6.871ns  (29.1% logic, 70.9% route), 5 logic levels.
+   Delay:                   7.477ns  (32.2% logic, 67.8% route), 6 logic levels.
 
  Constraint Details:
 
-      6.871ns data_path \MD/currPixel_1991__i6 to \MD/currPixel_1991__i6 violates
+      7.477ns data_path \MD/currPixel_1992__i3 to \MD/currPixel_1992__i0 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 0.108ns
+      0.133ns L_S requirement (totaling 6.763ns) by 0.714ns
 
- Path Details: \MD/currPixel_1991__i6 to \MD/currPixel_1991__i6
+ Path Details: \MD/currPixel_1992__i3 to \MD/currPixel_1992__i0
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \MD/currPixel_1991__i6 (from PIXEL_CLOCK)
-Route        19   e 1.313                                  \MD/currPixel[6]
-LUT4        ---     0.408              B to Z              \MD/i23441_3_lut_rep_760
-Route         5   e 0.981                                  \MD/n31337
-LUT4        ---     0.408              A to Z              \MD/i1_4_lut_adj_686
-Route         4   e 0.937                                  \MD/n10250
-LUT4        ---     0.408              C to Z              \MD/i1_2_lut_3_lut_adj_681
-Route         1   e 0.660                                  \MD/n4
-LUT4        ---     0.408              D to Z              \MD/i1_4_lut_adj_685
-Route         5   e 0.981                                  \MD/n14533
+L_CO        ---     0.367             CK to Q              \MD/currPixel_1992__i3 (from PIXEL_CLOCK)
+Route        18   e 1.311                                  \MD/currPixel[3]
+LUT4        ---     0.408              B to Z              \MD/i21773_2_lut
+Route         1   e 0.660                                  \MD/n26794
+LUT4        ---     0.408              D to Z              \MD/i21924_4_lut
+Route         5   e 0.981                                  n26952
+LUT4        ---     0.408              B to Z              i21927_2_lut
+Route         1   e 0.660                                  n26956
+LUT4        ---     0.408              C to Z              i1_4_lut
+Route         2   e 0.798                                  n3167
+LUT4        ---     0.408              C to Z              \MD/currPixel_1992_mux_6_i1_3_lut
+Route         1   e 0.660                                  \MD/n55
                   --------
-                    6.871  (29.1% logic, 70.9% route), 5 logic levels.
+                    7.477  (32.2% logic, 67.8% route), 6 logic levels.
 
 
-Error:  The following path violates requirements by 0.108ns
+Error:  The following path violates requirements by 0.714ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \MD/currPixel_1991__i6  (from PIXEL_CLOCK +)
-   Destination:    FD1P3IX    CD             \MD/currPixel_1991__i5  (to PIXEL_CLOCK +)
+   Source:         FD1P3IX    CK             \MD/currPixel_1992__i3  (from PIXEL_CLOCK +)
+   Destination:    FD1P3AX    D              \MD/currPixel_1992__i1  (to PIXEL_CLOCK +)
 
-   Delay:                   6.871ns  (29.1% logic, 70.9% route), 5 logic levels.
+   Delay:                   7.477ns  (32.2% logic, 67.8% route), 6 logic levels.
 
  Constraint Details:
 
-      6.871ns data_path \MD/currPixel_1991__i6 to \MD/currPixel_1991__i5 violates
+      7.477ns data_path \MD/currPixel_1992__i3 to \MD/currPixel_1992__i1 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 0.108ns
+      0.133ns L_S requirement (totaling 6.763ns) by 0.714ns
 
- Path Details: \MD/currPixel_1991__i6 to \MD/currPixel_1991__i5
+ Path Details: \MD/currPixel_1992__i3 to \MD/currPixel_1992__i1
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \MD/currPixel_1991__i6 (from PIXEL_CLOCK)
-Route        19   e 1.313                                  \MD/currPixel[6]
-LUT4        ---     0.408              B to Z              \MD/i23441_3_lut_rep_760
-Route         5   e 0.981                                  \MD/n31337
-LUT4        ---     0.408              A to Z              \MD/i1_4_lut_adj_686
-Route         4   e 0.937                                  \MD/n10250
-LUT4        ---     0.408              C to Z              \MD/i1_2_lut_3_lut_adj_681
-Route         1   e 0.660                                  \MD/n4
-LUT4        ---     0.408              D to Z              \MD/i1_4_lut_adj_685
-Route         5   e 0.981                                  \MD/n14533
+L_CO        ---     0.367             CK to Q              \MD/currPixel_1992__i3 (from PIXEL_CLOCK)
+Route        18   e 1.311                                  \MD/currPixel[3]
+LUT4        ---     0.408              B to Z              \MD/i21773_2_lut
+Route         1   e 0.660                                  \MD/n26794
+LUT4        ---     0.408              D to Z              \MD/i21924_4_lut
+Route         5   e 0.981                                  n26952
+LUT4        ---     0.408              B to Z              i21927_2_lut
+Route         1   e 0.660                                  n26956
+LUT4        ---     0.408              C to Z              i1_4_lut
+Route         2   e 0.798                                  n3167
+LUT4        ---     0.408              C to Z              \MD/currPixel_1992_mux_6_i2_3_lut
+Route         1   e 0.660                                  \MD/n54
                   --------
-                    6.871  (29.1% logic, 70.9% route), 5 logic levels.
+                    7.477  (32.2% logic, 67.8% route), 6 logic levels.
 
 
-Error:  The following path violates requirements by 0.108ns
+Error:  The following path violates requirements by 0.714ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
-   Source:         FD1P3IX    CK             \MD/currPixel_1991__i6  (from PIXEL_CLOCK +)
-   Destination:    FD1P3IX    CD             \MD/currPixel_1991__i4  (to PIXEL_CLOCK +)
+   Source:         FD1P3IX    CK             \MD/currPixel_1992__i4  (from PIXEL_CLOCK +)
+   Destination:    FD1P3AX    D              \MD/currPixel_1992__i0  (to PIXEL_CLOCK +)
 
-   Delay:                   6.871ns  (29.1% logic, 70.9% route), 5 logic levels.
+   Delay:                   7.477ns  (32.2% logic, 67.8% route), 6 logic levels.
 
  Constraint Details:
 
-      6.871ns data_path \MD/currPixel_1991__i6 to \MD/currPixel_1991__i4 violates
+      7.477ns data_path \MD/currPixel_1992__i4 to \MD/currPixel_1992__i0 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 0.108ns
+      0.133ns L_S requirement (totaling 6.763ns) by 0.714ns
 
- Path Details: \MD/currPixel_1991__i6 to \MD/currPixel_1991__i4
+ Path Details: \MD/currPixel_1992__i4 to \MD/currPixel_1992__i0
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \MD/currPixel_1991__i6 (from PIXEL_CLOCK)
-Route        19   e 1.313                                  \MD/currPixel[6]
-LUT4        ---     0.408              B to Z              \MD/i23441_3_lut_rep_760
-Route         5   e 0.981                                  \MD/n31337
-LUT4        ---     0.408              A to Z              \MD/i1_4_lut_adj_686
-Route         4   e 0.937                                  \MD/n10250
-LUT4        ---     0.408              C to Z              \MD/i1_2_lut_3_lut_adj_681
-Route         1   e 0.660                                  \MD/n4
-LUT4        ---     0.408              D to Z              \MD/i1_4_lut_adj_685
-Route         5   e 0.981                                  \MD/n14533
+L_CO        ---     0.367             CK to Q              \MD/currPixel_1992__i4 (from PIXEL_CLOCK)
+Route        18   e 1.311                                  \MD/currPixel[4]
+LUT4        ---     0.408              A to Z              \MD/i21773_2_lut
+Route         1   e 0.660                                  \MD/n26794
+LUT4        ---     0.408              D to Z              \MD/i21924_4_lut
+Route         5   e 0.981                                  n26952
+LUT4        ---     0.408              B to Z              i21927_2_lut
+Route         1   e 0.660                                  n26956
+LUT4        ---     0.408              C to Z              i1_4_lut
+Route         2   e 0.798                                  n3167
+LUT4        ---     0.408              C to Z              \MD/currPixel_1992_mux_6_i1_3_lut
+Route         1   e 0.660                                  \MD/n55
                   --------
-                    6.871  (29.1% logic, 70.9% route), 5 logic levels.
+                    7.477  (32.2% logic, 67.8% route), 6 logic levels.
 
-Warning: 7.004 ns is the maximum delay for this constraint.
+Warning: 7.610 ns is the maximum delay for this constraint.
 
 
 
 ================================================================================
-Constraint: create_clock -period 6.896552 -name clk4 [get_nets \MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5]
-            0 items scored, 0 timing errors detected.
---------------------------------------------------------------------------------
-
-
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk3 [get_nets \MDM/offsetLatchClockOrd]
-            0 items scored, 0 timing errors detected.
---------------------------------------------------------------------------------
-
-
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk2 [get_nets \master_reveal_coretop_instance/jtck[0]]
-            525 items scored, 525 timing errors detected.
---------------------------------------------------------------------------------
-
-
-Error:  The following path violates requirements by 7.552ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
-   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
-
-   Delay:                  14.315ns  (36.5% logic, 63.5% route), 15 logic levels.
-
- Constraint Details:
-
-     14.315ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
-      6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 7.552ns
-
- Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
-Route        62   e 1.620                                  addr[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_762
-Route         9   e 1.099                                  \master_reveal_coretop_instance/core0/n31339
-LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/mux_1492_i1_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/rd_dout_te_15__N_2602[0]_adj_4242
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i24259_3_lut_3_lut_4_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29302
-MUXL5       ---     0.193           BLUT to Z              \master_reveal_coretop_instance/core0/trig_u/i24263
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29306
-MUXL5       ---     0.193             D0 to Z              \master_reveal_coretop_instance/core0/trig_u/i24265
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2408[0]
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/i13553_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
-LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3589_i1_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2376[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1177_i1_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2289
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2288
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23812_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n28855
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23813
-Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2249
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12644_2_lut
-Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_711
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n26104
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12651_3_lut_4_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2150[0]
-                  --------
-                   14.315  (36.5% logic, 63.5% route), 15 logic levels.
-
-
-Error:  The following path violates requirements by 7.552ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
-   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
-
-   Delay:                  14.315ns  (36.5% logic, 63.5% route), 15 logic levels.
-
- Constraint Details:
-
-     14.315ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
-      6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 7.552ns
-
- Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
-Route        62   e 1.620                                  addr[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_762
-Route         9   e 1.099                                  \master_reveal_coretop_instance/core0/n31339
-LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i10543_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/rd_dout_te_15__N_2602[0]
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i24260_3_lut_3_lut_4_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29303
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/trig_u/i24263
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29306
-MUXL5       ---     0.193             D0 to Z              \master_reveal_coretop_instance/core0/trig_u/i24265
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2408[0]
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/i13553_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
-LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3589_i1_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2376[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1177_i1_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2289
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2288
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23812_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n28855
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23813
-Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2249
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12644_2_lut
-Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_711
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n26104
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12651_3_lut_4_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2150[0]
-                  --------
-                   14.315  (36.5% logic, 63.5% route), 15 logic levels.
-
-
-Error:  The following path violates requirements by 7.552ns
-
- Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
-
-   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
-   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
-
-   Delay:                  14.315ns  (36.5% logic, 63.5% route), 15 logic levels.
-
- Constraint Details:
-
-     14.315ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
-      6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 7.552ns
-
- Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
-
-   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
-L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
-Route        62   e 1.620                                  addr[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_762
-Route         9   e 1.099                                  \master_reveal_coretop_instance/core0/n31339
-LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i10622_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/rd_dout_te_15__N_2602[0]_adj_4243
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i24262_3_lut_3_lut_4_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29305
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/trig_u/i24264
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n29307
-MUXL5       ---     0.193             D1 to Z              \master_reveal_coretop_instance/core0/trig_u/i24265
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2408[0]
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/i13553_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
-LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3589_i1_3_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2376[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1177_i1_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2289
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2288
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23812_3_lut
-Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n28855
-MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i23813
-Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2249
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12644_2_lut
-Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
-LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_711
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n26104
-LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12651_3_lut_4_lut_4_lut
-Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2150[0]
-                  --------
-                   14.315  (36.5% logic, 63.5% route), 15 logic levels.
-
-Warning: 14.448 ns is the maximum delay for this constraint.
-
-
-
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk1 [get_nets \PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467]
-            0 items scored, 0 timing errors detected.
---------------------------------------------------------------------------------
-
-
-================================================================================
-Constraint: create_clock -period 6.896552 -name clk0 [get_nets LOGIC_CLOCK]
+Constraint: create_clock -period 6.896552 -name clk1 [get_nets LOGIC_CLOCK]
             4096 items scored, 4096 timing errors detected.
 --------------------------------------------------------------------------------
 
 
-Error:  The following path violates requirements by 10.705ns
+Error:  The following path violates requirements by 10.507ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1S3DX    CK             \MDM/currSprite_i5  (from LOGIC_CLOCK +)
    Destination:    FD1S3DX    D              \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172  (to LOGIC_CLOCK +)
 
-   Delay:                  17.468ns  (36.3% logic, 63.7% route), 15 logic levels.
+   Delay:                  17.270ns  (36.8% logic, 63.2% route), 15 logic levels.
 
  Constraint Details:
 
-     17.468ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
+     17.270ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 10.705ns
+      0.133ns L_S requirement (totaling 6.763ns) by 10.507ns
 
  Path Details: \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              \MDM/currSprite_i5 (from LOGIC_CLOCK)
 Route        69   e 1.623                                  reveal_ist_107_N
-MOFX0       ---     0.313             C0 to Z              \MDM/i24338
-Route         3   e 0.879                                  \MDM/currSprite_pos[8]
+MOFX0       ---     0.313             C0 to Z              \MDM/i22254
+Route         1   e 0.660                                  \MDM/currSprite_pos[8]
 A1_TO_FCO   ---     0.684           B[2] to COUT           \MDM/sub_47_add_2_1
-Route         1   e 0.020                                  \MDM/n25292
+Route         1   e 0.020                                  \MDM/n23954
 FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/sub_47_add_2_3
-Route         9   e 1.339                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_846
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_1_adj_847
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_2_adj_848
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_3_adj_849
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_8_adj_4415
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_4_adj_829
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_4_adj_4410
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_5_adj_830
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_10_adj_4419
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_4_adj_842
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_11_adj_4423
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_843
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_13_adj_4425
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_844
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_6_adj_4462
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_845
-Route         1   e 0.660                                  n246
-A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_20556_17
+Route        10   e 1.360                                  currSprite_size[0]
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_714
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mco_adj_4228
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_1_adj_715
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_3_adj_4165
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_2_adj_695
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_adj_4162
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_3_adj_696
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_7_adj_4179
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_4_adj_697
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_9_adj_4186
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_5_adj_698
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_5_adj_4182
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_6_adj_699
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_11_adj_4209
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_711
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_5_adj_4226
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_712
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_15_adj_4220
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_713
+Route         1   e 0.660                                  n214
+A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_19173_17
 Route         1   e 0.660                                  reveal_ist_1_N
                   --------
-                   17.468  (36.3% logic, 63.7% route), 15 logic levels.
+                   17.270  (36.8% logic, 63.2% route), 15 logic levels.
 
 
-Error:  The following path violates requirements by 10.705ns
+Error:  The following path violates requirements by 10.507ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1S3DX    CK             \MDM/currSprite_i5  (from LOGIC_CLOCK +)
    Destination:    FD1S3DX    D              \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172  (to LOGIC_CLOCK +)
 
-   Delay:                  17.468ns  (36.3% logic, 63.7% route), 15 logic levels.
+   Delay:                  17.270ns  (36.8% logic, 63.2% route), 15 logic levels.
 
  Constraint Details:
 
-     17.468ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
+     17.270ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 10.705ns
+      0.133ns L_S requirement (totaling 6.763ns) by 10.507ns
 
  Path Details: \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              \MDM/currSprite_i5 (from LOGIC_CLOCK)
 Route        69   e 1.623                                  reveal_ist_107_N
-MOFX0       ---     0.313             C0 to Z              \MDM/i24338
-Route         3   e 0.879                                  \MDM/currSprite_pos[8]
+MOFX0       ---     0.313             C0 to Z              \MDM/i22254
+Route         1   e 0.660                                  \MDM/currSprite_pos[8]
 A1_TO_FCO   ---     0.684           B[2] to COUT           \MDM/sub_47_add_2_1
-Route         1   e 0.020                                  \MDM/n25292
+Route         1   e 0.020                                  \MDM/n23954
 FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/sub_47_add_2_3
-Route         9   e 1.339                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_846
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_1_adj_847
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_2_adj_848
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_adj_4397
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_3_adj_828
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_8_adj_4415
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_4_adj_829
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_4_adj_4410
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_5_adj_830
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_10_adj_4419
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_4_adj_842
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_11_adj_4423
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_843
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_13_adj_4425
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_844
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_6_adj_4462
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_845
-Route         1   e 0.660                                  n246
-A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_20556_17
+Route        10   e 1.360                                  currSprite_size[0]
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_714
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_2_adj_4161
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_1_adj_694
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_3_adj_4165
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_2_adj_695
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_adj_4162
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_3_adj_696
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_7_adj_4179
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_4_adj_697
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_8_adj_4196
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_3_adj_709
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_9_adj_4183
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_4_adj_710
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_11_adj_4209
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_711
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_5_adj_4226
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_712
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_15_adj_4220
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_713
+Route         1   e 0.660                                  n214
+A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_19173_17
 Route         1   e 0.660                                  reveal_ist_1_N
                   --------
-                   17.468  (36.3% logic, 63.7% route), 15 logic levels.
+                   17.270  (36.8% logic, 63.2% route), 15 logic levels.
 
 
-Error:  The following path violates requirements by 10.705ns
+Error:  The following path violates requirements by 10.507ns
 
  Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
 
    Source:         FD1S3DX    CK             \MDM/currSprite_i5  (from LOGIC_CLOCK +)
    Destination:    FD1S3DX    D              \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172  (to LOGIC_CLOCK +)
 
-   Delay:                  17.468ns  (36.3% logic, 63.7% route), 15 logic levels.
+   Delay:                  17.270ns  (36.8% logic, 63.2% route), 15 logic levels.
 
  Constraint Details:
 
-     17.468ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
+     17.270ns data_path \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172 violates
       6.896ns delay constraint less
-      0.133ns L_S requirement (totaling 6.763ns) by 10.705ns
+      0.133ns L_S requirement (totaling 6.763ns) by 10.507ns
 
  Path Details: \MDM/currSprite_i5 to \master_reveal_coretop_instance/core0/tm_u/trace_din_d_i172
 
    Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
 L_CO        ---     0.367             CK to Q              \MDM/currSprite_i5 (from LOGIC_CLOCK)
 Route        69   e 1.623                                  reveal_ist_107_N
-MOFX0       ---     0.313             C0 to Z              \MDM/i24338
-Route         3   e 0.879                                  \MDM/currSprite_pos[8]
+MOFX0       ---     0.313             C0 to Z              \MDM/i22254
+Route         1   e 0.660                                  \MDM/currSprite_pos[8]
 A1_TO_FCO   ---     0.684           B[2] to COUT           \MDM/sub_47_add_2_1
-Route         1   e 0.020                                  \MDM/n25292
+Route         1   e 0.020                                  \MDM/n23954
 FCI_TO_F    ---     0.495            CIN to S[2]           \MDM/sub_47_add_2_3
-Route         9   e 1.339                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_846
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_1_adj_847
-Route         1   e 0.660                                  currSprite_size[0]
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_2_adj_848
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_adj_4397
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_3_adj_828
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_8_adj_4415
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_4_adj_829
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_2_adj_4457
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_3_adj_841
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_10_adj_4419
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_4_adj_842
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_11_adj_4423
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_843
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_13_adj_4425
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_844
-Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_6_adj_4462
-LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_845
-Route         1   e 0.660                                  n246
-A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_20556_17
+Route        10   e 1.360                                  currSprite_size[0]
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_mult_0_0_adj_714
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_2_adj_4161
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/Cadd_mult_8u_8u_0_0_1_adj_694
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_3_adj_4165
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_2_adj_695
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_adj_4162
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/mult_8u_8u_0_add_0_3_adj_696
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_6_adj_4192
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_2_adj_708
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_8_adj_4196
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_3_adj_709
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_9_adj_4183
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_4_adj_710
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_11_adj_4209
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_5_adj_711
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_5_adj_4226
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_6_adj_712
+Route         1   e 0.660                                  \PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_15_adj_4220
+LUT4        ---     0.408                to                \PIC_BUS_INTERFACE/t_mult_8u_8u_0_add_2_7_adj_713
+Route         1   e 0.660                                  n214
+A1_TO_F     ---     0.408           B[2] to S[2]           \MDM/add_19173_17
 Route         1   e 0.660                                  reveal_ist_1_N
                   --------
-                   17.468  (36.3% logic, 63.7% route), 15 logic levels.
+                   17.270  (36.8% logic, 63.2% route), 15 logic levels.
 
-Warning: 17.601 ns is the maximum delay for this constraint.
+Warning: 17.403 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 6.896552 -name clk0 [get_nets \master_reveal_coretop_instance/jtck[0]]
+            708 items scored, 708 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 7.705ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  14.468ns  (36.1% logic, 63.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     14.468ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
+      6.896ns delay constraint less
+      0.133ns L_S requirement (totaling 6.763ns) by 7.705ns
+
+ Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
+Route        52   e 1.614                                  \master_reveal_coretop_instance/core0/addr[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_702
+Route        13   e 1.258                                  \master_reveal_coretop_instance/core0/n29746
+LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/mux_1520_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/rd_dout_te_15__N_2584[0]_adj_4379
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i22709_3_lut_3_lut_4_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27739
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/trig_u/i22711
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27741
+MUXL5       ---     0.193             D1 to Z              \master_reveal_coretop_instance/core0/trig_u/i22712
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2390[0]
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_1528_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
+LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3597_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2358[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1180_i1_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2271
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2270
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22478_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n27508
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22479
+Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2231
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12333_2_lut
+Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_775
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n24718
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12340_3_lut_4_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2132[0]
+                  --------
+                   14.468  (36.1% logic, 63.9% route), 15 logic levels.
+
+
+Error:  The following path violates requirements by 7.705ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  14.468ns  (36.1% logic, 63.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     14.468ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
+      6.896ns delay constraint less
+      0.133ns L_S requirement (totaling 6.763ns) by 7.705ns
+
+ Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
+Route        52   e 1.614                                  \master_reveal_coretop_instance/core0/addr[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_702
+Route        13   e 1.258                                  \master_reveal_coretop_instance/core0/n29746
+LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i15_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/n17_adj_4376
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i22707_3_lut_3_lut_4_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27737
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/trig_u/i22710
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27740
+MUXL5       ---     0.193             D0 to Z              \master_reveal_coretop_instance/core0/trig_u/i22712
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2390[0]
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_1528_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
+LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3597_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2358[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1180_i1_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2271
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2270
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22478_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n27508
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22479
+Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2231
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12333_2_lut
+Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_775
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n24718
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12340_3_lut_4_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2132[0]
+                  --------
+                   14.468  (36.1% logic, 63.9% route), 15 logic levels.
+
+
+Error:  The following path violates requirements by 7.705ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17  (from \master_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0  (to \master_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  14.468ns  (36.1% logic, 63.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     14.468ns data_path \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0 violates
+      6.896ns delay constraint less
+      0.133ns L_S requirement (totaling 6.763ns) by 7.705ns
+
+ Path Details: \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 to \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \master_reveal_coretop_instance/core0/jtag_int_u/shift_reg__i17 (from \master_reveal_coretop_instance/jtck[0])
+Route        52   e 1.614                                  \master_reveal_coretop_instance/core0/addr[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i1_2_lut_rep_702
+Route        13   e 1.258                                  \master_reveal_coretop_instance/core0/n29746
+LUT4        ---     0.408              B to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/mux_1496_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/te_3/rd_dout_te_15__N_2584[0]
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/te_3/i22706_3_lut_3_lut_4_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27736
+MUXL5       ---     0.193           BLUT to Z              \master_reveal_coretop_instance/core0/trig_u/i22710
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/trig_u/n27740
+MUXL5       ---     0.193             D0 to Z              \master_reveal_coretop_instance/core0/trig_u/i22712
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/rd_dout_trig_15__N_2390[0]
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_1528_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/trig_u/decode_u/rd_dout_tcnt[0]
+LUT4        ---     0.408              D to Z              \master_reveal_coretop_instance/core0/trig_u/decode_u/mux_3597_i1_3_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/rd_dout_trig_15__N_2358[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/mux_1180_i1_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2271
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_I_219
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_first_bit_N_2270
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22478_3_lut
+Route         1   e 0.020                                  \master_reveal_coretop_instance/core0/jtag_int_u/n27508
+MUXL5       ---     0.193           ALUT to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i22479
+Route         3   e 0.879                                  \master_reveal_coretop_instance/core0/jtag_int_u/jtdo_N_2231
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12333_2_lut
+Route         2   e 0.798                                  \master_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.408              A to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i3_4_lut_adj_775
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/n24718
+LUT4        ---     0.408              C to Z              \master_reveal_coretop_instance/core0/jtag_int_u/i12340_3_lut_4_lut_4_lut
+Route         1   e 0.660                                  \master_reveal_coretop_instance/core0/jtag_int_u/tm_crc_15__N_2132[0]
+                  --------
+                   14.468  (36.1% logic, 63.9% route), 15 logic levels.
+
+Warning: 14.601 ns is the maximum delay for this constraint.
 
 
 Timing Report Summary
@@ -776,51 +782,50 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk13 [get_nets \MDM/Sprite_writeClk]   |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk12 [get_nets reveal_ist_101_N]       |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk11 [get_nets \MDM/GR_WR_CLK]         |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk10 [get_nets LOGIC_CLOCK_keep_N_57]  |     6.896 ns|    15.424 ns|    11 *
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk9 [get_nets \MDM/SpriteLut_readClk]  |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk8 [get_nets \MDM/SpriteLut_writeClk] |     6.896 ns|    11.220 ns|     8 *
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk7 [get_nets PIXEL_CLOCK_N_293]       |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk6 [get_nets VRAM_WC_N]               |            -|            -|     0  
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk5 [get_nets PIXEL_CLOCK]             |     6.896 ns|     7.004 ns|     5 *
-                                        |             |             |
-create_clock -period 6.896552 -name     |             |             |
-clk4 [get_nets                          |             |             |
+clk13 [get_nets                         |             |             |
 \MDM/SpriteRead_yInSprite_7__N_654[2]_de|             |             |
 rived_5]                                |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk3 [get_nets \MDM/offsetLatchClockOrd]|            -|            -|     0  
+clk12 [get_nets                         |             |             |
+\PIC_BUS_INTERFACE/PIC_OE_c_derived_19] |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk2 [get_nets                          |             |             |
-\master_reveal_coretop_instance/jtck[0]]|     6.896 ns|    14.448 ns|    15 *
+clk11 [get_nets VRAM_WC_N]              |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk1 [get_nets                          |             |             |
-\PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNA|             |             |
-L_N_1467]                               |            -|            -|     0  
+clk10 [get_nets PIXEL_CLOCK_N_293]      |            -|            -|     0  
                                         |             |             |
 create_clock -period 6.896552 -name     |             |             |
-clk0 [get_nets LOGIC_CLOCK]             |     6.896 ns|    17.601 ns|    15 *
+clk9 [get_nets \MDM/offsetLatchClockOrd]|            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk8 [get_nets \MDM/Sprite_writeClk]    |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk7 [get_nets reveal_ist_101_N]        |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk6 [get_nets LOGIC_CLOCK_keep_N_57]   |     6.896 ns|    15.456 ns|    11 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk5 [get_nets \MDM/GR_WR_CLK]          |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk4 [get_nets \MDM/SpriteLut_readClk]  |            -|            -|     0  
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk3 [get_nets \MDM/SpriteLut_writeClk] |     6.896 ns|    11.220 ns|     8 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk2 [get_nets PIXEL_CLOCK]             |     6.896 ns|     7.610 ns|     6 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk1 [get_nets LOGIC_CLOCK]             |     6.896 ns|    17.403 ns|    15 *
+                                        |             |             |
+create_clock -period 6.896552 -name     |             |             |
+clk0 [get_nets                          |             |             |
+\master_reveal_coretop_instance/jtck[0]]|     6.896 ns|    14.601 ns|    15 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -830,67 +835,75 @@ clk0 [get_nets LOGIC_CLOCK]             |     6.896 ns|    17.601 ns|    15 *
 --------------------------------------------------------------------------------
 Critical Nets                           |   Loads|  Errors| % of total
 --------------------------------------------------------------------------------
-currSprite_size[0]                      |      10|    8140|     91.62%
+currSprite_size[0]                      |      10|    3043|     33.62%
                                         |        |        |
-\PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_11_a|        |        |
-dj_4423                                 |       1|    2800|     31.51%
+\PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_11_a|        |        |
+dj_4209                                 |       1|    2882|     31.84%
                                         |        |        |
-\PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_13_a|        |        |
-dj_4425                                 |       1|    2750|     30.95%
+\PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_5|        |        |
+_adj_4226                               |       1|    2870|     31.71%
                                         |        |        |
-\MDM/currSprite_pos[8]                  |       3|    2702|     30.41%
+\MDM/currSprite_pos[8]                  |       1|    2822|     31.18%
                                         |        |        |
-\MDM/n25292                             |       1|    2625|     29.54%
+\PIC_BUS_INTERFACE/mco_adj_4228         |       1|    2753|     30.41%
                                         |        |        |
-reveal_ist_1_N                          |       1|    2348|     26.43%
+\MDM/n23954                             |       1|    2745|     30.32%
                                         |        |        |
-\PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_8_a|        |        |
-dj_4415                                 |       1|    2238|     25.19%
+reveal_ist_1_N                          |       1|    2459|     27.17%
                                         |        |        |
-BUS_currGrantID[1]                      |     351|    2220|     24.99%
-                                        |        |        |
-\PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_10_a|        |        |
-dj_4419                                 |       1|    2072|     23.32%
+\PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_7_a|        |        |
+dj_4179                                 |       1|    2353|     25.99%
                                         |        |        |
 \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_2_a|        |        |
-dj_4397                                 |       1|    2070|     23.30%
+dj_4162                                 |       1|    2165|     23.92%
                                         |        |        |
-reveal_ist_107_N                        |      69|    2009|     22.61%
+BUS_currGrantID[1]                      |     365|    2140|     23.64%
                                         |        |        |
-BUS_currGrantID[0]                      |     350|    1876|     21.11%
+\PIC_BUS_INTERFACE/s_mult_8u_8u_0_0_9_ad|        |        |
+j_4183                                  |       1|    2102|     23.22%
                                         |        |        |
-\PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_4_a|        |        |
-dj_4410                                 |       1|    1795|     20.20%
+\PIC_BUS_INTERFACE/rModDataRead[0]      |      11|    2016|     22.27%
                                         |        |        |
-\PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_4_a|        |        |
-dj_4401                                 |       1|    1416|     15.94%
+reveal_ist_107_N                        |      69|    2009|     22.19%
                                         |        |        |
-n31238                                  |     143|    1311|     14.76%
+BUS_currGrantID[0]                      |     364|    1956|     21.61%
                                         |        |        |
-\PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_2|        |        |
-_adj_4457                               |       1|    1309|     14.73%
+BUS_VALID_N_394                         |      86|    1910|     21.10%
                                         |        |        |
-\PIC_BUS_INTERFACE/co_t_mult_8u_8u_0_2_6|        |        |
-_adj_4462                               |       1|    1253|     14.10%
+\PIC_BUS_INTERFACE/mult_8u_8u_0_pp_1_9_a|        |        |
+dj_4186                                 |       1|    1902|     21.01%
                                         |        |        |
-n246                                    |       1|    1253|     14.10%
+\MDM/n24129                             |       1|    1846|     20.39%
                                         |        |        |
-BUS_VALID_N_394                         |      88|    1221|     13.74%
+\PIC_BUS_INTERFACE/mco_1_adj_4229       |       1|    1783|     19.70%
                                         |        |        |
-\MDM/n25734                             |       1|    1221|     13.74%
+\MDM/n24128                             |       1|    1574|     17.39%
                                         |        |        |
-\MDM/n25368                             |       1|    1095|     12.32%
+\PIC_BUS_INTERFACE/mult_8u_8u_0_pp_0_3_a|        |        |
+dj_4165                                 |       1|    1441|     15.92%
                                         |        |        |
-reveal_ist_109_N                        |     131|    1095|     12.32%
+\PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_8_ad|        |        |
+j_4196                                  |       1|    1322|     14.60%
                                         |        |        |
-\MDM/n25733                             |       1|    1085|     12.21%
+\MDM/n24127                             |       1|    1302|     14.38%
+                                        |        |        |
+\PIC_BUS_INTERFACE/s_mult_8u_8u_0_1_15_a|        |        |
+dj_4220                                 |       1|    1253|     13.84%
+                                        |        |        |
+n214                                    |       1|    1253|     13.84%
+                                        |        |        |
+n29665                                  |     143|    1240|     13.70%
+                                        |        |        |
+reveal_ist_109_N                        |     131|    1215|     13.42%
+                                        |        |        |
+\MDM/n24002                             |       1|    1206|     13.32%
                                         |        |        |
 \PIC_BUS_INTERFACE/co_mult_8u_8u_0_0_5_a|        |        |
-dj_4417                                 |       1|    1032|     11.62%
+dj_4182                                 |       1|    1122|     12.40%
                                         |        |        |
-\MDM/n25732                             |       1|     941|     10.59%
+\MDM/n24126                             |       1|    1026|     11.33%
                                         |        |        |
-n32435                                  |       4|     930|     10.47%
+\PIC_BUS_INTERFACE/mco_2_adj_4230       |       1|     913|     10.09%
                                         |        |        |
 --------------------------------------------------------------------------------
 
@@ -898,10 +911,10 @@ n32435                                  |       4|     930|     10.47%
 Timing summary:
 ---------------
 
-Timing errors: 8885  Score: 59432012
+Timing errors: 9052  Score: 58734962
 
-Constraints cover  1604657 paths, 4152 nets, and 12467 connections (56.2% coverage)
+Constraints cover  1579145 paths, 4144 nets, and 12501 connections (56.3% coverage)
 
 
-Peak memory: 167653376 bytes, TRCE: 24924160 bytes, DLYMAN: 1802240 bytes
+Peak memory: 167018496 bytes, TRCE: 24150016 bytes, DLYMAN: 1802240 bytes
 CPU_TIME_REPORT: 0 secs 

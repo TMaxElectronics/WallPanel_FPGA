@@ -3,7 +3,7 @@ Starting process: Module
 Starting process: 
 
 SCUBA, Version Diamond (64-bit) 3.11.0.396.4
-Mon Jan 11 20:14:51 2021
+Tue Jan 12 13:04:37 2021
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -13,7 +13,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 BEGIN SCUBA Module Synthesis
 
-    Issued command   : C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-9400C -aaddr_width 10 -widtha 30 -baddr_width 8 -widthb 120 -anum_words 1024 -bnum_words 256 -outdataA REGISTERED -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL 
+    Issued command   : C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type ramdp -device LCMXO3LF-9400C -aaddr_width 10 -widtha 30 -baddr_width 8 -widthb 120 -anum_words 1024 -bnum_words 256 -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL 
     Circuit name     : Outputbuffer
     Module type      : RAM_DP_TRUE
     Module Version   : 7.5

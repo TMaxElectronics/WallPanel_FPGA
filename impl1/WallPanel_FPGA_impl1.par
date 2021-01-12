@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Jan 12 12:24:22 2021
+Tue Jan 12 13:08:15 2021
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f WallPanel_FPGA_impl1.p2t
 WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.dir WallPanel_FPGA_impl1.prf
@@ -16,18 +16,18 @@ Preference file: WallPanel_FPGA_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -36.738      114536360    -5.086       72680        01:32        Completed
+5_1   *      0            -33.932      115177146    -3.290       33517        01:20        Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 1 mins 33 secs 
+Total (real) run time for 1-seed: 1 mins 20 secs 
 
 par done!
 
 Note: user must run 'Trace' for timing closure signoff.
 
 Lattice Place and Route Report for Design "WallPanel_FPGA_impl1_map.ncd"
-Tue Jan 12 12:24:22 2021
+Tue Jan 12 13:08:15 2021
 
 PAR: Place And Route Diamond (64-bit) 3.11.0.396.4.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "D:/OneDrive/Lattice Diamond Projects/WallPanel_FPGA/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF WallPanel_FPGA_impl1_map.ncd WallPanel_FPGA_impl1.dir/5_1.ncd WallPanel_FPGA_impl1.prf
@@ -54,7 +54,7 @@ Device utilization summary:
    PIO (prelim)  104+4(JTAG)/384     28% used
                  104+4(JTAG)/207     52% bonded
 
-   SLICE           2569/4700         54% used
+   SLICE           2565/4700         54% used
 
    GSR                1/1           100% used
    JTAG               1/1           100% used
@@ -63,46 +63,46 @@ Device utilization summary:
 
 
 12 potential circuit loops found in timing analysis.
-Number of Signals: 7998
-Number of Connections: 24367
+Number of Signals: 7975
+Number of Connections: 24405
 WARNING - par: Placement timing preferences are hard to meet. However, placement will continue. Use static timing analysis to identify errors.
 
 Pin Constraint Summary:
    104 out of 104 pins locked (100% locked).
 
 The following 6 signals are selected to use the primary clock routing resources:
-    LOGIC_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 795)
-    PIXEL_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 50)
+    LOGIC_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 800)
+    PIXEL_CLOCK (driver: PLL_Ent/PLLInst_0, clk load #: 49)
     jtaghub16_jtck (driver: xo2chub/genblk7.jtagf_u, clk load #: 348)
-    reveal_ist_101_N (driver: MDM/SLICE_2087, clk load #: 18)
-    MDM/Sprite_writeClk (driver: MDM/SLICE_737, clk load #: 16)
-    VRAM_WC_N (driver: MDM/SLICE_1551, clk load #: 15)
+    reveal_ist_101_N (driver: MDM/SLICE_2086, clk load #: 18)
+    MDM/Sprite_writeClk (driver: MDM/SLICE_779, clk load #: 16)
+    VRAM_WC_N (driver: MDM/SLICE_1538, clk load #: 15)
 
 
 The following 8 signals are selected to use the secondary clock routing resources:
     jtaghub16_jrstn (driver: xo2chub/genblk7.jtagf_u, clk load #: 0, sr load #: 336, ce load #: 0)
-    master_reveal_coretop_instance/core0/n31194 (driver: master_reveal_coretop_instance/core0/SLICE_2482, clk load #: 0, sr load #: 249, ce load #: 0)
-    PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467 (driver: PIC_BUS_INTERFACE/SLICE_2708, clk load #: 10, sr load #: 9, ce load #: 0)
-    master_reveal_coretop_instance/jtck_N_1731_enable_424 (driver: master_reveal_coretop_instance/SLICE_2430, clk load #: 0, sr load #: 0, ce load #: 26)
-    master_reveal_coretop_instance/core0/jtck_N_1731_enable_350 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651, clk load #: 0, sr load #: 0, ce load #: 26)
-    master_reveal_coretop_instance/jtck_N_1731_enable_175 (driver: master_reveal_coretop_instance/SLICE_2644, clk load #: 0, sr load #: 0, ce load #: 25)
-    master_reveal_coretop_instance/jtck_N_1731_enable_225 (driver: master_reveal_coretop_instance/SLICE_2710, clk load #: 0, sr load #: 0, ce load #: 25)
-    master_reveal_coretop_instance/core0/jtck_N_1731_enable_300 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2764, clk load #: 0, sr load #: 0, ce load #: 25)
+    master_reveal_coretop_instance/core0/n29651 (driver: master_reveal_coretop_instance/core0/SLICE_2751, clk load #: 0, sr load #: 251, ce load #: 0)
+    PIC_OE_c_derived_19 (driver: PIC_BUS_INTERFACE/SLICE_2542, clk load #: 10, sr load #: 9, ce load #: 0)
+    master_reveal_coretop_instance/core0/jtck_N_1713_enable_368 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2652, clk load #: 0, sr load #: 0, ce load #: 26)
+    master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1713_enable_442 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2477, clk load #: 0, sr load #: 0, ce load #: 26)
+    master_reveal_coretop_instance/core0/jtck_N_1713_enable_318 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2480, clk load #: 0, sr load #: 0, ce load #: 25)
+    master_reveal_coretop_instance/core0/jtck_N_1713_enable_418 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2759, clk load #: 0, sr load #: 0, ce load #: 25)
+    master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1713_enable_193 (driver: master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651, clk load #: 0, sr load #: 0, ce load #: 25)
 
 Signal MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 is selected as Global Set/Reset.
 Starting Placer Phase 0.
-...........
-Finished Placer Phase 0.  REAL time: 22 secs 
+............
+Finished Placer Phase 0.  REAL time: 26 secs 
 
 Starting Placer Phase 1.
-.........
-Placer score = 170265470.
-Finished Placer Phase 1.  REAL time: 30 secs 
+.......
+Placer score = 174282767.
+Finished Placer Phase 1.  REAL time: 36 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  154257094
-Finished Placer Phase 2.  REAL time: 32 secs 
+Placer score =  170924147
+Finished Placer Phase 2.  REAL time: 38 secs 
 
 
 ------------------ Clock Report ------------------
@@ -114,20 +114,20 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Global Clocks:
-  PRIMARY "LOGIC_CLOCK" from CLKOP on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 795
-  PRIMARY "PIXEL_CLOCK" from CLKOS on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 50
+  PRIMARY "LOGIC_CLOCK" from CLKOP on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 800
+  PRIMARY "PIXEL_CLOCK" from CLKOS on comp "PLL_Ent/PLLInst_0" on PLL site "LPLL", clk load = 49
   PRIMARY "jtaghub16_jtck" from JTCK on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 348
-  PRIMARY "reveal_ist_101_N" from Q0 on comp "MDM/SLICE_2087" on site "R2C25B", clk load = 18
-  PRIMARY "MDM/Sprite_writeClk" from Q0 on comp "MDM/SLICE_737" on site "R26C2A", clk load = 16
-  PRIMARY "VRAM_WC_N" from Q0 on comp "MDM/SLICE_1551" on site "R6C25A", clk load = 15
+  PRIMARY "reveal_ist_101_N" from Q0 on comp "MDM/SLICE_2086" on site "R2C25C", clk load = 18
+  PRIMARY "MDM/Sprite_writeClk" from Q0 on comp "MDM/SLICE_779" on site "R24C8A", clk load = 16
+  PRIMARY "VRAM_WC_N" from Q0 on comp "MDM/SLICE_1538" on site "R7C25A", clk load = 15
   SECONDARY "jtaghub16_jrstn" from JRSTN on comp "xo2chub/genblk7.jtagf_u" on site "JTAG", clk load = 0, ce load = 0, sr load = 336
-  SECONDARY "master_reveal_coretop_instance/core0/n31194" from F0 on comp "master_reveal_coretop_instance/core0/SLICE_2482" on site "R9C23D", clk load = 0, ce load = 0, sr load = 249
-  SECONDARY "PIC_BUS_INTERFACE/BUS_DIRECTION_INTERNAL_N_1467" from F1 on comp "PIC_BUS_INTERFACE/SLICE_2708" on site "R16C48A", clk load = 10, ce load = 0, sr load = 9
-  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_424" from F0 on comp "master_reveal_coretop_instance/SLICE_2430" on site "R9C24A", clk load = 0, ce load = 26, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1731_enable_350" from F1 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651" on site "R9C24D", clk load = 0, ce load = 26, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_175" from F0 on comp "master_reveal_coretop_instance/SLICE_2644" on site "R9C24C", clk load = 0, ce load = 25, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/jtck_N_1731_enable_225" from F0 on comp "master_reveal_coretop_instance/SLICE_2710" on site "R9C24B", clk load = 0, ce load = 25, sr load = 0
-  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1731_enable_300" from F1 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2764" on site "R13C2C", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/n29651" from F0 on comp "master_reveal_coretop_instance/core0/SLICE_2751" on site "R23C24D", clk load = 0, ce load = 0, sr load = 251
+  SECONDARY "PIC_OE_c_derived_19" from F0 on comp "PIC_BUS_INTERFACE/SLICE_2542" on site "R9C23A", clk load = 10, ce load = 0, sr load = 9
+  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1713_enable_368" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2652" on site "R9C24D", clk load = 0, ce load = 26, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1713_enable_442" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2477" on site "R23C25B", clk load = 0, ce load = 26, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1713_enable_318" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2480" on site "R23C23D", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtck_N_1713_enable_418" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2759" on site "R17C2B", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "master_reveal_coretop_instance/core0/jtag_int_u/jtck_N_1713_enable_193" from F0 on comp "master_reveal_coretop_instance/core0/jtag_int_u/SLICE_2651" on site "R9C24A", clk load = 0, ce load = 25, sr load = 0
 
   PRIMARY  : 6 out of 8 (75%)
   SECONDARY: 8 out of 8 (100%)
@@ -156,27 +156,27 @@ I/O Bank Usage Summary:
 | 5        | 14 / 20 ( 70%) | 3.3V       | -         |
 +----------+----------------+------------+-----------+
 
-Total placer CPU time: 28 secs 
+Total placer CPU time: 31 secs 
 
 Dumping design to file WallPanel_FPGA_impl1.dir/5_1.ncd.
 
 12 potential circuit loops found in timing analysis.
-0 connections routed; 24367 unrouted.
+0 connections routed; 24405 unrouted.
 Starting router resource preassignment
 
 WARNING - par: The following clock signals will be routed by using generic routing resource and may suffer from excessive delay and/or skew.
-   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
    Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8
+   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
    Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4
    Signal=MDM/GR_WR_CLK loads=3 clock_loads=2
    Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4
-   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1
-   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1
-   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1237 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1238 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1239 loads=2 clock_loads=1
 
-Completed router resource preassignment. Real time: 39 secs 
+Completed router resource preassignment. Real time: 46 secs 
 
-Start NBR router at 12:25:01 01/12/21
+Start NBR router at 13:09:01 01/12/21
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -192,68 +192,71 @@ Note: NBR uses a different method to calculate timing slacks. The
 *****************************************************************
 
 12 potential circuit loops found in timing analysis.
-Start NBR special constraint process at 12:25:02 01/12/21
+Start NBR special constraint process at 13:09:02 01/12/21
 
-Start NBR section for initial routing at 12:25:04 01/12/21
+Start NBR section for initial routing at 13:09:05 01/12/21
 Level 1, iteration 1
-173(0.03%) conflicts; 18184(74.63%) untouched conns; 211385198 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -32.854ns/-211385.198ns; real time: 47 secs 
+192(0.04%) conflicts; 17830(73.06%) untouched conns; 222127238 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -35.679ns/-222127.239ns; real time: 52 secs 
 Level 2, iteration 1
-186(0.04%) conflicts; 15705(64.45%) untouched conns; 231431683 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -34.345ns/-231431.684ns; real time: 49 secs 
+78(0.02%) conflicts; 15649(64.12%) untouched conns; 236701724 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -37.178ns/-236701.725ns; real time: 54 secs 
 Level 3, iteration 1
-287(0.06%) conflicts; 12208(50.10%) untouched conns; 234256659 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -36.031ns/-234256.659ns; real time: 51 secs 
+159(0.03%) conflicts; 13290(54.46%) untouched conns; 236954615 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -36.440ns/-236954.615ns; real time: 56 secs 
 Level 4, iteration 1
-1429(0.28%) conflicts; 0(0.00%) untouched conn; 235862663 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -31.674ns/-235862.664ns; real time: 56 secs 
+1240(0.24%) conflicts; 0(0.00%) untouched conn; 237932835 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -32.634ns/-237932.836ns; real time: 1 mins 1 secs 
 
-Info: Initial congestion level at 75% usage is 13
-Info: Initial congestion area  at 75% usage is 293 (21.05%)
+Info: Initial congestion level at 75% usage is 7
+Info: Initial congestion area  at 75% usage is 193 (13.86%)
 
-Start NBR section for normal routing at 12:25:18 01/12/21
+Start NBR section for normal routing at 13:09:16 01/12/21
+Level 1, iteration 1
+49(0.01%) conflicts; 1956(8.01%) untouched conns; 240437613 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -37.215ns/-240437.614ns; real time: 1 mins 2 secs 
+Level 1, iteration 2
+13(0.00%) conflicts; 2058(8.43%) untouched conns; 249829200 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -39.546ns/-249829.201ns; real time: 1 mins 2 secs 
+Level 1, iteration 3
+7(0.00%) conflicts; 2068(8.47%) untouched conns; 252376726 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -39.902ns/-252376.727ns; real time: 1 mins 3 secs 
 Level 4, iteration 1
-393(0.08%) conflicts; 0(0.00%) untouched conn; 244618399 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.002ns/-244618.399ns; real time: 1 mins 4 secs 
+259(0.05%) conflicts; 0(0.00%) untouched conn; 255513900 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -41.510ns/-255513.900ns; real time: 1 mins 6 secs 
 Level 4, iteration 2
-131(0.03%) conflicts; 0(0.00%) untouched conn; 255598973 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -39.994ns/-255598.973ns; real time: 1 mins 7 secs 
+63(0.01%) conflicts; 0(0.00%) untouched conn; 255921187 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -41.614ns/-255921.187ns; real time: 1 mins 7 secs 
 Level 4, iteration 3
-63(0.01%) conflicts; 0(0.00%) untouched conn; 264632811 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -43.256ns/-264632.811ns; real time: 1 mins 9 secs 
+22(0.00%) conflicts; 0(0.00%) untouched conn; 255935640 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -41.614ns/-255935.641ns; real time: 1 mins 7 secs 
 Level 4, iteration 4
-23(0.00%) conflicts; 0(0.00%) untouched conn; 264632811 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -43.256ns/-264632.811ns; real time: 1 mins 10 secs 
+9(0.00%) conflicts; 0(0.00%) untouched conn; 255935640 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -41.614ns/-255935.641ns; real time: 1 mins 8 secs 
 Level 4, iteration 5
-8(0.00%) conflicts; 0(0.00%) untouched conn; 257756201 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.837ns/-257756.201ns; real time: 1 mins 10 secs 
+4(0.00%) conflicts; 0(0.00%) untouched conn; 256222336 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-256222.336ns; real time: 1 mins 8 secs 
 Level 4, iteration 6
-2(0.00%) conflicts; 0(0.00%) untouched conn; 257756201 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.837ns/-257756.201ns; real time: 1 mins 10 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 256222336 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-256222.336ns; real time: 1 mins 8 secs 
 Level 4, iteration 7
-2(0.00%) conflicts; 0(0.00%) untouched conn; 257817976 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.861ns/-257817.976ns; real time: 1 mins 11 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 256222445 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-256222.445ns; real time: 1 mins 8 secs 
 Level 4, iteration 8
-2(0.00%) conflicts; 0(0.00%) untouched conn; 257817976 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.861ns/-257817.976ns; real time: 1 mins 11 secs 
-Level 4, iteration 9
-1(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 11 secs 
-Level 4, iteration 10
-0(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 11 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 256222445 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-256222.445ns; real time: 1 mins 8 secs 
 
-Start NBR section for performance tuning (iteration 1) at 12:25:33 01/12/21
+Start NBR section for performance tuning (iteration 1) at 13:09:23 01/12/21
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 257829503 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.861ns/-257829.503ns; real time: 1 mins 12 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 256222775 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-256222.775ns; real time: 1 mins 9 secs 
 
-Start NBR section for re-routing at 12:25:34 01/12/21
+Start NBR section for re-routing at 13:09:24 01/12/21
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 255999645 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -42.857ns/-255999.645ns; real time: 1 mins 27 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 255969535 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -42.209ns/-255969.535ns; real time: 1 mins 13 secs 
 
-Start NBR section for post-routing at 12:25:49 01/12/21
+Start NBR section for post-routing at 13:09:28 01/12/21
 12 potential circuit loops found in timing analysis.
 
 End NBR router with 0 unrouted connection
@@ -261,35 +264,35 @@ End NBR router with 0 unrouted connection
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 13056 (53.58%)
-  Estimated worst slack<setup> : -42.857ns
-  Timing score<setup> : 114536360
+  Number of connections with timing violations : 12955 (53.08%)
+  Estimated worst slack<setup> : -42.209ns
+  Timing score<setup> : 115177146
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
 WARNING - par: The following clock signals will be routed by using generic routing resource and may suffer from excessive delay and/or skew.
-   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
    Signal=MDM/offsetLatchClockOrd loads=8 clock_loads=8
+   Signal=MDM/SpriteRead_yInSprite_7__N_654[2]_derived_5 loads=9 clock_loads=3
    Signal=MDM/SpriteLut_readClk loads=4 clock_loads=4
    Signal=MDM/GR_WR_CLK loads=3 clock_loads=2
    Signal=MDM/SpriteLut_writeClk loads=4 clock_loads=4
-   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1257 loads=2 clock_loads=1
-   Signal=RAM/lastAddress_31__N_1258 loads=2 clock_loads=1
-   Signal=RAM/lastAddress_31__N_1259 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_12   ....   AM/lastAddress_31__N_1237 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1238 loads=2 clock_loads=1
+   Signal=RAM/lastAddress_31__N_1239 loads=2 clock_loads=1
 
 12 potential circuit loops found in timing analysis.
 12 potential circuit loops found in timing analysis.
 12 potential circuit loops found in timing analysis.
-Total CPU time 1 mins 27 secs 
-Total REAL time: 1 mins 31 secs 
+Total CPU time 1 mins 9 secs 
+Total REAL time: 1 mins 18 secs 
 Completely routed.
-End of route.  24367 routed (100.00%); 0 unrouted.
+End of route.  24405 routed (100.00%); 0 unrouted.
 
-Hold time timing score: 72, hold timing errors: 16
+Hold time timing score: 33, hold timing errors: 16
 
-Timing score: 114536360 
+Timing score: 115177146 
 
 Dumping design to file WallPanel_FPGA_impl1.dir/5_1.ncd.
 
@@ -299,14 +302,14 @@ All signals are completely routed.
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -36.738
-PAR_SUMMARY::Timing score<setup/<ns>> = 114536.360
-PAR_SUMMARY::Worst  slack<hold /<ns>> = -5.086
-PAR_SUMMARY::Timing score<hold /<ns>> = 72.680
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -33.932
+PAR_SUMMARY::Timing score<setup/<ns>> = 115177.146
+PAR_SUMMARY::Worst  slack<hold /<ns>> = -3.290
+PAR_SUMMARY::Timing score<hold /<ns>> = 33.517
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 1 mins 28 secs 
-Total REAL time to completion: 1 mins 33 secs 
+Total CPU  time to completion: 1 mins 11 secs 
+Total REAL time to completion: 1 mins 20 secs 
 
 par done!
 

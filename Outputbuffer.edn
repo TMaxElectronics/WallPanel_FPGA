@@ -4,9 +4,9 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2021 1 11 20 14 51)
+      (timestamp 2021 1 12 13 4 37)
       (program "SCUBA" (version "Diamond (64-bit) 3.11.0.396.4"))))
-      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type bram -wp 11 -rp 1010 -data_width 30 -rdata_width 120 -num_rows 1024 -outdataA REGISTERED -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL ")
+      (comment "C:\lscc\diamond\3.11_x64\ispfpga\bin\nt64\scuba.exe -w -n Outputbuffer -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00f -type bram -wp 11 -rp 1010 -data_width 30 -rdata_width 120 -num_rows 1024 -outdataB REGISTERED -cascade -1 -resetmode SYNC -sync_reset -mem_init0 -writemodeA NORMAL -writemodeB NORMAL ")
   (library ORCLIB
     (edifLevel 0)
     (technology
@@ -311,7 +311,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -406,7 +406,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -501,7 +501,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -596,7 +596,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -691,7 +691,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -786,7 +786,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -881,7 +881,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -976,7 +976,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1071,7 +1071,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1166,7 +1166,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1261,7 +1261,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1356,7 +1356,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1451,7 +1451,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1546,7 +1546,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A
@@ -1647,7 +1647,7 @@
             (property REGMODE_B
               (string "OUTREG"))
             (property REGMODE_A
-              (string "OUTREG"))
+              (string "NOREG"))
             (property DATA_WIDTH_B
               (string "9"))
             (property DATA_WIDTH_A

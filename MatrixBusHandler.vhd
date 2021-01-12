@@ -266,7 +266,7 @@ begin
 	currSprite_conf		<= Sprite_options(to_integer(unsigned(currSprite)));
 	currSprite_pointer	<= Sprite_pointers(to_integer(unsigned(currSprite)));
 	
-	SpriteRead_yValid <= '1' when (unsigned(currSprite_y) <= (unsigned(currReadRow) + unsigned(currRowOffset_MULT))) and ((unsigned(currSprite_y) + unsigned(currSprite_height)) > (unsigned(currReadRow) + unsigned(currRowOffset_MULT))) else '0';
+	SpriteRead_yValid <= '1' when SpriteRead_yInSprite < currSprite_height else '0';
 	SpriteRead_xValid <= '1' when SpriteRead_xInSprite < currSprite_width else '0';
 	SpriteRead_spriteValid <= '1' when (SpriteRead_yValid = '1') and (SpriteRead_xValid = '1') and (currSprite_conf(0) = '1') else '0';
 	 	
@@ -441,7 +441,16 @@ begin
 			
 			elsif state = x"94" then 
 				VRAM_WC <= '1';
-				state <= x"90";
+				if xPre >= x"80" then
+					if currSprite = x"27" then
+						state <= x"ff";
+					else
+						currSprite <= currSprite + '1';
+						state <= x"7f";
+					end if;
+				else
+					state <= x"90";
+				end if;
 				
 			elsif state = x"7f" then --done
 				state <= x"80";

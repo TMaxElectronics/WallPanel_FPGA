@@ -5,45 +5,45 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1609978104"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1610450773"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1610453398"/>
             <Task name="Jedecgen" build_result="0" update_result="3" update_time="0"/>
             <Task name="Jedec4Xo3l" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen4Xo3l" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1610450660">
-            <Task name="Map" build_result="2" update_result="0" update_time="1610450660"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1610450662"/>
+        <Milestone name="Map" build_result="2" build_time="1610453293">
+            <Task name="Map" build_result="2" update_result="0" update_time="1610453293"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1610453295"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1610450755">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1610450755"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1610450757"/>
-            <Task name="IOTiming" build_result="2" update_result="0" update_time="1610450766"/>
+        <Milestone name="PAR" build_result="2" build_time="1610453375">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1610453375"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1610453378"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1610453388"/>
             <Task name="PowerCal" build_result="0" update_result="2" update_time="1609978103"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1610450655">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1610450655"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1610450773"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1610453287">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1610453287"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1610453398"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1610450631"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1610453263"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/WallPanel_FPGA_impl1_map.vdb" last_build_time="1610450660" last_build_size="1353040"/>
-        <Report name="WallPanel_FPGA_impl1.bgn" last_build_time="1610450773" last_build_size="4271"/>
-        <Report name="WallPanel_FPGA_impl1.bit" last_build_time="1610450773" last_build_size="111705"/>
-        <Report name="WallPanel_FPGA_impl1.ior" last_build_time="1610450766" last_build_size="13372"/>
-        <Report name="WallPanel_FPGA_impl1.lsedata" last_build_time="1610450640" last_build_size="5097412"/>
-        <Report name="WallPanel_FPGA_impl1.ncd" last_build_time="1610450755" last_build_size="6071172"/>
-        <Report name="WallPanel_FPGA_impl1.ngd" last_build_time="1610450655" last_build_size="3921746"/>
+        <Report name=".vdbs/WallPanel_FPGA_impl1_map.vdb" last_build_time="1610453293" last_build_size="1352929"/>
+        <Report name="WallPanel_FPGA_impl1.bgn" last_build_time="1610453398" last_build_size="4271"/>
+        <Report name="WallPanel_FPGA_impl1.bit" last_build_time="1610453398" last_build_size="109818"/>
+        <Report name="WallPanel_FPGA_impl1.ior" last_build_time="1610453388" last_build_size="13372"/>
+        <Report name="WallPanel_FPGA_impl1.lsedata" last_build_time="1610453268" last_build_size="5106126"/>
+        <Report name="WallPanel_FPGA_impl1.ncd" last_build_time="1610453375" last_build_size="6029240"/>
+        <Report name="WallPanel_FPGA_impl1.ngd" last_build_time="1610453287" last_build_size="3932603"/>
         <Report name="WallPanel_FPGA_impl1.pwrp" last_build_time="1609538190" last_build_size="3443"/>
-        <Report name="WallPanel_FPGA_impl1.tw1" last_build_time="1610450661" last_build_size="39114"/>
-        <Report name="WallPanel_FPGA_impl1.twr" last_build_time="1610450757" last_build_size="161388"/>
-        <Report name="WallPanel_FPGA_impl1_map.ncd" last_build_time="1610450659" last_build_size="4032536"/>
+        <Report name="WallPanel_FPGA_impl1.tw1" last_build_time="1610453295" last_build_size="37817"/>
+        <Report name="WallPanel_FPGA_impl1.twr" last_build_time="1610453378" last_build_size="159312"/>
+        <Report name="WallPanel_FPGA_impl1_map.ncd" last_build_time="1610453292" last_build_size="4030823"/>
         <Report name="WallPanel_FPGA_impl1_vho.sdf" last_build_time="1609953777" last_build_size="2926411"/>
         <Report name="WallPanel_FPGA_impl1_vho.vho" last_build_time="1609953777" last_build_size="15834033"/>
     </Strategy>

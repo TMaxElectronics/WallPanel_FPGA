@@ -50,8 +50,8 @@ set Para(install_dir) $env(TOOLRTF)
 set Para(FPGAPath) "[file join $Para(install_dir) ispfpga bin $platformpath]"
 set Para(bin_dir) "[file join $Para(install_dir) bin $platformpath]"
 
-set Para(ModuleName) "SpriteRam"
-set Para(Module) "RAM_DP"
+set Para(ModuleName) "Outputbuffer"
+set Para(Module) "RAM_DP_TRUE"
 set Para(libname) machxo3lf
 set Para(arch_name) xo3c00f
 set Para(PartType) "LCMXO3LF-9400C"
